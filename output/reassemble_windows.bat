@@ -1,26 +1,14 @@
 @echo off
 cd /d "%~dp0"
 echo ============================================================
-echo  Un Jour a Giverny - Lossless MP4 Reassembly (Windows)
+echo  Un Jour a Giverny - Lossless 1080p MP4 Reassembly (Windows)
 echo ============================================================
 echo.
-
-if exist "monet_un_jour_a_giverny_720p.mp4.part.00" (
-  echo [1/2] Merging 720p MP4 ^(2 chunks^)...
-  copy /b "monet_un_jour_a_giverny_720p.mp4.part.00"+"monet_un_jour_a_giverny_720p.mp4.part.01" "monet_un_jour_a_giverny_720p.mp4" >nul
-  if exist "monet_un_jour_a_giverny_720p.mp4" (
-    echo       OK: monet_un_jour_a_giverny_720p.mp4 ready!
-  ) else (
-    echo       FAILED: 720p merge failed.
-  )
-) else (
-  echo [1/2] Skipped 720p ^(chunks not found in this folder^).
-)
-
+echo Note: monet_un_jour_a_giverny_720p.mp4 is already a complete single MP4.
 echo.
 
 if exist "monet_un_jour_a_giverny_1080p.mp4.part.00" (
-  echo [2/2] Merging 1080p MP4 ^(5 chunks^)...
+  echo Merging 1080p MP4 (5 chunks)...
   copy /b "monet_un_jour_a_giverny_1080p.mp4.part.00"+"monet_un_jour_a_giverny_1080p.mp4.part.01"+"monet_un_jour_a_giverny_1080p.mp4.part.02"+"monet_un_jour_a_giverny_1080p.mp4.part.03"+"monet_un_jour_a_giverny_1080p.mp4.part.04" "monet_un_jour_a_giverny_1080p.mp4" >nul
   if exist "monet_un_jour_a_giverny_1080p.mp4" (
     echo       OK: monet_un_jour_a_giverny_1080p.mp4 ready!
@@ -28,9 +16,9 @@ if exist "monet_un_jour_a_giverny_1080p.mp4.part.00" (
     echo       FAILED: 1080p merge failed.
   )
 ) else (
-  echo [2/2] Skipped 1080p ^(chunks not found in this folder^).
+  echo Skipped 1080p (chunks not found in this folder).
 )
 
 echo.
-echo All done! You can now play the .mp4 files in this folder.
+echo Done! You can now play the .mp4 files in this folder.
 pause

@@ -1,7 +1,6 @@
-# Unsplit MP4 masters exceed GitHub's 100 MB file limit and are stored as lossless <= 40 MB binary chunks (.part.00, .part.01, ...).
-# Run ./output/reassemble.sh after cloning to restore the exact unsplit 1080p and 720p MP4 files.
+# Unsplit 1080p MP4 master (460 MiB) exceeds GitHub's 100 MiB file limit and is stored as lossless <= 95 MiB binary chunks (.part.00 .. .part.04).
+# Run ./output/reassemble.sh (or double-click output/reassemble_windows.bat) after cloning to restore the exact unsplit 1080p MP4.
 output/monet_un_jour_a_giverny_1080p.mp4
-output/monet_un_jour_a_giverny_720p.mp4
 output/audit/
 build/
 .DS_Store

@@ -5,21 +5,21 @@
 
 ---
 
-## 交付成片与无损分卷位置（分支：`monet-short-film`）
+## 交付成片位置（分支：`monet-short-film`）
 
-由于两支高码率离线成品均超过 GitHub 单文件 `100 MiB` 限制，已按最小分卷数做二进制**绝对无缝切分**（每卷 `<= 99,000,000` bytes / `94.4 MiB`），克隆或打包下载后运行 [`output/reassemble.sh`](output/reassemble.sh)（或 Windows 双击 [`output/reassemble_windows.bat`](output/reassemble_windows.bat)）即可 100% 比特级无损还原并校验 SHA-256：
+- **720p 高清成片（手机 / 电脑直接点击即下即播，无需合并）**：
+  - 单文件直出：[`output/monet_un_jour_a_giverny_720p.mp4`](output/monet_un_jour_a_giverny_720p.mp4)（`84.3 MiB` / `88,415,725` bytes，直接点击即可在手机或电脑下载播放全片 `92.0s`）
+  - 参数：由 1080p 母版 Lanczos 锐化下采样，`1280×720`，H.264 High 2-Pass slow（BT.709，~`7.7 Mbps`），`30 fps`，`2760` 帧，`92.0s`，AAC `48kHz` 立体声 `192kbps`
+  - SHA-256：`bc34409373b861c53eef8a40bd7cac8404bdc54e4cf722ce96586377e828ec99`
 
 - **1080p 全高清母版（`1920×1080`，H.264 High CRF 16 slow / BT.709，`30 fps`，`2760` 帧，`92.0s`，AAC `48kHz` 立体声 `256kbps`，总码率 ~`41.9 Mbps`，`481,874,271` bytes / `460 MiB`）**
-  - 分卷文件：`output/monet_un_jour_a_giverny_1080p.mp4.part.00` ～ `.part.04`（共 5 卷）
+  - 因超过 GitHub 代码目录单文件 `100 MiB` 上限，按最小分卷数无缝切分为 5 卷：
+    `output/monet_un_jour_a_giverny_1080p.mp4.part.00` ～ `.part.04`
   - 完整 SHA-256：`3aa53824aac32e28fad3bc1e34a896fdf8fd6d351176278dbddb9e7ac211bbba`
 
-- **720p 高清成片（由无损母版 Lanczos 锐化下采样，`1280×720`，H.264 High CRF 16 slow / BT.709，`30 fps`，`2760` 帧，`92.0s`，AAC `48kHz` 立体声 `256kbps`，总码率 ~`17.1 Mbps`，`196,830,744` bytes / `188 MiB`）**
-  - 分卷文件：`output/monet_un_jour_a_giverny_720p.mp4.part.00` ～ `.part.01`（共 2 卷）
-  - 完整 SHA-256：`f4163eac1450745a2bb7d53d9ad35404240ea2ae6918b74de118676ee88a86ee`
+### 电脑端一键无损还原 1080p 母版
 
-### 一键无损还原两支成片
-
-- **Windows 电脑（零命令，鼠标双击即可）**：解压仓库后打开 `output` 文件夹，**直接双击 [`output/reassemble_windows.bat`](output/reassemble_windows.bat)**，等待数秒黑框提示完成后，同目录下即生成两支完整 `.mp4`。
+- **Windows 电脑（零命令，鼠标双击即可）**：解压仓库后打开 `output` 文件夹，**直接双击 [`output/reassemble_windows.bat`](output/reassemble_windows.bat)**，等待数秒黑框提示完成后，同目录下即生成完整的 `monet_un_jour_a_giverny_1080p.mp4`。
 - **macOS / Linux / Git Bash**：
   ```bash
   chmod +x output/reassemble.sh
@@ -29,13 +29,11 @@
 手动合并（Linux / macOS / Git Bash）：
 ```bash
 cat output/monet_un_jour_a_giverny_1080p.mp4.part.* > output/monet_un_jour_a_giverny_1080p.mp4
-cat output/monet_un_jour_a_giverny_720p.mp4.part.*  > output/monet_un_jour_a_giverny_720p.mp4
 ```
 
 Windows CMD：
 ```bat
 copy /b output\monet_un_jour_a_giverny_1080p.mp4.part.* output\monet_un_jour_a_giverny_1080p.mp4
-copy /b output\monet_un_jour_a_giverny_720p.mp4.part.*  output\monet_un_jour_a_giverny_720p.mp4
 ```
 
 ---
