@@ -19,10 +19,12 @@
 
 ### 一键无损还原两支成片
 
-```bash
-chmod +x output/reassemble.sh
-./output/reassemble.sh
-```
+- **Windows 电脑（零命令，鼠标双击即可）**：解压仓库后打开 `output` 文件夹，**直接双击 [`output/reassemble_windows.bat`](output/reassemble_windows.bat)**，等待数秒黑框提示完成后，同目录下即生成两支完整 `.mp4`。
+- **macOS / Linux / Git Bash**：
+  ```bash
+  chmod +x output/reassemble.sh
+  ./output/reassemble.sh
+  ```
 
 手动合并（Linux / macOS / Git Bash）：
 ```bash
