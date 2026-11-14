@@ -1,0 +1,9 @@
+build/
+__pycache__/
+*.pyc
+*.pyo
+output/audit/
+output/*.mkv
+output/*.mp4
+assets/audio/
+.DS_Store
