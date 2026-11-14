@@ -1,6 +1,6 @@
 # Audio & Attribution Credits — *Un Jour à Giverny*
 
-All music and ambient sound effects in `assets/audio/master_92s.wav` are sourced from **Wikimedia Commons** (Public Domain or Creative Commons Attribution) and mixed programmatically in [`scripts/prepare_audio.py`](scripts/prepare_audio.py).
+All music and ambient sound effects in `assets/audio/master_92s.wav` are sourced from **Wikimedia Commons** (Public Domain or Creative Commons Attribution) and mixed programmatically in [`scripts/prepare_audio.py`](scripts/prepare_audio.py) to match the exact 92.0s C++ camera timeline.
 
 ## Music
 - **Claude Debussy — *Clair de Lune* (*Suite bergamasque*, No. 3)**
@@ -15,31 +15,31 @@ All music and ambient sound effects in `assets/audio/master_92s.wav` are sourced
 1. **Shore Waves (`assets/audio/shore_waves.mp3`)**
    - Embedded title: `06 Ufer Wellen`
    - Source: Wikimedia Commons (`Sounds of nature`) — CC0 / Public Domain / CC BY-SA compatible nature field recording
-   - Used in: Scene 1 (Dawn Seine Riverbanks, `0s–22s`) & Scene 5 (Twilight Lagoon, `70s–92s`)
+   - Used in: Scene 1 (Dawn Seine Riverbanks, `0s–19s`) & Scene 5 (Twilight Lagoon, `74.5s–92s`)
 2. **Gentle Breeze and Birds Singing (`assets/audio/breeze_birds.ogg`)**
    - Title: *Gentle breeze and birds singing* (Blackcap *Sylvia atricapilla* & Chaffinch *Fringilla coelebs*, PDSounds #129)
    - Creator: **ezwa**
    - License: **Public Domain**
    - Source: <https://commons.wikimedia.org/wiki/File:Gentle_breeze_and_birds_singing.ogg>
-   - Used in: Scene 1 (`0s–22s`)
+   - Used in: Scene 1 (`0s–19s`)
 3. **Forest Creek (`assets/audio/creek_forest.ogg`)**
    - Source: Wikimedia Commons (`Sounds of rivers and streams`)
-   - Used in: Scene 2 (Giverny Water Lily Pond, `16s–41s`)
+   - Used in: Scene 2 (Giverny Water Lily Pond, `17.5s–39.5s`)
 4. **Summer Birds (`assets/audio/summer_birds.mp3`)**
    - Embedded title: `09 Voegel sommerlich`
    - Source: Wikimedia Commons (`Sounds of nature`)
-   - Used in: Scene 2 & Scene 3 (Giverny Pond & Normandy Poppy Field, `17s–59s`)
+   - Used in: Scene 2 & Scene 3 (Giverny Pond & Normandy Poppy Field, `17.5s–59s`)
 5. **Meadow Crickets & Bees (`assets/audio/crickets_bees.mp3`)**
    - Embedded title: `11 Grillen mit Hummeln`
    - Source: Wikimedia Commons (`Sounds of nature`)
-   - Used in: Scene 3 & Scene 4 (Poppy Field & Golden-Hour Haystacks, `41s–76s`)
+   - Used in: Scene 3 & Scene 4 (Poppy Field & Golden-Hour Haystacks, `39s–78s`)
 6. **Country Night Noise (`assets/audio/night_crickets.ogg`)**
    - Title: *Country Night Noise* (PDSounds)
    - Creator: **HC**
    - License: **Public Domain**
    - Source: Wikimedia Commons
-   - Used in: Scene 5 (Twilight Lagoon Finale, `70s–92s`)
+   - Used in: Scene 5 (Twilight Lagoon Finale, `74.5s–92s`)
 
-## Visual Art & Animation Engine
-- **100% Pure-Code Procedural Impressionist Renderer** authored in JavaScript/HTML5 Canvas (`src/`).
-- Zero external images, sprites, video clips, or stock footage are used anywhere in the visuals.
+## Visual Art & Offline Painting Engine
+- **100% Pure C++17 Offline Impressionist Painter (`engine/`)** using only standard C++ STL (`<vector>`, `<cmath>`, `<thread>`).
+- Zero external images, textures, 3D geometry, OpenGL/WebGL shaders, or AI image generation are used anywhere in the visuals.

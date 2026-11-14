@@ -33,37 +33,37 @@ def main():
         "aformat=sample_rates=48000:channel_layouts=stereo,"
         "volume=1.35,afade=t=in:st=0:d=2.2,afade=t=out:st=89.0:d=3.0[music];"
 
-        # Scene 1 (0..21s): Gentle shore lapping + early dawn birds
-        "[1:a]aloop=loop=2:size=2680000,atrim=0:22,asetpts=PTS-STARTPTS,"
+        # Scene 1 (0..19s): Gentle shore lapping + early dawn birds
+        "[1:a]aloop=loop=2:size=2680000,atrim=0:21,asetpts=PTS-STARTPTS,"
         "aformat=sample_rates=48000:channel_layouts=stereo,lowpass=f=2400,"
-        "volume=0.22,afade=t=in:st=0:d=2.0,afade=t=out:st=17:d=5.0[s1_waves];"
+        "volume=0.22,afade=t=in:st=0:d=2.0,afade=t=out:st=16:d=5.0[s1_waves];"
 
-        "[2:a]atrim=0:22,asetpts=PTS-STARTPTS,"
+        "[2:a]atrim=0:21,asetpts=PTS-STARTPTS,"
         "aformat=sample_rates=48000:channel_layouts=stereo,highpass=f=350,"
-        "volume=0.14,afade=t=in:st=1.0:d=3.0,afade=t=out:st=17:d=5.0[s1_birds];"
+        "volume=0.14,afade=t=in:st=1.0:d=3.0,afade=t=out:st=16:d=5.0[s1_birds];"
 
-        # Scene 2 (16..40s): Giverny garden creek + cheerful morning birds
-        "[3:a]atrim=start=15:duration=25,asetpts=PTS-STARTPTS,"
+        # Scene 2 (17.5..39.5s): Giverny garden creek + cheerful morning birds
+        "[3:a]atrim=start=15:duration=24,asetpts=PTS-STARTPTS,"
         "aformat=sample_rates=48000:channel_layouts=stereo,lowpass=f=3500,"
-        "volume=0.16,afade=t=in:st=0:d=4.0,afade=t=out:st=20:d=5.0,adelay=16000|16000[s2_creek];"
+        "volume=0.16,afade=t=in:st=0:d=4.0,afade=t=out:st=19:d=5.0,adelay=17000|17000[s2_creek];"
 
-        "[4:a]atrim=start=10:duration=42,asetpts=PTS-STARTPTS,"
+        "[4:a]atrim=start=10:duration=41,asetpts=PTS-STARTPTS,"
         "aformat=sample_rates=48000:channel_layouts=stereo,highpass=f=450,"
-        "volume=0.16,afade=t=in:st=0:d=4.0,afade=t=out:st=36:d=6.0,adelay=17000|17000[s23_birds];"
+        "volume=0.16,afade=t=in:st=0:d=4.0,afade=t=out:st=35:d=6.0,adelay=18000|18000[s23_birds];"
 
-        # Scene 3-4 (42..76s): Summer meadow bees & warm afternoon insects
-        "[5:a]atrim=start=0:duration=35,asetpts=PTS-STARTPTS,"
+        # Scene 3-4 (39..78s): Summer meadow bees & warm afternoon insects
+        "[5:a]atrim=start=0:duration=39,asetpts=PTS-STARTPTS,"
         "aformat=sample_rates=48000:channel_layouts=stereo,highpass=f=300,"
-        "volume=0.20,afade=t=in:st=0:d=5.0,afade=t=out:st=29:d=6.0,adelay=41000|41000[s34_bees];"
+        "volume=0.20,afade=t=in:st=0:d=5.0,afade=t=out:st=33:d=6.0,adelay=39000|39000[s34_bees];"
 
-        # Scene 5 (71..92s): Twilight crickets + calm night water ripples
-        "[6:a]aloop=loop=2:size=1600000,atrim=0:22,asetpts=PTS-STARTPTS,"
+        # Scene 5 (75.5..92s): Twilight crickets + calm night water ripples
+        "[6:a]aloop=loop=2:size=1600000,atrim=0:18,asetpts=PTS-STARTPTS,"
         "aformat=sample_rates=48000:channel_layouts=stereo,highpass=f=500,lowpass=f=6500,"
-        "volume=0.16,afade=t=in:st=0:d=4.5,afade=t=out:st=18.5:d=3.5,adelay=70000|70000[s5_night];"
+        "volume=0.16,afade=t=in:st=0:d=4.0,afade=t=out:st=14.5:d=3.5,adelay=74500|74500[s5_night];"
 
-        "[1:a]atrim=start=10:duration=22,asetpts=PTS-STARTPTS,"
+        "[1:a]atrim=start=10:duration=18,asetpts=PTS-STARTPTS,"
         "aformat=sample_rates=48000:channel_layouts=stereo,lowpass=f=1800,"
-        "volume=0.16,afade=t=in:st=0:d=4.0,afade=t=out:st=18.5:d=3.5,adelay=70000|70000[s5_waves];"
+        "volume=0.16,afade=t=in:st=0:d=4.0,afade=t=out:st=14.5:d=3.5,adelay=74500|74500[s5_waves];"
 
         # Combine all layers cleanly & apply gentle loudness normalization
         "[music][s1_waves][s1_birds][s2_creek][s23_birds][s34_bees][s5_night][s5_waves]"

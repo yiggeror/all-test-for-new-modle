@@ -1,6 +1,8 @@
-# Full unsplit 1080p MP4 (~79.2 MiB) is split losslessly into .part.00 and .part.01 for clean GitHub storage.
-# Run ./output/reassemble_1080p.sh after cloning to restore the exact unsplit 1080p MP4.
+# Unsplit MP4 masters exceed GitHub's 100 MB file limit and are stored as lossless <= 40 MB binary chunks (.part.00, .part.01, ...).
+# Run ./output/reassemble.sh after cloning to restore the exact unsplit 1080p and 720p MP4 files.
 output/monet_un_jour_a_giverny_1080p.mp4
-output/keyframes/
+output/monet_un_jour_a_giverny_720p.mp4
+output/audit/
+build/
 .DS_Store
 __pycache__/

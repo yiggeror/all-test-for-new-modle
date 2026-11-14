@@ -1,76 +1,95 @@
-# *Un Jour à Giverny*（吉维尼的一天）— 纯代码莫奈印象派一镜到底动画短片
+# *Un Jour à Giverny*（吉维尼的一天）— 纯 C++17 离线莫奈印象派一镜到底动画短片
 
-> **100% 纯代码（JavaScript + HTML5 Canvas 程序化油画笔触引擎）绘制**，零外部图像素材、零传统剪辑切换。  
-> 全片 **92.0 秒**（`2760` 帧，`30 fps`），以单条 $C^2$ 连续一镜到底空间摄影机曲线横跨 **5 个动态莫奈主题画境 + 4 重前景自然过渡门户**，配以德彪西《月光》（*Clair de Lune*）与 6 轨分景自然环境音效混音。
-
----
-
-## 交付成片位置（分支：`monet-short-film`）
-
-- **720p 成片（完整单文件，40.1 MiB / `42,082,979` bytes）**：
-  - [`output/monet_un_jour_a_giverny_720p.mp4`](output/monet_un_jour_a_giverny_720p.mp4)
-  - 规格：`1280×720`，H.264 High (`yuv420p`)，`30 fps`，`92.0s`，AAC `48kHz` 立体声
-  - SHA-256：`1df549743d3fe33985c6cec2907f8bd8277994cd214215a51307416c73a46b6b`
-
-- **1080p 成片（总大小 79.2 MiB / `83,086,434` bytes，已按 GitHub 大文件最佳实践做二进制绝对无缝分卷，单卷 <= 40.1 MiB）**：
-  - 分卷 0：[`output/monet_un_jour_a_giverny_1080p.mp4.part.00`](output/monet_un_jour_a_giverny_1080p.mp4.part.00)（`42,000,000` bytes）
-  - 分卷 1：[`output/monet_un_jour_a_giverny_1080p.mp4.part.01`](output/monet_un_jour_a_giverny_1080p.mp4.part.01)（`41,086,434` bytes）
-  - 无损合并脚本：[`output/reassemble_1080p.sh`](output/reassemble_1080p.sh)
-  - 合并命令（比特级 100% 绝对无缝还原）：
-    ```bash
-    ./output/reassemble_1080p.sh
-    # 或 Windows / 任意 POSIX Shell:
-    # cat output/monet_un_jour_a_giverny_1080p.mp4.part.* > output/monet_un_jour_a_giverny_1080p.mp4
-    ```
-  - 完整 1080p 规格：`1920×1080`，H.264 High (`yuv420p`)，`30 fps`，`92.0s`，AAC `48kHz` 立体声
-  - 合并后 SHA-256：`ca6f094658f4a07b0c2a76f9ce805d610d58ca39608f25d090b6a3589a5cf1da`
+> **100% 纯 C++17 CPU 离线油画笔触引擎（[`engine/`](engine/)）逐帧手算绘制**，零外部图像贴图、零 3D 模型/WebGL、零 AI 生图、零传统剪辑硬切。  
+> 全片 **92.0 秒**（`2760` 帧，`30 fps`），以单条连续 $C^2$ Catmull-Rom 摄影机轨迹横跨 **5 个莫奈主题动态画境 + 4 道前景自然过渡门户**（世界坐标 `camX = 0 → 14120`），并配以德彪西《月光》（*Clair de Lune*）及 6 轨分景同步自然音效。
 
 ---
 
-## 一镜到底分镜与空间过渡结构（`0.0s – 92.0s`）
+## 交付成片与无损分卷位置（分支：`monet-short-film`）
 
-全片摄影机由 [`src/core/camera.js`](src/core/camera.js) 的 Catmull-Rom 连续样条驱动，在 `worldX = 680 → 12120` 的统一多景深世界坐标中持续平移与微幅仰俯呼吸：
+由于两支高码率离线成品均超过 GitHub 单文件 `100 MB` 限制，已采用二进制**绝对无缝分卷**（每卷 `<= 40,000,000` bytes / `38.15 MiB`），克隆仓库后运行 [`output/reassemble.sh`](output/reassemble.sh) 即可 100% 比特级无损还原并自动校验 SHA-256：
 
-1. **Scene 1（`0s – 20s`）：《日出·印象》塞纳河晨雾** — [`src/scenes/scene1_dawn.js`](src/scenes/scene1_dawn.js)
-   - 琥珀红晨日、多层色彩透视远山与港湾桅杆剪影、船夫划桨、波光碎金倒影、掠空飞翔的白色白鹭群。
-   - **空间过渡 Portal 1（`~18.5s`）**：前景垂柳帘幕自然擦过镜头，从晨雾河湾步入吉维尼水园。
-2. **Scene 2（`17s – 39s`）：《吉维尼睡莲池与日本桥》** — [`src/scenes/scene2_giverny.js`](src/scenes/scene2_giverny.js)
-   - 拱形绿漆日本桥、摇曳的紫藤花串、桥上凭栏赏池的仕女、池中浮动的粉白睡莲与圆叶、游弋的锦鲤以及掠过水面的蓝蜻蜓。
-   - **空间过渡 Portal 2（`~37.5s`）**：繁茂攀援的粉色玫瑰花门框住镜头右侧，引出阳光明媚的诺曼底高坡。
-3. **Scene 3（`36s – 58s`）：《撑阳伞的女人》诺曼底罂粟花坡** — [`src/scenes/scene3_poppies.js`](src/scenes/scene3_poppies.js)
-   - 漫山随风起伏的朱红罂粟花海、远景红顶白墙农舍、执白阳伞与飘舞纱巾的女子、花间嬉戏的孩童与粉白蝴蝶。
-   - **空间过渡 Portal 3（`~56.5s`）**：镜头穿过金绿渐变果园树冠拱廊，日光转为暖金暮色。
-4. **Scene 4（`55s – 76s`）：《干草垛》黄金暮色田野** — [`src/scenes/scene4_haystacks.js`](src/scenes/scene4_haystacks.js)
-   - 两座高耸的麦秸垛（受光面呈金橙赭石、背光面与斜投影呈印象派紫罗兰互补色）、吃草游走的羊群与牧羊犬、低飞燕群、金粉光尘。
-   - **空间过渡 Portal 4（`~74.5s`）**：暮色芦苇岸坡随摄影机下探至水面，衔接夜幕泻湖。
-5. **Scene 5（`73s – 92s`）：《月夜·吉维尼泻湖》终章** — [`src/scenes/scene5_twilight.js`](src/scenes/scene5_twilight.js)
-   - 远岸透出暖琥珀灯光的石拱船屋、相伴游过水面碎金月影的双天鹅、飘浮夜空的弯月与星辰、逐帧升起的萤火虫，最终镜头轻柔上仰定格于月夜星空。
+- **1080p 全高清母版（`1920×1080`，H.264 High CRF 16 slow / BT.709，`30 fps`，`2760` 帧，`92.0s`，AAC `48kHz` 立体声 `256kbps`，总码率 ~`41.9 Mbps`，`481,874,271` bytes / `460 MiB`）**
+  - 分卷文件：`output/monet_un_jour_a_giverny_1080p.mp4.part.00` ～ `.part.12`（共 13 卷）
+  - 完整 SHA-256：`3aa53824aac32e28fad3bc1e34a896fdf8fd6d351176278dbddb9e7ac211bbba`
 
----
+- **720p 高清成片（由无损母版 Lanczos 锐化下采样，`1280×720`，H.264 High CRF 16 slow / BT.709，`30 fps`，`2760` 帧，`92.0s`，AAC `48kHz` 立体声 `256kbps`，总码率 ~`17.1 Mbps`，`196,830,744` bytes / `188 MiB`）**
+  - 分卷文件：`output/monet_un_jour_a_giverny_720p.mp4.part.00` ～ `.part.04`（共 5 卷）
+  - 完整 SHA-256：`f4163eac1450745a2bb7d53d9ad35404240ea2ae6918b74de118676ee88a86ee`
 
-## 核心代码与渲染架构
+### 一键无损还原两支成片
 
-- [`src/core/brushes.js`](src/core/brushes.js)：预渲染多方向/多厚度程序化油画笔触图章（`broad`、`impasto`、`dab`、`wisp`、`ripple`），模拟猪鬃刷毛质感与湿画法色彩混合。
-- [`src/core/palette.js`](src/core/palette.js)：按世界横坐标连续插值的时间-色彩大气系统（破晓粉橙 → 晨翠青 → 正午钴蓝 → 日暮紫金 → 静夜群青），内置印象派补色抖动（`jitterMonetColor`）。
-- [`src/core/painter.js`](src/core/painter.js)：复用型程序化场景绘件（分形山脊杨树林带、积雨云/暮云笔触团、动态水面波纹反射等）。
-- [`src/core/canvas_fx.js`](src/core/canvas_fx.js)：法式亚麻画布细微织纹（Linen Weave）与光学柔光晕映（Optical Bloom）。
-- [`src/world.js`](src/world.js)：世界总控器，融合 5 块预绘印象派天空板并按世界深度依次调度 5 个动态场景。
-- [`scripts/prepare_audio.py`](scripts/prepare_audio.py)：FFmpeg 8 轨混音管线，将德彪西《月光》自然终曲段落与 6 轨分景自然环境音效混制为 `assets/audio/master_92s.wav`。
-- [`scripts/render_video.mjs`](scripts/render_video.mjs)：无头 Chromium + 流式 RGBA 管道直推 FFmpeg 编码 1080p 与 720p 成片。
+```bash
+chmod +x output/reassemble.sh
+./output/reassemble.sh
+```
 
-> 音乐与音效署名及公共领域/CC 许可详情见 [`CREDITS.md`](CREDITS.md)。
+手动合并（Linux / macOS / Git Bash）：
+```bash
+cat output/monet_un_jour_a_giverny_1080p.mp4.part.* > output/monet_un_jour_a_giverny_1080p.mp4
+cat output/monet_un_jour_a_giverny_720p.mp4.part.*  > output/monet_un_jour_a_giverny_720p.mp4
+```
+
+Windows CMD：
+```bat
+copy /b output\monet_un_jour_a_giverny_1080p.mp4.part.* output\monet_un_jour_a_giverny_1080p.mp4
+copy /b output\monet_un_jour_a_giverny_720p.mp4.part.*  output\monet_un_jour_a_giverny_720p.mp4
+```
 
 ---
 
-## 本地预览与复现
+## 一镜到底视觉旅程（`0.0s – 92.0s`）
 
-1. **浏览器实时交互预览**：
-   ```bash
-   python3 -m http.server 8000 --directory src
-   # 访问 http://localhost:8000 （支持时间轴拖动与实时画帧）
-   ```
-2. **重混音轨与全片渲染**：
-   ```bash
-   python3 scripts/prepare_audio.py
-   node scripts/render_video.mjs
-   ```
+全片摄影机由 [`engine/camera.hpp`](engine/camera.hpp) 的 Catmull-Rom 样条驱动，跨越 5 层视差油画长卷：
+
+1. **Scene 1（`0s – 18s`）：《日出·印象》塞纳河晨雾**
+   - 橙红朝阳与光晕、分层晨雾树影、手划木舟与船夫、掠空飞翔的白色白鹭群、碎色波光水面倒影。
+   - **空间过渡 Portal 1（`~17.5s – 22.0s`）**：前景垂柳帘幕与树干自然分帘擦过镜头，水岸无缝延展至吉维尼莲池。
+2. **Scene 2（`20s – 38s`）：《吉维尼睡莲池与日本桥》**
+   - 绿漆拱桥与垂坠紫藤花串、桥上赏景人影、42 簇错落粉白睡莲、8 尾游动锦鲤、6 只轻盈蓝蜻蜓与碎光倒影。
+   - **空间过渡 Portal 2（`~37.5s – 42.0s`）**：繁盛攀援的粉红重瓣玫瑰花门框住视野，沙砾小径连入诺曼底花坡。
+3. **Scene 3（`40s – 57s`）：《撑阳伞的女人》诺曼底虞美人坡**
+   - 迎风飘动丝巾与白裙的撑伞女子、花坡旁的小让·莫奈、远景红顶石砌农舍、随风摇曳的朱红虞美人花海。
+   - **空间过渡 Portal 3（`~57.0s – 61.5s`）**：穿过无缝弯曲的吉维尼果园树干连廊，草色渐变为暖金秋收田野。
+4. **Scene 4（`60s – 76s`）：《干草垛》黄金暮色田野**
+   - 两座高耸穹顶麦秸垛（受光面金橙玫瑰金，背光面与长投影呈莫奈标志性紫罗兰互补色）、低头吃草的羊群与飞鸟。
+   - **空间过渡 Portal 4（`~76.0s – 80.5s`）**：金紫暮色中穿过湖畔芦苇与鸢尾，地平线延续为静谧暮色泻湖。
+5. **Scene 5（`79s – 92s`）：《月夜·吉维尼泻湖》终章**
+   - 透出暖黄灯光与水中灯影的石砌船屋、伴游湖面的优雅双白天鹅、夜空弯月与微闪星辰、冉冉升起的萤火虫。
+
+---
+
+## 纯 C++17 引擎架构
+
+- [`engine/paint_core.hpp`](engine/paint_core.hpp)：浮点 `OilCanvas`（RGBA + 厚涂颜料高度场 `height`）、多毛刷分叉二次贝塞尔笔触（`paintStroke` / `paintDab`）、斜光浮雕高光与亚麻画布织纹结算（`resolveCanvasToRGB24`）、多线程图层合成（`compositeLayerMT`）、树冠与无缝单段弯曲树干（`paintFoliageCanopy` / `paintContinuousTrunk`）。
+- [`engine/world_layers.hpp`](engine/world_layers.hpp)：5 个大尺度连续全景静态油画长卷绘制（Layer 0 天空、Layer 1 远山、Layer 2 中景树林与农舍、Layer 3 主景地标、Layer 5 四重羽化门帘）。
+- [`engine/camera.hpp`](engine/camera.hpp)：92 秒 $C^2$ Catmull-Rom 摄影机轨迹定义。
+- [`engine/animator.hpp`](engine/animator.hpp)：逐帧视差合成、破碎水面反光波形、以及所有动态生物/人物/波光/星月/萤火虫笔触重绘。
+- [`engine/render_film.cpp`](engine/render_film.cpp)：离线渲染主程序，支持关键帧审核（`--audit`）与原始 `RGB24` 视频流管道输出（`--video [--start N] [--end M]`）。
+- [`scripts/prepare_audio.py`](scripts/prepare_audio.py)：FFmpeg 8 轨混音脚本，将德彪西《月光》与 6 轨公共领域自然音效按 C++ 分镜时间轴精确对齐混制为 `assets/audio/master_92s.wav`（详见 [`CREDITS.md`](CREDITS.md)）。
+
+---
+
+## 编译与本地复现
+
+```bash
+# 1. 编译纯 C++17 离线渲染器
+mkdir -p build
+g++ -O3 -march=native -std=c++17 -pthread engine/render_film.cpp -o build/render_film
+
+# 2. 重新混音（可选，已内置 assets/audio/master_92s.wav）
+python3 scripts/prepare_audio.py
+
+# 3. 审核 19 个关键帧 + 5 张 1:1 局部放大图
+mkdir -p output/audit
+./build/render_film --audit
+
+# 4. 流式离线渲染并压制 1080p 成片
+./build/render_film --video | ffmpeg -y \
+  -f rawvideo -pixel_format rgb24 -video_size 1920x1080 -framerate 30 -i - \
+  -i assets/audio/master_92s.wav \
+  -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p \
+  -colorspace bt709 -color_primaries bt709 -color_trc bt709 \
+  -c:a aac -b:a 256k -shortest -movflags +faststart \
+  output/monet_un_jour_a_giverny_1080p.mp4
+```
