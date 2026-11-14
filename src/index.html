@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Un Jour à Giverny — Monet Pure-Code Short Film</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #0d1220;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    canvas {
+      max-width: 100vw;
+      max-height: 100vh;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="stage" width="1920" height="1080"></canvas>
+  <script type="module">
+    import { MonetWorld } from "./world.js";
+
+    const params = new URLSearchParams(location.search);
+    const W = parseInt(params.get("w") || "1920", 10);
+    const H = parseInt(params.get("h") || "1080", 10);
+    const mode = params.get("mode") || "preview";
+
+    const canvas = document.getElementById("stage");
+    canvas.width = W;
+    canvas.height = H;
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
+
+    const world = new MonetWorld(W, H);
+
+    window.__renderFrame = function (timeSec) {
+      world.renderFrame(ctx, timeSec);
+    };
+
+    window.__renderAndGetRGBA = function (timeSec) {
+      world.renderFrame(ctx, timeSec);
+      return ctx.getImageData(0, 0, W, H).data;
+    };
+
+    window.__ready = true;
+
+    if (mode === "preview") {
+      const startT = parseFloat(params.get("t") || "0");
+      const animate = params.get("play") === "1";
+      world.renderFrame(ctx, startT);
+      if (animate) {
+        let t0 = performance.now();
+        function loop(now) {
+          const dt = (now - t0) / 1000;
+          world.renderFrame(ctx, (startT + dt) % 92.0);
+          requestAnimationFrame(loop);
+        }
+        requestAnimationFrame(loop);
+      }
+    }
+  </script>
+</body>
+</html>
