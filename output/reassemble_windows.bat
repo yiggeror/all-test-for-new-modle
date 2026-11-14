@@ -6,8 +6,8 @@ echo ============================================================
 echo.
 
 if exist "monet_un_jour_a_giverny_720p.mp4.part.00" (
-  echo [1/2] Merging 720p MP4 ^(5 chunks^)...
-  copy /b "monet_un_jour_a_giverny_720p.mp4.part.00"+"monet_un_jour_a_giverny_720p.mp4.part.01"+"monet_un_jour_a_giverny_720p.mp4.part.02"+"monet_un_jour_a_giverny_720p.mp4.part.03"+"monet_un_jour_a_giverny_720p.mp4.part.04" "monet_un_jour_a_giverny_720p.mp4" >nul
+  echo [1/2] Merging 720p MP4 ^(2 chunks^)...
+  copy /b "monet_un_jour_a_giverny_720p.mp4.part.00"+"monet_un_jour_a_giverny_720p.mp4.part.01" "monet_un_jour_a_giverny_720p.mp4" >nul
   if exist "monet_un_jour_a_giverny_720p.mp4" (
     echo       OK: monet_un_jour_a_giverny_720p.mp4 ready!
   ) else (
@@ -20,8 +20,8 @@ if exist "monet_un_jour_a_giverny_720p.mp4.part.00" (
 echo.
 
 if exist "monet_un_jour_a_giverny_1080p.mp4.part.00" (
-  echo [2/2] Merging 1080p MP4 ^(13 chunks^)...
-  copy /b "monet_un_jour_a_giverny_1080p.mp4.part.00"+"monet_un_jour_a_giverny_1080p.mp4.part.01"+"monet_un_jour_a_giverny_1080p.mp4.part.02"+"monet_un_jour_a_giverny_1080p.mp4.part.03"+"monet_un_jour_a_giverny_1080p.mp4.part.04"+"monet_un_jour_a_giverny_1080p.mp4.part.05"+"monet_un_jour_a_giverny_1080p.mp4.part.06"+"monet_un_jour_a_giverny_1080p.mp4.part.07"+"monet_un_jour_a_giverny_1080p.mp4.part.08"+"monet_un_jour_a_giverny_1080p.mp4.part.09"+"monet_un_jour_a_giverny_1080p.mp4.part.10"+"monet_un_jour_a_giverny_1080p.mp4.part.11"+"monet_un_jour_a_giverny_1080p.mp4.part.12" "monet_un_jour_a_giverny_1080p.mp4" >nul
+  echo [2/2] Merging 1080p MP4 ^(5 chunks^)...
+  copy /b "monet_un_jour_a_giverny_1080p.mp4.part.00"+"monet_un_jour_a_giverny_1080p.mp4.part.01"+"monet_un_jour_a_giverny_1080p.mp4.part.02"+"monet_un_jour_a_giverny_1080p.mp4.part.03"+"monet_un_jour_a_giverny_1080p.mp4.part.04" "monet_un_jour_a_giverny_1080p.mp4" >nul
   if exist "monet_un_jour_a_giverny_1080p.mp4" (
     echo       OK: monet_un_jour_a_giverny_1080p.mp4 ready!
   ) else (

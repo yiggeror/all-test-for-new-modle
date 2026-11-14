@@ -7,14 +7,14 @@
 
 ## 交付成片与无损分卷位置（分支：`monet-short-film`）
 
-由于两支高码率离线成品均超过 GitHub 单文件 `100 MB` 限制，已采用二进制**绝对无缝分卷**（每卷 `<= 40,000,000` bytes / `38.15 MiB`），克隆仓库后运行 [`output/reassemble.sh`](output/reassemble.sh) 即可 100% 比特级无损还原并自动校验 SHA-256：
+由于两支高码率离线成品均超过 GitHub 单文件 `100 MiB` 限制，已按最小分卷数做二进制**绝对无缝切分**（每卷 `<= 99,000,000` bytes / `94.4 MiB`），克隆或打包下载后运行 [`output/reassemble.sh`](output/reassemble.sh)（或 Windows 双击 [`output/reassemble_windows.bat`](output/reassemble_windows.bat)）即可 100% 比特级无损还原并校验 SHA-256：
 
 - **1080p 全高清母版（`1920×1080`，H.264 High CRF 16 slow / BT.709，`30 fps`，`2760` 帧，`92.0s`，AAC `48kHz` 立体声 `256kbps`，总码率 ~`41.9 Mbps`，`481,874,271` bytes / `460 MiB`）**
-  - 分卷文件：`output/monet_un_jour_a_giverny_1080p.mp4.part.00` ～ `.part.12`（共 13 卷）
+  - 分卷文件：`output/monet_un_jour_a_giverny_1080p.mp4.part.00` ～ `.part.04`（共 5 卷）
   - 完整 SHA-256：`3aa53824aac32e28fad3bc1e34a896fdf8fd6d351176278dbddb9e7ac211bbba`
 
 - **720p 高清成片（由无损母版 Lanczos 锐化下采样，`1280×720`，H.264 High CRF 16 slow / BT.709，`30 fps`，`2760` 帧，`92.0s`，AAC `48kHz` 立体声 `256kbps`，总码率 ~`17.1 Mbps`，`196,830,744` bytes / `188 MiB`）**
-  - 分卷文件：`output/monet_un_jour_a_giverny_720p.mp4.part.00` ～ `.part.04`（共 5 卷）
+  - 分卷文件：`output/monet_un_jour_a_giverny_720p.mp4.part.00` ～ `.part.01`（共 2 卷）
   - 完整 SHA-256：`f4163eac1450745a2bb7d53d9ad35404240ea2ae6918b74de118676ee88a86ee`
 
 ### 一键无损还原两支成片
