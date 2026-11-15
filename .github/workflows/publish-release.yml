@@ -99,18 +99,24 @@ jobs:
 
           upload_one() {
             local f="$1"
-            local ascii="$2"
-            local label="$3"
+            local label="$2"
             for attempt in 1 2 3; do
-              if gh release upload "${TAG}" "$f" --clobber; then
+              if gh release upload "${TAG}" "${f}#${label}" --clobber; then
                 return 0
               fi
               sleep 5
             done
-            cp "$f" "dist/${ascii}"
-            gh release upload "${TAG}" "dist/${ascii}#${label}" --clobber
+            return 1
           }
 
-          upload_one "dist/莫奈第二版_光阴画境_1080p.mp4" "monet_v2_guangyinghuajing_1080p.mp4" "莫奈第二版_光阴画境_1080p.mp4"
-          upload_one "dist/莫奈第二版_光阴画境_720p.mp4" "monet_v2_guangyinghuajing_720p.mp4" "莫奈第二版_光阴画境_720p.mp4"
-          upload_one "dist/莫奈第一版_吉维尼的一天_1080p.mp4" "monet_v1_giverny_1080p.mp4" "莫奈第一版_吉维尼的一天_1080p.mp4"
+          mv "dist/莫奈第二版_光阴画境_1080p.mp4" "dist/monet_v2_1080p.mp4"
+          mv "dist/莫奈第二版_光阴画境_720p.mp4" "dist/monet_v2_720p.mp4"
+          mv "dist/莫奈第一版_吉维尼的一天_1080p.mp4" "dist/monet_v1_1080p.mp4"
+
+          upload_one "dist/monet_v2_1080p.mp4" "莫奈第二版_光阴画境_1080p.mp4"
+          upload_one "dist/monet_v2_720p.mp4" "莫奈第二版_光阴画境_720p.mp4"
+          upload_one "dist/monet_v1_1080p.mp4" "莫奈第一版_吉维尼的一天_1080p.mp4"
+
+          gh release view "${TAG}" --json assets --jq '.assets[] | [.name, .label, .size, .url] | @tsv'
+          COUNT=$(gh release view "${TAG}" --json assets --jq '.assets | length')
+          test "${COUNT}" -eq 3
