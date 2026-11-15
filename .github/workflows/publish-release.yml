@@ -89,10 +89,28 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG="${{ inputs.tag || github.ref_name }}"
+          gh release delete "${TAG}" -y || true
           gh release create "${TAG}" \
             --target monet-living-canvas \
             --title "莫奈纯代码短片合集（第一版 & 第二版 高清母版）" \
-            --notes $'纯代码（NumPy + C++17 厚涂油画笔触引擎 + 同步配乐）生成的莫奈印象派一镜到底短片合集：\n\n- **莫奈第二版_光阴画境_1080p.mp4**：全新重制版《光阴画境》（96 秒 / 2880 帧 @ 30fps，1920×1080，CRF 14 高码率母版）\n- **莫奈第二版_光阴画境_720p.mp4**：新版《光阴画境》720p 高清版（1280×720）\n- **莫奈第一版_吉维尼的一天_1080p.mp4**：第一版《吉维尼的一天》1080p 高码率母版（92 秒 / 2760 帧，41.9 Mbps）' \
-            "dist/莫奈第二版_光阴画境_1080p.mp4" \
-            "dist/莫奈第二版_光阴画境_720p.mp4" \
-            "dist/莫奈第一版_吉维尼的一天_1080p.mp4"
+            --notes $'纯代码（NumPy + C++17 厚涂油画笔触引擎 + 同步配乐）生成的莫奈印象派一镜到底短片合集：\n\n- **莫奈第二版_光阴画境_1080p.mp4**：全新重制版《光阴画境》（96 秒 / 2880 帧 @ 30fps，1920×1080，CRF 14 高码率母版）\n- **莫奈第二版_光阴画境_720p.mp4**：新版《光阴画境》720p 高清版（1280×720）\n- **莫奈第一版_吉维尼的一天_1080p.mp4**：第一版《吉维尼的一天》1080p 高码率母版（92 秒 / 2760 帧，41.9 Mbps）'
+
+          sleep 6
+
+          upload_one() {
+            local f="$1"
+            local ascii="$2"
+            local label="$3"
+            for attempt in 1 2 3; do
+              if gh release upload "${TAG}" "$f" --clobber; then
+                return 0
+              fi
+              sleep 5
+            done
+            cp "$f" "dist/${ascii}"
+            gh release upload "${TAG}" "dist/${ascii}#${label}" --clobber
+          }
+
+          upload_one "dist/莫奈第二版_光阴画境_1080p.mp4" "monet_v2_guangyinghuajing_1080p.mp4" "莫奈第二版_光阴画境_1080p.mp4"
+          upload_one "dist/莫奈第二版_光阴画境_720p.mp4" "monet_v2_guangyinghuajing_720p.mp4" "莫奈第二版_光阴画境_720p.mp4"
+          upload_one "dist/莫奈第一版_吉维尼的一天_1080p.mp4" "monet_v1_giverny_1080p.mp4" "莫奈第一版_吉维尼的一天_1080p.mp4"
