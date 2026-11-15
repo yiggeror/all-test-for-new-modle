@@ -1,6 +1,9 @@
 name: Publish Monet High-Bitrate Releases
 
 on:
+  push:
+    tags:
+      - "v*-monet"
   workflow_dispatch:
     inputs:
       tag:
@@ -14,7 +17,7 @@ permissions:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 45
 
     steps:
       - name: Checkout monet-living-canvas
@@ -25,7 +28,7 @@ jobs:
       - name: Install system packages and fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg g++ fonts-urw-base35 fonts-noto-cjk
+          sudo apt-get install -y ffmpeg g++ fontconfig fonts-urw-base35 fonts-noto-cjk
 
       - name: Set up Python dependencies
         uses: actions/setup-python@v5
@@ -50,15 +53,29 @@ jobs:
         run: |
           python3 src/audio_mix.py assets/audio/master_96s.wav
 
-      - name: Render v2 1080p & 720p high-bitrate masters
+      - name: Precompile native brush engine & render v2 1080p + 720p masters
         run: |
-          python3 src/render.py pipe 0 2880 1080 \
+          python3 -c "import sys; sys.path.insert(0, 'src'); import engine"
+
+          python3 src/render.py pipe 0 1440 1080 \
             | ffmpeg -y -v error -f rawvideo -pixel_format rgb24 -video_size 1920x1080 -framerate 30 -i - \
-              -i assets/audio/master_96s.wav \
               -c:v libx264 -preset slow -crf 14 -g 60 -flags +cgop -pix_fmt yuv420p \
-              -colorspace bt709 -color_primaries bt709 -color_trc bt709 \
-              -c:a aac -b:a 256k -movflags +faststart \
-              "dist/莫奈第二版_光阴画境_1080p.mp4"
+              -colorspace bt709 -color_primaries bt709 -color_trc bt709 /tmp/seg0.mkv &
+          P1=$!
+
+          python3 src/render.py pipe 1440 2880 1080 \
+            | ffmpeg -y -v error -f rawvideo -pixel_format rgb24 -video_size 1920x1080 -framerate 30 -i - \
+              -c:v libx264 -preset slow -crf 14 -g 60 -flags +cgop -pix_fmt yuv420p \
+              -colorspace bt709 -color_primaries bt709 -color_trc bt709 /tmp/seg1.mkv &
+          P2=$!
+
+          wait $P1
+          wait $P2
+
+          printf "file '/tmp/seg0.mkv'\nfile '/tmp/seg1.mkv'\n" > /tmp/concat.txt
+          ffmpeg -y -v error -f concat -safe 0 -i /tmp/concat.txt -i assets/audio/master_96s.wav \
+            -c:v copy -c:a aac -b:a 256k -movflags +faststart \
+            "dist/莫奈第二版_光阴画境_1080p.mp4"
 
           ffmpeg -y -v error -i "dist/莫奈第二版_光阴画境_1080p.mp4" \
             -vf scale=1280:720:flags=lanczos \
@@ -71,8 +88,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "${{ inputs.tag }}" \
-            --target "${{ github.ref_name }}" \
+          TAG="${{ inputs.tag || github.ref_name }}"
+          gh release create "${TAG}" \
+            --target monet-living-canvas \
             --title "莫奈纯代码短片合集（第一版 & 第二版 高清母版）" \
             --notes $'纯代码（NumPy + C++17 厚涂油画笔触引擎 + 同步配乐）生成的莫奈印象派一镜到底短片合集：\n\n- **莫奈第二版_光阴画境_1080p.mp4**：全新重制版《光阴画境》（96 秒 / 2880 帧 @ 30fps，1920×1080，CRF 14 高码率母版）\n- **莫奈第二版_光阴画境_720p.mp4**：新版《光阴画境》720p 高清版（1280×720）\n- **莫奈第一版_吉维尼的一天_1080p.mp4**：第一版《吉维尼的一天》1080p 高码率母版（92 秒 / 2760 帧，41.9 Mbps）' \
             "dist/莫奈第二版_光阴画境_1080p.mp4" \

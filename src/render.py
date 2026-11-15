@@ -20,14 +20,33 @@ import scenes
 _TITLE_CACHE = {}
 
 
+def _find_font(candidates, fc_pattern):
+    for p in candidates:
+        if os.path.exists(p):
+            return p
+    import subprocess
+    p = subprocess.check_output(["fc-match", "-f", "%{file}", fc_pattern], text=True).strip()
+    if p and os.path.exists(p):
+        return p
+    raise FileNotFoundError(f"Missing font for {fc_pattern}: tried {candidates}")
+
+
 def _title_mask(H):
     if H not in _TITLE_CACHE:
         W = H * 16 // 9
         im = Image.new("L", (W, H), 0)
         dr = ImageDraw.Draw(im)
-        f_fr = ImageFont.truetype("/usr/share/fonts/opentype/urw-base35/P052-Italic.otf", int(H * 0.068))
-        f_zh = ImageFont.truetype("/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc", int(H * 0.030))
-        f_sub = ImageFont.truetype("/usr/share/fonts/opentype/urw-base35/P052-Italic.otf", int(H * 0.026))
+        p_fr = _find_font([
+            "/usr/share/fonts/opentype/urw-base35/P052-Italic.otf",
+            "/usr/share/fonts/type1/urw-base35/P052-Italic.t1",
+        ], "P052:italic")
+        p_zh = _find_font([
+            "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc",
+            "/usr/share/fonts/noto-cjk/NotoSerifCJK-Bold.ttc",
+        ], "Noto Serif CJK SC:bold")
+        f_fr = ImageFont.truetype(p_fr, int(H * 0.068))
+        f_zh = ImageFont.truetype(p_zh, int(H * 0.030))
+        f_sub = ImageFont.truetype(p_fr, int(H * 0.026))
         dr.text((W * 0.5, H * 0.445), "Les Heures de Lumi\u00e8re", font=f_fr, fill=255, anchor="mm")
         dr.text((W * 0.5, H * 0.535), "\u5149  \u9634  \u753b  \u5883", font=f_zh, fill=220, anchor="mm")
         dr.text((W * 0.5, H * 0.595), "d'apr\u00e8s Claude Monet", font=f_sub, fill=200, anchor="mm")
