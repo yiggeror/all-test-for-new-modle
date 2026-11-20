@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "un-dimanche-sur-la-seine"
+version = "3.0.0"
+description = "Un Dimanche sur la Seine (v3) — 3D Impressionist one-take animated short film built on CodePaint-Engine"
+requires-python = ">=3.10"
+dependencies = [
+    "codepaint-anim[all] @ git+https://github.com/yiggeror/CodePaint-Engine.git",
+]

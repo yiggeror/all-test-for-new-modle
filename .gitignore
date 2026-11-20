@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 output/audit/
+output/audit_v3/
 output/*.mkv
 output/*.mp4
 assets/audio/
