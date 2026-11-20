@@ -1,6 +1,6 @@
-"""Endless 3D world-anchored Water, Opaque Turf Undercoat & Swaying Poppy/Grass Fields."""
+"""Endless 3D world-anchored Water, Patchwork Valley Turf & Swaying Poppy/Wildflower Fields."""
 import numpy as np
-from anim.paint.engine import DASH, DAB, SCUM, WASH, C, mix, smooth, jitter
+from anim.paint.engine import DASH, DAB, SCUM, WASH, C, mix, smooth, jitter, noise
 from anim.paint.world3 import WATER, GROUND, Field, cloud_shadow, haze_of
 from scene_geom import bank_signed_dist, river_x, river_dx_dz, river_hw, terrain_y, terrain_normal
 from sky3 import sky_dir_rgb
@@ -47,11 +47,12 @@ def _water_shader(env, X, Z, Rn, dist):
     spark = (spec ** 26.0) * (Rn[:, 4] > 0.56) * glit
     rgb = rgb + L["sun_col"][None, :] * (spark * 0.95)[:, None]
 
+    # Warm dusk reflections near Guinguette quay & village waterfront (Z = 355..445)
     lamps = float(L.get("lamps", 0.0))
     if lamps > 0.02:
-        ql = np.exp(-((Z - 406.0) / 38.0) ** 2) * np.exp(-((X - (river_x(Z) + river_hw(Z) - 10.0)) / 28.0) ** 2)
+        ql = np.exp(-((Z - 404.0) / 48.0) ** 2) * np.exp(-((X - (river_x(Z) + river_hw(Z) - 10.0)) / 32.0) ** 2)
         shimmer = ql * (0.4 + 0.6 * np.sin(Z * 1.7 + t * 3.2 + Rn[:, 2] * 6.28) ** 2) * lamps
-        rgb = rgb + np.array([[1.08, 0.64, 0.18]], np.float32) * (shimmer * 0.55)[:, None]
+        rgb = rgb + np.array([[1.08, 0.64, 0.18]], np.float32) * (shimmer * 0.58)[:, None]
 
     shore = np.exp(-((sd + 0.7) / 1.1) ** 2) * (sd < 0.9)
     rgb = mix(rgb, L["light"][None, :] * np.array([0.85, 0.90, 0.86], np.float32), shore * 0.24)
@@ -72,7 +73,7 @@ def _water_shader(env, X, Z, Rn, dist):
 
 
 def _turf_base_shader(env, X, Z, Rn, dist):
-    """Opaque terrain undercoat so zero beige canvas ever shows through hillsides or banks."""
+    """Rich Monet patchwork countryside floor (meadows, golden hayfields, vineyard furrows, stone quay & towpath)."""
     sd = bank_signed_dist(X, Z)
     on_land = sd > -0.8
     if not on_land.any():
@@ -97,11 +98,39 @@ def _turf_base_shader(env, X, Z, Rn, dist):
     towpath = (~left_bank) & (sd > 3.2) & (sd < 14.8) & (Z > 20.0) & (Z < 362.0)
     quay = (~left_bank) & (sd > -0.2) & (sd < 34.0) & (Z >= 362.0) & (Z < 458.0)
 
-    g_sh = mix(C(40, 84, 62), C(54, 98, 58), Rn[:, 2])
-    g_li = mix(C(112, 162, 58), C(162, 182, 72), Rn[:, 3])
-    hill_w = smooth(10.0, 32.0, y)[:, None]
-    g_li = mix(g_li, C(176, 168, 86), hill_w * 0.42)
+    # Patchwork agricultural plots across the hillsides (so distant hills are richly divided!)
+    plot_id = (np.floor((X + 18.0 * noise(X / 90.0, Z / 90.0, 0)) / 36.0) * 7 + np.floor(Z / 42.0) * 13).astype(np.int32) % 5
+    furrow = 0.5 + 0.5 * np.sin((X * 0.35 + Z * 0.22) * 1.4)
+
+    # 0: Emerald meadow, 1: Golden wheat/hayfield, 2: Sage-olive vineyard rows, 3: Warm clover pasture, 4: Wildflower/mustard strip
+    sh_pal = np.array([
+        [0.16, 0.34, 0.26],  # cool emerald shadow
+        [0.42, 0.36, 0.24],  # ochre-lavender wheat shadow
+        [0.18, 0.30, 0.28],  # sage vineyard shadow
+        [0.20, 0.37, 0.24],  # clover shadow
+        [0.36, 0.38, 0.22],  # mustard shadow
+    ], np.float32)
+    li_pal = np.array([
+        [0.46, 0.66, 0.24],  # bright emerald-chartreuse
+        [0.86, 0.74, 0.34],  # sunlit golden hay
+        [0.52, 0.64, 0.30],  # sunlit vineyard green
+        [0.58, 0.72, 0.30],  # warm meadow
+        [0.82, 0.76, 0.28],  # warm yellow-ochre wildflowers
+    ], np.float32)
+
+    # Keep foreground poppy meadow (left_bank Z<175, sd<68) lush meadow green under poppies
+    fg_poppy = left_bank & (Z < 175.0) & (sd < 68.0)
+    pid = np.where(fg_poppy, 0, plot_id)
+    g_sh = sh_pal[pid]
+    g_li = li_pal[pid]
+    # Add vineyard row striping on plot 2
+    g_li = np.where((pid == 2)[:, None], g_li * (0.86 + 0.22 * furrow[:, None]), g_li)
+
     rgb_base = g_sh * (1.0 - lit[:, None]) + g_li * lit[:, None]
+
+    # Subtle hillside woodland moss darkening along upper ridges
+    wood_patch = smooth(0.45, 0.75, noise(X / 65.0, Z / 65.0, 2)) * smooth(12.0, 34.0, sd)
+    rgb_base = mix(rgb_base, C(46, 74, 64), wood_patch * 0.32)
 
     path_col = C(142, 134, 128) * (1.0 - lit[:, None]) + C(222, 206, 174) * lit[:, None]
     quay_col = C(110, 110, 128) * (1.0 - lit[:, None]) + C(188, 174, 156) * lit[:, None]
@@ -115,10 +144,10 @@ def _turf_base_shader(env, X, Z, Rn, dist):
     lamps = float(L.get("lamps", 0.0))
     if lamps > 0.02:
         qx = river_x(Z) + river_hw(Z) + 14.0
-        lq = np.exp(-((X - qx) ** 2 + (Z - 406.0) ** 2) / 560.0) * lamps
-        rgb = rgb + np.array([[1.02, 0.62, 0.18]], np.float32) * (lq * 0.52)[:, None]
+        lq = np.exp(-((X - qx) ** 2 + (Z - 404.0) ** 2) / 680.0) * lamps
+        rgb = rgb + np.array([[1.02, 0.62, 0.18]], np.float32) * (lq * 0.55)[:, None]
 
-    rgb = jitter(rgb, Rn[:, 2:5], val=0.04, chroma=0.025)
+    rgb = jitter(rgb, Rn[:, 2:5], val=0.05, chroma=0.03)
     hx = ((X - env.C[0]) * float(S[0]) + (y - env.C[1]) * float(S[1]) + (Z - env.C[2]) * float(S[2])) / np.maximum(dist, 1.0)
     rgb = haze_of(env, rgb, dist, hx=hx, amt=0.95)
 
@@ -131,14 +160,14 @@ def _turf_base_shader(env, X, Z, Rn, dist):
 
 
 def _poppy_tufts_shader(env, X, Z, Rn, dist):
-    """Crisp upright swaying grass blades, scarlet poppies, and daisies over the opaque turf."""
+    """Crisp upright swaying grass blades, scarlet poppies, daisies & golden meadow wildflowers."""
     sd = bank_signed_dist(X, Z)
     cx_r = river_x(Z)
     left_bank = X < cx_r
     towpath = (~left_bank) & (sd > 3.2) & (sd < 14.8) & (Z > 20.0) & (Z < 362.0)
     quay = (~left_bank) & (sd > -0.2) & (sd < 34.0) & (Z >= 362.0) & (Z < 458.0)
 
-    active = (sd > 0.3) & (~towpath) & (~quay) & (dist < 145.0)
+    active = (sd > 0.3) & (~towpath) & (~quay) & (dist < 165.0)
     if not active.any():
         return None
 
@@ -158,8 +187,9 @@ def _poppy_tufts_shader(env, X, Z, Rn, dist):
         lit = lit * (1.0 - 0.56 * csh_amt * cloud_shadow(env, X, Z))
 
     poppy_zone = left_bank & (sd > 2.2) & (Z < 175.0) & (sd < 66.0)
-    poppy_patch = poppy_zone & (Rn[:, 0] < 0.24) & (np.sin(X * 0.14 + Z * 0.09) + 0.45 * np.cos(X * 0.05 - Z * 0.11) > -0.22)
-    daisy_patch = poppy_zone & (~poppy_patch) & (Rn[:, 0] > 0.925)
+    poppy_patch = poppy_zone & (Rn[:, 0] < 0.25) & (np.sin(X * 0.14 + Z * 0.09) + 0.45 * np.cos(X * 0.05 - Z * 0.11) > -0.24)
+    daisy_patch = (~poppy_patch) & (sd > 2.0) & (Rn[:, 0] > 0.92)
+    gold_flower = (~poppy_patch) & (~daisy_patch) & (~poppy_zone) & (Rn[:, 0] < 0.10)
 
     g_sh = mix(C(44, 88, 62), C(58, 106, 58), Rn[:, 2])
     g_li = mix(C(124, 174, 62), C(178, 194, 76), Rn[:, 3])
@@ -173,21 +203,24 @@ def _poppy_tufts_shader(env, X, Z, Rn, dist):
     ], np.float32)
     pop_col = pop_pal[(Rn[:, 4] * 4).astype(np.int32) % 4] * (0.72 + 0.40 * lit[:, None])
     daisy_col = np.array([0.98, 0.96, 0.84], np.float32)[None, :] * (0.76 + 0.34 * lit[:, None])
+    gold_col = np.array([0.96, 0.80, 0.26], np.float32)[None, :] * (0.74 + 0.36 * lit[:, None])
 
     rgb = np.where(poppy_patch[:, None], pop_col, rgb_grass)
     rgb = np.where(daisy_patch[:, None], daisy_col, rgb)
+    rgb = np.where(gold_flower[:, None], gold_col, rgb)
     tint = L["shade"][None, :] * (1.0 - lit[:, None]) + L["light"][None, :] * lit[:, None]
     rgb = jitter(rgb * tint, Rn[:, 2:5], val=0.04, chroma=0.03)
 
     hx = ((X - env.C[0]) * float(S[0]) + (y - env.C[1]) * float(S[1]) + (Z - env.C[2]) * float(S[2])) / np.maximum(dist, 1.0)
     rgb = haze_of(env, rgb, dist, hx=hx, amt=0.95)
 
-    upright = np.where(poppy_patch | daisy_patch, 0.65, 0.95)
+    flw = poppy_patch | daisy_patch | gold_flower
+    upright = np.where(flw, 0.65, 0.95)
     lean = (0.28 * g + 0.14 * np.sin(t * (2.6 + 1.8 * Rn[:, 1]) + Rn[:, 2] * 6.28) * (0.35 + g)).astype(np.float32)
-    spr = np.where(poppy_patch | daisy_patch, DAB + (Rn[:, 5] * 4).astype(np.int32), DASH + (Rn[:, 5] * 8).astype(np.int32))
-    kl = np.where(poppy_patch | daisy_patch, 0.65, 0.92)
-    kw = np.where(poppy_patch | daisy_patch, 1.15, 0.48)
-    a = np.where(active, 0.88 * smooth(145.0, 95.0, dist), 0.0).astype(np.float32)
+    spr = np.where(flw, DAB + (Rn[:, 5] * 4).astype(np.int32), DASH + (Rn[:, 5] * 8).astype(np.int32))
+    kl = np.where(flw, 0.65, 0.92)
+    kw = np.where(flw, 1.15, 0.48)
+    a = np.where(active, 0.88 * smooth(165.0, 110.0, dist), 0.0).astype(np.float32)
 
     return dict(
         rgb=np.clip(rgb, 0.0, 1.18).astype(np.float32),
@@ -199,5 +232,5 @@ def _poppy_tufts_shader(env, X, Z, Rn, dist):
 def build_fields():
     water = Field(seed=101, S=15.0, shader=_water_shader, passid=WATER, c0=0.055, kmax=14, kl=2.5, kw=1.25, wmin=3.6, y0=0.0, maxdist=1600.0)
     turf = Field(seed=202, S=14.5, shader=_turf_base_shader, passid=GROUND, c0=0.06, kmax=14, kl=2.7, kw=2.0, wmin=4.2, y0=0.0, order=0.0, maxdist=1800.0, yfun=terrain_y)
-    tufts = Field(seed=203, S=19.0, shader=_poppy_tufts_shader, passid=GROUND, c0=0.05, kmax=11, kl=1.85, kw=0.65, wmin=3.0, y0=0.0, order=1.5, maxdist=150.0, yfun=terrain_y)
+    tufts = Field(seed=203, S=19.0, shader=_poppy_tufts_shader, passid=GROUND, c0=0.05, kmax=11, kl=1.85, kw=0.65, wmin=3.0, y0=0.0, order=1.5, maxdist=170.0, yfun=terrain_y)
     return water, turf, tufts

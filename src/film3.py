@@ -50,7 +50,7 @@ class SeineFilmScene:
         parts.append(self.tufts.emit(env))
 
         # 3. Static world architecture & trees (with automatic MIRROR reflections!)
-        for key_name in ("viaduct", "trees", "guinguette", "hills_reeds"):
+        for key_name in ("viaduct", "trees", "guinguette"):
             grp = self.groups[key_name]
             if grp is not None and grp.visible(env):
                 A = grp.lod(env)

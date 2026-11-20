@@ -100,6 +100,24 @@ def emit_act1_characters(env):
         hat_sh=C(196, 174, 124), hat_li=C(250, 234, 182),
     )
 
+    # 5. Grazing spotted Normandy cows in upper hillside pasture + faint farmstead chimney smoke
+    cow_coords = [(-44.0, 48.0, 0.4), (-48.0, 56.0, 1.1), (-56.0, 82.0, -0.5), (-61.0, 91.0, 0.2)]
+    for ci, (ox, cz, cyaw) in enumerate(cow_coords):
+        cx_c = float(river_x(cz) - river_hw(cz)) + ox
+        cy_c = float(terrain_y(cx_c, cz))
+        cfwd = np.array([math.sin(cyaw), 0.0, math.cos(cyaw)], np.float64)
+        nod = 0.22 * math.sin(t * 0.7 + ci * 1.9)
+        sb.add([[cx_c, cy_c + 0.92, cz]], D=cfwd, L=1.85, W=0.95, spr=DAB + 1, csh=C(176, 174, 190), cli=C(250, 246, 236), N=(0, 0.85, 0.2), smin=3.2)
+        sb.add([[cx_c + cfwd[0] * 0.2, cy_c + 0.98, cz + cfwd[2] * 0.2]], D=cfwd, L=0.95, W=0.72, spr=DAB, csh=C(106, 62, 46), cli=C(168, 96, 62), N=(0, 0.9, 0.1), smin=2.8)
+        sb.add([[cx_c + cfwd[0] * 0.98, cy_c + 0.78 + nod, cz + cfwd[2] * 0.98]], D=cfwd - np.array([0, 0.3, 0]), L=0.68, W=0.48, spr=DAB, csh=C(106, 62, 46), cli=C(172, 102, 66), N=(0, 0.7, 0.3), smin=2.6)
+
+    fx = float(river_x(104.0) - river_hw(104.0)) - 62.0 + 3.0
+    fy = float(terrain_y(fx, 104.0)) + 6.8
+    for si in range(10):
+        age = (si / 10.0) * 5.0 + (t * 0.8) % 0.5
+        sp = np.array([fx + env.wdir[0] * age * 1.6, fy + age * 1.15, 104.0 + env.wdir[2] * age * 1.6])
+        sb.add([sp], D=(env.wdir[0], 0.6, env.wdir[2]), L=1.1 + age * 0.45, W=0.8 + age * 0.35, spr=SCUM + (si % 4), csh=C(168, 174, 198), cli=C(246, 244, 242), N=(0, 1, 0), a=max(0.05, 0.48 * (1.0 - age / 5.5)), smin=3.5)
+
     grp = sb.group(reflect=False, passid=STAND, name="act1_chars")
     return [shade(env, grp.lod(env), sway=False)] if grp and grp.visible(env) else []
 
@@ -375,6 +393,36 @@ def emit_wildlife_and_cafe(env):
         ]
         for gx, gz, gyaw, dsh, dli, hsh, hli, pcols in guests:
             add_strolling_person(sb_ref, (gx, float(terrain_y(gx, gz)), gz), gyaw, t * 2.4, dsh, dli, hsh, hli, pcols)
+
+    # Towpath couples & moored wooden skiffs along the right shore (Z = 180..418)
+    for idx_w, (wz0, wspd, dcol, pcol) in enumerate([
+        (165.0, 0.55, (C(164, 72, 84), C(242, 132, 142)), (C(54, 126, 138), C(118, 206, 208))),
+        (268.0, -0.45, (C(64, 92, 142), C(118, 158, 218)), None),
+        (318.0, 0.50, (C(178, 148, 82), C(248, 218, 134)), (C(182, 76, 88), C(248, 152, 162))),
+    ]):
+        wz = wz0 + ((t * wspd) % 24.0)
+        wx = float(river_x(wz) + river_hw(wz)) + 8.0 + idx_w * 0.8
+        add_strolling_person(sb_ref, (wx, float(terrain_y(wx, wz)), wz), 0.0 if wspd > 0 else math.pi, t * 2.2, dcol[0], dcol[1], C(196, 174, 124), C(250, 234, 182), pcol)
+
+    # Moored wooden skiffs gently rocking by Guinguette pier & regatta bank
+    for ms_i, (mz, mx_off, myaw) in enumerate([(390.5, -5.5, 0.2), (396.5, -4.2, -0.15), (275.0, -4.8, 0.1)]):
+        mx = float(river_x(mz) + river_hw(mz)) + mx_off
+        pitch = 0.08 * math.sin(t * 1.8 + ms_i * 1.7)
+        fwd_s = np.array([math.sin(myaw), pitch, math.cos(myaw)], np.float64)
+        for u in np.linspace(-1.6, 1.6, 5):
+            sb_ref.add([[mx + fwd_s[0] * u, 0.22 + pitch * u, mz + fwd_s[2] * u]], D=fwd_s, L=1.05, W=0.82 * (1.0 - 0.4 * (u / 1.8) ** 2), spr=DASH + 1, csh=C(88, 62, 52), cli=C(166, 124, 86), N=(0, 0.9, 0.2), smin=2.8)
+
+    # Two twilight drifting rowboats with warm bow lanterns gliding across the Seine in Act IV
+    lamps_tw = float(env.L.get("lamps", 0.0))
+    if t > 74.0:
+        for tb_i, (tz0, tspd, tx_r) in enumerate([(352.0, 0.85, -0.10), (384.0, -0.65, 0.22)]):
+            tz = tz0 + (t - 74.0) * tspd
+            tx = float(river_x(tz)) + tx_r * float(river_hw(tz))
+            bob = 0.06 * math.sin(t * 2.0 + tb_i)
+            sb_ref.add([[tx, 0.24 + bob, tz]], D=(0, 0, 1), L=3.4, W=0.95, spr=DASH, csh=C(48, 44, 58), cli=C(112, 86, 72), N=(0, 0.9, 0.2), smin=3.0)
+            sb_ref.add([[tx, 0.72 + bob, tz - 0.2]], D=(0, 1, 0), L=0.85, W=0.35, spr=DAB, csh=C(44, 52, 78), cli=C(92, 108, 146), N=(0, 0.8, 0.3), smin=2.4)
+            if lamps_tw > 0.08:
+                sb_ref.add([[tx, 0.85 + bob, tz + 1.1]], D=(0, 1, 0), L=0.45, W=0.45, spr=LENS, csh=C(255, 202, 92), cli=C(255, 236, 148), N=(0, 1, 0), emis=lamps_tw, a=min(1.0, 0.3 + 0.7 * lamps_tw), smin=2.2)
 
     for b_i in range(28):
         z_base = 25.0 + (b_i / 28.0) * 410.0
