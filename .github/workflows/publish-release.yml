@@ -1,26 +1,22 @@
-name: Publish Monet High-Bitrate Releases
+name: Publish Monet v3 Previews & Releases
 
 on:
   push:
     tags:
-      - "v*-monet"
-  workflow_dispatch:
-    inputs:
-      tag:
-        description: "Release tag name"
-        required: true
-        default: "v2.0-monet"
+      - "v3*-preview"
+      - "v3*-monet"
 
 permissions:
   contents: write
 
 jobs:
-  build-and-release:
+  preview-release:
+    if: endsWith(github.ref_name, '-preview')
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 15
 
     steps:
-      - name: Checkout monet-living-canvas
+      - name: Checkout monet-v3-world3
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -28,95 +24,112 @@ jobs:
       - name: Install system packages and fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg g++ fontconfig fonts-urw-base35 fonts-noto-cjk
+          sudo apt-get install -y ffmpeg fontconfig fonts-noto-cjk
 
-      - name: Set up Python dependencies
+      - name: Set up Python & CodePaint-Engine
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install --no-cache-dir numpy pillow
+      - run: pip install --no-cache-dir .
 
-      - name: Reconstruct v1 1080p high-bitrate master from monet-short-film
+      - name: Build synchronized 120s spatial audio track
+        run: PYTHONPATH=src python3 src/audio_mix3.py assets/audio/master_v3_120s.wav
+
+      - name: Render 1080p keyframe stills & 15s spatial audio-video preview
         run: |
-          mkdir -p dist
-          git fetch origin monet-short-film:refs/remotes/origin/monet-short-film
-          (
-            git show origin/monet-short-film:output/monet_un_jour_a_giverny_1080p.mp4.part.00
-            git show origin/monet-short-film:output/monet_un_jour_a_giverny_1080p.mp4.part.01
-            git show origin/monet-short-film:output/monet_un_jour_a_giverny_1080p.mp4.part.02
-            git show origin/monet-short-film:output/monet_un_jour_a_giverny_1080p.mp4.part.03
-            git show origin/monet-short-film:output/monet_un_jour_a_giverny_1080p.mp4.part.04
-          ) > "dist/莫奈第一版_吉维尼的一天_1080p.mp4"
-          echo "3aa53824aac32e28fad3bc1e34a896fdf8fd6d351176278dbddb9e7ac211bbba  dist/莫奈第一版_吉维尼的一天_1080p.mp4" | sha256sum -c -
+          mkdir -p dist/stills
+          PYTHONPATH=src python3 src/render3.py audit dist/stills 1080
+          PYTHONPATH=src python3 src/render3.py preview dist/monet_v3_preview_15s.mp4 540
 
-      - name: Build synchronized 96s audio track
-        run: |
-          python3 src/audio_mix.py assets/audio/master_96s.wav
-
-      - name: Precompile native brush engine & render v2 1080p + 720p masters
-        run: |
-          python3 -c "import sys; sys.path.insert(0, 'src'); import engine"
-
-          python3 src/render.py pipe 0 1440 1080 \
-            | ffmpeg -y -v error -f rawvideo -pixel_format rgb24 -video_size 1920x1080 -framerate 30 -i - \
-              -c:v libx264 -preset slow -crf 14 -g 60 -flags +cgop -pix_fmt yuv420p \
-              -colorspace bt709 -color_primaries bt709 -color_trc bt709 /tmp/seg0.mkv &
-          P1=$!
-
-          python3 src/render.py pipe 1440 2880 1080 \
-            | ffmpeg -y -v error -f rawvideo -pixel_format rgb24 -video_size 1920x1080 -framerate 30 -i - \
-              -c:v libx264 -preset slow -crf 14 -g 60 -flags +cgop -pix_fmt yuv420p \
-              -colorspace bt709 -color_primaries bt709 -color_trc bt709 /tmp/seg1.mkv &
-          P2=$!
-
-          wait $P1
-          wait $P2
-
-          printf "file '/tmp/seg0.mkv'\nfile '/tmp/seg1.mkv'\n" > /tmp/concat.txt
-          ffmpeg -y -v error -f concat -safe 0 -i /tmp/concat.txt -i assets/audio/master_96s.wav \
-            -c:v copy -c:a aac -b:a 256k -movflags +faststart \
-            "dist/莫奈第二版_光阴画境_1080p.mp4"
-
-          ffmpeg -y -v error -i "dist/莫奈第二版_光阴画境_1080p.mp4" \
-            -vf scale=1280:720:flags=lanczos \
-            -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p \
-            -colorspace bt709 -color_primaries bt709 -color_trc bt709 \
-            -c:a copy -movflags +faststart \
-            "dist/莫奈第二版_光阴画境_720p.mp4"
-
-      - name: Publish GitHub Release
+      - name: Publish GitHub Preview Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TAG="${{ inputs.tag || github.ref_name }}"
+          TAG="${{ github.ref_name }}"
           gh release delete "${TAG}" -y || true
           gh release create "${TAG}" \
-            --target monet-living-canvas \
-            --title "莫奈纯代码短片合集（第一版 & 第二版 高清母版）" \
-            --notes $'纯代码（NumPy + C++17 厚涂油画笔触引擎 + 同步配乐）生成的莫奈印象派一镜到底短片合集：\n\n- **莫奈第二版_光阴画境_1080p.mp4**：全新重制版《光阴画境》（96 秒 / 2880 帧 @ 30fps，1920×1080，CRF 14 高码率母版）\n- **莫奈第二版_光阴画境_720p.mp4**：新版《光阴画境》720p 高清版（1280×720）\n- **莫奈第一版_吉维尼的一天_1080p.mp4**：第一版《吉维尼的一天》1080p 高码率母版（92 秒 / 2760 帧，41.9 Mbps）'
+            --target monet-v3-world3 \
+            --prerelease \
+            --title "莫奈第三版《塞纳河畔的星期日》预览样片（15秒动态 + 1080p 关键帧）" \
+            --notes $'基于 [`CodePaint-Engine`](https://github.com/yiggeror/CodePaint-Engine) 真三维底座重置的 **120 秒莫奈三维一镜到底短片《塞纳河畔的星期日 · Un Dimanche sur la Seine》** 预览版：\n\n- **15秒动态声画预览**：`monet_v3_preview_15s.mp4`（540p @ 24fps，含两乐章配乐 + 三维空间声像音效）\n- **10张 1080p 关键静帧**：覆盖花坡放风筝男孩与小狗、蒸汽火车过五孔石拱桥、钻桥洞、双人帆船竞渡、垂柳与天鹅、夕阳咖啡馆与村舍教堂倒影。'
+
+          sleep 5
+          gh release upload "${TAG}" \
+            "dist/monet_v3_preview_15s.mp4#莫奈第三版_塞纳河畔的星期日_15秒声画预览.mp4" \
+            "dist/stills/01_poppy_kite_boy_12s.png" \
+            "dist/stills/03_viaduct_steam_train_37s.png" \
+            "dist/stills/04_under_stone_arch_46s.png" \
+            "dist/stills/05_regatta_hero_sloop_62s.png" \
+            "dist/stills/06_willow_curtain_swans_76.5s.png" \
+            "dist/stills/07_guinguette_sunset_94s.png" \
+            "dist/stills/08_twilight_lanterns_107s.png" \
+            --clobber
+
+  full-release:
+    if: endsWith(github.ref_name, '-monet')
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+
+    steps:
+      - name: Checkout monet-v3-world3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install system packages and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fontconfig fonts-noto-cjk
+
+      - name: Set up Python & CodePaint-Engine
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --no-cache-dir .
+
+      - name: Build synchronized 120s spatial audio track
+        run: PYTHONPATH=src python3 src/audio_mix3.py assets/audio/master_v3_120s.wav
+
+      - name: Render 120s 1080p master across parallel segments
+        run: |
+          mkdir -p dist
+          # Warm Numba cache once before parallel render
+          PYTHONPATH=src python3 -c "from film3 import SeineFilmScene, SeinePaintBackend; from anim import Config, Engine; e=Engine(Config(320,180,30,120.0), SeineFilmScene(), SeinePaintBackend()); e.frame(0)"
+
+          PYTHONPATH=src python3 src/render3.py segment 0 900 /tmp/seg0.mp4 1080 14 &
+          P0=$!
+          PYTHONPATH=src python3 src/render3.py segment 900 1800 /tmp/seg1.mp4 1080 14 &
+          P1=$!
+          PYTHONPATH=src python3 src/render3.py segment 1800 2700 /tmp/seg2.mp4 1080 14 &
+          P2=$!
+          PYTHONPATH=src python3 src/render3.py segment 2700 3600 /tmp/seg3.mp4 1080 14 &
+          P3=$!
+          wait $P0 $P1 $P2 $P3
+
+          printf "file '/tmp/seg0.mp4'\nfile '/tmp/seg1.mp4'\nfile '/tmp/seg2.mp4'\nfile '/tmp/seg3.mp4'\n" > /tmp/concat.txt
+          ffmpeg -y -v error -f concat -safe 0 -i /tmp/concat.txt -i assets/audio/master_v3_120s.wav \
+            -c:v copy -c:a aac -b:a 256k -movflags +faststart \
+            "dist/monet_v3_1080p.mp4"
+
+          ffmpeg -y -v error -i "dist/monet_v3_1080p.mp4" \
+            -vf scale=1280:720:flags=lanczos \
+            -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p \
+            -c:a copy -movflags +faststart \
+            "dist/monet_v3_720p.mp4"
+
+      - name: Publish Full GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${{ github.ref_name }}"
+          gh release delete "${TAG}" -y || true
+          gh release create "${TAG}" \
+            --target monet-v3-world3 \
+            --title "莫奈第三版《塞纳河畔的星期日》（120秒 3D 真三维重制高清母版）" \
+            --notes $'基于 [`CodePaint-Engine`](https://github.com/yiggeror/CodePaint-Engine) 真三维底座重置的 120 秒莫奈三维一镜到底短片《塞纳河畔的星期日 · Un Dimanche sur la Seine》。'
 
           sleep 6
-
-          upload_one() {
-            local f="$1"
-            local label="$2"
-            for attempt in 1 2 3; do
-              if gh release upload "${TAG}" "${f}#${label}" --clobber; then
-                return 0
-              fi
-              sleep 5
-            done
-            return 1
-          }
-
-          mv "dist/莫奈第二版_光阴画境_1080p.mp4" "dist/monet_v2_1080p.mp4"
-          mv "dist/莫奈第二版_光阴画境_720p.mp4" "dist/monet_v2_720p.mp4"
-          mv "dist/莫奈第一版_吉维尼的一天_1080p.mp4" "dist/monet_v1_1080p.mp4"
-
-          upload_one "dist/monet_v2_1080p.mp4" "莫奈第二版_光阴画境_1080p.mp4"
-          upload_one "dist/monet_v2_720p.mp4" "莫奈第二版_光阴画境_720p.mp4"
-          upload_one "dist/monet_v1_1080p.mp4" "莫奈第一版_吉维尼的一天_1080p.mp4"
-
-          gh release view "${TAG}" --json assets --jq '.assets[] | [.name, .label, .size, .url] | @tsv'
+          gh release upload "${TAG}" "dist/monet_v3_1080p.mp4#莫奈第三版_塞纳河畔的星期日_1080p.mp4" --clobber
+          gh release upload "${TAG}" "dist/monet_v3_720p.mp4#莫奈第三版_塞纳河畔的星期日_720p.mp4" --clobber
           COUNT=$(gh release view "${TAG}" --json assets --jq '.assets | length')
-          test "${COUNT}" -eq 3
+          test "${COUNT}" -eq 2
