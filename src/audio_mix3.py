@@ -16,6 +16,7 @@
 """
 import json
 import os
+import urllib.error
 import urllib.parse
 import urllib.request
 import numpy as np
@@ -48,24 +49,50 @@ SOURCES = {
 
 
 def ensure_sources(cache_dir="/tmp/audio_v3"):
+    import time
     os.makedirs(cache_dir, exist_ok=True)
-    headers = {"User-Agent": "CodePaintV3Monet/1.0 (https://github.com/yiggeror/all-test-for-new-modle)"}
-    for fname, title in SOURCES.items():
+    headers = {"User-Agent": "CodePaintV3Monet/1.0 (https://github.com/yiggeror/all-test-for-new-modle; educational-art)"}
+    missing = {fname: title for fname, title in SOURCES.items()
+               if not (os.path.exists(os.path.join(cache_dir, fname)) and os.path.getsize(os.path.join(cache_dir, fname)) > 8000)}
+    if not missing:
+        return cache_dir
+
+    # Single batched API call for all missing titles
+    api = (
+        "https://commons.wikimedia.org/w/api.php?action=query&titles="
+        + urllib.parse.quote("|".join(missing.values()))
+        + "&prop=imageinfo&iiprop=url&format=json"
+    )
+    req = urllib.request.Request(api, headers=headers)
+    with urllib.request.urlopen(req, timeout=25) as r:
+        data = json.loads(r.read().decode())
+    norm_map = {n["from"]: n["to"] for n in data.get("query", {}).get("normalized", [])}
+    url_by_title = {}
+    for page in data.get("query", {}).get("pages", {}).values():
+        if "imageinfo" in page:
+            url_by_title[page["title"]] = page["imageinfo"][0]["url"]
+
+    for fname, title in missing.items():
         path = os.path.join(cache_dir, fname)
-        if os.path.exists(path) and os.path.getsize(path) > 8000:
-            continue
-        api = (
-            "https://commons.wikimedia.org/w/api.php?action=query&titles="
-            + urllib.parse.quote(title)
-            + "&prop=imageinfo&iiprop=url&format=json"
-        )
-        req = urllib.request.Request(api, headers=headers)
-        with urllib.request.urlopen(req, timeout=20) as r:
-            data = json.loads(r.read().decode())
-        url = next(iter(data["query"]["pages"].values()))["imageinfo"][0]["url"]
-        req2 = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req2, timeout=60) as r2, open(path, "wb") as fh:
-            fh.write(r2.read())
+        resolved = norm_map.get(title, title)
+        url = url_by_title[resolved]
+        for attempt in range(5):
+            try:
+                time.sleep(1.5 + attempt * 2.0)
+                req2 = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req2, timeout=60) as r2:
+                    blob = r2.read()
+                tmp = path + ".tmp"
+                with open(tmp, "wb") as fh:
+                    fh.write(blob)
+                os.replace(tmp, path)
+                break
+            except urllib.error.HTTPError as e:
+                if e.code in (429, 503, 502) and attempt < 4:
+                    wait_s = int(e.headers.get("Retry-After", 8 * (attempt + 1)))
+                    time.sleep(min(wait_s, 45))
+                    continue
+                raise
     return cache_dir
 
 
