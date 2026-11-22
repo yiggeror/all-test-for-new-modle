@@ -1,22 +1,92 @@
-name: Publish Monet v3 Previews & Releases
+name: Publish Monet v4 Dreamworld Releases
 
 on:
   push:
     tags:
-      - "v3*-preview"
-      - "v3*-monet"
+      - "v4*-monet"
 
 permissions:
   contents: write
 
 jobs:
-  preview-release:
-    if: endsWith(github.ref_name, '-preview')
+  render-segment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: true
+      matrix:
+        seg: [0, 1, 2, 3]
+
+    steps:
+      - name: Checkout monet-v4-dreamworld
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install system packages and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fontconfig fonts-noto-cjk
+
+      - name: Set up Python & CodePaint-Engine
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --no-cache-dir .
+
+      - name: Verify collision checks & warm Numba cache
+        run: PYTHONPATH=src python3 src/render4.py test
+
+      - name: Render 1080p segment ${{ matrix.seg }} of 4 (900 frames @ 30fps)
+        run: |
+          mkdir -p dist
+          PYTHONPATH=src python3 src/render4.py segment ${{ matrix.seg }} 4 1080 dist/seg_${{ matrix.seg }}.mp4
+
+      - name: Upload rendered video segment
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-seg-${{ matrix.seg }}
+          path: dist/seg_${{ matrix.seg }}.mp4
+          retention-days: 1
+
+  build-audio:
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
-      - name: Checkout monet-v3-world3
+      - name: Checkout monet-v4-dreamworld
+        uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Set up Python & dependencies
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --no-cache-dir .
+
+      - name: Build 120s 100% genuine Wikimedia classical & field SFX master track
+        run: |
+          mkdir -p assets/audio
+          PYTHONPATH=src python3 src/audio_mix4.py assets/audio/master_v4_120s.wav
+
+      - name: Upload master audio track
+        uses: actions/upload-artifact@v4
+        with:
+          name: master-audio-v4
+          path: assets/audio/master_v4_120s.wav
+          retention-days: 1
+
+  publish-release:
+    needs: [render-segment, build-audio]
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout monet-v4-dreamworld
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,107 +102,43 @@ jobs:
           python-version: "3.11"
       - run: pip install --no-cache-dir .
 
-      - name: Build synchronized 120s spatial audio track
-        run: PYTHONPATH=src python3 src/audio_mix3.py assets/audio/master_v3_120s.wav
+      - name: Download all rendered segments and audio
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
 
-      - name: Render 1080p keyframe stills & 15s spatial audio-video preview
+      - name: Concatenate 1080p master, encode 720p & capture keyframe stills
         run: |
           mkdir -p dist/stills
-          PYTHONPATH=src python3 src/render3.py audit dist/stills 1080
-          PYTHONPATH=src python3 src/render3.py preview dist/monet_v3_preview_15s.mp4 540
+          PYTHONPATH=src python3 src/render4.py concat \
+            artifacts/master-audio-v4/master_v4_120s.wav \
+            dist/monet_v4_1080p.mp4 \
+            dist/monet_v4_720p.mp4 \
+            artifacts/video-seg-0/seg_0.mp4 \
+            artifacts/video-seg-1/seg_1.mp4 \
+            artifacts/video-seg-2/seg_2.mp4 \
+            artifacts/video-seg-3/seg_3.mp4
+          PYTHONPATH=src python3 src/render4.py audit dist/stills
 
-      - name: Publish GitHub Preview Release
+      - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG="${{ github.ref_name }}"
           gh release delete "${TAG}" -y || true
           gh release create "${TAG}" \
-            --target monet-v3-world3 \
-            --prerelease \
-            --title "莫奈第三版《塞纳河畔的星期日》预览样片（15秒动态 + 1080p 关键帧）" \
-            --notes $'基于 [`CodePaint-Engine`](https://github.com/yiggeror/CodePaint-Engine) 真三维底座重置的 **120 秒莫奈三维一镜到底短片《塞纳河畔的星期日 · Un Dimanche sur la Seine》** 预览版：\n\n- **15秒动态声画预览**：`monet_v3_preview_15s.mp4`（540p @ 24fps，含两乐章配乐 + 三维空间声像音效）\n- **10张 1080p 关键静帧**：覆盖花坡放风筝男孩与小狗、蒸汽火车过五孔石拱桥、钻桥洞、双人帆船竞渡、垂柳与天鹅、夕阳咖啡馆与村舍教堂倒影。'
+            --target monet-v4-dreamworld \
+            --title "莫奈第四版《莫奈光影梦境 · Rêveries de Monet》（120秒 1080p & 720p 完整声画典藏版）" \
+            --notes $'基于 [`CodePaint-Engine`](https://github.com/yiggeror/CodePaint-Engine) 构建的 **120 秒莫奈第四版《莫奈光影梦境 · Rêveries de Monet》**（6大三维油画梦境 + 100% 真实古典乐章与自然界实录空间音效）：\n\n- **场景一 (0–20s)**：阿让特伊红罂粟与矢车菊花山（修正分层 `depth_order` 透视穿模，新增樱桃果园、农舍、草地奶牛、晨光束与飘落花瓣）\n- **场景二 (20–40s)**：吉维尼紫藤睡莲池（翠绿日本拱桥垂挂紫藤花瀑、320+ 盛开睡莲、游动金红锦鲤与垂柳倒影）\n- **场景三 (40–60s)**：五孔石拱桥与帆船竞渡（航道严格居中约束彻底杜绝撞石柱 + 绿金蒸汽火车与光影烟云）\n- **场景四 (60–80s)**：鲁昂大教堂鎏金紫雾黄昏（自发光彩色玫瑰花窗、双子非对称尖塔、咖啡馆街灯与32只盘旋白鸽）\n- **场景五 (80–100s)**：普罗旺斯薰衣草海与风车晚霞（深紫花浪起伏、`depth_order` 遮挡正确、木叶风车缓转与黄昏萤火虫）\n- **场景六 (100–120s)**：威尼斯圣乔治马焦雷月夜泻湖（绿松石穹顶、红砖钟楼、三艘划桨贡多拉船灯倒影、140颗闪烁繁星与新月）\n\n**古典交响配乐 & 真实自然实录音效**：德彪西《第一号阿拉伯风格曲》→《沉没的教堂》→ 拉威尔《帕凡舞曲》，融合云雀、嬉闹小狗、溪流蛙鸣、真实蒸汽机车汽笛、巴黎黄昏钟声与振翅鸽群、普罗旺斯晚蝉、威尼斯水波声。'
 
           sleep 5
           gh release upload "${TAG}" \
-            "dist/monet_v3_preview_15s.mp4#莫奈第三版_塞纳河畔的星期日_15秒声画预览.mp4" \
-            "dist/stills/01_poppy_kite_boy_12s.png" \
-            "dist/stills/03_viaduct_steam_train_37s.png" \
-            "dist/stills/04_under_stone_arch_46s.png" \
-            "dist/stills/05_regatta_hero_sloop_62s.png" \
-            "dist/stills/06_willow_curtain_swans_76.5s.png" \
-            "dist/stills/07_guinguette_sunset_94s.png" \
-            "dist/stills/08_twilight_lanterns_107s.png" \
+            "dist/monet_v4_1080p.mp4#莫奈第四版_光影梦境_1080p高画质.mp4" \
+            "dist/monet_v4_720p.mp4#莫奈第四版_光影梦境_720p高清.mp4" \
+            "dist/stills/01_sc1_poppies_kite_10.5s.png" \
+            "dist/stills/03_sc2_waterlilies_24.5s.png" \
+            "dist/stills/05_sc3_viaduct_arches_46s.png" \
+            "dist/stills/07_sc4_cathedral_plaza_65s.png" \
+            "dist/stills/09_sc5_lavender_waves_85s.png" \
+            "dist/stills/11_sc6_venice_gondola_107s.png" \
             --clobber
-
-  full-release:
-    if: endsWith(github.ref_name, '-monet')
-    runs-on: ubuntu-latest
-    timeout-minutes: 55
-
-    steps:
-      - name: Checkout monet-v3-world3
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Install system packages and fonts
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg fontconfig fonts-noto-cjk
-
-      - name: Set up Python & CodePaint-Engine
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - run: pip install --no-cache-dir .
-
-      - name: Build synchronized 120s spatial audio track
-        run: PYTHONPATH=src python3 src/audio_mix3.py assets/audio/master_v3_120s.wav
-
-      - name: Render 120s 1080p master across parallel segments
-        run: |
-          mkdir -p dist
-          # Warm Numba cache once before parallel render
-          PYTHONPATH=src python3 -c "from film3 import SeineFilmScene, SeinePaintBackend; from anim import Config, Engine; e=Engine(Config(320,180,30,120.0), SeineFilmScene(), SeinePaintBackend()); e.frame(0)"
-
-          PYTHONPATH=src python3 src/render3.py segment 0 900 /tmp/seg0.mp4 1080 14 &
-          P0=$!
-          PYTHONPATH=src python3 src/render3.py segment 900 1800 /tmp/seg1.mp4 1080 14 &
-          P1=$!
-          PYTHONPATH=src python3 src/render3.py segment 1800 2700 /tmp/seg2.mp4 1080 14 &
-          P2=$!
-          PYTHONPATH=src python3 src/render3.py segment 2700 3600 /tmp/seg3.mp4 1080 14 &
-          P3=$!
-          wait $P0 && wait $P1 && wait $P2 && wait $P3
-
-          printf "file '/tmp/seg0.mp4'\nfile '/tmp/seg1.mp4'\nfile '/tmp/seg2.mp4'\nfile '/tmp/seg3.mp4'\n" > /tmp/concat.txt
-          ffmpeg -y -v error -f concat -safe 0 -i /tmp/concat.txt -i assets/audio/master_v3_120s.wav \
-            -c:v copy -c:a aac -b:a 256k -movflags +faststart \
-            "dist/monet_v3_1080p.mp4"
-
-          ffmpeg -y -v error -i "dist/monet_v3_1080p.mp4" \
-            -vf scale=1280:720:flags=lanczos \
-            -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p \
-            -colorspace bt709 -color_primaries bt709 -color_trc bt709 \
-            -c:a copy -movflags +faststart \
-            "dist/monet_v3_720p.mp4"
-
-      - name: Publish Full GitHub Release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          TAG="${{ github.ref_name }}"
-          gh release delete "${TAG}" -y || true
-          gh release create "${TAG}" \
-            --target monet-v3-world3 \
-            --title "莫奈第三版《塞纳河畔的星期日》（120秒 3D 真三维重制高清母版）" \
-            --notes $'基于 [`CodePaint-Engine`](https://github.com/yiggeror/CodePaint-Engine) 真三维底座重置的 120 秒莫奈三维一镜到底短片《塞纳河畔的星期日 · Un Dimanche sur la Seine》：\n\n- **莫奈第三版_塞纳河畔的星期日_1080p.mp4**：120 秒 / 3600 帧 @ 30fps，1920×1080 CRF 14 高码率母版 + 100% 真实配乐与三维空间声像音轨\n- **莫奈第三版_塞纳河畔的星期日_720p.mp4**：1280×720 @ 30fps 高清版'
-
-          sleep 6
-          gh release upload "${TAG}" "dist/monet_v3_1080p.mp4#莫奈第三版_塞纳河畔的星期日_1080p.mp4" --clobber
-          sleep 3
-          gh release upload "${TAG}" "dist/monet_v3_720p.mp4#莫奈第三版_塞纳河畔的星期日_720p.mp4" --clobber
-          gh release view "${TAG}" --json assets --jq '.assets[] | [.name, .label, .size, .url] | @tsv'
-          COUNT=$(gh release view "${TAG}" --json assets --jq '.assets | length')
-          test "${COUNT}" -eq 2

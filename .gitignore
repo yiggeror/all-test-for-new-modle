@@ -4,7 +4,10 @@ __pycache__/
 *.pyo
 output/audit/
 output/audit_v3/
+output/audit_v4/
 output/*.mkv
 output/*.mp4
+output/*.wav
+cache_audio_v4/
 assets/audio/
 .DS_Store

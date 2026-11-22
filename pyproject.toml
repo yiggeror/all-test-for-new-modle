@@ -3,10 +3,12 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "un-dimanche-sur-la-seine"
-version = "3.0.0"
-description = "Un Dimanche sur la Seine (v3) — 3D Impressionist one-take animated short film built on CodePaint-Engine"
+name = "reveries-de-monet"
+version = "4.0.0"
+description = "Rêveries de Monet · 莫奈光影梦境 (v4) — 6-scene 3D Impressionist animated short film built on CodePaint-Engine"
 requires-python = ">=3.10"
 dependencies = [
     "codepaint-anim[all] @ git+https://github.com/yiggeror/CodePaint-Engine.git",
+    "scipy>=1.11",
+    "pillow>=10.0",
 ]
