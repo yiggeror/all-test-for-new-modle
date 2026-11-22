@@ -104,7 +104,7 @@ jobs:
           P2=$!
           PYTHONPATH=src python3 src/render3.py segment 2700 3600 /tmp/seg3.mp4 1080 14 &
           P3=$!
-          wait $P0 $P1 $P2 $P3
+          wait $P0 && wait $P1 && wait $P2 && wait $P3
 
           printf "file '/tmp/seg0.mp4'\nfile '/tmp/seg1.mp4'\nfile '/tmp/seg2.mp4'\nfile '/tmp/seg3.mp4'\n" > /tmp/concat.txt
           ffmpeg -y -v error -f concat -safe 0 -i /tmp/concat.txt -i assets/audio/master_v3_120s.wav \
@@ -114,6 +114,7 @@ jobs:
           ffmpeg -y -v error -i "dist/monet_v3_1080p.mp4" \
             -vf scale=1280:720:flags=lanczos \
             -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p \
+            -colorspace bt709 -color_primaries bt709 -color_trc bt709 \
             -c:a copy -movflags +faststart \
             "dist/monet_v3_720p.mp4"
 
@@ -126,10 +127,12 @@ jobs:
           gh release create "${TAG}" \
             --target monet-v3-world3 \
             --title "莫奈第三版《塞纳河畔的星期日》（120秒 3D 真三维重制高清母版）" \
-            --notes $'基于 [`CodePaint-Engine`](https://github.com/yiggeror/CodePaint-Engine) 真三维底座重置的 120 秒莫奈三维一镜到底短片《塞纳河畔的星期日 · Un Dimanche sur la Seine》。'
+            --notes $'基于 [`CodePaint-Engine`](https://github.com/yiggeror/CodePaint-Engine) 真三维底座重置的 120 秒莫奈三维一镜到底短片《塞纳河畔的星期日 · Un Dimanche sur la Seine》：\n\n- **莫奈第三版_塞纳河畔的星期日_1080p.mp4**：120 秒 / 3600 帧 @ 30fps，1920×1080 CRF 14 高码率母版 + 100% 真实配乐与三维空间声像音轨\n- **莫奈第三版_塞纳河畔的星期日_720p.mp4**：1280×720 @ 30fps 高清版'
 
           sleep 6
           gh release upload "${TAG}" "dist/monet_v3_1080p.mp4#莫奈第三版_塞纳河畔的星期日_1080p.mp4" --clobber
+          sleep 3
           gh release upload "${TAG}" "dist/monet_v3_720p.mp4#莫奈第三版_塞纳河畔的星期日_720p.mp4" --clobber
+          gh release view "${TAG}" --json assets --jq '.assets[] | [.name, .label, .size, .url] | @tsv'
           COUNT=$(gh release view "${TAG}" --json assets --jq '.assets | length')
           test "${COUNT}" -eq 2
