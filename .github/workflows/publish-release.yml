@@ -71,7 +71,11 @@ jobs:
       - name: Build 120s 100% genuine Wikimedia classical & field SFX master track
         run: |
           mkdir -p assets/audio
-          PYTHONPATH=src python3 src/audio_mix4.py assets/audio/master_v4_120s.wav
+          if [ -f assets/audio/master_v4_120s.flac ]; then
+            ffmpeg -y -i assets/audio/master_v4_120s.flac -c:a pcm_s24le assets/audio/master_v4_120s.wav
+          else
+            PYTHONPATH=src python3 src/audio_mix4.py assets/audio/master_v4_120s.wav
+          fi
 
       - name: Upload master audio track
         uses: actions/upload-artifact@v4

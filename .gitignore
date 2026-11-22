@@ -9,5 +9,7 @@ output/*.mkv
 output/*.mp4
 output/*.wav
 cache_audio_v4/
-assets/audio/
+assets/audio/*.wav
+assets/audio/*.ogg
+assets/audio/*.mp3
 .DS_Store
