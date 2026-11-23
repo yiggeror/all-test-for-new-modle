@@ -1,6 +1,27 @@
 # 四季像素短片 v2 · 制作进度
 
-**Gate 1：静帧候选已渲染，待评审。** 尚未选定 A/B；未开展 Gate 2 动态样片、音画混合或完整影片。对应需求版 `473786ad`，原型渲染源码来自 `yiggeror/Rainroji@d3fff8c`。
+## 当前：Gate 1.5 精修静帧
+
+依据 [Round 1 评审 `0afc93d`](https://github.com/yiggeror/all-test-for-new-modle/blob/0afc93d133023b3952d826f100e82397c6ec6c29/REVIEW_LOG.md)，本轮只交 **320×180 原生 / 6× 整数放大 / 1920×1080 静帧**。这批候选待评审，没有制作 Gate 2 动态样片或完整成片；首轮 A/B 保留如下。
+
+- [本轮四季总览](previews/gate_1_5/overview_gate_1_5.png)
+- 春：[1080p](previews/gate_1_5/spring_320x180_1080p.png) · [动作位置](previews/gate_1_5/spring_motion_note.png)
+- 夏：[1080p](previews/gate_1_5/summer_320x180_1080p.png) · [动作位置](previews/gate_1_5/summer_motion_note.png)
+- 秋：[1080p](previews/gate_1_5/autumn_320x180_1080p.png) · [动作位置](previews/gate_1_5/autumn_motion_note.png)
+- 冬：[1080p](previews/gate_1_5/winter_320x180_1080p.png) · [动作位置](previews/gate_1_5/winter_motion_note.png)
+
+**本轮制作记录：**
+
+- 春：给砖楼和花树上方腾出暮空；把路灯暖金光带推到粉花、旧砖和地面；瓦脊上加入实体静态卧猫供位置、体量和轮廓复核。
+- 夏：去掉水面死白镜面亮斑，分别处理米黄店光与右下拆成条段的红霓虹水面反光；店招回调为暖米黄底和深色笔划；把堵路棚后移回巷内；猫移入灯下货架的前缘，采用静态轮廓。
+- 秋：收拢两侧树冠的叶团，扩大粉紫暮空空间；移开斜切报刊亭的枝条；标清左下热汽、上方归鸟的位置。
+- 冬：分开前景树和道旁灯杆，移除室外方块人；移树、后撤旧棚并将新值班室暖窗放在右中景，窗口原生投影约 23×17 像素。窗内已有低头伏案、书和台灯的静态轮廓，翻页和白汽没有制作。
+
+配乐预研已整理候选，正式配画、试听比较和定曲留到 Gate 2。复现方法见 [REPRO.md](REPRO.md)。
+
+## 历史：Gate 1 A/B 对照
+
+**Gate 1：已评审并选定 A。** 保留原始候选作前后比较。对应需求版 `473786ad`，原型渲染源码来自 `yiggeror/Rainroji@d3fff8c`。
 
 ## 先看整体，再看像素
 
