@@ -1,0 +1,219 @@
+{
+  "readme": "Gate 2 的音画试配与四段试听。响度为 FFmpeg EBU R128 对交付的编码文件解码后实测。音频最终由无损浮点混音直接编码 AAC 一次。",
+  "timestamp_utc": "2026-11-23",
+  "master_input_note": "源视频SHA属正式原画的本地无损编码；兼容观看版可用相同帧号重现镜头。",
+  "samples": {
+    "01_green_tea": {
+      "source": "green.mp3",
+      "source_sha256": "f6feac60dc29b89ea1513e04d0b30addf86f9c8576827e7566e27b5abd522e71",
+      "encoded_sha256": "c077b8e6eb1de79cc5044f75b36b41e692ac2584e78ff08369353d23e66b698a",
+      "source_start_s": 12,
+      "excerpt_s": 36,
+      "gain_db": -6.2,
+      "rms_dbfs": -19.84,
+      "encoded_meter": {
+        "input_i": -18.68,
+        "input_lra": 5.2,
+        "input_tp": -8.28
+      },
+      "bytes": 1009580
+    },
+    "02_guitar_beat": {
+      "source": "seth.mp3",
+      "source_sha256": "768eeb0f0d8598aa96a60a69d1028cec65d7f6500d605040b1656d36aedd03c3",
+      "encoded_sha256": "82b8d20ab67015a1255823aefebdbc69db727507846dd9bb7d0e43a9f7353243",
+      "source_start_s": 10.285714,
+      "excerpt_s": 34.285714,
+      "gain_db": 3.22,
+      "rms_dbfs": -19.33,
+      "encoded_meter": {
+        "input_i": -18.67,
+        "input_lra": 2.1,
+        "input_tp": -1.64
+      },
+      "bytes": 961918
+    },
+    "03_first_light": {
+      "source": "yoi.wav",
+      "source_sha256": "f0538a1a67450cc1d5e305fad5bc0d5d422ad809f720d695ab356e55fbe40fc5",
+      "encoded_sha256": "b893ec5739c139ba373195665888a6780215453860a9a0ddc1ef110096f0dd54",
+      "source_start_s": 14,
+      "excerpt_s": 38,
+      "gain_db": 3.11,
+      "rms_dbfs": -20.97,
+      "encoded_meter": {
+        "input_i": -18.67,
+        "input_lra": 5.1,
+        "input_tp": -5.31
+      },
+      "bytes": 1066045
+    },
+    "04_forget_me_not": {
+      "source": "forget.ogg",
+      "source_sha256": "615761e410e828e344bbc94755c385f32e337f771f108e23710c3011ca4da874",
+      "encoded_sha256": "369f43ad61c1d7f17f40ae35962c634f9b9127359e79ea79cc1987578bb2062e",
+      "source_start_s": 24,
+      "excerpt_s": 38.4,
+      "gain_db": 4.31,
+      "rms_dbfs": -21.23,
+      "encoded_meter": {
+        "input_i": -18.68,
+        "input_lra": 14.1,
+        "input_tp": -2.32
+      },
+      "bytes": 1076835
+    }
+  },
+  "decoded_stereo_spectra": {
+    "01_green_tea": {
+      "decoded_s": 36.0,
+      "bands_percent": [
+        61.711,
+        38.053,
+        0.13,
+        0.106
+      ],
+      "wave_head": "49 44 33 03 00 00 00 00 01 62 54 49 54 32 00 00",
+      "rms_dbfs": -20.02,
+      "max_abs": 0.385569,
+      "finite": true,
+      "sha256": "c077b8e6eb1de79cc5044f75b36b41e692ac2584e78ff08369353d23e66b698a"
+    },
+    "02_guitar_beat": {
+      "decoded_s": 34.285708,
+      "bands_percent": [
+        61.394,
+        36.293,
+        2.092,
+        0.221
+      ],
+      "wave_head": "49 44 33 03 00 00 00 00 02 14 54 49 54 32 00 00",
+      "rms_dbfs": -19.51,
+      "max_abs": 0.827494,
+      "finite": true,
+      "sha256": "82b8d20ab67015a1255823aefebdbc69db727507846dd9bb7d0e43a9f7353243"
+    },
+    "03_first_light": {
+      "decoded_s": 38.0,
+      "bands_percent": [
+        10.038,
+        89.86,
+        0.102,
+        0.0
+      ],
+      "wave_head": "49 44 33 03 00 00 00 00 01 73 54 49 54 32 00 00",
+      "rms_dbfs": -21.15,
+      "max_abs": 0.542647,
+      "finite": true,
+      "sha256": "b893ec5739c139ba373195665888a6780215453860a9a0ddc1ef110096f0dd54"
+    },
+    "04_forget_me_not": {
+      "decoded_s": 38.4,
+      "bands_percent": [
+        10.794,
+        89.204,
+        0.002,
+        0.0
+      ],
+      "wave_head": "49 44 33 03 00 00 00 00 02 19 54 49 54 32 00 00",
+      "rms_dbfs": -21.4,
+      "max_abs": 0.765745,
+      "finite": true,
+      "sha256": "369f43ad61c1d7f17f40ae35962c634f9b9127359e79ea79cc1987578bb2062e"
+    }
+  },
+  "mix": {
+    "source_video_sha256": "49946d800865741bf413c0002508d554e8a2baf16bd235d836063f512a699bae",
+    "video_sha256": "1944f11b7817354e0223cf45897ddc22dacee761fc94ef1d0a9e08e74dc0154e",
+    "video_bytes": 7977219,
+    "audio_source": "green.mp3",
+    "video_crop_s": [
+      7,
+      25
+    ],
+    "music_crop_s": [
+      30,
+      48
+    ],
+    "raw_music_gain_db": -3.75,
+    "ambience_db_below_music": 15,
+    "output": {
+      "input_i": -16.09,
+      "input_lra": 2.4,
+      "input_tp": -5.34
+    },
+    "stems": {
+      "music": {
+        "input_i": -16.2,
+        "input_lra": 2.5,
+        "input_tp": -5.35,
+        "rms_dbfs": -17.47
+      },
+      "courtyard": {
+        "input_i": -31.2,
+        "input_lra": 3.3,
+        "input_tp": -18.85,
+        "rms_dbfs": -33.24
+      },
+      "mix": {
+        "input_i": -16.06,
+        "input_lra": 2.4,
+        "input_tp": -5.23,
+        "rms_dbfs": -17.36
+      }
+    }
+  },
+  "video": {
+    "duration_s": 18,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "actual_decoded_frames": 540,
+    "fps": 30,
+    "first_pts_s": 0.0,
+    "last_pts_s": 17.966667,
+    "max_cfr30_pts_error_s": 3.3e-07,
+    "expected_source_frame_for_audition_frame_n": "(210+n) mod 330 (0-based)",
+    "visual_loop_boundaries_s": [
+      4,
+      15
+    ],
+    "complete_reader_turn_s": [
+      8.3,
+      10.9
+    ],
+    "synth_paper_brush_centers_s": [
+      9.21,
+      9.64,
+      10.28
+    ],
+    "video_source_overlap_verification": "解码 540 帧 vs 实际冬景源的 trim=210..749（循环读取），按展示帧序直接逐帧比较；FFmpeg SSIM/PSNR 三通道 YUV420P。",
+    "frames_compared": 540,
+    "ssim_all": 0.996611,
+    "ssim_min": 0.995464,
+    "ssim_at_audition_seams": {
+      "119": 0.996636,
+      "120": 0.997427,
+      "449": 0.996287,
+      "450": 0.998074
+    },
+    "psnr_mean_db": 53.271035,
+    "psnr_min_db": 51.895725,
+    "container_start_hex": "00 00 00 20 66 74 79 70 69 73 6f 6d 00 00 02 00 69 73 6f 6d 69 73 6f 32 61 76 63 31 6d 70 34 31"
+  },
+  "audio_comparison": {
+    "aac_decoded_samples_before_container_trim": 864256,
+    "target_audible_samples": 864000,
+    "lag_samples": 0,
+    "rms_dbfs": -17.37,
+    "pcm_to_decoded_snr_db": 33.76,
+    "sample_peak": 0.540693,
+    "visual_loop_boundary_stereo_max_sample_step": [
+      0.007314,
+      0.005182
+    ],
+    "duration_note": "AAC 帧粒度为1024采样。整包 PCM 解码有256个尾部填充，容器有效时长18.000秒，原点互相关0采样。"
+  },
+  "technical_review": "四份来源实际本地解码、起音周期、音程和频谱分层核查，现场声分轨检验与 AAC 编解码原点互相关。最终主观选曲由审片官直接播放上述文件决定。"
+}

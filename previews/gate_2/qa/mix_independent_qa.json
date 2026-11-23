@@ -1,0 +1,311 @@
+{
+  "version_sha256": "1944f11b7817354e0223cf45897ddc22dacee761fc94ef1d0a9e08e74dc0154e",
+  "official_winter_sha256": "49946d800865741bf413c0002508d554e8a2baf16bd235d836063f512a699bae",
+  "mix_container": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "16200/539",
+        "duration": "17.966667",
+        "bit_rate": "3315513",
+        "nb_frames": "540"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "profile": "LC",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "18.000000",
+        "bit_rate": "226795",
+        "nb_frames": "845"
+      }
+    ],
+    "format": {
+      "duration": "18.000000",
+      "size": "7977219",
+      "tags": {
+        "title": "Winter courtyard | Green Tea | Gate 2 audition",
+        "artist": "Purrple Cat (music); project (ambience and sequence)",
+        "comment": "Green Tea by Purrple Cat | https://purrplecat.itch.io/bloom | CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ | 30-48 s, EQ, fades, gain, original ambience and picture sync."
+      }
+    }
+  },
+  "mix_loudness": {
+    "input_i": -16.09,
+    "input_tp": -5.34,
+    "input_lra": 2.4
+  },
+  "candidates": {
+    "01_green_tea.mp3": {
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "avg_frame_rate": "0/0",
+            "duration": "36.024000",
+            "bit_rate": "224000"
+          }
+        ],
+        "format": {
+          "duration": "36.024000",
+          "size": "1009580",
+          "tags": {
+            "title": "Green Tea",
+            "artist": "Purrple Cat",
+            "copyright": "https://creativecommons.org/licenses/by/4.0/",
+            "comment": "Gate 2 excerpt; gain and fades; source: https://purrplecat.itch.io/bloom"
+          }
+        }
+      },
+      "bytes": 1009580,
+      "sha256": "c077b8e6eb1de79cc5044f75b36b41e692ac2584e78ff08369353d23e66b698a",
+      "loudness": {
+        "input_i": -18.68,
+        "input_tp": -8.28,
+        "input_lra": 5.2
+      },
+      "tempo_from_audio_only": {
+        "best_in_68_82_bpm": 80.0,
+        "slow_beat_family_score": 0.70749,
+        "top_bpm_across_45_175": [
+          [
+            80.0,
+            0.70749
+          ],
+          [
+            53.3,
+            0.65838
+          ],
+          [
+            160.0,
+            0.58639
+          ],
+          [
+            64.0,
+            0.41021
+          ],
+          [
+            106.7,
+            0.36904
+          ],
+          [
+            45.7,
+            0.23785
+          ],
+          [
+            60.0,
+            0.2009
+          ]
+        ]
+      }
+    },
+    "02_guitar_beat.mp3": {
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "avg_frame_rate": "0/0",
+            "duration": "34.320000",
+            "bit_rate": "224000"
+          }
+        ],
+        "format": {
+          "duration": "34.320000",
+          "size": "961918",
+          "tags": {
+            "title": "lofibeat_70bpm.wav",
+            "artist": "Seth_Makes_Sounds",
+            "copyright": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "comment": "Gate 2 excerpt; gain and fades; source: https://freesound.org/people/Seth_Makes_Sounds/sounds/664145/"
+          }
+        }
+      },
+      "bytes": 961918,
+      "sha256": "82b8d20ab67015a1255823aefebdbc69db727507846dd9bb7d0e43a9f7353243",
+      "loudness": {
+        "input_i": -18.67,
+        "input_tp": -1.64,
+        "input_lra": 2.1
+      },
+      "tempo_from_audio_only": {
+        "best_in_68_82_bpm": 70.0,
+        "slow_beat_family_score": 1.10752,
+        "top_bpm_across_45_175": [
+          [
+            70.0,
+            1.10752
+          ],
+          [
+            46.7,
+            0.71998
+          ],
+          [
+            140.0,
+            0.64815
+          ],
+          [
+            93.4,
+            0.38973
+          ],
+          [
+            56.0,
+            0.37725
+          ],
+          [
+            52.5,
+            0.1641
+          ],
+          [
+            105.0,
+            0.06985
+          ]
+        ]
+      }
+    },
+    "03_first_light.mp3": {
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "avg_frame_rate": "0/0",
+            "duration": "38.040000",
+            "bit_rate": "224000"
+          }
+        ],
+        "format": {
+          "duration": "38.040000",
+          "size": "1066045",
+          "tags": {
+            "title": "First Light Particles",
+            "artist": "Yoiyami",
+            "copyright": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "comment": "Gate 2 excerpt; gain and fades; source: https://opengameart.org/node/182244"
+          }
+        }
+      },
+      "bytes": 1066045,
+      "sha256": "b893ec5739c139ba373195665888a6780215453860a9a0ddc1ef110096f0dd54",
+      "loudness": {
+        "input_i": -18.67,
+        "input_tp": -5.31,
+        "input_lra": 5.1
+      }
+    },
+    "04_forget_me_not.mp3": {
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "avg_frame_rate": "0/0",
+            "duration": "38.424000",
+            "bit_rate": "224000"
+          }
+        ],
+        "format": {
+          "duration": "38.424000",
+          "size": "1076835",
+          "tags": {
+            "title": "Forget Me Not (tape study)",
+            "artist": "Kistol",
+            "copyright": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "comment": "Gate 2 excerpt; project tape treatment; gain and fades; source: https://opengameart.org/content/forget-me-not"
+          }
+        }
+      },
+      "bytes": 1076835,
+      "sha256": "369f43ad61c1d7f17f40ae35962c634f9b9127359e79ea79cc1987578bb2062e",
+      "loudness": {
+        "input_i": -18.68,
+        "input_tp": -2.32,
+        "input_lra": 14.1
+      }
+    }
+  },
+  "match_to_01_green_tea_by_waveform": {
+    "query_mix_s": [
+      2,
+      10
+    ],
+    "corresponding_excerpt_start_s": 20.0,
+    "ncc": 0.98126,
+    "inferred_excerpt_offset_s": 18.0
+  },
+  "visual_match": {
+    "frames": 540,
+    "checked_every_frame_offsets": [
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      11,
+      30
+    ],
+    "constant_alignment_expected_phase": 210,
+    "closest_to_expected_among_7_per_frame": 540,
+    "mean_expected_frame_RGB_error_255": 0.32912,
+    "mean_1frame_early_RGB_error_255": 1.07092,
+    "mean_1frame_late_RGB_error_255": 1.07237,
+    "confirmed_wrap_windows": {
+      "119": {
+        "expected_phase": 329,
+        "score": 0.30986
+      },
+      "120": {
+        "expected_phase": 0,
+        "score": 0.30053
+      },
+      "121": {
+        "expected_phase": 1,
+        "score": 0.30917
+      },
+      "449": {
+        "expected_phase": 329,
+        "score": 0.3449
+      },
+      "450": {
+        "expected_phase": 0,
+        "score": 0.2705
+      },
+      "451": {
+        "expected_phase": 1,
+        "score": 0.28628
+      }
+    }
+  }
+}

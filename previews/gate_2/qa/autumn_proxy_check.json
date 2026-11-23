@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_tag_string": "avc1",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "color_range": "tv",
+    "color_space": "bt709",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/15360",
+    "duration": "22.000000",
+    "nb_frames": "660",
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "language": "und",
+      "handler_name": "VideoHandler",
+      "vendor_id": "[0][0][0][0]",
+      "encoder": "Lavc61.19.101 libx264"
+    },
+    "pts_continuous": true,
+    "faststart": true,
+    "bytes": 8341517,
+    "sha256": "c3a3bfae3acff3173a5a7e935281d8bd62f563a553eafe2c0ca9b040cb76decd"
+  },
+  "source_sha256_unchanged": "31fde401f554139c16664cfca6a031c32476718fe3223bc9bfe7469eb7d03555",
+  "sample_frame_indices": [
+    31,
+    119,
+    164,
+    194,
+    253,
+    329,
+    330,
+    331
+  ],
+  "decoded_rgb_compare": {
+    "full": {
+      "mean_RGB_abs_delta": 0.1874,
+      "pooled_RGB_PSNR_dB": 51.699,
+      "worst_frame_RGB_MAE": 0.3365,
+      "fraction_RGBdiff_over12": 8.4e-05
+    },
+    "birds": {
+      "mean_RGB_abs_delta": 0.2282,
+      "pooled_RGB_PSNR_dB": 51.025,
+      "worst_frame_RGB_MAE": 0.3394,
+      "fraction_RGBdiff_over12": 7.5e-05
+    },
+    "steam": {
+      "mean_RGB_abs_delta": 0.2271,
+      "pooled_RGB_PSNR_dB": 50.407,
+      "worst_frame_RGB_MAE": 0.3722,
+      "fraction_RGBdiff_over12": 0.000196
+    },
+    "canopy": {
+      "mean_RGB_abs_delta": 0.2036,
+      "pooled_RGB_PSNR_dB": 51.672,
+      "worst_frame_RGB_MAE": 0.3707,
+      "fraction_RGBdiff_over12": 4.2e-05
+    }
+  },
+  "seam_mae_329_330_then_330_331": {
+    "master": [
+      0.23,
+      0.2272
+    ],
+    "mobile": [
+      0.266,
+      0.2638
+    ]
+  }
+}

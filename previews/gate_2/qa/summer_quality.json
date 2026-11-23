@@ -1,0 +1,13 @@
+{
+  "filesize": 8287420,
+  "checked_frames": [
+    69,
+    133,
+    139,
+    208
+  ],
+  "full_RGB_mean_abs_error": 1.661,
+  "review_area_RGB_mean_abs_error": 1.644,
+  "review_area_95th_percentile_absolute_RGB_change": 7.0,
+  "review_area_RGB_PSNR_dB": 38.27
+}

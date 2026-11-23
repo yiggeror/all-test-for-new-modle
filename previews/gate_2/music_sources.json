@@ -1,0 +1,130 @@
+{
+  "as_of_utc": "2026-11-23",
+  "recording_basis": "仅针对这些页面链接的实际录音版本；未调用任何付费授权或平台转录。",
+  "measuring": "音频解码时间；输出片段 Welch 双声道功率分段 20–160 / 160–2000 / 2000–6000 / 6000–20000 Hz，分母仅取这四段。键/脉冲估计不冒充作者谱面。",
+  "items": [
+    {
+      "id": "01_green_tea",
+      "source_file": "green.mp3",
+      "title": "Green Tea",
+      "author": "Purrple Cat",
+      "source_page": "https://purrplecat.itch.io/bloom",
+      "exact_author_audio_url": "https://html-classic.itch.zone/html/19949767/media/Green%20Tea.mp3",
+      "license": "CC BY 4.0",
+      "evidence": "作者自行发布的 Bloom 第5首；More information 的 Asset license 一栏为 Creative Commons Attribution v4.0 International。下载列表再次列出 Green Tea。",
+      "further": [
+        "https://html-classic.itch.zone/html/19949767/config.json",
+        "https://purrplecat.bandcamp.com/track/green-tea"
+      ],
+      "master_note": "作者 itch 播放器列出的同版本，320 kbps MP3，44.1 kHz 立体声；内嵌封面未随本项目发布。",
+      "bpm": 80,
+      "key": "C major",
+      "key_method": "作品目录 purr.to/97 作交叉参照；本地五个 HPCP 模板与分段结果一致。",
+      "duration_s": 197.214,
+      "source_event": "Purrple Cat 于2020-03-08发行原专辑。",
+      "source_page_sha256_at_review": "4527e18a3c1faf1393a3d6eb858a072f539248f607741b7e92d110f680cc69c0",
+      "source_audio_sha256": "f6feac60dc29b89ea1513e04d0b30addf86f9c8576827e7566e27b5abd522e71",
+      "legal_url": "https://creativecommons.org/licenses/by/4.0/",
+      "excerpt_sha256": "c077b8e6eb1de79cc5044f75b36b41e692ac2584e78ff08369353d23e66b698a",
+      "serialized_signature_hex": "49 44 33 03 00 00 00 00 01 62 54 49 54 32 00 00",
+      "excerpt_s": 36.0,
+      "frequency_band_power_percent": [
+        61.711,
+        38.053,
+        0.13,
+        0.106
+      ]
+    },
+    {
+      "id": "02_guitar_beat",
+      "source_file": "seth.mp3",
+      "title": "lofibeat_70bpm.wav",
+      "author": "Seth_Makes_Sounds",
+      "source_page": "https://freesound.org/people/Seth_Makes_Sounds/sounds/664145/",
+      "exact_author_audio_url": "https://cdn.freesound.org/previews/664/664145_13228046-hq.mp3",
+      "license": "CC0 1.0",
+      "evidence": "条目类型 Music；作者明确写 lofi beat thing with acoustic guitar.；授权栏 Creative Commons 0，并链接 CC0 官方文本。",
+      "further": [
+        "https://freesound.org/s/664145/"
+      ],
+      "master_note": "作者上传24-bit/48 kHz立体声WAV；本次使用同一条目的公开 hq MP3，44.1 kHz立体声，VBR约184 kbps，非登录WAV。标题里的.wav是作者作品名。",
+      "bpm": 70,
+      "key": "D major",
+      "key_method": "作者以文件名给出70 BPM；全曲及主段/尾段五种调性轮廓均为D大调。",
+      "duration_s": 102.857,
+      "source_event": "创作者于2022-12-11发布。",
+      "source_page_sha256_at_review": "f58ce6765194093fc195389ad6b2a68e0f5253227677756b151f09c0def6dd53",
+      "source_audio_sha256": "768eeb0f0d8598aa96a60a69d1028cec65d7f6500d605040b1656d36aedd03c3",
+      "legal_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "excerpt_sha256": "82b8d20ab67015a1255823aefebdbc69db727507846dd9bb7d0e43a9f7353243",
+      "serialized_signature_hex": "49 44 33 03 00 00 00 00 02 14 54 49 54 32 00 00",
+      "excerpt_s": 34.285708,
+      "frequency_band_power_percent": [
+        61.394,
+        36.293,
+        2.092,
+        0.221
+      ]
+    },
+    {
+      "id": "03_first_light",
+      "source_file": "yoi.wav",
+      "title": "First Light Particles",
+      "author": "Yoiyami",
+      "source_page": "https://opengameart.org/node/182244",
+      "exact_author_audio_url": "https://opengameart.org/sites/default/files/first_light_particles_0.wav",
+      "license": "CC0 1.0",
+      "evidence": "作者标示 License: CC0 1.0 Universal (Public Domain)，列明可用于商业游戏、视频、独立原声与改编，并在本人回复写明原创。",
+      "further": [
+        "https://opengameart.org/content/first-light-particles-%E2%80%93-cc0-atmospheric-pianoambient-track"
+      ],
+      "master_note": "作者上传的无损 PCM WAV，16-bit/48 kHz，立体声。",
+      "bpm": 94,
+      "key": "G major",
+      "key_method": "无鼓。音符起音周期约94，慢数约47；全曲五个轮廓给出G大调。",
+      "duration_s": 131.72,
+      "source_event": "创作者于2025-11-26发布。",
+      "source_page_sha256_at_review": "ffbe6e045819d739fc616df1cc34425c0fc982433d7de99fc2e9eecc6b46ad73",
+      "source_audio_sha256": "f0538a1a67450cc1d5e305fad5bc0d5d422ad809f720d695ab356e55fbe40fc5",
+      "legal_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "excerpt_sha256": "b893ec5739c139ba373195665888a6780215453860a9a0ddc1ef110096f0dd54",
+      "serialized_signature_hex": "49 44 33 03 00 00 00 00 01 73 54 49 54 32 00 00",
+      "excerpt_s": 38.0,
+      "frequency_band_power_percent": [
+        10.038,
+        89.86,
+        0.102,
+        0.0
+      ]
+    },
+    {
+      "id": "04_forget_me_not",
+      "source_file": "forget.ogg",
+      "title": "Forget Me Not",
+      "author": "Kistol",
+      "source_page": "https://opengameart.org/content/forget-me-not",
+      "exact_author_audio_url": "https://opengameart.org/sites/default/files/forget_me_not_in_f_major_0.ogg",
+      "license": "CC0 1.0",
+      "evidence": "作品页的 License(s) 为 CC0；作者注明 Music by Kistol.，并同时提供完整和Looped两版。",
+      "further": [],
+      "master_note": "使用作者完整非循环版Vorbis立体声，44.1 kHz；q0.8，作者标称256 kbps / 实际文件平均约212 kbps。",
+      "bpm": 100,
+      "key": "F major",
+      "key_method": "源文件名自注明F大调，本地全曲五个轮廓一致；起音主脉冲约100，慢数约50。",
+      "duration_s": 188.9,
+      "source_event": "创作者于2021-04-03发布。",
+      "source_page_sha256_at_review": "b12a05ec66442a153339f581edead76d022dae216e04fd36e894c0558de064a4",
+      "source_audio_sha256": "615761e410e828e344bbc94755c385f32e337f771f108e23710c3011ca4da874",
+      "legal_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "excerpt_sha256": "369f43ad61c1d7f17f40ae35962c634f9b9127359e79ea79cc1987578bb2062e",
+      "serialized_signature_hex": "49 44 33 03 00 00 00 00 02 19 54 49 54 32 00 00",
+      "excerpt_s": 38.4,
+      "frequency_band_power_percent": [
+        10.794,
+        89.204,
+        0.002,
+        0.0
+      ]
+    }
+  ]
+}

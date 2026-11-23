@@ -1,0 +1,890 @@
+{
+  "summer": {
+    "opaque_wall_layers_off_3_times": {
+      "rect_xyxy": [
+        26,
+        42,
+        49,
+        59
+      ],
+      "max_range_every_rgb_channel": 0,
+      "untouched_pixels_pct": 100.0
+    },
+    "same_wall_with_precipitation_330": {
+      "rect_xyxy": [
+        26,
+        42,
+        49,
+        59
+      ],
+      "max_range_every_rgb_channel": 148,
+      "untouched_pixels_pct": 6.39386
+    },
+    "on_off_actual_pixels": {
+      "summer_barber_on_left_off_right": {
+        "pixel_count": 82,
+        "bbox_inclusive": [
+          128,
+          91,
+          152,
+          133
+        ],
+        "max_channel": 86
+      },
+      "summer_cat_on_left_off_right": {
+        "pixel_count": 79,
+        "bbox_inclusive": [
+          170,
+          103,
+          184,
+          111
+        ],
+        "max_channel": 109
+      },
+      "summer_drops_on_left_off_right": {
+        "pixel_count": 11,
+        "bbox_inclusive": [
+          201,
+          98,
+          203,
+          101
+        ],
+        "max_channel": 134
+      },
+      "summer_neon_on_left_off_right": {
+        "pixel_count": 1722,
+        "bbox_inclusive": [
+          3,
+          0,
+          319,
+          177
+        ],
+        "max_channel": 40
+      },
+      "summer_rain_on_left_off_right": {
+        "pixel_count": 5416,
+        "bbox_inclusive": [
+          0,
+          0,
+          319,
+          179
+        ],
+        "max_channel": 153
+      },
+      "summer_steam_on_left_off_right": {
+        "pixel_count": 617,
+        "bbox_inclusive": [
+          300,
+          34,
+          319,
+          100
+        ],
+        "max_channel": 129
+      },
+      "summer_tv_on_left_off_right": {
+        "pixel_count": 116,
+        "bbox_inclusive": [
+          7,
+          0,
+          290,
+          172
+        ],
+        "max_channel": 83
+      },
+      "summer_wet_on_left_off_right": {
+        "pixel_count": 9939,
+        "bbox_inclusive": [
+          122,
+          115,
+          312,
+          179
+        ],
+        "max_channel": 170
+      }
+    },
+    "red_streak_structure": {
+      "approved_static": {
+        "red_excess": 21.79861,
+        "vertical_change_across_rows": 6.061,
+        "horizontal_change_across_cols": 2.25073,
+        "ratio_v_to_h": 2.6929
+      },
+      "phase_0": {
+        "red_excess": 14.55411,
+        "vertical_change_across_rows": 17.91677,
+        "horizontal_change_across_cols": 3.21781,
+        "ratio_v_to_h": 5.568
+      },
+      "phase_110": {
+        "red_excess": 13.57841,
+        "vertical_change_across_rows": 17.03906,
+        "horizontal_change_across_cols": 3.05115,
+        "ratio_v_to_h": 5.58448
+      },
+      "phase_245": {
+        "red_excess": 14.07436,
+        "vertical_change_across_rows": 17.1241,
+        "horizontal_change_across_cols": 3.24486,
+        "ratio_v_to_h": 5.27731
+      }
+    }
+  },
+  "winter": {
+    "opaque_wall_layers_off_3_times": {
+      "rect_xyxy": [
+        109,
+        33,
+        120,
+        45
+      ],
+      "max_range_every_rgb_channel": 0,
+      "untouched_pixels_pct": 100.0
+    },
+    "same_wall_with_precipitation_330": {
+      "rect_xyxy": [
+        109,
+        33,
+        120,
+        45
+      ],
+      "max_range_every_rgb_channel": 74,
+      "untouched_pixels_pct": 3.0303
+    },
+    "on_off_actual_pixels": {
+      "winter_actor_on_left_off_right": {
+        "pixel_count": 13,
+        "bbox_inclusive": [
+          254,
+          110,
+          260,
+          112
+        ],
+        "max_channel": 75
+      },
+      "winter_desk_on_left_off_right": {
+        "pixel_count": 170,
+        "bbox_inclusive": [
+          61,
+          1,
+          318,
+          155
+        ],
+        "max_channel": 52
+      },
+      "winter_lamp_on_left_off_right": {
+        "pixel_count": 99,
+        "bbox_inclusive": [
+          2,
+          2,
+          280,
+          179
+        ],
+        "max_channel": 26
+      },
+      "winter_smoke_on_left_off_right": {
+        "pixel_count": 308,
+        "bbox_inclusive": [
+          273,
+          59,
+          299,
+          90
+        ],
+        "max_channel": 49
+      },
+      "winter_snow_on_left_off_right": {
+        "pixel_count": 1156,
+        "bbox_inclusive": [
+          0,
+          0,
+          318,
+          179
+        ],
+        "max_channel": 116
+      },
+      "winter_stairs_on_left_off_right": {
+        "pixel_count": 68,
+        "bbox_inclusive": [
+          3,
+          1,
+          319,
+          175
+        ],
+        "max_channel": 21
+      },
+      "winter_tv_on_left_off_right": {
+        "pixel_count": 0,
+        "bbox_inclusive": null,
+        "max_channel": 0
+      },
+      "winter_tv_peak_on_left_neutral_right": {
+        "pixel_count": 33,
+        "bbox_inclusive": [
+          300,
+          58,
+          316,
+          96
+        ],
+        "max_channel": 33
+      }
+    }
+  },
+  "spring": {
+    "full_picture_pixel_patch_all_330": {
+      "rect_xyxy": [
+        58,
+        54,
+        60,
+        61
+      ],
+      "max_range_every_rgb_channel": 0,
+      "untouched_pixels_pct": 100.0
+    }
+  },
+  "autumn": {
+    "full_picture_pixel_patch_all_330": {
+      "rect_xyxy": [
+        300,
+        81,
+        302,
+        90
+      ],
+      "max_range_every_rgb_channel": 0,
+      "untouched_pixels_pct": 100.0
+    },
+    "sky_bird_paired_pixel_traces": [
+      {
+        "track": 1,
+        "first_and_last_detectable_purple_darkening": [
+          [
+            95,
+            131.3593,
+            13.45071,
+            28.0,
+            1
+          ],
+          [
+            228,
+            172.96929,
+            13.42611,
+            8.33333,
+            13
+          ]
+        ],
+        "peak_rgb_mean_darkening": 62.66667,
+        "last_26_frames_in_source_track": [
+          [
+            213,
+            167.0271,
+            13.93216,
+            16.66667,
+            20
+          ],
+          [
+            214,
+            167.40357,
+            13.89534,
+            16.66667,
+            20
+          ],
+          [
+            215,
+            167.78337,
+            13.85901,
+            16.66667,
+            20
+          ],
+          [
+            216,
+            168.16638,
+            13.82315,
+            62.66667,
+            20
+          ],
+          [
+            217,
+            168.55251,
+            13.78776,
+            16.66667,
+            20
+          ],
+          [
+            218,
+            168.94164,
+            13.75282,
+            62.66667,
+            20
+          ],
+          [
+            219,
+            169.33365,
+            13.71835,
+            62.66667,
+            20
+          ],
+          [
+            220,
+            169.72841,
+            13.68431,
+            62.66667,
+            20
+          ],
+          [
+            221,
+            170.1258,
+            13.6507,
+            62.66667,
+            19
+          ],
+          [
+            222,
+            170.52568,
+            13.6175,
+            62.66667,
+            19
+          ],
+          [
+            223,
+            170.92791,
+            13.58471,
+            62.66667,
+            19
+          ],
+          [
+            224,
+            171.33236,
+            13.5523,
+            62.66667,
+            17
+          ],
+          [
+            225,
+            171.73888,
+            13.52025,
+            16.66667,
+            17
+          ],
+          [
+            226,
+            172.1473,
+            13.48855,
+            16.66667,
+            13
+          ],
+          [
+            227,
+            172.55749,
+            13.45718,
+            13.66667,
+            13
+          ],
+          [
+            228,
+            172.96929,
+            13.42611,
+            8.33333,
+            13
+          ],
+          [
+            229,
+            173.38253,
+            13.39533,
+            0.0,
+            9
+          ],
+          [
+            230,
+            173.79705,
+            13.36481,
+            0.0,
+            9
+          ],
+          [
+            231,
+            174.21269,
+            13.33452,
+            0.0,
+            5
+          ],
+          [
+            232,
+            174.62928,
+            13.30444,
+            0.0,
+            5
+          ],
+          [
+            233,
+            175.04665,
+            13.27455,
+            0.0,
+            2
+          ],
+          [
+            234,
+            175.46464,
+            13.24483,
+            0.0,
+            2
+          ],
+          [
+            235,
+            175.88306,
+            13.21523,
+            0.0,
+            2
+          ],
+          [
+            236,
+            176.30176,
+            13.18574,
+            0,
+            0
+          ],
+          [
+            237,
+            176.72056,
+            13.15634,
+            0,
+            0
+          ],
+          [
+            238,
+            177.13928,
+            13.12698,
+            0,
+            0
+          ]
+        ],
+        "cols": [
+          "frame",
+          "x",
+          "y",
+          "max darker than off-cycle sky",
+          "background sky px inside 5x4 tracking window"
+        ]
+      },
+      {
+        "track": 2,
+        "first_and_last_detectable_purple_darkening": [
+          [
+            152,
+            145.21923,
+            18.25536,
+            46.0,
+            11
+          ],
+          [
+            242,
+            170.14806,
+            19.35574,
+            46.0,
+            8
+          ]
+        ],
+        "peak_rgb_mean_darkening": 46.0,
+        "last_26_frames_in_source_track": [
+          [
+            239,
+            169.03106,
+            19.18686,
+            46.0,
+            11
+          ],
+          [
+            240,
+            169.39995,
+            19.24362,
+            46.0,
+            11
+          ],
+          [
+            241,
+            169.77231,
+            19.29993,
+            46.0,
+            11
+          ],
+          [
+            242,
+            170.14806,
+            19.35574,
+            46.0,
+            8
+          ],
+          [
+            243,
+            170.52708,
+            19.41099,
+            0.0,
+            8
+          ],
+          [
+            244,
+            170.90929,
+            19.46563,
+            0.0,
+            8
+          ],
+          [
+            245,
+            171.29458,
+            19.51962,
+            0.0,
+            5
+          ],
+          [
+            246,
+            171.68284,
+            19.57291,
+            0.0,
+            5
+          ],
+          [
+            247,
+            172.07395,
+            19.62545,
+            0.0,
+            2
+          ],
+          [
+            248,
+            172.46778,
+            19.67719,
+            0.0,
+            2
+          ],
+          [
+            249,
+            172.86422,
+            19.72811,
+            0.0,
+            2
+          ],
+          [
+            250,
+            173.26312,
+            19.77815,
+            0,
+            0
+          ],
+          [
+            251,
+            173.66435,
+            19.82727,
+            0,
+            0
+          ],
+          [
+            252,
+            174.06778,
+            19.87545,
+            0,
+            0
+          ],
+          [
+            253,
+            174.47325,
+            19.92264,
+            0,
+            0
+          ],
+          [
+            254,
+            174.88063,
+            19.96882,
+            0,
+            0
+          ],
+          [
+            255,
+            175.28975,
+            20.01396,
+            0,
+            0
+          ],
+          [
+            256,
+            175.70047,
+            20.05802,
+            0,
+            0
+          ],
+          [
+            257,
+            176.11263,
+            20.10098,
+            0,
+            0
+          ],
+          [
+            258,
+            176.52606,
+            20.14281,
+            0,
+            0
+          ],
+          [
+            259,
+            176.94061,
+            20.1835,
+            0,
+            0
+          ],
+          [
+            260,
+            177.35611,
+            20.22303,
+            0,
+            0
+          ],
+          [
+            261,
+            177.77239,
+            20.26138,
+            0,
+            0
+          ],
+          [
+            262,
+            178.1893,
+            20.29853,
+            0,
+            0
+          ],
+          [
+            263,
+            178.60665,
+            20.33447,
+            0,
+            0
+          ],
+          [
+            264,
+            179.02429,
+            20.36919,
+            0,
+            0
+          ]
+        ],
+        "cols": [
+          "frame",
+          "x",
+          "y",
+          "max darker than off-cycle sky",
+          "background sky px inside 5x4 tracking window"
+        ]
+      },
+      {
+        "track": 3,
+        "first_and_last_detectable_purple_darkening": [
+          [
+            177,
+            143.32737,
+            16.95576,
+            46.0,
+            13
+          ],
+          [
+            283,
+            172.41571,
+            16.58773,
+            8.33333,
+            7
+          ]
+        ],
+        "peak_rgb_mean_darkening": 49.0,
+        "last_26_frames_in_source_track": [
+          [
+            266,
+            166.2136,
+            17.57312,
+            0.0,
+            20
+          ],
+          [
+            267,
+            166.55532,
+            17.52016,
+            46.0,
+            20
+          ],
+          [
+            268,
+            166.90034,
+            17.4663,
+            46.0,
+            20
+          ],
+          [
+            269,
+            167.2486,
+            17.41158,
+            46.0,
+            20
+          ],
+          [
+            270,
+            167.60004,
+            17.35606,
+            49.0,
+            20
+          ],
+          [
+            271,
+            167.95456,
+            17.2998,
+            49.0,
+            20
+          ],
+          [
+            272,
+            168.3121,
+            17.24285,
+            49.0,
+            20
+          ],
+          [
+            273,
+            168.67256,
+            17.18527,
+            13.66667,
+            20
+          ],
+          [
+            274,
+            169.03585,
+            17.12712,
+            13.66667,
+            17
+          ],
+          [
+            275,
+            169.40188,
+            17.06845,
+            13.66667,
+            17
+          ],
+          [
+            276,
+            169.77055,
+            17.00932,
+            13.66667,
+            17
+          ],
+          [
+            277,
+            170.14175,
+            16.9498,
+            13.66667,
+            15
+          ],
+          [
+            278,
+            170.51537,
+            16.88995,
+            13.66667,
+            15
+          ],
+          [
+            279,
+            170.8913,
+            16.82982,
+            13.66667,
+            15
+          ],
+          [
+            280,
+            171.26942,
+            16.76947,
+            13.66667,
+            11
+          ],
+          [
+            281,
+            171.64961,
+            16.70896,
+            13.66667,
+            11
+          ],
+          [
+            282,
+            172.03175,
+            16.64836,
+            8.33333,
+            7
+          ],
+          [
+            283,
+            172.41571,
+            16.58773,
+            8.33333,
+            7
+          ],
+          [
+            284,
+            172.80135,
+            16.52712,
+            5.33333,
+            7
+          ],
+          [
+            285,
+            173.18856,
+            16.4666,
+            5.33333,
+            3
+          ],
+          [
+            286,
+            173.57719,
+            16.40622,
+            0.0,
+            3
+          ],
+          [
+            287,
+            173.9671,
+            16.34605,
+            0.0,
+            3
+          ],
+          [
+            288,
+            174.35816,
+            16.28614,
+            0.0,
+            1
+          ],
+          [
+            289,
+            174.75021,
+            16.22656,
+            0.0,
+            1
+          ],
+          [
+            290,
+            175.14313,
+            16.16736,
+            0,
+            0
+          ],
+          [
+            291,
+            175.53676,
+            16.1086,
+            0,
+            0
+          ]
+        ],
+        "cols": [
+          "frame",
+          "x",
+          "y",
+          "max darker than off-cycle sky",
+          "background sky px inside 5x4 tracking window"
+        ]
+      }
+    ]
+  }
+}
