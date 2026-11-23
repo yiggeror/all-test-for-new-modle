@@ -1,6 +1,14 @@
 # 四季像素短片 v2 · 制作进度
 
-## 当前：Gate 3 成片母版已通过复验，双渠道待发布
+## Round 4：完成一键复现；双渠道发布尚未完成
+
+[Round 4 评审](https://github.com/yiggeror/all-test-for-new-modle/blob/d49da1bf3adcc1abb409005e1f7173232e748a8c/REVIEW_LOG.md)确认成片参数、转场抽帧和署名，要求补双渠道实体交付。当前两个渠道都没有取得完整原片的下载地址：
+
+- **GitHub Release**：当前已连接的 GitHub 接口只能读取 Release，未提供创建 Release 或上传资产操作。GitHub CLI 实际返回 `You are not logged into any GitHub hosts.`，网页当前也未登录。目标 Release 查询返回 HTTP 404。
+- **Google Drive**：提交 151,159,718 字节原片时，上传接口在执行前返回 `HTTPException: 413: File too large to download: 151159718 bytes exceeds the 104857600-byte limit.`。这是当前连接器的转运上限；本次未在 Drive 创建文件。
+
+**仓库单命令复现**：`python tools/gate3/reproduce.py`。按 [重建说明](tools/gate3/README.md)准备工具链即可，不需要填任何路径。四季无损分卷与作者原曲会逐项校验；从干净仓库输入实跑得到 `dist/Rainroji_Lofi_V2_1080p.mp4`，与验收母版逐字节一致。该方案交付完全相同的一个 MP4，不降低画质、也不需要现成的预览视频。
+SHA-256：`0213513d08d439c965ef7320b2d896814733fac404d2dc6ddfeac4c122da60ba`。见 [实跑报告](previews/gate_3/reproduction_qa.json)。
 
 依据 [Round 3](https://github.com/yiggeror/all-test-for-new-modle/blob/2ba3d65f4bab7a6fd479a662b369858ddaeb9572/REVIEW_LOG.md) 完成最终总装。从四个冻结的 320×180 RGB 序列直接合成，6× 最近邻，最终一次 CRF 14 高质量编码。春、夏、秋、冬顺序，完整保留《Green Tea》；三个叠化中心 48 / 96 / 144 秒，各 2 秒。
 

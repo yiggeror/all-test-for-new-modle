@@ -12,10 +12,10 @@ FPS=30;NATIVE=(320,180);FRAME_LIMIT=5917;SAMPLE_MUSIC=Decimal('197.214');CYCLE=3
 SOURCE_ORDER=('spring','summer','autumn','winter')
 NAMES=('春','夏','秋','冬')
 SOURCES={
- 'spring':('alltest_gate2_spring_autumn','7e7a60f2731ad075515cfb1505607c36633dae9a5645bc4796806a3276629778','b09f6912a0d04a319d4b4644a545f5cae8c8e01e3d4ca6880d6f52eefabee355'),
- 'summer':('alltest_gate2_summer_winter','c77b8e16184a02cfcf0b265560bf0ddaf0e8522c37d8075a1a2e3bd57de08cd9','b40f9e32a0b2b4fba72d988803eab9927c2fdb619d9cefe9a841f481fbdcdc98'),
- 'autumn':('alltest_gate2_spring_autumn','6b1335a327a47929ea80c4264a7c4b18b1f5c9fab2a5349edddc8f8f26eb26d1','7d115d019329aea7b50f02b267552e35d6a3d3c686f642ec4c8373f73ea87eba'),
- 'winter':('alltest_gate2_summer_winter','ceb6208d32aa5ef64450819d9a3cbf5364ae0d6aff2ae52302d2f7a86c46d9bd','14568ddf327751dbab81961ba7136e3ee33e2860fece6815020efa3a04b93c41'),
+ 'spring':('7e7a60f2731ad075515cfb1505607c36633dae9a5645bc4796806a3276629778','b09f6912a0d04a319d4b4644a545f5cae8c8e01e3d4ca6880d6f52eefabee355'),
+ 'summer':('c77b8e16184a02cfcf0b265560bf0ddaf0e8522c37d8075a1a2e3bd57de08cd9','b40f9e32a0b2b4fba72d988803eab9927c2fdb619d9cefe9a841f481fbdcdc98'),
+ 'autumn':('6b1335a327a47929ea80c4264a7c4b18b1f5c9fab2a5349edddc8f8f26eb26d1','7d115d019329aea7b50f02b267552e35d6a3d3c686f642ec4c8373f73ea87eba'),
+ 'winter':('ceb6208d32aa5ef64450819d9a3cbf5364ae0d6aff2ae52302d2f7a86c46d9bd','14568ddf327751dbab81961ba7136e3ee33e2860fece6815020efa3a04b93c41'),
 }
 ENCODE_ARGS=['-map','0:v:0','-an','-vf','scale=1920:1080:flags=neighbor:out_color_matrix=bt709,format=yuv420p',
  '-c:v','libx264','-profile:v','high','-level:v','4.0','-crf','14','-preset','slow','-pix_fmt','yuv420p',
@@ -103,11 +103,11 @@ def compose(p,arrs,i):
     srgb=np.where(bounds<=.0031308,12.92*bounds,1.055*bounds**(1/2.4)-.055)
     return np.clip(np.rint(srgb*255),0,255).astype(np.uint8)
 
-def load_sources():
+def load_sources(native_dir):
     data=[];rows={}
     for name in SOURCE_ORDER:
-        sub,full,payload=SOURCES[name]
-        path=HERE.parent/sub/'qa'/f'{name}_native.npy'
+        full,payload=SOURCES[name]
+        path=native_dir/f'{name}_native.npy'
         with path.open('rb') as f:actual=hashlib.file_digest(f,'sha256').hexdigest()
         if actual!=full:raise ValueError(f'{name}: frozen NPY mismatch {actual}')
         a=np.load(path,mmap_mode='r',allow_pickle=False)
@@ -118,7 +118,7 @@ def load_sources():
         if not all(not np.array_equal(a[i-1],a[i]) for i in range(330)):
             raise ValueError(f'{name}: repeated whole RGB frame')
         data.append(a)
-        rows[name]={'relative':f'../{sub}/qa/{name}_native.npy','NPY_SHA256':actual,
+        rows[name]={'input_name':path.name,'NPY_SHA256':actual,
                     'SHA256_of_ordered_RGB_frame_hashes':ach,'size':list(a.shape),'bytes':path.stat().st_size}
     return data,rows
 
@@ -161,9 +161,9 @@ def write_plan(p,rows,author_audio,notes):
         't':entries,'verified_internal_phase_wraps':edges,
         'native_inputs':rows,'notes':notes}
 
-def run_encode(p,a,out):
-    progress=HERE/'qa'/'encode_progress.log'
-    fferr=HERE/'qa'/'encode.log'
+def run_encode(p,a,out,qa):
+    progress=qa/'encode_progress.log'
+    fferr=qa/'encode.log'
     tmp=out.with_suffix('.part.mp4')
     if out.exists():raise FileExistsError("picture master is already frozen; will not overwrite")
     cmd=['ffmpeg','-nostdin','-hide_banner','-loglevel','info','-y','-stats_period','5',
@@ -197,6 +197,10 @@ def run_encode(p,a,out):
 
 def main():
     arg=argparse.ArgumentParser(description=__doc__)
+    arg.add_argument('--native-dir',type=Path,required=True)
+    arg.add_argument('--qa-dir',type=Path,required=True)
+    arg.add_argument('--output',type=Path)
+    arg.add_argument('--no-storyboard',action='store_true')
     arg.add_argument('--centers-frame',type=int,nargs=3)
     arg.add_argument('--tail-frames',type=int,default=108)
     arg.add_argument('--transition-frames',type=int,default=60)
@@ -206,16 +210,20 @@ def main():
     args=arg.parse_args()
     if not args.preflight_only and not args.centers_frame:
         arg.error('actual music phrase centers must be supplied from the audio review')
-    a,rows=load_sources()
+    if not args.preflight_only and args.output is None:
+        arg.error('--output is required unless --preflight-only')
+    a,rows=load_sources(args.native_dir)
     c=tuple(args.centers_frame or (1440,2880,4320))
     p=Plan(c,dissolve=args.transition_frames,tail=args.tail_frames)
-    qa=HERE/'qa';qa.mkdir(exist_ok=True);outdir=HERE/'out';outdir.mkdir(exist_ok=True)
+    qa=args.qa_dir;qa.mkdir(exist_ok=True,parents=True)
     plan=write_plan(p,rows,args.audio_seconds,args.notes)
     (qa/'picture_plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2)+'\n')
-    story(p,a,qa/'transition_storyboard.jpg')
+    if not args.no_storyboard:
+        story(p,a,qa/'transition_storyboard.jpg')
     print('PREFLIGHT_OK',len(plan['verified_internal_phase_wraps']),c,flush=True)
     if not args.preflight_only:
-        result=run_encode(p,a,outdir/'four_seasons_gate3_picture_only.mp4')
+        args.output.parent.mkdir(exist_ok=True,parents=True)
+        result=run_encode(p,a,args.output,qa)
         (qa/'picture_render.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
         print('ENCODED',json.dumps(result,ensure_ascii=False),flush=True)
 

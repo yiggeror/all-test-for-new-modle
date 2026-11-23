@@ -1,9 +1,20 @@
-# Gate 3 合片脚本
-将本目录脚本分别放到配套的 `alltest_gate3_picture/` 与 `alltest_gate3_audio/tools/` 中使用。原生帧沿用已审 Gate 2 两组渲染器：见 `previews/gate_2/source/`。`assemble.py` 的源清单记录四季预期的原生 .npy 文件路径和哈希，禁止把兼容版 MP4 当作输入。作者原曲以 `CREDITS.md` 的录音地址取得；原文件 SHA-256 为 `f6feac60dc29b89ea1513e04d0b30addf86f9c8576827e7566e27b5abd522e71`。
+# Gate 3 一键重建
 
-最终封装只复制两条流，电影时基 48000 保留完整末尾采样：
+在拿到含 `previews/gate_2/lossless_parts/` 的本分支后，使用 **Python 3.12、`requirements.txt` 锁定的 NumPy/SciPy/Pillow、带 libx264 的 FFmpeg 和 ffprobe**。首次使用可把依赖装到 Python 虚拟环境：`python -m pip install -r tools/gate3/requirements.txt`。
+
+从仓库根目录运行：
 
 ```sh
-ffmpeg -i picture_only.mp4 -i green_tea_gate3.m4a -map 0:v:0 -map 1:a:0 -c copy \
-  -movie_timescale 48000 -movflags +faststart -metadata creation_time=2026-11-23T00:00:00Z Rainroji_Lofi_V2_1080p.mp4
+python tools/gate3/reproduce.py
 ```
+
+不需要改脚本、下载预览代理、配置中间路径或访问团队工作区。正常运行只联网读取 [Purrple Cat 作者原始录音](https://html-classic.itch.zone/html/19949767/media/Green%20Tea.mp3)；其它输入来自本仓库。需要可用空间约 1 GB；原生 RGB、合片和 QC 在普通 Linux CPU 上用几分钟。输出：
+
+- `dist/Rainroji_Lofi_V2_1080p.mp4`：151,159,718 B；SHA-256 `0213513d08d439c965ef7320b2d896814733fac404d2dc6ddfeac4c122da60ba`。
+- `dist/reproduction_qa.json`：工具链、作者曲源、原生流及压缩中间文件指纹，整片解码、时长、声道、响度和真峰值实测。
+
+脚本先分卷核验还原四条 Gate 2 无损两周期 MP4，再用已审色板恢复并逐文件验证原生 320×180 RGB 的同一周期（详见 [RECOVERY.md](RECOVERY.md)）。画面先在原生帧完成叠化，再 6× 最近邻放大和 CRF 14 编码；音频以完整原曲混成四季环境和 AAC-LC。最终 `-c copy -movie_timescale 48000`，不二次编码，也不截断尾音。哈希不同不会覆盖原件或生成同名候选成片。
+
+原件的字节级校验环境为 Linux x86‑64、Python 3.12.14、FFmpeg `7.1.5-0+deb13u1`、x264 core 164 `r3108 31e19f9`；其它二进制构建可能改变编码字节。遇到摘要不符先看 `reproduction_qa.json`，再按本版本重试；不要把重编码代理当作验收原件。仓库不提交 `dist/` 成片或临时音视频。
+
+轻量测试：`python -m unittest discover -s tools/gate3`。

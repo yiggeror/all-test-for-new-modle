@@ -1,0 +1,45 @@
+{
+  "approved_master_sha256": "0213513d08d439c965ef7320b2d896814733fac404d2dc6ddfeac4c122da60ba",
+  "output_sha256": "0213513d08d439c965ef7320b2d896814733fac404d2dc6ddfeac4c122da60ba",
+  "output_bytes": 151159718,
+  "byte_exact": true,
+  "toolchain": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "Pillow": "13.0.0"
+    },
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "author_recording": {
+    "url": "https://html-classic.itch.zone/html/19949767/media/Green%20Tea.mp3",
+    "bytes": 8245791,
+    "sha256": "f6feac60dc29b89ea1513e04d0b30addf86f9c8576827e7566e27b5abd522e71"
+  },
+  "intermediate_sha256": {
+    "picture_mp4_actual": "d0be880e37999ef96b22e24a9b4ac6cd5307f4c6c05816b64b9a4db841b5232f",
+    "picture_mp4_reference": "d0be880e37999ef96b22e24a9b4ac6cd5307f4c6c05816b64b9a4db841b5232f",
+    "audio_m4a_actual": "dce0e1cb05159107f468577fffabc02dab15cc37823dbf5b507ee4e2d65679ab",
+    "audio_m4a_reference": "dce0e1cb05159107f468577fffabc02dab15cc37823dbf5b507ee4e2d65679ab",
+    "assembled_native_rgb_sha256": "28446e901b65b6b0aa1beab68022d0a6973823b92ac2e5fb3bf5afcfe6bcfb62"
+  },
+  "technical_qa": {
+    "fully_decoded": true,
+    "faststart": true,
+    "frames": 5917,
+    "size_1080p": [
+      1920,
+      1080
+    ],
+    "fps": "30/1",
+    "duration": "197.233333",
+    "video_profile": "High",
+    "audio_channels": 2,
+    "audio_sample_rate": 48000,
+    "audio_timeline_samples": 9467200,
+    "lufs_i": -16.04,
+    "dbtp": -4.74
+  }
+}

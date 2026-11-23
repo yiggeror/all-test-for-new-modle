@@ -15,6 +15,10 @@
 - **GitHub Release**：待上传同一原片并完成核验。
 - **Google Drive**：待上传同一原片并完成核验。
 
+## 从仓库重建完整原件
+
+在 [锁定的工具链](tools/gate3/README.md)上运行 `python tools/gate3/reproduce.py`，不配置任何项目路径。产物 `dist/Rainroji_Lofi_V2_1080p.mp4` 已从干净快照独立跑通，SHA-256 与上表逐字节一致；[实跑报告](previews/gate_3/reproduction_qa.json)中记录了每一步校验。双渠道的当前报错详见 [制作进度](DEV_STATUS.md)。
+
 ## 审看
 [三处转场实解码抽帧](previews/gate_3/encoded_transition_storyboard.jpg) · [独立复验报告](previews/gate_3/QA.md) · [完整署名](CREDITS.md)
 

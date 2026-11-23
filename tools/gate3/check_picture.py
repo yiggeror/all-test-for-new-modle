@@ -5,7 +5,7 @@ from fractions import Fraction
 from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw
-from assemble import HERE,FPS,Plan,load_sources,compose,font,FRAME_LIMIT
+from assemble import FPS,Plan,load_sources,compose,font,FRAME_LIMIT
 
 W,H=1920,1080
 Y=W*H;C=Y//4
@@ -48,10 +48,9 @@ def structure(p):
                 packet_step=int(one),max_gop=int(max(np.diff(key))),bit_rate_bps=int(raw['format']['bit_rate']),
                 video_only=True,max_positive_pts=int(pts[-1]))
 
-def read_config():
-    out=HERE/'qa'
-    j=json.loads((out/'picture_plan.json').read_text())
-    p=Plan(tuple(x['center_frame'] for x in j['t']),tail=j['tail_fade_frames'])
+def read_config(qa):
+    j=json.loads((qa/'picture_plan.json').read_text(encoding='utf-8'))
+    p=Plan(tuple(x['center_frame'] for x in j['t']),dissolve=j['t'][0]['duration_frames'],tail=j['tail_fade_frames'])
     p.validate()
     return p,j
 
@@ -118,14 +117,21 @@ def poster(p,cards,order,path):
     d.save(path,quality=95,subsampling=0)
 
 def main():
-    arg=argparse.ArgumentParser();arg.add_argument('--pre-encode-only',action='store_true');a=arg.parse_args()
-    p,j=read_config();arr,_=load_sources();qa=HERE/'qa'
+    arg=argparse.ArgumentParser(description=__doc__)
+    arg.add_argument('--native-dir',type=Path,required=True)
+    arg.add_argument('--qa-dir',type=Path,required=True)
+    arg.add_argument('--picture',type=Path)
+    arg.add_argument('--pre-encode-only',action='store_true')
+    a=arg.parse_args()
+    if not a.pre_encode_only and a.picture is None:
+        arg.error('--picture is required unless --pre-encode-only')
+    qa=a.qa_dir;p,j=read_config(qa);arr,_=load_sources(a.native_dir)
     nc=[0,15,45,*p.centers,3450,4800,p.tail_begin,FRAME_LIMIT-1]
     orig=rgb_oracle(p,arr,nc)
     (qa/'nearest_neighbor_native_qa.json').write_text(json.dumps(orig,indent=2)+'\n')
     if a.pre_encode_only:
         print('NEAREST_NN_PASS',orig);return
-    f=HERE/'out'/'four_seasons_gate3_picture_only.mp4'
+    f=a.picture
     stat=structure(f)
     (qa/'picture_structural_qa.json').write_text(json.dumps(stat,indent=2)+'\n')
     print('STRUCTURAL_OK',stat,flush=True)
