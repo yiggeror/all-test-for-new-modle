@@ -28,6 +28,8 @@
 
 ## 当前阶段状态
 
-- **当前 Gate**：`Gate 2 — 四季无缝循环动态样片 + 精选 Lo-Fi 配乐候选包`（Gate 1.5 已 `PASSED`，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 2）
-- **已拍板参数**：有效作画像素锁定 **`320×180`（6× 最近邻整数放大至 `1920×1080`）**，色板约 60 色，推荐单循环 `10～12 秒`。
-- **硬性纪律**：**严禁跳过 Gate 2 直接组装最终成片。** 请将 4 条双周期 1080p 循环样片与 3～5 首高质量候选 Lo-Fi 曲目及 `MUSIC_SHORTLIST.md` 提交至 `previews/gate_2/`，经我审片定曲后再进入 Gate 3 总装与双渠道交付。
+- **当前 Gate**：`Gate 3 — 最终 1080p 完整成片总装 + GitHub Release & Google Drive 双渠道交付`（Gate 2 已 `PASSED`，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 3）
+- **已拍板核心规格**：
+  - 画面：**`320×180`（6× 最近邻整数放大至 `1920×1080` @ 30fps）**，每季 11 秒无缝循环，从无损源高码率（CRF 14）直出；
+  - 配乐：**Purrple Cat《Green Tea》（CC BY 4.0，完整原曲 3:17）** + 四季极克制底层环境音（−16 LUFS），转场对齐乐句小节；
+  - 交付：完整单文件 1080p MP4 上传至 **GitHub Release + Google Drive**，仓库提交 `DELIVERY.md` 与 `CREDITS.md`。
