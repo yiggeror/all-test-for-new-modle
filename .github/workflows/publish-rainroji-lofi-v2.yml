@@ -1,0 +1,111 @@
+name: Publish Rainroji Lo-Fi V2 1080p Release
+
+on:
+  push:
+    branches:
+      - feat/lofi-seasons-v2
+    paths:
+      - .github/workflows/publish-rainroji-lofi-v2.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install FFmpeg and Python dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install -q -r tools/gate3/requirements.txt
+
+      - name: Assemble and verify Rainroji_Lofi_V2_1080p.mp4 from lossless parts
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, subprocess, sys
+          from pathlib import Path
+
+          sys.path.insert(0, str(Path('tools/gate3').resolve()))
+          import reproduce as R
+
+          root = R.checkout_root()
+          gate2 = root / 'previews' / 'gate_2'
+          restore = gate2 / 'tools' / 'restore_lossless.py'
+          manifest = json.loads((gate2 / 'lossless_parts' / 'MANIFEST.json').read_text(encoding='utf-8'))
+
+          work = Path('build_release')
+          work.mkdir(parents=True, exist_ok=True)
+          music = work / 'green.mp3'
+          author = R.download_author(music)
+          print('Author verified:', author['sha256'], flush=True)
+
+          parts, native = work / 'lossless', work / 'native'
+          native.mkdir(exist_ok=True)
+          R.run_python(restore, '--out-dir', parts)
+          for scene in R.SCENES:
+              R.run_python(Path('tools/gate3/recover_native.py'), '--scene', scene,
+                           '--input', parts / manifest[scene]['output'],
+                           '--output', native / f'{scene}_native.npy')
+
+          picture = work / 'picture.mp4'
+          picture_qa = work / 'picture_qa'
+          R.run_python(Path('tools/gate3/assemble.py'), *R.picture_args(native, picture, picture_qa))
+          audio_dir = work / 'audio'
+          R.run_python(Path('tools/gate3/gate3_audio.py'), '--music', music,
+                       '--out', audio_dir, '--scratch', work / 'audio_tmp', '--no-stems')
+          audio = audio_dir / 'green_tea_gate3.m4a'
+
+          final = work / R.MASTER
+          subprocess.run(R.mux_command(picture, audio, final), check=True)
+          checked = R.verify_master(final)
+          sha = R.digest(final)
+          size = final.stat().st_size
+          print('VERIFIED_FINAL_SIZE=', size, flush=True)
+          print('VERIFIED_FINAL_SHA256=', sha, flush=True)
+          print(json.dumps(checked, indent=2), flush=True)
+          (work / 'meta.env').write_text(
+              f"FINAL_BYTES={size}\nFINAL_SHA256={sha}\nFINAL_LUFS={checked['lufs_i']}\nFINAL_DBTP={checked['dbtp']}\n",
+              encoding='utf-8',
+          )
+          PY
+
+      - name: Upload 1080p MP4 asset to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          source build_release/meta.env
+          TAG="v2.0-rainroji-lofi-1080p"
+          NOTES_FILE="build_release/release_notes.md"
+          cat > "$NOTES_FILE" <<EOF
+          ## 成片规格
+          - **文件名**：\`Rainroji_Lofi_V2_1080p.mp4\`
+          - **文件大小**：${FINAL_BYTES} 字节
+          - **SHA-256**：\`${FINAL_SHA256}\`
+          - **画面**：\`1920×1080\`（\`320×180\` 原生像素画经 6× 最近邻整数放大）、30 fps、5,917 帧（3 分 17.23 秒）、H.264 High / CRF 14 / yuv420p / BT.709 / faststart
+          - **四季编排**：春（老巷暮色落花 & 门楼睡猫/小蛾）→ 夏（雨夜街角小店 & 湿地红霓虹碎光/檐内坐猫/檐滴涟漪）→ 秋（梧桐黄昏大道 & 报刊亭热汽/暮空归鸟）→ 冬（雪夜家属院 & 值班室暖窗伏案翻页/小烟囱淡烟），三处 2.0 秒叠化精准对齐 80 BPM 第 17 / 33 / 49 小节（48 / 96 / 144 秒）
+          - **音频**：AAC-LC 48 kHz 立体声 256 kbps，综合响度 **${FINAL_LUFS} LUFS**，真峰值 **${FINAL_DBTP} dBTP**，零削波
+          - **Google Drive 镜像**：https://drive.google.com/file/d/1pQLUQez4nAWbnoMQ7wYO3ojIl7b1zhEO/view?usp=drivesdk
+
+          ## 音乐与致谢（CC BY 4.0）
+          > Music: “Green Tea” by Purrple Cat, from *Bloom* (https://purrplecat.itch.io/bloom), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Used in full with mild EQ/level adjustment, original procedural ambience/foley, and synchronization to the four-season animation. Original ambience and page-turn foley by this project. Visual prototype acknowledgment: [Rainroji](https://github.com/yiggeror/Rainroji/tree/deliver/four-seasons-1080p).
+          EOF
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" build_release/Rainroji_Lofi_V2_1080p.mp4 --repo "$GITHUB_REPOSITORY" --clobber
+            gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --title "Rainroji Lo-Fi 四季像素短片 v2（1080p 完整版）" --notes-file "$NOTES_FILE"
+          else
+            gh release create "$TAG" build_release/Rainroji_Lofi_V2_1080p.mp4 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Rainroji Lo-Fi 四季像素短片 v2（1080p 完整版）" --notes-file "$NOTES_FILE"
+          fi
