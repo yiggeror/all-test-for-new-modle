@@ -1,0 +1,229 @@
+{
+  "scope": "picture only; encode directly from pinned native NPY",
+  "source_commit": "d8796e0",
+  "reviewer_commit": "2ba3d65f4bab7a6fd479a662b369858ddaeb9572",
+  "fps": 30,
+  "native_width": 320,
+  "native_height": 180,
+  "scale_neighbor": 6,
+  "frame_count": 5917,
+  "video_seconds": 197.23333333333332,
+  "author_music_seconds": 197.21429166666667,
+  "video_roundup_seconds": 0.019041666666663334,
+  "head_fade_frames": 45,
+  "tail_fade_frames": 114,
+  "tail_begin_frame": 5802,
+  "tail_start_sec": 193.4,
+  "alpha": "smoothstep input in linear-light sRGB, then 8-bit RGB before NN",
+  "visible_ranges_inclusive": {
+    "spring": [
+      0,
+      1469
+    ],
+    "summer": [
+      1411,
+      2909
+    ],
+    "autumn": [
+      2851,
+      4349
+    ],
+    "winter": [
+      4291,
+      5916
+    ]
+  },
+  "picture_loop_origin_frames": {
+    "spring": 0,
+    "summer": 1410,
+    "autumn": 2850,
+    "winter": 4290
+  },
+  "t": [
+    {
+      "from": "spring",
+      "to": "summer",
+      "center_frame": 1440,
+      "center_sec": 48.0,
+      "first_frame": 1410,
+      "first_sec": 47.0,
+      "end_frame_exclusive": 1470,
+      "end_exclusive_sec": 49.0,
+      "duration_frames": 60,
+      "duration_sec": 2.0
+    },
+    {
+      "from": "summer",
+      "to": "autumn",
+      "center_frame": 2880,
+      "center_sec": 96.0,
+      "first_frame": 2850,
+      "first_sec": 95.0,
+      "end_frame_exclusive": 2910,
+      "end_exclusive_sec": 97.0,
+      "duration_frames": 60,
+      "duration_sec": 2.0
+    },
+    {
+      "from": "autumn",
+      "to": "winter",
+      "center_frame": 4320,
+      "center_sec": 144.0,
+      "first_frame": 4290,
+      "first_sec": 143.0,
+      "end_frame_exclusive": 4350,
+      "end_exclusive_sec": 145.0,
+      "duration_frames": 60,
+      "duration_sec": 2.0
+    }
+  ],
+  "verified_internal_phase_wraps": [
+    {
+      "film_frame": 330,
+      "season": "spring",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 660,
+      "season": "spring",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 990,
+      "season": "spring",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 1320,
+      "season": "spring",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 1740,
+      "season": "summer",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 2070,
+      "season": "summer",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 2400,
+      "season": "summer",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 2730,
+      "season": "summer",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 3180,
+      "season": "autumn",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 3510,
+      "season": "autumn",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 3840,
+      "season": "autumn",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 4170,
+      "season": "autumn",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 4620,
+      "season": "winter",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 4950,
+      "season": "winter",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 5280,
+      "season": "winter",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 5610,
+      "season": "winter",
+      "from": 329,
+      "to": 0
+    }
+  ],
+  "native_inputs": {
+    "spring": {
+      "relative": "../alltest_gate2_spring_autumn/qa/spring_native.npy",
+      "NPY_SHA256": "7e7a60f2731ad075515cfb1505607c36633dae9a5645bc4796806a3276629778",
+      "SHA256_of_ordered_RGB_frame_hashes": "b09f6912a0d04a319d4b4644a545f5cae8c8e01e3d4ca6880d6f52eefabee355",
+      "size": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "bytes": 57024128
+    },
+    "summer": {
+      "relative": "../alltest_gate2_summer_winter/qa/summer_native.npy",
+      "NPY_SHA256": "c77b8e16184a02cfcf0b265560bf0ddaf0e8522c37d8075a1a2e3bd57de08cd9",
+      "SHA256_of_ordered_RGB_frame_hashes": "b40f9e32a0b2b4fba72d988803eab9927c2fdb619d9cefe9a841f481fbdcdc98",
+      "size": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "bytes": 57024128
+    },
+    "autumn": {
+      "relative": "../alltest_gate2_spring_autumn/qa/autumn_native.npy",
+      "NPY_SHA256": "6b1335a327a47929ea80c4264a7c4b18b1f5c9fab2a5349edddc8f8f26eb26d1",
+      "SHA256_of_ordered_RGB_frame_hashes": "7d115d019329aea7b50f02b267552e35d6a3d3c686f642ec4c8373f73ea87eba",
+      "size": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "bytes": 57024128
+    },
+    "winter": {
+      "relative": "../alltest_gate2_summer_winter/qa/winter_native.npy",
+      "NPY_SHA256": "ceb6208d32aa5ef64450819d9a3cbf5364ae0d6aff2ae52302d2f7a86c46d9bd",
+      "SHA256_of_ordered_RGB_frame_hashes": "14568ddf327751dbab81961ba7136e3ee33e2860fece6815020efa3a04b93c41",
+      "size": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "bytes": 57024128
+    }
+  },
+  "notes": "Music group's verified Green Tea 80 BPM and measured onset-grid 0.0025s. Original 9,466,286 samples at 48 kHz; centers confirmed at 48/96/144s, winter starts frame 4290, tail fade starts 193.4s."
+}

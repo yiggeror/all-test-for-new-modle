@@ -1,0 +1,191 @@
+{
+  "actual_container": {
+    "path_basename": "Rainroji_Lofi_V2_1080p.mp4",
+    "sha256": "0213513d08d439c965ef7320b2d896814733fac404d2dc6ddfeac4c122da60ba",
+    "bytes": 151159718,
+    "format": {
+      "filename": "alltest_gate3_final/Rainroji_Lofi_V2_1080p.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "197.233333",
+      "size": "151159718",
+      "bit_rate": "6131203",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "creation_time": "2026-11-23T00:00:00.000000Z",
+        "encoder": "Lavf61.7.103"
+      }
+    },
+    "video": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1080,
+      "closed_captions": 0,
+      "film_grain": 0,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 3029504,
+      "duration": "197.233333",
+      "bit_rate": "5864787",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "5917",
+      "extradata_size": 50,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "creation_time": "2026-11-23T00:00:00.000000Z",
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc61.19.101 libx264"
+      }
+    },
+    "audio": [
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 9467200,
+        "duration": "197.233333",
+        "bit_rate": "257528",
+        "nb_frames": "9247",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-11-23T00:00:00.000000Z",
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "top_level_boxes": [
+      [
+        "ftyp",
+        0,
+        32
+      ],
+      [
+        "moov",
+        32,
+        218379
+      ],
+      [
+        "free",
+        218411,
+        8
+      ],
+      [
+        "mdat",
+        218419,
+        150941299
+      ]
+    ],
+    "faststart": true,
+    "x264_sei_settings": "x264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=4 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=8 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=60 keyint_min=30 scenecut=40 intra_refresh=0 rc_lookahead=50 rc=crf mbtree=1 crf=14.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+    "video_packet_SHA256_nested": "e4a1212502a068a4c27e91b9bc89c5e4b15322d1d8d157c9fe06147aacdbe54d",
+    "video_packets": 5917,
+    "display_pts_tick_first_last": [
+      0,
+      3028992
+    ],
+    "display_pts_step_tick_hist": {
+      "512": 5916
+    },
+    "expected_pts_tick_step": "512",
+    "packets_duration_tick_hist": {
+      "512": 5917
+    },
+    "key_frames_count": 100,
+    "key_frame_max_interval_frames": 60,
+    "tick_frame_grid_ok": true,
+    "video_High_420_CRF_13_15_Direct": true,
+    "picture_coded_packets_match_picture_only_exactly": true,
+    "picture_packets_timing_match_picture_only_exactly": true,
+    "picture_only_file_sha256": "d0be880e37999ef96b22e24a9b4ac6cd5307f4c6c05816b64b9a4db841b5232f"
+  }
+}

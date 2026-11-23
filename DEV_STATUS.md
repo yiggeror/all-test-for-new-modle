@@ -1,8 +1,14 @@
 # 四季像素短片 v2 · 制作进度
 
-## 当前：Gate 2 四季循环与配乐送审
+## 当前：Gate 3 成片母版已通过复验，双渠道待发布
 
-已根据 [Round 2](https://github.com/yiggeror/all-test-for-new-modle/blob/9e49b969e8b549c39f947c1fd8e3783d170bfc40/REVIEW_LOG.md) 进入动态阶段。锁定 320×180 原生作画，6× 最近邻、1920×1080 @30 fps。每季单循环 11 秒、330 帧，样片两周期，共 660 帧 / 22 秒。此次提交供动态与配乐评审，总装尚未开始。
+依据 [Round 3](https://github.com/yiggeror/all-test-for-new-modle/blob/2ba3d65f4bab7a6fd479a662b369858ddaeb9572/REVIEW_LOG.md) 完成最终总装。从四个冻结的 320×180 RGB 序列直接合成，6× 最近邻，最终一次 CRF 14 高质量编码。春、夏、秋、冬顺序，完整保留《Green Tea》；三个叠化中心 48 / 96 / 144 秒，各 2 秒。
+
+独立复验：最终 MP4 全解码 5,917 帧，连续 30 fps，0 丢帧、0 重复，H.264 与 AAC 压缩包和两条母轨逐包一致。成片约 3 分 17.23 秒，−16.04 LUFS、−4.74 dBTP。详见 [交付参数](DELIVERY.md)、[逐帧图](previews/gate_3/encoded_transition_storyboard.jpg)、[独立复验](previews/gate_3/QA.md) 和 [署名](CREDITS.md)。对外托管完成并核验后，在交付页补正式链接。
+
+## 历史：Gate 2 四季循环与配乐送审
+
+已根据 [Round 2](https://github.com/yiggeror/all-test-for-new-modle/blob/9e49b969e8b549c39f947c1fd8e3783d170bfc40/REVIEW_LOG.md) 进入动态阶段。锁定 320×180 原生作画，6× 最近邻、1920×1080 @30 fps。每季单循环 11 秒、330 帧，样片两周期，共 660 帧 / 22 秒。本轮已评审通过，选定完整《Green Tea》。
 
 [四季动态样片](previews/gate_2/) · [配乐候选和音画试配](previews/gate_2/MUSIC_SHORTLIST.md)
 
