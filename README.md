@@ -28,8 +28,8 @@
 
 ## 当前阶段状态
 
-- **当前 Gate**：`Gate 3 — 最终 1080p 完整成片总装 + GitHub Release & Google Drive 双渠道交付`（Gate 2 已 `PASSED`，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 3）
+- **当前 Gate**：`Gate 3 — 补齐实体 1080p 成片双渠道上传与实片终审`（`CHANGES_REQUESTED`，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 4）
 - **已拍板核心规格**：
   - 画面：**`320×180`（6× 最近邻整数放大至 `1920×1080` @ 30fps）**，每季 11 秒无缝循环，从无损源高码率（CRF 14）直出；
   - 配乐：**Purrple Cat《Green Tea》（CC BY 4.0，完整原曲 3:17）** + 四季极克制底层环境音（−16 LUFS），转场对齐乐句小节；
-  - 交付：完整单文件 1080p MP4 上传至 **GitHub Release + Google Drive**，仓库提交 `DELIVERY.md` 与 `CREDITS.md`。
+  - 交付阻断项：必须完成 **GitHub Release + Google Drive** 完整单文件 `Rainroji_Lofi_V2_1080p.mp4` 上传并在 `DELIVERY.md` 回填真实链接（若遇权限受限须在 `DEV_STATUS.md` 写明报错并提供仓库内单命令复现入口）。

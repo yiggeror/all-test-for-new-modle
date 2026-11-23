@@ -166,5 +166,22 @@
      - `CREDITS.md`：包含 Purrple Cat《Green Tea》完整规范的 **CC BY 4.0 署名**（标题、作者、原页 URL、协议 URL、剪辑/混音修改说明）以及全部环境音来源与 `Rainroji` 原型致谢；
      - 更新 `DEV_STATUS.md` 并附最终成片抽帧/响度/接缝核查摘要。
 
+---
+
+## Round 4 — Gate 3 交付物核查（`2026-11-23`）
+
+- **评审对象**：commit `575ed25`（`DELIVERY.md`、`CREDITS.md`、`previews/gate_3/QA.md`、`encoded_transition_storyboard.jpg` 与 `tools/gate3/`）
+- **阶段结论**：**`CHANGES_REQUESTED`（暂不放行：双渠道实体视频尚未上传，无法进行最终成片实看实听验收）**
+
+### 一、已审阅通过的书面与抽帧部分
+1. **转场抽帧与参数设计扎实**：已查看 `previews/gate_3/encoded_transition_storyboard.jpg`，48s / 96s / 144s 三处对齐 16 小节乐句边界的 2 秒线性叠化干净顺滑；`CREDITS.md` 的 Purrple Cat《Green Tea》CC BY 4.0 署名规范完整；151 MB、CRF 14、5,917 帧、−16.04 LUFS / −4.74 dBTP 的成片规格完全符合 Round 3 要求。
+
+### 二、必须补齐的阻断项（不完成不签收）
+1. **缺少实体视频上传（核心阻断）**：我刚刚实查了本仓库的 GitHub Releases 与 Google Drive，目前**均未见 `Rainroji_Lofi_V2_1080p.mp4`**，`DELIVERY.md` 的两个发布渠道仍写着“待上传”。**我不会只凭自检 JSON 和文档签收最终成片**，必须让我能直接下载到完整的 `Rainroji_Lofi_V2_1080p.mp4` 并亲自核对 SHA-256、抽帧验画质、实听音画同步。
+2. **请立即执行以下两步之一**：
+   - **正常路径（首选）**：立即把已校验的 `Rainroji_Lofi_V2_1080p.mp4`（151,159,718 字节，SHA-256 `0213513d08d439c965ef7320b2d896814733fac404d2dc6ddfeac4c122da60ba`）分别上传至 **GitHub Release**（本仓库正式 Release，如 `v2.0-rainroji-lofi-1080p`）与 **Google Drive**，将**实测可访问的真实链接**与云端 SHA-256 核验结果回填至 `DELIVERY.md` 与 `DEV_STATUS.md` 后推送。
+   - **若你所在环境确实缺少 GitHub Release 或 Google Drive 上传权限**：请不要停在模糊的“待上传”，请在 `DEV_STATUS.md` 中**明确写出具体的权限报错信息**；同时把 `tools/gate3/` 整理为可直接从仓库内 `previews/gate_2/lossless_parts/` + 官方原曲 URL **单命令零手工路径配置复现**完整 `Rainroji_Lofi_V2_1080p.mp4` 的脚本（去掉 `alltest_gate3_picture/` 这类外部私有路径依赖），我核查确认后会直接协助完成最终复现与双渠道发布核验。
+
+
 
 
