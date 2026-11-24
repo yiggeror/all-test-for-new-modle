@@ -1,0 +1,87 @@
+name: Publish Rainroji Lo-Fi V2.3 1080p Release
+
+on:
+  push:
+    branches:
+      - feat/lofi-seasons-v2
+    paths:
+      - .github/workflows/publish-rainroji-lofi-v23.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release-v23:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install FFmpeg and Python dependencies
+        run: |
+          set -euo pipefail
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          ffmpeg -version | head -2
+          python -m pip install -q --only-binary=:all: -r tools/gate3_v23/requirements.txt
+
+      - name: Run deterministic Gate 3.3 reproduction and verification
+        run: |
+          set -euo pipefail
+          python tools/gate3_v23/reproduce.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          qa = json.loads(Path('dist/gate3_v23_qa/reproduction_qa.json').read_text(encoding='utf-8'))
+          Path('dist/meta.env').write_text(
+              f"FINAL_BYTES={qa['bytes']}\n"
+              f"FINAL_SHA256={qa['sha256']}\n"
+              f"FINAL_LUFS={qa['technical_qa']['lufs_i']}\n"
+              f"FINAL_DBTP={qa['technical_qa']['dbtp']}\n",
+              encoding='utf-8',
+          )
+          print('VERIFIED V2.3:', qa['bytes'], qa['sha256'], qa['technical_qa'])
+          PY
+
+      - name: Upload Rainroji_Lofi_V2.3_1080p.mp4 to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          source dist/meta.env
+          TAG="v2.3-rainroji-lofi-1080p"
+          NOTES_FILE="dist/release_notes.md"
+          cat > "$NOTES_FILE" <<EOF
+          ## Rainroji Lo-Fi 四季像素短片 v2.3（纯正像素质感终审版 · 1080p）
+
+          ### 本版核心质变（全面根治 v2.2 果冻扭曲树冠、空白墙面机械渐变假灯与伪 3D 糊感）
+          - **春 · 老巷暮色落花**：树干、主枝与樱花主冠全 330 帧 100% 像素锁定稳固（彻底告别果冻蠕动）；右下院内米白/浅灰蓝素布与暖砖墙清晰分离，采用 5 帧一换（6 fps）离散像素步进摆动；暖路灯光锥内落花呈现平静 → 阵风斜穿 → 平静的呼吸节奏。
+          - **夏 · 雨夜街角小店**：取消 31 帧抽帧插值，升级为 330 帧逐帧真实双车灯传输（零重影）；暖琥珀光斑柔和轻掠湿路与红车车身，不再把右下有机红水洼冲糊发白；“网吧”红霓虹 4 次硬切瞬暗 + 邻墙红光 + 湿沥青碎红倒影 100% 同帧联动；左灯雨丝与檐滴更锐利克制。
+          - **秋 · 梧桐黄昏大道**：彻底删除 2D 液化扭曲，双侧梧桐树冠与树干 100% 像素锁定锐利；清除报刊亭脏暗糊块与雾中红渍；聚焦稳固树影下的分层落叶、5 帧姿态保持的贴地翻滚金叶、暗底柔和茶汽与紫暮空隙 3 只可读剪影归鸟。
+          - **冬 · 雪夜家属院**：彻底拆除空白墙面凭空浮现的 5 盏机械渐变假楼道灯与前景枯树 2D 扭曲；远楼仅留有实体窗框的固定暖窗；完整保留值班室干净翻页（书页与台灯清晰分离零粘连）、斜飘淡烟、路灯光锥风雪与枝梢抖雪。
+
+          ### 成片规格
+          - **文件名**：\`Rainroji_Lofi_V2.3_1080p.mp4\`
+          - **文件大小**：${FINAL_BYTES} 字节
+          - **SHA-256**：\`${FINAL_SHA256}\`
+          - **画面**：\`1920×1080\`（\`320×180\` 原生像素画经 6× 最近邻无损整数放大）、30 fps、5,917 帧（3 分 17.23 秒）、H.264 High / CRF 14 / yuv420p / BT.709 / faststart
+          - **音频**：无损流拷贝沿用已签收 v2.0 全部 9,247 个 AAC-LC 包（48 kHz 立体声 256 kbps），综合响度 **${FINAL_LUFS} LUFS**，真峰值 **${FINAL_DBTP} dBTP**，零削波
+
+          ### 音乐与致谢（CC BY 4.0）
+          > Music: “Green Tea” by Purrple Cat, from *Bloom* (https://purrplecat.itch.io/bloom), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Used in full with mild EQ/level adjustment, original procedural ambience/foley, and synchronization to the four-season animation. Original ambience and page-turn foley by this project. Visual prototype acknowledgment: [Rainroji](https://github.com/yiggeror/Rainroji/tree/deliver/four-seasons-1080p).
+          EOF
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/Rainroji_Lofi_V2.3_1080p.mp4 --repo "$GITHUB_REPOSITORY" --clobber
+            gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --title "Rainroji Lo-Fi 四季像素短片 v2.3（纯正像素质感终审版 · 1080p）" --notes-file "$NOTES_FILE" --latest
+          else
+            gh release create "$TAG" dist/Rainroji_Lofi_V2.3_1080p.mp4 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Rainroji Lo-Fi 四季像素短片 v2.3（纯正像素质感终审版 · 1080p）" --notes-file "$NOTES_FILE" --latest
+          fi
