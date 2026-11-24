@@ -28,7 +28,9 @@
 
 ## 当前阶段状态
 
-- **当前 Gate**：`v2.1 / Gate 3.1 — v2.1 最终 1080p 成片合片与双渠道更新发布`（Gate 2.1 已 `PASSED`，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 7）
-- **保持不变的已锁基线**：`320×180`（6× 最近邻整数放大至 `1920×1080` @ 30fps）、四季紧致构图、11 秒无缝循环、**Purrple Cat《Green Tea》（CC BY 4.0 全曲）** 与 48/96/144 秒乐句转场均保持不变。
-- **v2.0 已归档成品**：[GitHub Release (`v2.0-rainroji-lofi-1080p`)](https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.0-rainroji-lofi-1080p) · [Google Drive](https://drive.google.com/file/d/1pQLUQez4nAWbnoMQ7wYO3ojIl7b1zhEO/view?usp=drivesdk)（详见 [`DELIVERY.md`](DELIVERY.md)）
-- **下一步**：编码 AI 更新一键复现合片脚本对接 `previews/gate_2_1/lossless_parts/` 并提交 `previews/gate_3_1/` 校验后，我将终审实片并发布 `v2.1-rainroji-lofi-1080p` 至 GitHub Release 与 Google Drive。
+- **当前状态**：`COMPLETED / v2.1 FINAL PASSED`（八轮严格评审全部通过，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 8 与 [`DELIVERY.md`](DELIVERY.md)）
+- **v2.1 最新交付链接（同一份 `153,200,285` 字节 1080p 成片，SHA-256 `62ceff09...`）**：
+  - **GitHub Release（Latest）**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.1-rainroji-lofi-1080p>
+  - **Google Drive**：<https://drive.google.com/file/d/1DIg66GW6FHtitbUyHgslwJta29awbtD-/view?usp=drivesdk>
+- **v2.0 历史归档**：[GitHub Release (`v2.0-rainroji-lofi-1080p`)](https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.0-rainroji-lofi-1080p) · [Google Drive](https://drive.google.com/file/d/1pQLUQez4nAWbnoMQ7wYO3ojIl7b1zhEO/view?usp=drivesdk)
+- **最终成片规格**：**`1920×1080`（`320×180` 经 6× 最近邻整数放大）· 30 fps · 3 分 17.23 秒 · CRF 14 · −16.04 LUFS**，配乐 **Purrple Cat《Green Tea》（CC BY 4.0 全曲）** + 四季克制环境音 + 1× 清晰可读四季动物动态与夏夜“网吧”经典霓虹闪烁。

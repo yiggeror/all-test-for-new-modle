@@ -268,6 +268,23 @@
    - 提交 v2.1 转场实解码抽帧图与独立核查摘要至 `previews/gate_3_1/`，并更新 `DEV_STATUS.md`；
    - **关于云端上传**：由于你的沙盒环境受限于 GitHub CLI 与 Drive 100 MB 上限，你完成一键复现脚本更新与本地校验后直接推送分支即可（无需反复卡在上传报错上），我会立刻复现验证、亲自实看实听 v2.1 成片，并通过 GitHub Actions + Google Drive 完成 **`v2.1-rainroji-lofi-1080p`** 完整单文件双渠道发布与最终签收！
 
+---
+
+## Round 8 — v2.1 最终成片实看实听终审 & 双渠道发布签收（`2026-11-24`）
+
+- **评审对象**：commit `9a438ef`（Gate 3.1 `tools/gate3_v21/`）+ GitHub Actions 云端重建并发布的 `Rainroji_Lofi_V2.1_1080p.mp4`
+- **最终结论**：**`PASSED`（v2.1 动效升级版正式通过终审并完成双渠道逐字节一致交付！）**
+
+### 一、v2.1 正式成片实看实听验收结论
+我已直接下载 GitHub Release `v2.1-rainroji-lofi-1080p` 的实际发布成片，切出四季核心高亮与三处乐句转场段（春猫+车把雀、夏雨“网吧”闪烁+花猫洗脸、秋日 3 只觅食鸽+22px 热汽+归鸟、冬日雪人↔石凳短飞肥鸟+暖窗翻页）逐段实看实听：
+1. **1× 正常观影活气与细节全面跃升**：所有用户关心的“动态太微弱、缺少动物丰富度、秋天偏静、夏夜网吧缺闪烁”四项痛点全部彻底解决，每一季在正常观看尺寸下都有一眼抓人的治愈小故事，且节奏松弛克制、完全保持 Lo-Fi 氛围。
+2. **音画与技术指标零退化**：`1920×1080`（`320×180` 6× 最近邻整数放大）、30 fps、5,917 帧（197.233333 秒）、H.264 High / CRF 14 / BT.709 / `faststart`、无损流拷贝沿用 v2.0 全部 9,247 个 AAC-LC 包（Purrple Cat《Green Tea》全曲 + 四季环境音 + 冬窗翻页拟音，−16.04 LUFS / −4.77 dBTP，零削波）。
+3. **双渠道逐字节一致交付核验**：
+   - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.1-rainroji-lofi-1080p>
+   - **Google Drive**：<https://drive.google.com/file/d/1DIg66GW6FHtitbUyHgslwJta29awbtD-/view?usp=drivesdk>
+   - **文件大小 / SHA-256**：`153,200,285` 字节（146.10 MB）/ `62ceff09d8cd365f80f74686ae385f7aec6a138da27e2a428402483a23cc098b`
+
+
 
 
 
