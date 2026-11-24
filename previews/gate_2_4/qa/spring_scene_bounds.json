@@ -1,0 +1,31 @@
+{
+  "source_camera": {
+    "pos": [
+      6.48,
+      7.68,
+      38.5
+    ],
+    "forward": [
+      -0.17135602388706914,
+      0.0,
+      -0.9852091722459826
+    ],
+    "vertical_shift": -0.08796510466481988,
+    "raster": [
+      320,
+      180
+    ]
+  },
+  "gate15_reference_camera_unchanged": true,
+  "base_unchanged": true,
+  "lens_static": true,
+  "cat_y_world": 0,
+  "192_230px_offscreen_depth_sent_in_review": [
+    16.5,
+    20.0
+  ],
+  "fixed_cloth_same_module_and_ray_seed_as_v23": true,
+  "palette_source": "approved Gate 2.3 60-color RGB lock",
+  "near_tree_foliage_pixels": 6424,
+  "tree_wires_never_tapped": true
+}

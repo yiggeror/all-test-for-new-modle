@@ -1,0 +1,26 @@
+{
+  "requirement_commit": "f496b686d45c00f6016e2837f2ee4ebe9b46567c",
+  "birds_requirement_commit": "953967b611f63f424a8df90b9609c3dadb8cc5a4",
+  "base_approved": "d491fe13aaa2ff4b5addd296d42f1a40b73c85fc",
+  "reused_only": [
+    "camera",
+    "scene static geometry",
+    "5-frame cloth pose",
+    "60 RGB palette"
+  ],
+  "compiled_with_no_static_cache": true,
+  "lossless": {
+    "output": "spring_loop.mp4",
+    "bytes": 5505191,
+    "sha256": "3c96dfbff937d62625cc3edae4b3aa41cd623a89f1de1f6b44468714029d63e3",
+    "parts": [
+      {
+        "path": "lossless_parts/spring/part-00.bin",
+        "bytes": 5505191,
+        "sha256": "3c96dfbff937d62625cc3edae4b3aa41cd623a89f1de1f6b44468714029d63e3"
+      }
+    ]
+  },
+  "native_npy_sha256": "b423d37bd3e22a97181a9a9ad719515a3b22ed7c80cf99bcd931984405705d43",
+  "proxy_sha256": "b8e3b93f83993349a810cfc84f0827a724354b97049307f77c027aa19b0ba286"
+}

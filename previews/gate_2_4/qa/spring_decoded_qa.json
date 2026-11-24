@@ -1,0 +1,437 @@
+{
+  "scene": "spring",
+  "native_count": 330,
+  "master_count": 660,
+  "first_cycle_seconds": 11,
+  "npy_sha256": "b423d37bd3e22a97181a9a9ad719515a3b22ed7c80cf99bcd931984405705d43",
+  "master_sha256": "3c96dfbff937d62625cc3edae4b3aa41cd623a89f1de1f6b44468714029d63e3",
+  "master_bytes": 5505191,
+  "actual_native_palette_size": 59,
+  "actual_palette_rgb": [
+    [
+      71,
+      53,
+      92
+    ],
+    [
+      77,
+      51,
+      82
+    ],
+    [
+      85,
+      55,
+      79
+    ],
+    [
+      86,
+      57,
+      88
+    ],
+    [
+      88,
+      64,
+      102
+    ],
+    [
+      95,
+      61,
+      90
+    ],
+    [
+      99,
+      69,
+      103
+    ],
+    [
+      103,
+      75,
+      114
+    ],
+    [
+      107,
+      66,
+      88
+    ],
+    [
+      112,
+      76,
+      107
+    ],
+    [
+      113,
+      82,
+      124
+    ],
+    [
+      119,
+      90,
+      135
+    ],
+    [
+      120,
+      83,
+      104
+    ],
+    [
+      122,
+      61,
+      56
+    ],
+    [
+      122,
+      72,
+      87
+    ],
+    [
+      125,
+      127,
+      143
+    ],
+    [
+      129,
+      97,
+      136
+    ],
+    [
+      132,
+      88,
+      97
+    ],
+    [
+      133,
+      88,
+      116
+    ],
+    [
+      140,
+      104,
+      143
+    ],
+    [
+      142,
+      82,
+      89
+    ],
+    [
+      149,
+      98,
+      120
+    ],
+    [
+      150,
+      119,
+      155
+    ],
+    [
+      152,
+      97,
+      96
+    ],
+    [
+      153,
+      122,
+      125
+    ],
+    [
+      157,
+      112,
+      148
+    ],
+    [
+      159,
+      132,
+      166
+    ],
+    [
+      162,
+      125,
+      141
+    ],
+    [
+      164,
+      121,
+      162
+    ],
+    [
+      167,
+      144,
+      179
+    ],
+    [
+      168,
+      106,
+      98
+    ],
+    [
+      169,
+      106,
+      123
+    ],
+    [
+      171,
+      134,
+      175
+    ],
+    [
+      177,
+      119,
+      103
+    ],
+    [
+      177,
+      159,
+      191
+    ],
+    [
+      178,
+      124,
+      155
+    ],
+    [
+      179,
+      130,
+      172
+    ],
+    [
+      182,
+      144,
+      167
+    ],
+    [
+      185,
+      148,
+      191
+    ],
+    [
+      186,
+      99,
+      59
+    ],
+    [
+      189,
+      117,
+      124
+    ],
+    [
+      192,
+      116,
+      101
+    ],
+    [
+      195,
+      157,
+      200
+    ],
+    [
+      197,
+      138,
+      113
+    ],
+    [
+      205,
+      141,
+      166
+    ],
+    [
+      210,
+      168,
+      208
+    ],
+    [
+      211,
+      131,
+      122
+    ],
+    [
+      215,
+      155,
+      119
+    ],
+    [
+      222,
+      138,
+      74
+    ],
+    [
+      224,
+      163,
+      171
+    ],
+    [
+      227,
+      146,
+      120
+    ],
+    [
+      230,
+      140,
+      173
+    ],
+    [
+      242,
+      168,
+      129
+    ],
+    [
+      245,
+      190,
+      137
+    ],
+    [
+      247,
+      188,
+      175
+    ],
+    [
+      250,
+      168,
+      199
+    ],
+    [
+      253,
+      220,
+      182
+    ],
+    [
+      254,
+      249,
+      218
+    ],
+    [
+      255,
+      204,
+      222
+    ]
+  ],
+  "decoded_equal_to_native_rgb_plus_locked_Bt709_exact_6x_filter": 660,
+  "second_cycle_byte_identical_to_first_frames": 330,
+  "maximum_near_native_seam_mae_rgb": 0.189427,
+  "seam_neighborhood_steps": [
+    {
+      "from_frame": 321,
+      "to_frame": 322,
+      "mae_rgb": 0.047847,
+      "changed_native_pixels": 229
+    },
+    {
+      "from_frame": 322,
+      "to_frame": 323,
+      "mae_rgb": 0.040793,
+      "changed_native_pixels": 235
+    },
+    {
+      "from_frame": 323,
+      "to_frame": 324,
+      "mae_rgb": 0.062512,
+      "changed_native_pixels": 297
+    },
+    {
+      "from_frame": 324,
+      "to_frame": 325,
+      "mae_rgb": 0.189427,
+      "changed_native_pixels": 857
+    },
+    {
+      "from_frame": 325,
+      "to_frame": 326,
+      "mae_rgb": 0.053588,
+      "changed_native_pixels": 247
+    },
+    {
+      "from_frame": 326,
+      "to_frame": 327,
+      "mae_rgb": 0.031505,
+      "changed_native_pixels": 169
+    },
+    {
+      "from_frame": 327,
+      "to_frame": 328,
+      "mae_rgb": 0.041296,
+      "changed_native_pixels": 178
+    },
+    {
+      "from_frame": 328,
+      "to_frame": 329,
+      "mae_rgb": 0.016366,
+      "changed_native_pixels": 89
+    },
+    {
+      "from_frame": 329,
+      "to_frame": 0,
+      "mae_rgb": 0.164207,
+      "changed_native_pixels": 593
+    },
+    {
+      "from_frame": 0,
+      "to_frame": 1,
+      "mae_rgb": 0.000764,
+      "changed_native_pixels": 4
+    },
+    {
+      "from_frame": 1,
+      "to_frame": 2,
+      "mae_rgb": 0.01485,
+      "changed_native_pixels": 33
+    },
+    {
+      "from_frame": 2,
+      "to_frame": 3,
+      "mae_rgb": 0.001406,
+      "changed_native_pixels": 7
+    },
+    {
+      "from_frame": 3,
+      "to_frame": 4,
+      "mae_rgb": 0.011777,
+      "changed_native_pixels": 42
+    },
+    {
+      "from_frame": 4,
+      "to_frame": 5,
+      "mae_rgb": 0.184774,
+      "changed_native_pixels": 710
+    },
+    {
+      "from_frame": 5,
+      "to_frame": 6,
+      "mae_rgb": 0.01673,
+      "changed_native_pixels": 48
+    },
+    {
+      "from_frame": 6,
+      "to_frame": 7,
+      "mae_rgb": 0.003704,
+      "changed_native_pixels": 21
+    },
+    {
+      "from_frame": 7,
+      "to_frame": 8,
+      "mae_rgb": 0.016944,
+      "changed_native_pixels": 44
+    }
+  ],
+  "lossless_pts": {
+    "pts_count_checked": 660,
+    "packet_time_base": "1/15360",
+    "step_frame_seconds": "1/30",
+    "min_pts": "0",
+    "max_pts": "659/30",
+    "identical_timestamps": 0,
+    "missing_timestamps": 0
+  },
+  "browser_proxy": {
+    "bytes": 5441125,
+    "sha256": "b8e3b93f83993349a810cfc84f0827a724354b97049307f77c027aa19b0ba286",
+    "pts": {
+      "pts_count_checked": 660,
+      "packet_time_base": "1/15360",
+      "step_frame_seconds": "1/30",
+      "min_pts": "0",
+      "max_pts": "659/30",
+      "identical_timestamps": 0,
+      "missing_timestamps": 0
+    },
+    "profile": "High"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "match_commit": "d491fe13aaa2ff4b5addd296d42f1a40b73c85fc",
+  "independently_fetched_git_blobs_matched_before_clean_render": {
+    "shots/spring_g15.py": "83f4e85205bd06d736939245528d9c468c35fc22",
+    "prototype/film/scenes/spring.py": "7299a95cbbeca076e44875db06b7046905659c94",
+    "prototype/film/engine/fx.py": "fc517b7950edeb8e68cd0d598e1308ca4d88b912",
+    "prototype/film/engine/render.py": "50a33dae1e157eb25513a03d5cd5e56ad5a584d6",
+    "prototype/film/engine/props.py": "42899369296c53661f9f8800a13c5cd5ae30fe71",
+    "previews/gate_2_3/qa/spring_provenance.json": "a46879f54d1518257b616273ca8e97af244419f8"
+  },
+  "cached_plate_read_for_final_render": false
+}

@@ -1,0 +1,52 @@
+{
+  "spring_peak_045_cat_emerges.png": {
+    "frame_zero_based": 45,
+    "bytes": 100704,
+    "sha256": "a28f7f34c7fd81aabf5adb65255736de375776acfd5caa3a1bf71137077d66bb"
+  },
+  "spring_peak_120_dusk_birds_before_crown.png": {
+    "frame_zero_based": 120,
+    "bytes": 100704,
+    "sha256": "6aa19478229cd5f083a1a0f3d90562fcabc08e40ef779eb47009388e805ecf3f"
+  },
+  "spring_peak_137_lamp_before_brief_drop.png": {
+    "frame_zero_based": 137,
+    "bytes": 100864,
+    "sha256": "75566e76075a9ecefcb3b9471c38a16bbf3172f9dbe378b4e637f9885e271621"
+  },
+  "spring_peak_141_lamp_drop.png": {
+    "frame_zero_based": 141,
+    "bytes": 100521,
+    "sha256": "8037787536ee16110c4821bed5fcce00868aa5715e20207ac8306ae8d3a717b5"
+  },
+  "spring_peak_144_lamp_recovered.png": {
+    "frame_zero_based": 144,
+    "bytes": 100860,
+    "sha256": "270b4cc65b75dcdb66b8cc861fc251741d5275e1c1795813bc5fc0ab9134c98e"
+  },
+  "spring_peak_150_cat_looks_and_curls.png": {
+    "frame_zero_based": 150,
+    "bytes": 100931,
+    "sha256": "2718cb3e4287c157fa131521fa972dd542dc3b1d967cd3732d9c15d89bfa5d97"
+  },
+  "spring_peak_175_dusk_birds_after_crown.png": {
+    "frame_zero_based": 175,
+    "bytes": 100749,
+    "sha256": "1bf346537a655ee9bf0b0dd782afe389dab2f4e5a8fdd5742add2b8a3c2edd2e"
+  },
+  "spring_peak_225_bilateral_petal_shower.png": {
+    "frame_zero_based": 225,
+    "bytes": 100743,
+    "sha256": "577b7116b6ccad839d9a9da541c7b376081e850e1fca14d3b67ac0274f649408"
+  },
+  "spring_peak_238_warm_petal_sweep.png": {
+    "frame_zero_based": 238,
+    "bytes": 101062,
+    "sha256": "ece70beac40616d70f0cf8a65b9a9dcbda3b2ffa32d2f749cff196cf0f7371dc"
+  },
+  "spring_peak_315_cat_behind_right_eave.png": {
+    "frame_zero_based": 315,
+    "bytes": 100626,
+    "sha256": "3df0be550aa4498aa6252116dcbab8fc504d5605dfa11fd4f53fdc3fe3f90eac"
+  }
+}
