@@ -1,0 +1,1140 @@
+{
+  "master": {
+    "file": "Rainroji_Lofi_V2.3_1080p.mp4",
+    "bytes": 124559524,
+    "sha256": "f0be07bb737f320055a1c4783d0009ea9e6a1bda72286ea0bc5ff94d643eb0f5"
+  },
+  "review_commit": "8fbb28eb7a61329ffa218c6e7f92b4f72d19c6ee",
+  "approved_picture_commit": "d491fe13aaa2ff4b5addd296d42f1a40b73c85fc",
+  "full_decode_actual": {
+    "returncode": 0,
+    "final_progress": {
+      "frame": "5917",
+      "fps": "208.98",
+      "stream_0_0_q": "-0.0",
+      "bitrate": "N/A",
+      "total_size": "N/A",
+      "out_time_us": "197233333",
+      "out_time_ms": "197233333",
+      "out_time": "00:03:17.233333",
+      "dup_frames": "0",
+      "drop_frames": "0",
+      "speed": "6.97x",
+      "progress": "end"
+    },
+    "stderr_bytes": 0,
+    "pass": true
+  },
+  "codec_and_timing": {
+    "one_video_one_aac_only": true,
+    "format_duration_5917_over_30": true,
+    "video_track_integer_duration_5917_over_30": true,
+    "audio_track_exact_9467200_stereo_samples_from_zero": true,
+    "all_5917_packets_in_continuous_pts_and_dts_grid": true,
+    "encoded_1920x1080_30_High_BT709_TV_range_and_CRF14": true,
+    "faststart_moov_before_mdat": true,
+    "picture_only_payloads_and_timestamps_unmodified_by_mux": true
+  },
+  "frame_coverage_and_max_errors": {
+    "all_compared_actual_decoded_frames": 5917,
+    "mean_per_frame_MAE": 1.19834,
+    "max_single_frame_MAE": 1.437541,
+    "max_MAE_frame": 5896,
+    "total_RGB_PSNR_db": 44.784957,
+    "minimum_frame_PSNR_db": 43.320934,
+    "border_full_check_sample_count": 1039,
+    "unexpected_black_border_frame_indices": []
+  },
+  "verified_clean_reproduction": {
+    "production_used_no_proxy_or_previous_movie_picture": true,
+    "ordered_split_parts": 16,
+    "source_picture_preencode_rgb24_sha256": "a3866b5b2ebb58b5c0c14e61f84dbcb8790a07c3db2bc7a4fc2d1aa3142c7b6a",
+    "all_546_intentional_indices_match_clean_reproducer": true,
+    "audio_acquisition": "default official GitHub v2.0 release download, independently hash-checked",
+    "production_decoded_stills_verified": 17,
+    "producer_final_sha256_matches": true,
+    "production_and_independent_render_plan_match": true
+  },
+  "crossfades": {
+    "linear_light_curve": "smoothstep 3x²−2x³",
+    "three_centers_s": [
+      48,
+      96,
+      144
+    ],
+    "verified_quarter_alpha_expected": [
+      0.15625,
+      0.84375
+    ],
+    "verified_quarter_alpha_fit_in_actual_master": [
+      [
+        48.0,
+        [
+          0.165905,
+          0.84721
+        ]
+      ],
+      [
+        96.0,
+        [
+          0.154141,
+          0.835873
+        ]
+      ],
+      [
+        144.0,
+        [
+          0.157628,
+          0.840168
+        ]
+      ]
+    ],
+    "windows": [
+      {
+        "center_s": 48.0,
+        "two_second_interval_s": [
+          47.0,
+          49.0
+        ],
+        "mean_MAE_of_4_candidates": [
+          3.855431,
+          1.224291,
+          4.6549,
+          3.726324
+        ],
+        "best_fit": "smoothstep-time / linear light"
+      },
+      {
+        "center_s": 96.0,
+        "two_second_interval_s": [
+          95.0,
+          97.0
+        ],
+        "mean_MAE_of_4_candidates": [
+          2.687533,
+          1.255103,
+          2.978929,
+          2.322256
+        ],
+        "best_fit": "smoothstep-time / linear light"
+      },
+      {
+        "center_s": 144.0,
+        "two_second_interval_s": [
+          143.0,
+          145.0
+        ],
+        "mean_MAE_of_4_candidates": [
+          2.83718,
+          1.243184,
+          3.006129,
+          2.121862
+        ],
+        "best_fit": "smoothstep-time / linear light"
+      }
+    ]
+  },
+  "head_and_tail": {
+    "head_seconds": 1.5,
+    "tail_seconds": 3.8,
+    "compositor_endpoint_peak_RGB_codes": {
+      "0": 0,
+      "5916": 0
+    }
+  },
+  "intentional_original_spring_picture_holds": {
+    "approved_spring_phase_identical_adjacent_count": 132,
+    "expected_total_movie_neighbor_same_pairs": 546,
+    "expected_pure_spring_same_neighbor_pairs": 546,
+    "pure_spring_held_indices_preserved_in_exact_RGB_preencode_stream": [
+      47,
+      49,
+      51,
+      53,
+      57,
+      59,
+      61,
+      63,
+      67,
+      69,
+      71,
+      73,
+      77,
+      79,
+      81,
+      83,
+      87,
+      89,
+      91,
+      93,
+      97,
+      99,
+      101,
+      103,
+      107,
+      109,
+      111,
+      113,
+      117,
+      119,
+      121,
+      123,
+      127,
+      129,
+      131,
+      133,
+      137,
+      139,
+      141,
+      143,
+      147,
+      149,
+      151,
+      153,
+      157,
+      159,
+      161,
+      163,
+      167,
+      169,
+      171,
+      173,
+      177,
+      179,
+      181,
+      183,
+      187,
+      189,
+      191,
+      193,
+      197,
+      199,
+      201,
+      203,
+      207,
+      209,
+      211,
+      213,
+      217,
+      219,
+      221,
+      223,
+      227,
+      229,
+      231,
+      233,
+      237,
+      239,
+      241,
+      243,
+      247,
+      249,
+      251,
+      253,
+      257,
+      259,
+      261,
+      263,
+      267,
+      269,
+      271,
+      273,
+      277,
+      279,
+      281,
+      283,
+      287,
+      289,
+      291,
+      293,
+      297,
+      299,
+      301,
+      303,
+      307,
+      309,
+      311,
+      313,
+      317,
+      319,
+      321,
+      323,
+      327,
+      329,
+      331,
+      333,
+      337,
+      339,
+      341,
+      343,
+      347,
+      349,
+      351,
+      353,
+      357,
+      359,
+      361,
+      363,
+      367,
+      369,
+      371,
+      373,
+      377,
+      379,
+      381,
+      383,
+      387,
+      389,
+      391,
+      393,
+      397,
+      399,
+      401,
+      403,
+      407,
+      409,
+      411,
+      413,
+      417,
+      419,
+      421,
+      423,
+      427,
+      429,
+      431,
+      433,
+      437,
+      439,
+      441,
+      443,
+      447,
+      449,
+      451,
+      453,
+      457,
+      459,
+      461,
+      463,
+      467,
+      469,
+      471,
+      473,
+      477,
+      479,
+      481,
+      483,
+      487,
+      489,
+      491,
+      493,
+      497,
+      499,
+      501,
+      503,
+      507,
+      509,
+      511,
+      513,
+      517,
+      519,
+      521,
+      523,
+      527,
+      529,
+      531,
+      533,
+      537,
+      539,
+      541,
+      543,
+      547,
+      549,
+      551,
+      553,
+      557,
+      559,
+      561,
+      563,
+      567,
+      569,
+      571,
+      573,
+      577,
+      579,
+      581,
+      583,
+      587,
+      589,
+      591,
+      593,
+      597,
+      599,
+      601,
+      603,
+      607,
+      609,
+      611,
+      613,
+      617,
+      619,
+      621,
+      623,
+      627,
+      629,
+      631,
+      633,
+      637,
+      639,
+      641,
+      643,
+      647,
+      649,
+      651,
+      653,
+      657,
+      659,
+      661,
+      663,
+      667,
+      669,
+      671,
+      673,
+      677,
+      679,
+      681,
+      683,
+      687,
+      689,
+      691,
+      693,
+      697,
+      699,
+      701,
+      703,
+      707,
+      709,
+      711,
+      713,
+      717,
+      719,
+      721,
+      723,
+      727,
+      729,
+      731,
+      733,
+      737,
+      739,
+      741,
+      743,
+      747,
+      749,
+      751,
+      753,
+      757,
+      759,
+      761,
+      763,
+      767,
+      769,
+      771,
+      773,
+      777,
+      779,
+      781,
+      783,
+      787,
+      789,
+      791,
+      793,
+      797,
+      799,
+      801,
+      803,
+      807,
+      809,
+      811,
+      813,
+      817,
+      819,
+      821,
+      823,
+      827,
+      829,
+      831,
+      833,
+      837,
+      839,
+      841,
+      843,
+      847,
+      849,
+      851,
+      853,
+      857,
+      859,
+      861,
+      863,
+      867,
+      869,
+      871,
+      873,
+      877,
+      879,
+      881,
+      883,
+      887,
+      889,
+      891,
+      893,
+      897,
+      899,
+      901,
+      903,
+      907,
+      909,
+      911,
+      913,
+      917,
+      919,
+      921,
+      923,
+      927,
+      929,
+      931,
+      933,
+      937,
+      939,
+      941,
+      943,
+      947,
+      949,
+      951,
+      953,
+      957,
+      959,
+      961,
+      963,
+      967,
+      969,
+      971,
+      973,
+      977,
+      979,
+      981,
+      983,
+      987,
+      989,
+      991,
+      993,
+      997,
+      999,
+      1001,
+      1003,
+      1007,
+      1009,
+      1011,
+      1013,
+      1017,
+      1019,
+      1021,
+      1023,
+      1027,
+      1029,
+      1031,
+      1033,
+      1037,
+      1039,
+      1041,
+      1043,
+      1047,
+      1049,
+      1051,
+      1053,
+      1057,
+      1059,
+      1061,
+      1063,
+      1067,
+      1069,
+      1071,
+      1073,
+      1077,
+      1079,
+      1081,
+      1083,
+      1087,
+      1089,
+      1091,
+      1093,
+      1097,
+      1099,
+      1101,
+      1103,
+      1107,
+      1109,
+      1111,
+      1113,
+      1117,
+      1119,
+      1121,
+      1123,
+      1127,
+      1129,
+      1131,
+      1133,
+      1137,
+      1139,
+      1141,
+      1143,
+      1147,
+      1149,
+      1151,
+      1153,
+      1157,
+      1159,
+      1161,
+      1163,
+      1167,
+      1169,
+      1171,
+      1173,
+      1177,
+      1179,
+      1181,
+      1183,
+      1187,
+      1189,
+      1191,
+      1193,
+      1197,
+      1199,
+      1201,
+      1203,
+      1207,
+      1209,
+      1211,
+      1213,
+      1217,
+      1219,
+      1221,
+      1223,
+      1227,
+      1229,
+      1231,
+      1233,
+      1237,
+      1239,
+      1241,
+      1243,
+      1247,
+      1249,
+      1251,
+      1253,
+      1257,
+      1259,
+      1261,
+      1263,
+      1267,
+      1269,
+      1271,
+      1273,
+      1277,
+      1279,
+      1281,
+      1283,
+      1287,
+      1289,
+      1291,
+      1293,
+      1297,
+      1299,
+      1301,
+      1303,
+      1307,
+      1309,
+      1311,
+      1313,
+      1317,
+      1319,
+      1321,
+      1323,
+      1327,
+      1329,
+      1331,
+      1333,
+      1337,
+      1339,
+      1341,
+      1343,
+      1347,
+      1349,
+      1351,
+      1353,
+      1357,
+      1359,
+      1361,
+      1363,
+      1367,
+      1369,
+      1371,
+      1373,
+      1377,
+      1379,
+      1381,
+      1383,
+      1387,
+      1389,
+      1391,
+      1393,
+      1397,
+      1399,
+      1401,
+      1403,
+      1407,
+      1409
+    ],
+    "pure_spring_decoded_actual_abs_RGB_step_during_hold_max": 0.016094,
+    "pure_spring_decoded_actual_abs_RGB_step_during_hold_median": 0.000226,
+    "pure_spring_deliberate_even_identical_decoded_frames": 33,
+    "all_same_indices_independently_recomputed_match": true,
+    "note": "Compressed reconstruction can differ slightly between two pictures of the same approved content; coordinate/PTS indices are never removed."
+  },
+  "original_audio": {
+    "source_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+    "packets": 9247,
+    "payload": true,
+    "timestamps_sizes_priming": true,
+    "aac_extradata_equal": true,
+    "original_and_new_packet_locked_hash": "24bcee4ea02e79719cee87c0211d21d639b8a21972988848016569a07a7ba8d8",
+    "page_cue_PCM_147_150_seconds": {
+      "exact_equal": true,
+      "stereo_pcm_s16le_48k_sha256": "b0a730a7f1eea1041bdf639bbc315e9ac3894a0396007f027aa398c67ddf6ed5",
+      "source_sha256": "b0a730a7f1eea1041bdf639bbc315e9ac3894a0396007f027aa398c67ddf6ed5",
+      "samples_and_seconds": [
+        [
+          7056000,
+          7200000
+        ],
+        [
+          147.0,
+          150.0
+        ]
+      ]
+    },
+    "loudness_lufs_i": -16.04,
+    "true_peak_dbTP": -4.74,
+    "lra": 8.1
+  },
+  "actual_principal_cues": {
+    "spring_static_alignment_and_holds": [
+      {
+        "ROI": "trunk",
+        "xyxy": [
+          200,
+          122,
+          222,
+          163
+        ],
+        "tested_dense_actual_segment": [
+          170,
+          211
+        ],
+        "max_per_frame_rgb_MAE_to_approved_source": 1.06578,
+        "approved_same_pictures_within_density_sample_count": 40,
+        "max_actual_step_during_approved_hold_RGB_mean": 0.001109
+      },
+      {
+        "ROI": "main_crown",
+        "xyxy": [
+          157,
+          5,
+          273,
+          133
+        ],
+        "tested_dense_actual_segment": [
+          170,
+          211
+        ],
+        "max_per_frame_rgb_MAE_to_approved_source": 1.294271,
+        "approved_same_pictures_within_density_sample_count": 20,
+        "max_actual_step_during_approved_hold_RGB_mean": 0.002986
+      },
+      {
+        "ROI": "held_cloth_and_rack",
+        "xyxy": [
+          243,
+          143,
+          307,
+          176
+        ],
+        "tested_dense_actual_segment": [
+          170,
+          211
+        ],
+        "max_per_frame_rgb_MAE_to_approved_source": 1.101484,
+        "approved_same_pictures_within_density_sample_count": 32,
+        "max_actual_step_during_approved_hold_RGB_mean": 0.00584
+      }
+    ],
+    "autumn_approved_leaves_and_anchored_trees": [
+      {
+        "f": 2959,
+        "global_s": 98.633333,
+        "phase": 109,
+        "cue": "left main branch",
+        "xyxy": [
+          20,
+          60,
+          98,
+          130
+        ],
+        "actual_decoded_rgb_MAE_p99_max_vs_approved": [
+          1.104884,
+          3.0,
+          7
+        ]
+      },
+      {
+        "f": 2973,
+        "global_s": 99.1,
+        "phase": 123,
+        "cue": "airborne leaves",
+        "xyxy": [
+          38,
+          64,
+          277,
+          139
+        ],
+        "actual_decoded_rgb_MAE_p99_max_vs_approved": [
+          1.124426,
+          3.0,
+          10
+        ]
+      },
+      {
+        "f": 2999,
+        "global_s": 99.966667,
+        "phase": 149,
+        "cue": "ground leaves",
+        "xyxy": [
+          68,
+          135,
+          241,
+          180
+        ],
+        "actual_decoded_rgb_MAE_p99_max_vs_approved": [
+          1.26337,
+          3.0,
+          9
+        ]
+      },
+      {
+        "f": 3002,
+        "global_s": 100.066667,
+        "phase": 152,
+        "cue": "distant birds",
+        "xyxy": [
+          119,
+          0,
+          199,
+          27
+        ],
+        "actual_decoded_rgb_MAE_p99_max_vs_approved": [
+          1.234414,
+          3.0,
+          4
+        ]
+      },
+      {
+        "f": 3028,
+        "global_s": 100.933333,
+        "phase": 178,
+        "cue": "kiosk vapor",
+        "xyxy": [
+          64,
+          102,
+          94,
+          142
+        ],
+        "actual_decoded_rgb_MAE_p99_max_vs_approved": [
+          1.014722,
+          3.0,
+          10
+        ]
+      },
+      {
+        "f": 3028,
+        "global_s": 100.933333,
+        "phase": 178,
+        "cue": "right fixed tree",
+        "xyxy": [
+          240,
+          54,
+          291,
+          162
+        ],
+        "actual_decoded_rgb_MAE_p99_max_vs_approved": [
+          1.064875,
+          3.0,
+          4
+        ]
+      }
+    ],
+    "winter_facade_no_old_fake_lights": [
+      {
+        "x": 237,
+        "row": 80,
+        "decoded_red_p01_p99_span": 4.255002,
+        "approved_red_p01_p99_span": 4.051666,
+        "actual_phase0_329_vs_source_red_signal_MAE": 0.718185
+      },
+      {
+        "x": 237,
+        "row": 63,
+        "decoded_red_p01_p99_span": 4.640998,
+        "approved_red_p01_p99_span": 4.027999,
+        "actual_phase0_329_vs_source_red_signal_MAE": 0.634244
+      },
+      {
+        "x": 237,
+        "row": 45,
+        "decoded_red_p01_p99_span": 5.247331,
+        "approved_red_p01_p99_span": 4.813998,
+        "actual_phase0_329_vs_source_red_signal_MAE": 0.65283
+      },
+      {
+        "x": 237,
+        "row": 28,
+        "decoded_red_p01_p99_span": 3.481998,
+        "approved_red_p01_p99_span": 3.944333,
+        "actual_phase0_329_vs_source_red_signal_MAE": 0.378083
+      }
+    ],
+    "summer_headlight_Y": [
+      {
+        "phase": 115,
+        "frame": 1525,
+        "global_s": 50.833333,
+        "roi": [
+          225,
+          141,
+          270,
+          166
+        ],
+        "expected_full_window_mean_Y": 4.188785,
+        "actual_full_window_mean_Y": 2.901866,
+        "expected_highlights_ge7": 224,
+        "actual_highlights_ge7": 143,
+        "same_phase_expected_headlight_positive_fraction_ge7": 1.0,
+        "actual_red_excess_above_when_vehicle_lamps_off": 3.943111
+      },
+      {
+        "phase": 124,
+        "frame": 1534,
+        "global_s": 51.133333,
+        "roi": [
+          225,
+          141,
+          270,
+          166
+        ],
+        "expected_full_window_mean_Y": 4.516732,
+        "actual_full_window_mean_Y": 3.202537,
+        "expected_highlights_ge7": 275,
+        "actual_highlights_ge7": 179,
+        "same_phase_expected_headlight_positive_fraction_ge7": 1.0,
+        "actual_red_excess_above_when_vehicle_lamps_off": 4.097777
+      },
+      {
+        "phase": 153,
+        "frame": 1563,
+        "global_s": 52.1,
+        "roi": [
+          98,
+          130,
+          162,
+          152
+        ],
+        "expected_full_window_mean_Y": 7.181241,
+        "actual_full_window_mean_Y": 6.06643,
+        "expected_highlights_ge7": 696,
+        "actual_highlights_ge7": 640,
+        "same_phase_expected_headlight_positive_fraction_ge7": 1.0,
+        "actual_red_excess_above_when_vehicle_lamps_off": 18.050709
+      }
+    ],
+    "summer_neon_dips": [
+      {
+        "global_interval_frames_half_open": [
+          1602,
+          1607
+        ],
+        "global_interval_seconds_half_open": [
+          53.4,
+          53.566667
+        ],
+        "dimming_delta_sign_wall_wet": [
+          -18.35059928894043,
+          -32.747798919677734,
+          -7.392099857330322
+        ],
+        "recover_delta_sign_wall_wet": [
+          18.19569969177246,
+          32.6697998046875,
+          7.224999904632568
+        ],
+        "visible_two_cycles_all_three_surfaces_same_frame": true
+      },
+      {
+        "global_interval_frames_half_open": [
+          1614,
+          1619
+        ],
+        "global_interval_seconds_half_open": [
+          53.8,
+          53.966667
+        ],
+        "dimming_delta_sign_wall_wet": [
+          -16.52039909362793,
+          -32.42179870605469,
+          -7.06279993057251
+        ],
+        "recover_delta_sign_wall_wet": [
+          16.247299194335938,
+          32.06769943237305,
+          7.02869987487793
+        ],
+        "visible_two_cycles_all_three_surfaces_same_frame": true
+      },
+      {
+        "global_interval_frames_half_open": [
+          1626,
+          1630
+        ],
+        "global_interval_seconds_half_open": [
+          54.2,
+          54.333333
+        ],
+        "dimming_delta_sign_wall_wet": [
+          -20.266700744628906,
+          -33.40810012817383,
+          -7.335100173950195
+        ],
+        "recover_delta_sign_wall_wet": [
+          19.518299102783203,
+          33.34859848022461,
+          7.380499839782715
+        ],
+        "visible_two_cycles_all_three_surfaces_same_frame": true
+      },
+      {
+        "global_interval_frames_half_open": [
+          1639,
+          1644
+        ],
+        "global_interval_seconds_half_open": [
+          54.633333,
+          54.8
+        ],
+        "dimming_delta_sign_wall_wet": [
+          -16.307600021362305,
+          -32.581199645996094,
+          -6.91540002822876
+        ],
+        "recover_delta_sign_wall_wet": [
+          15.866700172424316,
+          32.4193000793457,
+          7.029200077056885
+        ],
+        "visible_two_cycles_all_three_surfaces_same_frame": true
+      }
+    ],
+    "winter_closest": {
+      "native_phase": 165,
+      "output_frame": 4455,
+      "global_s": 148.5,
+      "luma_200_bright_bridge_actual": false
+    },
+    "winter_approved_matte_closest_native_separation_px": 4.12311,
+    "winter_entire_bright_bridge_scan": {
+      "frames": 86,
+      "bridge_frames": 0
+    }
+  },
+  "actual_staged_images": {
+    "decoded_cue_check.jpg": {
+      "sha256": "3b54a1b9c2346b0fa1498bfea49ae3734125d861816fbbfdf48a8b241f7ab83d",
+      "bytes": 226120,
+      "width_height": [
+        1740,
+        535
+      ]
+    },
+    "decoded_fades.jpg": {
+      "sha256": "2e8f6dd7d7cb89d86a007cb578c3ad066dea43bfdb6bc6de021f43a20a85e7d2",
+      "bytes": 142452,
+      "width_height": [
+        1640,
+        376
+      ]
+    },
+    "decoded_held_spring_and_autumn_leaf.jpg": {
+      "sha256": "c4b6bf4036220056779b8f3601c5ec98722882b88bc1b943fef698aaf9818275",
+      "bytes": 162490,
+      "width_height": [
+        1660,
+        396
+      ]
+    },
+    "decoded_transition_autumn_winter.jpg": {
+      "sha256": "9bfdfd1d4fa09d93dac83115a2b0d788d1d8b29c608f67c574565f9889456ac0",
+      "bytes": 197405,
+      "width_height": [
+        1650,
+        400
+      ]
+    },
+    "decoded_transition_spring_summer.jpg": {
+      "sha256": "fb00f51e3c63a9e25d526226ee265de4f6a668d3e4008989717c93795c5e8390",
+      "bytes": 178982,
+      "width_height": [
+        1650,
+        400
+      ]
+    },
+    "decoded_transition_summer_autumn.jpg": {
+      "sha256": "ca53135b9d5641fd1b590cdc34be214a41726ea85886c3b7a2b0bb4b7601b446",
+      "bytes": 186526,
+      "width_height": [
+        1650,
+        400
+      ]
+    },
+    "frame_autumn_winter_center_f4320_1080p.png": {
+      "sha256": "69d62bbf8e67d3604258b0f5ddf14e3d7d27ad659b0c58e32c8b2c2f8737734d",
+      "bytes": 872649,
+      "width_height": [
+        1920,
+        1080
+      ]
+    },
+    "frame_spring_summer_center_f1440_1080p.png": {
+      "sha256": "92629dbe5e2eb849156f748125c805b2ac9c66682632e1cc1fdad792a5cddff0",
+      "bytes": 710907,
+      "width_height": [
+        1920,
+        1080
+      ]
+    },
+    "frame_summer_autumn_center_f2880_1080p.png": {
+      "sha256": "5d539be6d2a55e9f63f097756dbc7dc88223cbdc17406969116fd10cee04abbe",
+      "bytes": 672606,
+      "width_height": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "mathematical_pass": true
+}

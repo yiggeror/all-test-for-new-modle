@@ -1,0 +1,12 @@
+{
+  "command": "python tools/gate3_v23/reproduce.py",
+  "flags": [],
+  "started_without_dist": true,
+  "only picture inputs": "16 round-approved Gate 2.3 split .bin under previews/gate_2_3/lossless_parts",
+  "fresh_download_official_v2_0": true,
+  "frame_count": 5917,
+  "sha256": "f0be07bb737f320055a1c4783d0009ea9e6a1bda72286ea0bc5ff94d643eb0f5",
+  "bytes": 124559524,
+  "exit_code": 0,
+  "unit_count": 19
+}

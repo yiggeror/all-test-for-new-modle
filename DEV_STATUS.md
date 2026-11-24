@@ -1,5 +1,15 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 13：v2.3 / Gate 3.3 成片已从审批分卷重建，待终审
+
+- [Round 13](https://github.com/yiggeror/all-test-for-new-modle/blob/8fbb28eb7a61329ffa218c6e7f92b4f72d19c6ee/REVIEW_LOG.md) 已通过 Gate 2.3 的 [d491fe13](https://github.com/yiggeror/all-test-for-new-modle/commit/d491fe13aaa2ff4b5addd296d42f1a40b73c85fc)。仅使用其 16 个无损分卷；实解四条 660 帧原片，锁定顺序、春 132 个天然持帧和整片 5,917 帧 PTS。
+- 干净取件后运行 **python tools/gate3_v23/reproduce.py**（无参数）生成 dist/Rainroji_Lofi_V2.3_1080p.mp4：**124,559,524 字节**，SHA-256 f0be07bb737f320055a1c4783d0009ea9e6a1bda72286ea0bc5ff94d643eb0f5。1920×1080 @30 / 197.233333 秒，H.264 High CRF14 / BT.709 限幅 / faststart。48、96、144 秒各 2 秒线性光 smoothstep，片头 1.5 秒和尾部 3.8 秒照旧。
+- 逐包保留已经签收 v2.0 官方 Release 的 9,247 个 AAC-LC 包、PTS/DTS、长度和 priming；不重新编码或混音。[实际解码关键帧、编码与画面核查](previews/gate_3_3/) 和 [一键工具](tools/gate3_v23/) 已备。
+- [独立成片复核](previews/gate_3_3/QA.md) 已核全 5,917 帧、546 个预定的相邻持帧位置、灯光/翻页实片和原 AAC。当前等待终验实片、实听与后续正式双渠道发布；此提交不改旧版工具、分卷、Release 或 Drive。
+
+---
+
+
 ## Round 12：v2.3 / Gate 2.3 像素动态返工待审
 
 按 [Round 12](https://github.com/yiggeror/all-test-for-new-modle/blob/16951626d5db44eacf6ac0f9b52caf80cafd2a5b/REVIEW_LOG.md) 的否决项完成 [四季双周期样片、分卷、峰值和真实运动证据](previews/gate_2_3/)。

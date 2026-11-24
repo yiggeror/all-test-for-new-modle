@@ -1,0 +1,114 @@
+{
+  "art_cue_map.json": {
+    "bytes": 1289,
+    "sha256": "2f25d24d8ed0ce3c8a1de62d6136de50b74a8f0ebe958b0770fbb0d6af3a830c"
+  },
+  "decoded_autumn_birds_F3002.png": {
+    "bytes": 328421,
+    "sha256": "5905da459be69f561e48971c12f231a6abfa45ed3126019eae26c1c0484b3b29"
+  },
+  "decoded_autumn_crosswalk_leaves_F2972.png": {
+    "bytes": 320907,
+    "sha256": "054b8aefadc7d6d85a59bc933bf00c9b54de4e66b4c2029241a7aade41f19722"
+  },
+  "decoded_autumn_tea_steam_F3028.png": {
+    "bytes": 329331,
+    "sha256": "7a9c87138c4960a4c74c3badd74a09c1364013e3b636bf0bfe1785d3a39a25c9"
+  },
+  "decoded_autumn_winter_F4320.png": {
+    "bytes": 879082,
+    "sha256": "b377aa8062e941dc1135567db16643486b6f81987e8e797610f5271bc7222e8c"
+  },
+  "decoded_frame_manifest.json": {
+    "bytes": 3247,
+    "sha256": "550f7889b68cd4ca0fc964381df4154537a89002f2ad38d50ee195996409c550"
+  },
+  "decoded_head_fade_F022.png": {
+    "bytes": 528143,
+    "sha256": "9fa65ac9bf462e6d50cb3b9f978f12b558f8247a273174de82d45a7e5875e92e"
+  },
+  "decoded_spring_laundry_F195.png": {
+    "bytes": 298357,
+    "sha256": "c8808f3f1c9b409b51a46eaeec5758de20da54b65fafd142ba5608f1196d6e5b"
+  },
+  "decoded_spring_petals_F180.png": {
+    "bytes": 289769,
+    "sha256": "d2462d6c89b8f2e5c511de4ab85e21840e786a4e133a01fed4ef7a71ba779f32"
+  },
+  "decoded_spring_summer_F1440.png": {
+    "bytes": 702043,
+    "sha256": "844df787a1a77519a4b8ce7f41afead77e75644fc57a0a6da60e6ae857579225"
+  },
+  "decoded_summer_autumn_F2880.png": {
+    "bytes": 628532,
+    "sha256": "40460bbb0030fe3c53590a93c9fc5b747ae7a3f4c53d72b7931b7859c186dde0"
+  },
+  "decoded_summer_car_warm_light_F1563.png": {
+    "bytes": 505810,
+    "sha256": "48f5b5adc214ac22935561978e07be573cbacde4577aee379345c76c0dc95aa5"
+  },
+  "decoded_summer_neon_dip_F1604.png": {
+    "bytes": 494315,
+    "sha256": "e12e06b5e28eb23e29ada16d09d8c5a64f8b0ef2989354ef857a42c8e57d7b64"
+  },
+  "decoded_summer_neon_stable_F1601.png": {
+    "bytes": 528148,
+    "sha256": "8dee121c51b138f2e0f182b514fa7db464db028f0a6645a1e598d30bb7b235aa"
+  },
+  "decoded_summer_wet_warm_light_F1534.png": {
+    "bytes": 500555,
+    "sha256": "4ddd0f8b144bd37b0a2f2cfbfec563ffd81f82cebeb5d6283ff81bb884047ad8"
+  },
+  "decoded_tail_fade_F5870.png": {
+    "bytes": 704586,
+    "sha256": "8ce27aee39ac80be34bbca9da37663437c2df6cc67c2aabd48c616e007b38a8f"
+  },
+  "decoded_winter_fixed_facade_F4385.png": {
+    "bytes": 593839,
+    "sha256": "b8bc669f8542577927dc07852d3cfe0d3f98555c84ee081061d6dd0c1e2b89c6"
+  },
+  "decoded_winter_page_turn_F4455.png": {
+    "bytes": 640720,
+    "sha256": "9e5876a6cf13ba750802d040a334f7c3256ce5386e736bd4ce40c6e24a71ef66"
+  },
+  "decoded_winter_snow_F4504.png": {
+    "bytes": 534441,
+    "sha256": "8f891cf9b077f42d7cdb1705ad665b83a81faebafeb9b47a4efee4038d6a8514"
+  },
+  "encode.log": {
+    "bytes": 7093,
+    "sha256": "1c6e6f54d210feb75075c477daad7d7f6409169c766c5992ec39248ef739685c"
+  },
+  "encode_progress.log": {
+    "bytes": 6997,
+    "sha256": "f343598bac6bf77a24f3cd1932dbfdf3475d8836de6f355e723e4ef2672887b0"
+  },
+  "encoded_transition_storyboard.jpg": {
+    "bytes": 651479,
+    "sha256": "6afc44f5802a5f9a31d4e2a20f091174f9f6b6f2a72d88c9babeb45c48d0fb7b"
+  },
+  "nearest_neighbor_native_qa.json": {
+    "bytes": 183,
+    "sha256": "baab86e5ea2c62369e39c27cd24a7e766d1675200b5bdb35b2c0093be6dd4145"
+  },
+  "picture_complete_qa.json": {
+    "bytes": 23092,
+    "sha256": "fa1df33610d6ed7705c7b33ae43fa85651c649eb31a749b76880fd33977bf856"
+  },
+  "picture_plan.json": {
+    "bytes": 7066,
+    "sha256": "c80c510462bbff9653ce1a505a992d08aa220fa5fcbaaafb00941faec15facca"
+  },
+  "picture_render.json": {
+    "bytes": 5433,
+    "sha256": "b5f975171bdee3c10b17d406c2b0af16de86deac5f37cd8035182ce2e0b83041"
+  },
+  "picture_structural_qa.json": {
+    "bytes": 468,
+    "sha256": "afa5103735d15a6bdd0308e5b0186f2c7b6d4a21eadda326c2b337ba50739dcc"
+  },
+  "reproduction_qa.json": {
+    "bytes": 13308,
+    "sha256": "97563b3d717eaec42a657a197151dc02636ed28f96557e089f84260be2a69245"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "source_film_track": "Actual final mux H.264 decoded at full 1920×1080, no overlays; no compatibility proxy.",
+  "source_phases_are_zero_based": true,
+  "spring": {
+    "origin": 0,
+    "phase_180_film": 180,
+    "phase_195_film": 195,
+    "checks": [
+      "fixed tree",
+      "lit petals",
+      "visible cloth pose"
+    ]
+  },
+  "summer": {
+    "origin": 1410,
+    "phase_124_film": 1534,
+    "phase_153_film": 1563,
+    "neon_4_windows_film_half_open": [
+      [
+        1602,
+        1607
+      ],
+      [
+        1614,
+        1619
+      ],
+      [
+        1626,
+        1630
+      ],
+      [
+        1639,
+        1644
+      ]
+    ],
+    "still_stable_and_dip_film": [
+      1601,
+      1604
+    ],
+    "checks": [
+      "warm ground then car sweep",
+      "synchronized net-bar sign, wall and wet road"
+    ]
+  },
+  "autumn": {
+    "origin": 2850,
+    "phase_to_film": {
+      "122": 2972,
+      "152": 3002,
+      "178": 3028
+    },
+    "checks": [
+      "ground leaves",
+      "bird wing and sky",
+      "steam near tea"
+    ]
+  },
+  "winter": {
+    "origin": 4290,
+    "phase_to_film": {
+      "95": 4385,
+      "165": 4455,
+      "214": 4504
+    },
+    "checks": [
+      "fixed distant windows",
+      "separated page and lamp",
+      "layered snow and smoke"
+    ]
+  }
+}

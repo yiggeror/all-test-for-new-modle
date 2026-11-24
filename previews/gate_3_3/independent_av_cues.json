@@ -1,0 +1,1445 @@
+{
+  "source_approval_commit": "d491fe13aaa2ff4b5addd296d42f1a40b73c85fc",
+  "round_13_commit": "8fbb28eb7a61329ffa218c6e7f92b4f72d19c6ee",
+  "lossless_manifest_git_blob": "a7004772d10acb2076a892135d2dd577a599cfca",
+  "official_v20_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+  "local_ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "locked_source_inputs": {
+    "summer": {
+      "bytes": 60593471,
+      "sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+      "QP": 0,
+      "r_frame_rate": "30/1",
+      "frames": 660,
+      "time_base": "1/15360"
+    },
+    "winter": {
+      "bytes": 44405611,
+      "sha256": "a398278d0086c0d8144c5b8cccc03a6e4094974e42ed1acb259622a3b1b2514a",
+      "QP": 0,
+      "r_frame_rate": "30/1",
+      "frames": 660,
+      "time_base": "1/15360"
+    },
+    "obsolete_winter": {
+      "bytes": 46457547,
+      "sha256": "e98fc613a958cc56dc7e17054849717573f69d0e50bf44067ad6dfbc7b61c664",
+      "QP": 0,
+      "r_frame_rate": "30/1",
+      "frames": 660,
+      "time_base": "1/15360"
+    }
+  },
+  "negative_control_obsolete_winter": {
+    "sample_count": 330,
+    "separate_wall_crop_native_xyxy": [
+      228,
+      3,
+      244,
+      92
+    ],
+    "warm_connected_test_roi_approx_x235_to_240_y5_to_90": true,
+    "largest_warm_component_native_area_px": 8,
+    "flagged_phases": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      158,
+      159,
+      163,
+      165,
+      204,
+      205,
+      207,
+      208,
+      209,
+      213,
+      214,
+      215
+    ],
+    "no_warm_fake_light": false,
+    "five_anchors": {
+      "11": {
+        "center_native_xy": [
+          237,
+          11
+        ],
+        "warm_code_p99_minus_p01": 4.228,
+        "peak_warm_code": -18.0
+      },
+      "28": {
+        "center_native_xy": [
+          237,
+          28
+        ],
+        "warm_code_p99_minus_p01": 49.57,
+        "peak_warm_code": 29.43333
+      },
+      "45": {
+        "center_native_xy": [
+          237,
+          45
+        ],
+        "warm_code_p99_minus_p01": 46.256,
+        "peak_warm_code": 23.6
+      },
+      "63": {
+        "center_native_xy": [
+          237,
+          63
+        ],
+        "warm_code_p99_minus_p01": 53.35167,
+        "peak_warm_code": 32.53333
+      },
+      "80": {
+        "center_native_xy": [
+          237,
+          80
+        ],
+        "warm_code_p99_minus_p01": 52.56667,
+        "peak_warm_code": 29.23333
+      }
+    }
+  },
+  "approved_source": {
+    "summer": {
+      "decoded_neon_pts_half_open": [
+        185,
+        238
+      ],
+      "neon_measures": {
+        "sign": {
+          "xyxy": [
+            225,
+            39,
+            234,
+            63
+          ],
+          "detected_local_frames_half_open": [
+            [
+              192,
+              197
+            ],
+            [
+              204,
+              209
+            ],
+            [
+              216,
+              220
+            ],
+            [
+              229,
+              234
+            ]
+          ],
+          "detected_film_frames_half_open": [
+            [
+              1602,
+              1607
+            ],
+            [
+              1614,
+              1619
+            ],
+            [
+              1626,
+              1630
+            ],
+            [
+              1639,
+              1644
+            ]
+          ],
+          "detected_film_s_half_open": [
+            [
+              53.4,
+              53.566666667
+            ],
+            [
+              53.8,
+              53.966666667
+            ],
+            [
+              54.2,
+              54.333333333
+            ],
+            [
+              54.633333333,
+              54.8
+            ]
+          ],
+          "maximum_dark_red_excess": 62.77778,
+          "minimum_lit_red_excess": 88.05556,
+          "gap_between_observed_states": 25.27778,
+          "observed_threshold": 75.41667,
+          "matches_approved_intervals": true,
+          "per_frame_red_excess": [
+            89.23611,
+            89.43981,
+            89.25,
+            89.54167,
+            89.19444,
+            89.00463,
+            89.34722,
+            61.22685,
+            61.25,
+            61.30093,
+            61.25,
+            61.25463,
+            89.34259,
+            89.46759,
+            89.66204,
+            89.37037,
+            89.66204,
+            89.27778,
+            89.51389,
+            62.15278,
+            62.55556,
+            62.77778,
+            62.1713,
+            62.48611,
+            89.46759,
+            89.12037,
+            89.47685,
+            89.33796,
+            89.47222,
+            89.46759,
+            89.23611,
+            60.31481,
+            60.40741,
+            60.24537,
+            60.27315,
+            89.00463,
+            89.34722,
+            89.66204,
+            89.46759,
+            89.46759,
+            89.35648,
+            89.19444,
+            89.34259,
+            89.46759,
+            62.2963,
+            62.19444,
+            61.875,
+            61.85648,
+            62.18519,
+            89.34259,
+            89.12037,
+            88.05556,
+            89.34259
+          ]
+        },
+        "adjacent_wall": {
+          "xyxy": [
+            215,
+            39,
+            225,
+            65
+          ],
+          "detected_local_frames_half_open": [
+            [
+              192,
+              197
+            ],
+            [
+              204,
+              209
+            ],
+            [
+              216,
+              220
+            ],
+            [
+              229,
+              234
+            ]
+          ],
+          "detected_film_frames_half_open": [
+            [
+              1602,
+              1607
+            ],
+            [
+              1614,
+              1619
+            ],
+            [
+              1626,
+              1630
+            ],
+            [
+              1639,
+              1644
+            ]
+          ],
+          "detected_film_s_half_open": [
+            [
+              53.4,
+              53.566666667
+            ],
+            [
+              53.8,
+              53.966666667
+            ],
+            [
+              54.2,
+              54.333333333
+            ],
+            [
+              54.633333333,
+              54.8
+            ]
+          ],
+          "maximum_dark_red_excess": 1.42308,
+          "minimum_lit_red_excess": 35.01923,
+          "gap_between_observed_states": 33.59615,
+          "observed_threshold": 18.22115,
+          "matches_approved_intervals": true,
+          "per_frame_red_excess": [
+            35.51923,
+            35.44615,
+            35.18462,
+            35.56923,
+            35.28462,
+            35.25385,
+            35.17308,
+            1.06923,
+            1.03077,
+            1.04231,
+            1.05385,
+            1.02308,
+            35.46538,
+            35.52692,
+            35.33462,
+            35.17308,
+            35.14615,
+            35.23846,
+            35.25385,
+            1.2,
+            1.35,
+            1.42308,
+            1.31923,
+            1.24615,
+            35.46538,
+            35.32308,
+            35.35,
+            35.66154,
+            35.32308,
+            35.71923,
+            35.51923,
+            0.52692,
+            0.70385,
+            1.03846,
+            0.58077,
+            35.25385,
+            35.17308,
+            35.23846,
+            35.75769,
+            35.30385,
+            35.11154,
+            35.28077,
+            35.46538,
+            35.52692,
+            1.23846,
+            1.25385,
+            1.28462,
+            1.18462,
+            1.19615,
+            35.39231,
+            35.43462,
+            35.01923,
+            35.41154
+          ]
+        },
+        "wet_red_reflection": {
+          "xyxy": [
+            212,
+            130,
+            290,
+            176
+          ],
+          "detected_local_frames_half_open": [
+            [
+              192,
+              197
+            ],
+            [
+              204,
+              209
+            ],
+            [
+              216,
+              220
+            ],
+            [
+              229,
+              234
+            ]
+          ],
+          "detected_film_frames_half_open": [
+            [
+              1602,
+              1607
+            ],
+            [
+              1614,
+              1619
+            ],
+            [
+              1626,
+              1630
+            ],
+            [
+              1639,
+              1644
+            ]
+          ],
+          "detected_film_s_half_open": [
+            [
+              53.4,
+              53.566666667
+            ],
+            [
+              53.8,
+              53.966666667
+            ],
+            [
+              54.2,
+              54.333333333
+            ],
+            [
+              54.633333333,
+              54.8
+            ]
+          ],
+          "maximum_dark_red_excess": 0.01143,
+          "minimum_lit_red_excess": 0.58807,
+          "gap_between_observed_states": 0.57664,
+          "observed_threshold": 0.29975,
+          "matches_approved_intervals": true,
+          "per_frame_red_excess": [
+            0.64242,
+            0.62848,
+            0.63183,
+            0.65831,
+            0.68395,
+            0.64744,
+            0.67113,
+            0.00195,
+            0.00334,
+            0.00334,
+            0.00139,
+            0.00167,
+            0.68255,
+            0.67698,
+            0.6558,
+            0.64994,
+            0.61957,
+            0.58807,
+            0.63099,
+            0.00334,
+            0.00223,
+            0.00557,
+            0.01059,
+            0.00334,
+            0.60897,
+            0.64103,
+            0.63935,
+            0.60312,
+            0.62263,
+            0.64075,
+            0.65245,
+            0.01143,
+            0.00557,
+            0.00334,
+            0.00641,
+            0.60535,
+            0.6374,
+            0.61371,
+            0.62263,
+            0.61148,
+            0.61399,
+            0.60953,
+            0.65719,
+            0.66081,
+            0.0,
+            0.00334,
+            0.00725,
+            0.0,
+            0.00139,
+            0.59365,
+            0.60925,
+            0.62625,
+            0.6165
+          ]
+        }
+      },
+      "all_three_rois_on_the_same_four_approved_dips": true,
+      "readback_headlight_snapshots_not_an_isolation_test": {
+        "124": {
+          "phase_frame": 124,
+          "film_frame": 1534,
+          "film_exact_s": "767/15",
+          "film_s": 51.133333333,
+          "film_pcm_sample_48000": 2454400,
+          "roi": [
+            225,
+            141,
+            270,
+            166
+          ],
+          "mean_rgb": [
+            55.344,
+            47.2524,
+            62.5058
+          ],
+          "bright_neutral_pixels_Y200_and_RGB_spread_lt18": 0
+        },
+        "153": {
+          "phase_frame": 153,
+          "film_frame": 1563,
+          "film_exact_s": "521/10",
+          "film_s": 52.1,
+          "film_pcm_sample_48000": 2500800,
+          "roi": [
+            98,
+            130,
+            162,
+            152
+          ],
+          "mean_rgb": [
+            74.5916,
+            47.8722,
+            58.3161
+          ],
+          "bright_neutral_pixels_Y200_and_RGB_spread_lt18": 0
+        }
+      }
+    },
+    "winter": {
+      "decoded_page_pts_half_open": [
+        124,
+        211
+      ],
+      "locked_visible_page_action_film_s_half_open": [
+        147.3,
+        149.9
+      ],
+      "locked_visible_page_action_samples_half_open": [
+        7070400,
+        7195200
+      ],
+      "page_peaks": {
+        "164": {
+          "phase_frame": 164,
+          "film_frame": 4454,
+          "film_exact_s": "2227/15",
+          "film_s": 148.466666667,
+          "film_pcm_sample_48000": 7126400,
+          "paper": {
+            "xy": [
+              261,
+              110
+            ],
+            "component": 2,
+            "luma": 214.2906
+          },
+          "lamp": {
+            "xy": [
+              265,
+              109
+            ],
+            "component": 1,
+            "luma": 214.2906
+          },
+          "warm_component_count": 2,
+          "bright_bridge": false,
+          "gap_native_pixels": 4.12311
+        },
+        "165": {
+          "phase_frame": 165,
+          "film_frame": 4455,
+          "film_exact_s": "297/2",
+          "film_s": 148.5,
+          "film_pcm_sample_48000": 7128000,
+          "paper": {
+            "xy": [
+              261,
+              110
+            ],
+            "component": 2,
+            "luma": 214.2906
+          },
+          "lamp": {
+            "xy": [
+              265,
+              109
+            ],
+            "component": 1,
+            "luma": 214.2906
+          },
+          "warm_component_count": 2,
+          "bright_bridge": false,
+          "gap_native_pixels": 4.12311
+        }
+      },
+      "warm_bridge_phases_in_87_frame_gesture_window": [],
+      "both_peaks_over_4_native_pixels_and_no_bright_bridge": true,
+      "existing_foley_center_samples": [
+        7114080,
+        7134720,
+        7165440
+      ],
+      "existing_foley_center_film_s": [
+        148.21,
+        148.64,
+        149.28
+      ],
+      "all_foley_centers_inside_approved_page_window": true,
+      "decoded_wall_unobscured_cycle_pts_half_open": [
+        0,
+        330
+      ],
+      "blank_stair_wall": {
+        "sample_count": 330,
+        "separate_wall_crop_native_xyxy": [
+          228,
+          3,
+          244,
+          92
+        ],
+        "warm_connected_test_roi_approx_x235_to_240_y5_to_90": true,
+        "largest_warm_component_native_area_px": 0,
+        "flagged_phases": [],
+        "no_warm_fake_light": true,
+        "five_anchors": {
+          "11": {
+            "center_native_xy": [
+              237,
+              11
+            ],
+            "warm_code_p99_minus_p01": 3.16667,
+            "peak_warm_code": -18.0
+          },
+          "28": {
+            "center_native_xy": [
+              237,
+              28
+            ],
+            "warm_code_p99_minus_p01": 3.38067,
+            "peak_warm_code": -15.76667
+          },
+          "45": {
+            "center_native_xy": [
+              237,
+              45
+            ],
+            "warm_code_p99_minus_p01": 5.72267,
+            "peak_warm_code": -15.3
+          },
+          "63": {
+            "center_native_xy": [
+              237,
+              63
+            ],
+            "warm_code_p99_minus_p01": 4.46667,
+            "peak_warm_code": -14.86667
+          },
+          "80": {
+            "center_native_xy": [
+              237,
+              80
+            ],
+            "warm_code_p99_minus_p01": 4.428,
+            "peak_warm_code": -18.86667
+          }
+        }
+      }
+    }
+  },
+  "approved_v20_PCM": [
+    {
+      "name": "summer_context",
+      "verified_absolute_samples_half_open": [
+        2556960,
+        2636160
+      ],
+      "film_seconds_half_open": [
+        53.27,
+        54.92
+      ],
+      "samples_per_channel": 79200,
+      "PCM_stereo_f32le_sha256": "a78c145848422786b653b32f72237894c3ab827ac50e7899a7f6bac2e9dff9bc",
+      "mixed_channel_rms_dBFS": -16.7437,
+      "no_hard_clip": true
+    },
+    {
+      "name": "winter_page_context",
+      "verified_absolute_samples_half_open": [
+        7068960,
+        7200000
+      ],
+      "film_seconds_half_open": [
+        147.27,
+        150.0
+      ],
+      "samples_per_channel": 131040,
+      "PCM_stereo_f32le_sha256": "d96ba408fc199ac380b90eecbca8ef04018c9733bbf555555c544706ba606890",
+      "mixed_channel_rms_dBFS": -16.3659,
+      "no_hard_clip": true
+    },
+    {
+      "name": "summer_exact_four_dips_span",
+      "verified_absolute_samples_half_open": [
+        2563200,
+        2630400
+      ],
+      "film_seconds_half_open": [
+        53.4,
+        54.8
+      ],
+      "samples_per_channel": 67200,
+      "PCM_stereo_f32le_sha256": "cb71bc6790e0e333c54e446336f5416126e08ec964bd91c46af23222f55b4d0a",
+      "mixed_channel_rms_dBFS": -16.6427,
+      "no_hard_clip": true
+    },
+    {
+      "name": "winter_both_exact_peak_video_frames",
+      "verified_absolute_samples_half_open": [
+        7126400,
+        7129600
+      ],
+      "film_seconds_half_open": [
+        148.466666667,
+        148.533333333
+      ],
+      "samples_per_channel": 3200,
+      "PCM_stereo_f32le_sha256": "1e827c6c61b45bd9166e34881cba5f6752b1200d775fb2a9f7ff250d69dd88cf",
+      "mixed_channel_rms_dBFS": -15.3348,
+      "no_hard_clip": true
+    }
+  ],
+  "passed": true,
+  "sound_notes": "Green Tea/ambience/foley retained. No electrical buzz is in the approved mix; summer has low-pass rain. Foley timestamps are set by the frozen recipe, and are not source separation or subjective listening.",
+  "candidate_sha256": "f0be07bb737f320055a1c4783d0009ea9e6a1bda72286ea0bc5ff94d643eb0f5",
+  "candidate": {
+    "summer": {
+      "decoded_neon_pts_half_open": [
+        1595,
+        1648
+      ],
+      "neon_measures": {
+        "sign": {
+          "xyxy": [
+            225,
+            39,
+            234,
+            63
+          ],
+          "detected_local_frames_half_open": [
+            [
+              192,
+              197
+            ],
+            [
+              204,
+              209
+            ],
+            [
+              216,
+              220
+            ],
+            [
+              229,
+              234
+            ]
+          ],
+          "detected_film_frames_half_open": [
+            [
+              1602,
+              1607
+            ],
+            [
+              1614,
+              1619
+            ],
+            [
+              1626,
+              1630
+            ],
+            [
+              1639,
+              1644
+            ]
+          ],
+          "detected_film_s_half_open": [
+            [
+              53.4,
+              53.566666667
+            ],
+            [
+              53.8,
+              53.966666667
+            ],
+            [
+              54.2,
+              54.333333333
+            ],
+            [
+              54.633333333,
+              54.8
+            ]
+          ],
+          "maximum_dark_red_excess": 63.49074,
+          "minimum_lit_red_excess": 88.41204,
+          "gap_between_observed_states": 24.9213,
+          "observed_threshold": 75.95139,
+          "matches_approved_intervals": true,
+          "per_frame_red_excess": [
+            89.34722,
+            89.40741,
+            89.29167,
+            89.56019,
+            89.14352,
+            89.08333,
+            89.52315,
+            61.625,
+            61.625,
+            61.63426,
+            61.61574,
+            61.625,
+            89.46759,
+            89.53241,
+            89.54167,
+            89.22222,
+            89.50926,
+            89.2963,
+            89.46296,
+            62.86111,
+            63.33333,
+            63.49074,
+            62.70833,
+            63.34722,
+            89.37037,
+            89.27778,
+            89.69907,
+            89.63889,
+            89.87963,
+            89.75926,
+            89.58796,
+            60.78241,
+            60.77315,
+            60.73611,
+            60.76852,
+            89.15278,
+            89.5463,
+            89.94907,
+            89.75926,
+            89.75926,
+            89.625,
+            89.46296,
+            89.5463,
+            89.75926,
+            62.73148,
+            62.72222,
+            62.40741,
+            62.36574,
+            62.89352,
+            89.60185,
+            89.33796,
+            88.41204,
+            89.56481
+          ]
+        },
+        "adjacent_wall": {
+          "xyxy": [
+            215,
+            39,
+            225,
+            65
+          ],
+          "detected_local_frames_half_open": [
+            [
+              192,
+              197
+            ],
+            [
+              204,
+              209
+            ],
+            [
+              216,
+              220
+            ],
+            [
+              229,
+              234
+            ]
+          ],
+          "detected_film_frames_half_open": [
+            [
+              1602,
+              1607
+            ],
+            [
+              1614,
+              1619
+            ],
+            [
+              1626,
+              1630
+            ],
+            [
+              1639,
+              1644
+            ]
+          ],
+          "detected_film_s_half_open": [
+            [
+              53.4,
+              53.566666667
+            ],
+            [
+              53.8,
+              53.966666667
+            ],
+            [
+              54.2,
+              54.333333333
+            ],
+            [
+              54.633333333,
+              54.8
+            ]
+          ],
+          "maximum_dark_red_excess": 1.45,
+          "minimum_lit_red_excess": 35.0,
+          "gap_between_observed_states": 33.55,
+          "observed_threshold": 18.225,
+          "matches_approved_intervals": true,
+          "per_frame_red_excess": [
+            35.59231,
+            35.46538,
+            35.23846,
+            35.63846,
+            35.34231,
+            35.3,
+            35.21923,
+            1.10769,
+            1.09231,
+            1.02308,
+            1.10385,
+            1.17692,
+            35.55385,
+            35.73462,
+            35.71923,
+            35.13846,
+            35.32308,
+            35.33077,
+            35.41923,
+            1.37308,
+            1.16923,
+            1.45,
+            1.33462,
+            1.40769,
+            35.62692,
+            35.16154,
+            35.32692,
+            35.60769,
+            35.3,
+            35.56538,
+            35.32692,
+            0.60769,
+            0.63077,
+            0.87308,
+            0.50769,
+            35.11923,
+            35.0,
+            35.31923,
+            35.60385,
+            35.22308,
+            35.03462,
+            35.15385,
+            35.26154,
+            35.59615,
+            1.21154,
+            1.24231,
+            1.28462,
+            1.19231,
+            1.14615,
+            35.35385,
+            35.37692,
+            35.30385,
+            35.47692
+          ]
+        },
+        "wet_red_reflection": {
+          "xyxy": [
+            212,
+            130,
+            290,
+            176
+          ],
+          "detected_local_frames_half_open": [
+            [
+              192,
+              197
+            ],
+            [
+              204,
+              209
+            ],
+            [
+              216,
+              220
+            ],
+            [
+              229,
+              234
+            ]
+          ],
+          "detected_film_frames_half_open": [
+            [
+              1602,
+              1607
+            ],
+            [
+              1614,
+              1619
+            ],
+            [
+              1626,
+              1630
+            ],
+            [
+              1639,
+              1644
+            ]
+          ],
+          "detected_film_s_half_open": [
+            [
+              53.4,
+              53.566666667
+            ],
+            [
+              53.8,
+              53.966666667
+            ],
+            [
+              54.2,
+              54.333333333
+            ],
+            [
+              54.633333333,
+              54.8
+            ]
+          ],
+          "maximum_dark_red_excess": 0.00502,
+          "minimum_lit_red_excess": 0.59448,
+          "gap_between_observed_states": 0.58946,
+          "observed_threshold": 0.29975,
+          "matches_approved_intervals": true,
+          "per_frame_red_excess": [
+            0.63462,
+            0.63545,
+            0.6243,
+            0.64437,
+            0.65524,
+            0.64576,
+            0.6714,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.67977,
+            0.66388,
+            0.6374,
+            0.64939,
+            0.61845,
+            0.59727,
+            0.6374,
+            0.0,
+            0.0,
+            0.00195,
+            0.00084,
+            0.00056,
+            0.63016,
+            0.64521,
+            0.65998,
+            0.61176,
+            0.6126,
+            0.64632,
+            0.6767,
+            0.00418,
+            0.00056,
+            0.0,
+            0.00502,
+            0.60173,
+            0.63712,
+            0.6374,
+            0.63043,
+            0.6087,
+            0.6087,
+            0.60535,
+            0.64855,
+            0.65914,
+            0.0,
+            0.00167,
+            0.0,
+            0.0,
+            0.0,
+            0.59448,
+            0.61148,
+            0.63071,
+            0.62681
+          ]
+        }
+      },
+      "all_three_rois_on_the_same_four_approved_dips": true,
+      "readback_headlight_snapshots_not_an_isolation_test": {
+        "124": {
+          "phase_frame": 124,
+          "film_frame": 1534,
+          "film_exact_s": "767/15",
+          "film_s": 51.133333333,
+          "film_pcm_sample_48000": 2454400,
+          "roi": [
+            225,
+            141,
+            270,
+            166
+          ],
+          "mean_rgb": [
+            55.4462,
+            47.2782,
+            62.5449
+          ],
+          "bright_neutral_pixels_Y200_and_RGB_spread_lt18": 0
+        },
+        "153": {
+          "phase_frame": 153,
+          "film_frame": 1563,
+          "film_exact_s": "521/10",
+          "film_s": 52.1,
+          "film_pcm_sample_48000": 2500800,
+          "roi": [
+            98,
+            130,
+            162,
+            152
+          ],
+          "mean_rgb": [
+            74.4865,
+            47.9219,
+            58.3622
+          ],
+          "bright_neutral_pixels_Y200_and_RGB_spread_lt18": 0
+        }
+      }
+    },
+    "winter": {
+      "decoded_page_pts_half_open": [
+        4414,
+        4501
+      ],
+      "locked_visible_page_action_film_s_half_open": [
+        147.3,
+        149.9
+      ],
+      "locked_visible_page_action_samples_half_open": [
+        7070400,
+        7195200
+      ],
+      "page_peaks": {
+        "164": {
+          "phase_frame": 164,
+          "film_frame": 4454,
+          "film_exact_s": "2227/15",
+          "film_s": 148.466666667,
+          "film_pcm_sample_48000": 7126400,
+          "paper": {
+            "xy": [
+              261,
+              110
+            ],
+            "component": 2,
+            "luma": 214.7748
+          },
+          "lamp": {
+            "xy": [
+              265,
+              109
+            ],
+            "component": 1,
+            "luma": 214.2906
+          },
+          "warm_component_count": 2,
+          "bright_bridge": false,
+          "gap_native_pixels": 4.12311
+        },
+        "165": {
+          "phase_frame": 165,
+          "film_frame": 4455,
+          "film_exact_s": "297/2",
+          "film_s": 148.5,
+          "film_pcm_sample_48000": 7128000,
+          "paper": {
+            "xy": [
+              261,
+              110
+            ],
+            "component": 2,
+            "luma": 214.561
+          },
+          "lamp": {
+            "xy": [
+              265,
+              109
+            ],
+            "component": 1,
+            "luma": 214.2906
+          },
+          "warm_component_count": 2,
+          "bright_bridge": false,
+          "gap_native_pixels": 4.12311
+        }
+      },
+      "warm_bridge_phases_in_87_frame_gesture_window": [],
+      "both_peaks_over_4_native_pixels_and_no_bright_bridge": true,
+      "existing_foley_center_samples": [
+        7114080,
+        7134720,
+        7165440
+      ],
+      "existing_foley_center_film_s": [
+        148.21,
+        148.64,
+        149.28
+      ],
+      "all_foley_centers_inside_approved_page_window": true,
+      "decoded_wall_unobscured_cycle_pts_half_open": [
+        4620,
+        4950
+      ],
+      "blank_stair_wall": {
+        "sample_count": 330,
+        "separate_wall_crop_native_xyxy": [
+          228,
+          3,
+          244,
+          92
+        ],
+        "warm_connected_test_roi_approx_x235_to_240_y5_to_90": true,
+        "largest_warm_component_native_area_px": 0,
+        "flagged_phases": [],
+        "no_warm_fake_light": true,
+        "five_anchors": {
+          "11": {
+            "center_native_xy": [
+              237,
+              11
+            ],
+            "warm_code_p99_minus_p01": 2.028,
+            "peak_warm_code": -18.56667
+          },
+          "28": {
+            "center_native_xy": [
+              237,
+              28
+            ],
+            "warm_code_p99_minus_p01": 1.80433,
+            "peak_warm_code": -19.86667
+          },
+          "45": {
+            "center_native_xy": [
+              237,
+              45
+            ],
+            "warm_code_p99_minus_p01": 4.98933,
+            "peak_warm_code": -16.46667
+          },
+          "63": {
+            "center_native_xy": [
+              237,
+              63
+            ],
+            "warm_code_p99_minus_p01": 5.057,
+            "peak_warm_code": -15.9
+          },
+          "80": {
+            "center_native_xy": [
+              237,
+              80
+            ],
+            "warm_code_p99_minus_p01": 3.03333,
+            "peak_warm_code": -18.46667
+          }
+        }
+      }
+    }
+  },
+  "candidate_PCM": [
+    {
+      "name": "summer_context",
+      "verified_absolute_samples_half_open": [
+        2556960,
+        2636160
+      ],
+      "film_seconds_half_open": [
+        53.27,
+        54.92
+      ],
+      "samples_per_channel": 79200,
+      "PCM_stereo_f32le_sha256": "a78c145848422786b653b32f72237894c3ab827ac50e7899a7f6bac2e9dff9bc",
+      "mixed_channel_rms_dBFS": -16.7437,
+      "no_hard_clip": true
+    },
+    {
+      "name": "winter_page_context",
+      "verified_absolute_samples_half_open": [
+        7068960,
+        7200000
+      ],
+      "film_seconds_half_open": [
+        147.27,
+        150.0
+      ],
+      "samples_per_channel": 131040,
+      "PCM_stereo_f32le_sha256": "d96ba408fc199ac380b90eecbca8ef04018c9733bbf555555c544706ba606890",
+      "mixed_channel_rms_dBFS": -16.3659,
+      "no_hard_clip": true
+    },
+    {
+      "name": "summer_exact_four_dips_span",
+      "verified_absolute_samples_half_open": [
+        2563200,
+        2630400
+      ],
+      "film_seconds_half_open": [
+        53.4,
+        54.8
+      ],
+      "samples_per_channel": 67200,
+      "PCM_stereo_f32le_sha256": "cb71bc6790e0e333c54e446336f5416126e08ec964bd91c46af23222f55b4d0a",
+      "mixed_channel_rms_dBFS": -16.6427,
+      "no_hard_clip": true
+    },
+    {
+      "name": "winter_both_exact_peak_video_frames",
+      "verified_absolute_samples_half_open": [
+        7126400,
+        7129600
+      ],
+      "film_seconds_half_open": [
+        148.466666667,
+        148.533333333
+      ],
+      "samples_per_channel": 3200,
+      "PCM_stereo_f32le_sha256": "1e827c6c61b45bd9166e34881cba5f6752b1200d775fb2a9f7ff250d69dd88cf",
+      "mixed_channel_rms_dBFS": -15.3348,
+      "no_hard_clip": true
+    }
+  ],
+  "decoded_PCM_equal_to_v20_at_exact_pts": true,
+  "same_phase_RGB_code_MAE_vs_QP0": {
+    "summer_f124": 0.54281,
+    "summer_f153": 0.42969,
+    "summer_neon_sign_all_53_frames": 0.75626,
+    "summer_neon_adjacent_wall_all_53_frames": 0.47446,
+    "summer_neon_wet_red_reflection_all_53_frames": 0.28631,
+    "winter_f164_reading_room": 0.5977,
+    "winter_f165_reading_room": 0.63083,
+    "same_winter_wall_phases_all_330": 0.26468
+  },
+  "RGB_local_MAE_within_3_codes_despite_CRF14": true
+}

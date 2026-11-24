@@ -1,0 +1,22 @@
+{
+  "resolution": [
+    1920,
+    1080
+  ],
+  "profile": "High",
+  "codec": "h264",
+  "pix_fmt": "yuv420p",
+  "fps": "30/1",
+  "bt709": true,
+  "faststart": true,
+  "pts_checked": 5917,
+  "timing_exact": true,
+  "duration_s": 197.23333333333332,
+  "sha256": "30315fa1322959aa4b1b9c8ac3a8f03ed9b5dadf10e08e47211d02e495632a5c",
+  "bytes": 118064397,
+  "packet_step": 512,
+  "max_gop": 60,
+  "bit_rate_bps": 4788821,
+  "video_only": true,
+  "max_positive_pts": 3028992
+}
