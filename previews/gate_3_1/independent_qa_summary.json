@@ -1,0 +1,43 @@
+{
+  "review_commit": "bc10313a30fab60fef6672b212b1bcc18893d5f3",
+  "approved_input_commit": "bc09740",
+  "independent_assembled_native_RGB_sha256": "e875a665d4333c0c3054bd848bf83a9dc6653afd2518d9094d84c4813cb27b9d",
+  "sha256": "692bf5cab708192337c9537d8abf95ed07aeef54dc63dd9a230cb9661e06d367",
+  "bytes": 153200299,
+  "format_and_timing_pass": true,
+  "video_packets": 5917,
+  "final_picture_stream_copied": true,
+  "checked_decoded_picture_samples": 222,
+  "max_one_sample_RGB_MAE_to_approved_input": 1.431863,
+  "on_image_black_bar_lines_columns": [
+    0,
+    0
+  ],
+  "first_and_last_exact_black": true,
+  "approved_fades": {
+    "head_frames": 45,
+    "head_seconds": 1.5,
+    "tail_start_s": 193.4,
+    "tail_last_black_s": 197.2,
+    "tail_fade_frames": 114,
+    "tail_duration_s": 3.8
+  },
+  "three_transitions_match_approved_v2.0_curve": true,
+  "full_decode_pass": true,
+  "aac": {
+    "binaries_of_all_AAC_packets_equal": true,
+    "timing_keyflags_codec_priming_and_sizes_equal": true,
+    "stream_format_and_audio_extradata_equal": true,
+    "packet_count": [
+      9247,
+      9247
+    ],
+    "actual_mp4_ebur128_ffmpeg_decode": {
+      "input_i": -16.04,
+      "input_tp": -4.74,
+      "input_lra": 8.1
+    },
+    "pass": true
+  },
+  "pass": true
+}

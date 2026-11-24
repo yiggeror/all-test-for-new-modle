@@ -1,0 +1,229 @@
+{
+  "scope": "picture only; encode directly from pinned native NPY",
+  "source_commit": "bc09740",
+  "reviewer_commit": "bc10313a30fab60fef6672b212b1bcc18893d5f3",
+  "fps": 30,
+  "native_width": 320,
+  "native_height": 180,
+  "scale_neighbor": 6,
+  "frame_count": 5917,
+  "video_seconds": 197.23333333333332,
+  "author_music_seconds": 197.21429166666667,
+  "video_roundup_seconds": 0.019041666666666665,
+  "head_fade_frames": 45,
+  "tail_fade_frames": 114,
+  "tail_begin_frame": 5802,
+  "tail_start_sec": 193.4,
+  "alpha": "smoothstep input in linear-light sRGB, then 8-bit RGB before NN",
+  "visible_ranges_inclusive": {
+    "spring": [
+      0,
+      1469
+    ],
+    "summer": [
+      1411,
+      2909
+    ],
+    "autumn": [
+      2851,
+      4349
+    ],
+    "winter": [
+      4291,
+      5916
+    ]
+  },
+  "picture_loop_origin_frames": {
+    "spring": 0,
+    "summer": 1410,
+    "autumn": 2850,
+    "winter": 4290
+  },
+  "t": [
+    {
+      "from": "spring",
+      "to": "summer",
+      "center_frame": 1440,
+      "center_sec": 48.0,
+      "first_frame": 1410,
+      "first_sec": 47.0,
+      "end_frame_exclusive": 1470,
+      "end_exclusive_sec": 49.0,
+      "duration_frames": 60,
+      "duration_sec": 2.0
+    },
+    {
+      "from": "summer",
+      "to": "autumn",
+      "center_frame": 2880,
+      "center_sec": 96.0,
+      "first_frame": 2850,
+      "first_sec": 95.0,
+      "end_frame_exclusive": 2910,
+      "end_exclusive_sec": 97.0,
+      "duration_frames": 60,
+      "duration_sec": 2.0
+    },
+    {
+      "from": "autumn",
+      "to": "winter",
+      "center_frame": 4320,
+      "center_sec": 144.0,
+      "first_frame": 4290,
+      "first_sec": 143.0,
+      "end_frame_exclusive": 4350,
+      "end_exclusive_sec": 145.0,
+      "duration_frames": 60,
+      "duration_sec": 2.0
+    }
+  ],
+  "verified_internal_phase_wraps": [
+    {
+      "film_frame": 330,
+      "season": "spring",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 660,
+      "season": "spring",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 990,
+      "season": "spring",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 1320,
+      "season": "spring",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 1740,
+      "season": "summer",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 2070,
+      "season": "summer",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 2400,
+      "season": "summer",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 2730,
+      "season": "summer",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 3180,
+      "season": "autumn",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 3510,
+      "season": "autumn",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 3840,
+      "season": "autumn",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 4170,
+      "season": "autumn",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 4620,
+      "season": "winter",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 4950,
+      "season": "winter",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 5280,
+      "season": "winter",
+      "from": 329,
+      "to": 0
+    },
+    {
+      "film_frame": 5610,
+      "season": "winter",
+      "from": 329,
+      "to": 0
+    }
+  ],
+  "native_inputs": {
+    "spring": {
+      "input_name": "spring_native.npy",
+      "NPY_SHA256": "7a830f443446ecec904e45a341e863c2d2fc60601208772f466db88f9354a291",
+      "SHA256_of_ordered_RGB_frame_hashes": "5aa40500a7cadae708127b4d2799a28e6cfec731b705c727ac3cff2782cfcace",
+      "size": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "bytes": 57024128
+    },
+    "summer": {
+      "input_name": "summer_native.npy",
+      "NPY_SHA256": "6b0ca3546ee81289c40dd1b5572f4140741584efbd13b4aba4dcd0aa51870d7c",
+      "SHA256_of_ordered_RGB_frame_hashes": "78d01edd5bf54122b7ab8890d59e2be3ecd88fa5dcf5f91ab9c11ed1e980b987",
+      "size": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "bytes": 57024128
+    },
+    "autumn": {
+      "input_name": "autumn_native.npy",
+      "NPY_SHA256": "3afc97e1ce68aaf114e22578ace12c44f18ece96eb2fcc200ec0891b56b2d913",
+      "SHA256_of_ordered_RGB_frame_hashes": "3121ac659ca88fd28fea1b890d39ea06bc5b013818930d77ff6e6de06260502e",
+      "size": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "bytes": 57024128
+    },
+    "winter": {
+      "input_name": "winter_native.npy",
+      "NPY_SHA256": "142f6b7fbfef38f4e30ad4467fba18eb76c43c9c3a08122b58f1e6c9f934bfc7",
+      "SHA256_of_ordered_RGB_frame_hashes": "0d4fcc6acf31e0fc632b773668f974e7fd340590e12d9940e2f3e092b3b68d5c",
+      "size": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "bytes": 57024128
+    }
+  },
+  "notes": ""
+}

@@ -1,0 +1,53 @@
+{
+  "command": "python tools/gate3_v21/reproduce.py",
+  "exit_code": 0,
+  "checked_split_file_count": 19,
+  "source_of_audio": "fresh verified v2.0 GitHub Release MP4 download",
+  "source_of_video": "approved Gate 2.1 lossless multipart source only",
+  "no_audio_cache_or_manual_path_override": true,
+  "same_toolchain": {
+    "python": "3.12.14",
+    "machine": "x86_64",
+    "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "Pillow": "13.0.0"
+    },
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "x264": "264 - core 164 r3108 31e19f9"
+  },
+  "rebuilt_output": "Rainroji_Lofi_V2.1_1080p.mp4",
+  "rebuilt_bytes": 153200299,
+  "rebuilt_sha256": "692bf5cab708192337c9537d8abf95ed07aeef54dc63dd9a230cb9661e06d367",
+  "local_candidate_compared_with_cmp_byte_exact": true,
+  "preencode_native_rgb_sha256": "e875a665d4333c0c3054bd848bf83a9dc6653afd2518d9094d84c4813cb27b9d",
+  "aac_adts_sha256": "3eb43b1c07211e4ece9173fae7ff25e73e4195f50c430e2f388285971725693d",
+  "aac_packets": 9247,
+  "technical_qa": {
+    "video": {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "30/1",
+      "nb_frames": "5917",
+      "color_space": "bt709",
+      "color_range": "tv",
+      "start_pts": 0,
+      "color_transfer": null,
+      "color_primaries": null
+    },
+    "pts_checked": 5917,
+    "duration": "197.233333",
+    "full_audio_video_decode": true,
+    "faststart": true,
+    "lufs_i": -16.04,
+    "dbtp": -4.74,
+    "lra_lu": 8.1,
+    "bitrate_bps": 6213971,
+    "muxer": "Lavf61.7.103"
+  }
+}

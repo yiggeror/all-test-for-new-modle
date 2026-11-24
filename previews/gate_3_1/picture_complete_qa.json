@@ -1,0 +1,593 @@
+{
+  "structure": {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "profile": "High",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "bt709": true,
+    "faststart": true,
+    "pts_checked": 5917,
+    "timing_exact": true,
+    "duration_s": 197.23333333333332,
+    "sha256": "b9773e3a9954abbeb2b7fb292faa0d88d167e99fcfd23440c6f396a03561737e",
+    "bytes": 146705396,
+    "packet_step": 512,
+    "max_gop": 60,
+    "bit_rate_bps": 5950531,
+    "video_only": true,
+    "max_positive_pts": 3028992
+  },
+  "input_nn_check": {
+    "sample_frames": [
+      0,
+      15,
+      45,
+      1440,
+      2880,
+      4320,
+      3450,
+      4800,
+      5802,
+      5916
+    ],
+    "channel_differences_against_explicit_repeat": 0
+  },
+  "decoded_frames": [
+    0,
+    5,
+    25,
+    45,
+    225,
+    329,
+    330,
+    659,
+    660,
+    989,
+    990,
+    1070,
+    1319,
+    1320,
+    1400,
+    1409,
+    1410,
+    1425,
+    1440,
+    1455,
+    1469,
+    1470,
+    1471,
+    1480,
+    1739,
+    1740,
+    2069,
+    2070,
+    2300,
+    2399,
+    2400,
+    2670,
+    2729,
+    2730,
+    2840,
+    2849,
+    2850,
+    2865,
+    2875,
+    2880,
+    2895,
+    2909,
+    2910,
+    2920,
+    3179,
+    3180,
+    3509,
+    3510,
+    3839,
+    3840,
+    4169,
+    4170,
+    4280,
+    4289,
+    4290,
+    4305,
+    4320,
+    4335,
+    4349,
+    4350,
+    4360,
+    4619,
+    4620,
+    4949,
+    4950,
+    5279,
+    5280,
+    5609,
+    5610,
+    5802,
+    5870,
+    5916
+  ],
+  "changed_bytes": {
+    "reason": "Expected CRF14 loss after correct NN; no resized-input blend or decode before production composition",
+    "stats": {
+      "0": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.0,
+        "U_mean_abs_diff": 0.0,
+        "V_mean_abs_diff": 0.0,
+        "Y_greater_than_12_share": 0.0
+      },
+      "5": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.09084876543209877,
+        "U_mean_abs_diff": 0.18804591049382716,
+        "V_mean_abs_diff": 0.1767573302469136,
+        "Y_greater_than_12_share": 0.0
+      },
+      "25": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.16957224151234568,
+        "U_mean_abs_diff": 0.31537422839506174,
+        "V_mean_abs_diff": 0.3526851851851852,
+        "Y_greater_than_12_share": 0.0
+      },
+      "45": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.0832740162037037,
+        "U_mean_abs_diff": 0.23501543209876544,
+        "V_mean_abs_diff": 0.24269868827160493,
+        "Y_greater_than_12_share": 0.0
+      },
+      "225": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.046128472222222223,
+        "U_mean_abs_diff": 0.1454417438271605,
+        "V_mean_abs_diff": 0.14986882716049382,
+        "Y_greater_than_12_share": 0.0
+      },
+      "329": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.04583767361111111,
+        "U_mean_abs_diff": 0.144320987654321,
+        "V_mean_abs_diff": 0.1484201388888889,
+        "Y_greater_than_12_share": 0.0
+      },
+      "330": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.04033613040123457,
+        "U_mean_abs_diff": 0.13980131172839505,
+        "V_mean_abs_diff": 0.14437692901234567,
+        "Y_greater_than_12_share": 0.0
+      },
+      "659": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.0555835262345679,
+        "U_mean_abs_diff": 0.1658371913580247,
+        "V_mean_abs_diff": 0.1729417438271605,
+        "Y_greater_than_12_share": 0.0
+      },
+      "660": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.01837721836419753,
+        "U_mean_abs_diff": 0.09057098765432099,
+        "V_mean_abs_diff": 0.09185378086419753,
+        "Y_greater_than_12_share": 0.0
+      },
+      "989": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.04583767361111111,
+        "U_mean_abs_diff": 0.144320987654321,
+        "V_mean_abs_diff": 0.1484201388888889,
+        "Y_greater_than_12_share": 0.0
+      },
+      "990": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.04033613040123457,
+        "U_mean_abs_diff": 0.13980131172839505,
+        "V_mean_abs_diff": 0.14437692901234567,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1070": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.04470871913580247,
+        "U_mean_abs_diff": 0.15302276234567902,
+        "V_mean_abs_diff": 0.1560108024691358,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1319": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.0555835262345679,
+        "U_mean_abs_diff": 0.1658371913580247,
+        "V_mean_abs_diff": 0.1729417438271605,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1320": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.01837721836419753,
+        "U_mean_abs_diff": 0.09057098765432099,
+        "V_mean_abs_diff": 0.09185378086419753,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1400": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03221643518518519,
+        "U_mean_abs_diff": 0.1296508487654321,
+        "V_mean_abs_diff": 0.13469135802469137,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1409": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.05000144675925926,
+        "U_mean_abs_diff": 0.1599266975308642,
+        "V_mean_abs_diff": 0.16527777777777777,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1410": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.04341772762345679,
+        "U_mean_abs_diff": 0.1545216049382716,
+        "V_mean_abs_diff": 0.1610860339506173,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1425": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.2526731288580247,
+        "U_mean_abs_diff": 0.34435570987654324,
+        "V_mean_abs_diff": 0.3373514660493827,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1440": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.07109182098765432,
+        "U_mean_abs_diff": 0.23645447530864197,
+        "V_mean_abs_diff": 0.24019097222222222,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1455": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.3095703125,
+        "U_mean_abs_diff": 0.4342168209876543,
+        "V_mean_abs_diff": 0.4402951388888889,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1469": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.15224681712962962,
+        "U_mean_abs_diff": 0.3095042438271605,
+        "V_mean_abs_diff": 0.3095486111111111,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1470": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.14229311342592593,
+        "U_mean_abs_diff": 0.30073302469135804,
+        "V_mean_abs_diff": 0.2986979166666667,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1471": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.14824845679012347,
+        "U_mean_abs_diff": 0.3117611882716049,
+        "V_mean_abs_diff": 0.30580632716049383,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1480": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.11685570987654322,
+        "U_mean_abs_diff": 0.26664737654320986,
+        "V_mean_abs_diff": 0.26553626543209874,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1739": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.10751012731481481,
+        "U_mean_abs_diff": 0.2502854938271605,
+        "V_mean_abs_diff": 0.24768904320987653,
+        "Y_greater_than_12_share": 0.0
+      },
+      "1740": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.04672453703703704,
+        "U_mean_abs_diff": 0.16142554012345678,
+        "V_mean_abs_diff": 0.15698495370370372,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2069": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.10404272762345679,
+        "U_mean_abs_diff": 0.24997299382716048,
+        "V_mean_abs_diff": 0.24884645061728394,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2070": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.09391782407407408,
+        "U_mean_abs_diff": 0.23476851851851852,
+        "V_mean_abs_diff": 0.23209104938271605,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2300": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.09906635802469135,
+        "U_mean_abs_diff": 0.23273341049382715,
+        "V_mean_abs_diff": 0.23219907407407409,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2399": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.10751012731481481,
+        "U_mean_abs_diff": 0.2502854938271605,
+        "V_mean_abs_diff": 0.24768904320987653,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2400": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.04672453703703704,
+        "U_mean_abs_diff": 0.16142554012345678,
+        "V_mean_abs_diff": 0.15698495370370372,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2670": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.09466049382716049,
+        "U_mean_abs_diff": 0.23407021604938272,
+        "V_mean_abs_diff": 0.23382137345679013,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2729": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.10404272762345679,
+        "U_mean_abs_diff": 0.24997299382716048,
+        "V_mean_abs_diff": 0.24884645061728394,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2730": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.09391782407407408,
+        "U_mean_abs_diff": 0.23476851851851852,
+        "V_mean_abs_diff": 0.23209104938271605,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2840": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.08911747685185185,
+        "U_mean_abs_diff": 0.22767168209876543,
+        "V_mean_abs_diff": 0.22660493827160494,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2849": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.10646604938271605,
+        "U_mean_abs_diff": 0.2540914351851852,
+        "V_mean_abs_diff": 0.2535841049382716,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2850": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.0966478587962963,
+        "U_mean_abs_diff": 0.23755015432098767,
+        "V_mean_abs_diff": 0.2373611111111111,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2865": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.29316261574074076,
+        "U_mean_abs_diff": 0.4599922839506173,
+        "V_mean_abs_diff": 0.4393557098765432,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2875": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.33568528163580247,
+        "U_mean_abs_diff": 0.5206230709876544,
+        "V_mean_abs_diff": 0.4639737654320988,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2880": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.057955729166666664,
+        "U_mean_abs_diff": 0.21121720679012346,
+        "V_mean_abs_diff": 0.19632908950617284,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2895": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.2787866512345679,
+        "U_mean_abs_diff": 0.4336400462962963,
+        "V_mean_abs_diff": 0.3851832561728395,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2909": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.09328076774691359,
+        "U_mean_abs_diff": 0.2616724537037037,
+        "V_mean_abs_diff": 0.22860532407407408,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2910": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.08454668209876544,
+        "U_mean_abs_diff": 0.25169560185185186,
+        "V_mean_abs_diff": 0.2216820987654321,
+        "Y_greater_than_12_share": 0.0
+      },
+      "2920": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.0693846450617284,
+        "U_mean_abs_diff": 0.22049961419753086,
+        "V_mean_abs_diff": 0.19728973765432098,
+        "Y_greater_than_12_share": 0.0
+      },
+      "3179": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.041008391203703705,
+        "U_mean_abs_diff": 0.14668402777777778,
+        "V_mean_abs_diff": 0.13678626543209876,
+        "Y_greater_than_12_share": 0.0
+      },
+      "3180": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.015432581018518519,
+        "U_mean_abs_diff": 0.08497106481481481,
+        "V_mean_abs_diff": 0.08338541666666667,
+        "Y_greater_than_12_share": 0.0
+      },
+      "3509": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03470920138888889,
+        "U_mean_abs_diff": 0.1287133487654321,
+        "V_mean_abs_diff": 0.12074074074074075,
+        "Y_greater_than_12_share": 0.0
+      },
+      "3510": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03138647762345679,
+        "U_mean_abs_diff": 0.1257716049382716,
+        "V_mean_abs_diff": 0.11778163580246914,
+        "Y_greater_than_12_share": 0.0
+      },
+      "3839": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.041008391203703705,
+        "U_mean_abs_diff": 0.14668402777777778,
+        "V_mean_abs_diff": 0.13678626543209876,
+        "Y_greater_than_12_share": 0.0
+      },
+      "3840": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.015432581018518519,
+        "U_mean_abs_diff": 0.08497106481481481,
+        "V_mean_abs_diff": 0.08338541666666667,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4169": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03470920138888889,
+        "U_mean_abs_diff": 0.1287133487654321,
+        "V_mean_abs_diff": 0.12074074074074075,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4170": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03138647762345679,
+        "U_mean_abs_diff": 0.1257716049382716,
+        "V_mean_abs_diff": 0.11778163580246914,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4280": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.024972993827160495,
+        "U_mean_abs_diff": 0.12058063271604938,
+        "V_mean_abs_diff": 0.11506751543209877,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4289": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03962962962962963,
+        "U_mean_abs_diff": 0.14995949074074075,
+        "V_mean_abs_diff": 0.13705246913580246,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4290": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03616898148148148,
+        "U_mean_abs_diff": 0.14835069444444443,
+        "V_mean_abs_diff": 0.13477237654320987,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4305": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.3040330825617284,
+        "U_mean_abs_diff": 0.4914178240740741,
+        "V_mean_abs_diff": 0.4510011574074074,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4320": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.06893132716049383,
+        "U_mean_abs_diff": 0.2526195987654321,
+        "V_mean_abs_diff": 0.2464139660493827,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4335": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.3069945987654321,
+        "U_mean_abs_diff": 0.4555131172839506,
+        "V_mean_abs_diff": 0.4888155864197531,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4349": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.13520929783950617,
+        "U_mean_abs_diff": 0.2769965277777778,
+        "V_mean_abs_diff": 0.3061188271604938,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4350": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.12478732638888888,
+        "U_mean_abs_diff": 0.27075617283950615,
+        "V_mean_abs_diff": 0.2973070987654321,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4360": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.10090615354938272,
+        "U_mean_abs_diff": 0.2391435185185185,
+        "V_mean_abs_diff": 0.2586111111111111,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4619": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.07316936728395061,
+        "U_mean_abs_diff": 0.1604320987654321,
+        "V_mean_abs_diff": 0.1832253086419753,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4620": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03508680555555556,
+        "U_mean_abs_diff": 0.11919753086419753,
+        "V_mean_abs_diff": 0.12946566358024691,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4949": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.06554735725308641,
+        "U_mean_abs_diff": 0.14964506172839506,
+        "V_mean_abs_diff": 0.1667283950617284,
+        "Y_greater_than_12_share": 0.0
+      },
+      "4950": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.05941261574074074,
+        "U_mean_abs_diff": 0.14770447530864197,
+        "V_mean_abs_diff": 0.1656346450617284,
+        "Y_greater_than_12_share": 0.0
+      },
+      "5279": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.07316936728395061,
+        "U_mean_abs_diff": 0.1604320987654321,
+        "V_mean_abs_diff": 0.1832253086419753,
+        "Y_greater_than_12_share": 0.0
+      },
+      "5280": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.03508680555555556,
+        "U_mean_abs_diff": 0.11919753086419753,
+        "V_mean_abs_diff": 0.12946566358024691,
+        "Y_greater_than_12_share": 0.0
+      },
+      "5609": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.06554735725308641,
+        "U_mean_abs_diff": 0.14964506172839506,
+        "V_mean_abs_diff": 0.1667283950617284,
+        "Y_greater_than_12_share": 0.0
+      },
+      "5610": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.05941261574074074,
+        "U_mean_abs_diff": 0.14770447530864197,
+        "V_mean_abs_diff": 0.1656346450617284,
+        "Y_greater_than_12_share": 0.0
+      },
+      "5802": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.06688512731481482,
+        "U_mean_abs_diff": 0.15984182098765432,
+        "V_mean_abs_diff": 0.1777218364197531,
+        "Y_greater_than_12_share": 0.0
+      },
+      "5870": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.1778901427469136,
+        "U_mean_abs_diff": 0.2800289351851852,
+        "V_mean_abs_diff": 0.2597337962962963,
+        "Y_greater_than_12_share": 0.0
+      },
+      "5916": {
+        "Y_RGB_ffmpeg_BT709_mean_abs_diff": 0.0,
+        "U_mean_abs_diff": 0.0,
+        "V_mean_abs_diff": 0.0,
+        "Y_greater_than_12_share": 0.0
+      }
+    }
+  },
+  "full_decode_without_ffmpeg_errors": true,
+  "black_open_and_close": true,
+  "loop_wrap_sample_frames": [
+    329,
+    330,
+    659,
+    660,
+    989,
+    990,
+    1319,
+    1320,
+    1739,
+    1740,
+    2069,
+    2070,
+    2399,
+    2400,
+    2729,
+    2730,
+    3179,
+    3180,
+    3509,
+    3510,
+    3839,
+    3840,
+    4169,
+    4170,
+    4619,
+    4620,
+    4949,
+    4950,
+    5279,
+    5280,
+    5609,
+    5610
+  ],
+  "mean_luma_mae": 0.09131224413794582,
+  "target_red_season_luma_mae": {
+    "1471": 0.14824845679012347,
+    "2300": 0.09906635802469135,
+    "2670": 0.09466049382716049,
+    "2875": 0.33568528163580247
+  }
+}

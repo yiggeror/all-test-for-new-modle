@@ -1,0 +1,106 @@
+{
+  "review": "bc10313a30fab60fef6672b212b1bcc18893d5f3",
+  "approved_parts_commit": "bc09740",
+  "sha256": "692bf5cab708192337c9537d8abf95ed07aeef54dc63dd9a230cb9661e06d367",
+  "bytes": 153200299,
+  "approved_part_manifest_blob": "290c663862e2f2f405b267bcbff43b9a9d9a2722",
+  "source_mp4_sha256": {
+    "spring": "ffdb85b216cdca42d3e21031e9efd0ded8f9511f96f21b03756bc4b5b5065739",
+    "summer": "e3a25083136642d4c07e06fc1c2632d089ef4ced70cd03dc77984030c8ac1d12",
+    "autumn": "ad899448d840cf0c30e87e7cdeacf162fe66d868361c0f44624358d55c09ca15",
+    "winter": "d6cbfce58cdecf3fe6d571e41eee13643b03113586f645dfad47c0a45c734d7b"
+  },
+  "reconstruction": {
+    "raw_RGB_oracle_sha256": "e875a665d4333c0c3054bd848bf83a9dc6653afd2518d9094d84c4813cb27b9d",
+    "all_1320_frames_match_rebuilt_round7_approved_sources": true,
+    "actual_encoder_rgb_pipe_sha256": "e875a665d4333c0c3054bd848bf83a9dc6653afd2518d9094d84c4813cb27b9d",
+    "encoder_RGB_matches_oracle": true
+  },
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "format": "yuv420p",
+    "color": "bt709",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 5917,
+    "duration_s": 197.233333,
+    "bitrate_bps": 5947555,
+    "x264_bitstream_crf": 14.0,
+    "faststart": true,
+    "max_GOP_frames": 60
+  },
+  "audio": {
+    "authorized_source_mp4_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+    "binaries_of_all_AAC_packets_equal": true,
+    "timing_keyflags_codec_priming_and_sizes_equal": true,
+    "stream_format_and_audio_extradata_equal": true,
+    "relevant_audio_stream_specs": {
+      "sample_rate": "48000",
+      "channels": 2,
+      "codec_name": "aac",
+      "profile": "LC",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200,
+      "nb_frames": "9247",
+      "extradata_hash": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10"
+    },
+    "packet_count": [
+      9247,
+      9247
+    ],
+    "v21_AAC_nested_payload_hash": "24bcee4ea02e79719cee87c0211d21d639b8a21972988848016569a07a7ba8d8",
+    "actual_mp4_ebur128_ffmpeg_decode": {
+      "input_i": -16.04,
+      "input_tp": -4.74,
+      "input_lra": 8.1
+    }
+  },
+  "decoded_frame_cadence": {
+    "whole_file_strict_decode_ok": true,
+    "drops": 0,
+    "duplicates": 0,
+    "checked_frame_samples": 222,
+    "worst_rgb_mae": 1.431863,
+    "unintended_dark_rows_cols": [
+      0,
+      0
+    ],
+    "internal_wraps_checked": 16,
+    "start_end_black": true
+  },
+  "transitions": {
+    "windows_s": [
+      [
+        47,
+        49
+      ],
+      [
+        95,
+        97
+      ],
+      [
+        143,
+        145
+      ]
+    ],
+    "centers_s": [
+      48,
+      96,
+      144
+    ],
+    "in_linear_light": true,
+    "opacity_temporal_curve": "smoothstep / 3x²−2x³ preserved from official v2.0",
+    "both_releases_fitted_independently": true,
+    "head_tail": {
+      "head_frames": 45,
+      "head_seconds": 1.5,
+      "tail_start_s": 193.4,
+      "tail_last_black_s": 197.2,
+      "tail_fade_frames": 114,
+      "tail_duration_s": 3.8
+    }
+  }
+}

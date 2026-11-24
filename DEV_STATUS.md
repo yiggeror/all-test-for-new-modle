@@ -1,5 +1,17 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 7：Gate 2.1 已通过，Gate 3.1 本地成片待终审
+
+[Round 7](https://github.com/yiggeror/all-test-for-new-modle/blob/bc10313a30fab60fef6672b212b1bcc18893d5f3/REVIEW_LOG.md) 已通过四季动效样片。本轮使用 `previews/gate_2_1/lossless_parts/` 的正本直接恢复 320×180 RGB，按已审 v2.0 的线性光叠化曲线与 48／96／144 秒中心合成，然后严格 6× 最近邻放大，仅一次 CRF 14 画面编码。没有读取有损预览代理。
+
+**本地候审成片** `Rainroji_Lofi_V2.1_1080p.mp4`：153,200,299 字节，SHA-256 `692bf5cab708192337c9537d8abf95ed07aeef54dc63dd9a230cb9661e06d367`；1920×1080、30 fps、5,917 帧、197.233333 秒。完整保留经 v2.0 正式发布签收的 9,247 个 AAC 包（Purrple Cat《Green Tea》、原四季环境及翻书拟音），实测 −16.04 LUFS、−4.74 dBTP。全解码与首尾节奏验核通过。
+
+在仓库根目录运行 `python tools/gate3_v21/reproduce.py`。脚本独立于原 v2.0 目录，核分卷、原生帧和官方 v2.0 下载文件，音频仅流复制，并再次核 AAC 包与采样时码。[重建说明](tools/gate3_v21/) · [转场实解码抽帧](previews/gate_3_1/encoded_transition_storyboard.jpg) · [独立核查与分转场实帧](previews/gate_3_1/QA.md) · [制作与编码核查](previews/gate_3_1/production_QA.md)。
+
+[干净工作副本零参数重建](previews/gate_3_1/one_click_verified.json) 实际通过；重建 MP4 与本地候审件在同一工具链下逐字节相同。
+
+本轮只提交复现工具、技术核查和审看片，不修改 v2.0 Release、Drive 或原片；v2.1 正式双渠道留待终审通过后的同文件发布。
+
 ## Round 6：Gate 2.1 四季动效样片已制作，等待 1× 审看
 
 保留已签收 v2.0；这轮不合片，不动正式 Release、Drive 或原配乐。四季仍使用冻结机位、320×180 原生、6× 最近邻、11 秒一循环。
@@ -84,4 +96,5 @@ SHA-256：`0213513d08d439c965ef7320b2d896814733fac404d2dc6ddfeac4c122da60ba`。�
 - 冬：枯树移到左侧约 22%，左暖右冷；右侧雪人挪近镜头，石凳与暖窗一前一后，不靠加大雪雾制造氛围。
 
 每场 A/B 独立从 3D 世界重渲，同一视口与时相，共用 60 色色板；导出通过逐像素整数复制，原生图、净图、色卡、标注图分别保存。制作测试结果与复现见 [REPRO.md](REPRO.md)。色板条也在 1:1 A/B 对照内，净图上无说明字。
+
 
