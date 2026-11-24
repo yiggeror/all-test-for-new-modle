@@ -28,9 +28,11 @@
 
 ## 当前阶段状态
 
-- **当前状态**：`COMPLETED / v2.2 FINAL PASSED`（Round 11 终审签收通过，完整单文件 1080p 成片已通过 GitHub Release 与 Google Drive 双渠道正式发布，详见 [`DELIVERY.md`](DELIVERY.md) 与 [`REVIEW_LOG.md`](REVIEW_LOG.md)）
-- **最新成片双渠道直达（逐字节完全一致，`196,231,965` 字节，SHA-256 `334ef2fd...`）**：
-  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.2-rainroji-lofi-1080p>
-  - **Google Drive**：<https://drive.google.com/file/d/1y9qdcQPk3geWR6BVjEySXCH69rjytw_3/view?usp=drivesdk>
-- **v2.2 终审定版亮点**：`320×180` 原生像素画经 `6×` 最近邻无损放大至 `1920×1080 @ 30fps`（3 分 17.23 秒），配完整 **Purrple Cat《Green Tea》（CC BY 4.0）** 与四季低通环境音/翻书拟音；彻底清除 v2.1 贴纸感动物、断头、白条热汽与条形码水洼，升级为**春夜晾衣架随风飘拂+粉花阵风、夏夜画外车灯扫过湿路与红车+有机斑驳红水洼同帧四次骤暗闪烁、秋日梧桐阵风卷叶+暖窗摊主微影+柔雾、冬夜干净翻页暖窗+柔斜烟囱+暖光雪涡与楼道灯**。
+- **当前 Gate**：`v2.3 / Gate 2.3 — 彻底清除果冻扭曲树冠、凭空机械渐变假灯与伪 3D 糊感（已打回返工，请立即阅读 [REVIEW_LOG.md](REVIEW_LOG.md) Round 12！）`
+- **本轮一票否决硬伤**：
+  1. **春/秋树冠（及冬枯树）果冻式扭曲**：彻底删除 `spatial_fx.Sway` 2D 图像液化扭曲与 `spring22.py` 整树/树干正弦波浪形变，恢复扎实硬朗的像素画树干与树冠轮廓；
+  2. **冬夜楼道凭空机械渐变假灯**：彻底移除空白墙面上凭空浮现、1.35s 机械轮流、慢渐亮慢渐灭的假楼道跑马灯（灯光只能存在于真实窗框结构且必须真实瞬切）；
+  3. **全片像素质感精修**：春晾衣架改为干净素色对比 + 低帧率步进微风；秋去除糊块摊主/雾中红渍，聚焦清晰落叶、轻柔茶汽与干净远鸟；夏车灯取消 31 帧抽帧 lerp 残影并压柔地面泛白，不冲糊红水洼。
+- **送审目标**：请先提交 **`previews/gate_2_3/`**（四季双周期 1080p 样片 + 无损分卷 + 源码），通过热力图、连续帧放大条带与整片动态四重严审后再进入 Gate 3.3 合片发布。
+
 
