@@ -1,0 +1,26 @@
+{
+  "spring": {
+    "review_file": "spring_loop.mp4",
+    "bytes": 8211471,
+    "sha256": "9347b5ac271de0b4310ff1b69a4f5fa0827a3c721b10ad44b3729d3077f80fca",
+    "role": "standard H.264 High playback copy of 6x render, lossy codec"
+  },
+  "summer": {
+    "review_file": "summer_loop.mp4",
+    "bytes": 8185315,
+    "sha256": "1f956c0fa60e602d68a91a47cea2d823b00c82e1ab369344cd51a601989e8764",
+    "role": "standard H.264 High playback copy of 6x render, lossy codec"
+  },
+  "autumn": {
+    "review_file": "autumn_loop.mp4",
+    "bytes": 8164326,
+    "sha256": "39e1322f3054f59a707c4c98fffc4b34abeb3cd36a836ce465bb4efc0b92cf6c",
+    "role": "standard H.264 High playback copy of 6x render, lossy codec"
+  },
+  "winter": {
+    "review_file": "winter_loop.mp4",
+    "bytes": 8275936,
+    "sha256": "468929110598116117ee5b4e2534c131d111c6f972ea57d379e2628e7bb0cda3",
+    "role": "standard H.264 High playback copy of 6x render, lossy codec"
+  }
+}
