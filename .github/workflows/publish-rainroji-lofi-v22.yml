@@ -1,0 +1,87 @@
+name: Publish Rainroji Lo-Fi V2.2 1080p Release
+
+on:
+  push:
+    branches:
+      - feat/lofi-seasons-v2
+    paths:
+      - .github/workflows/publish-rainroji-lofi-v22.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release-v22:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install FFmpeg and Python dependencies
+        run: |
+          set -euo pipefail
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          ffmpeg -version | head -2
+          python -m pip install -q --only-binary=:all: -r tools/gate3_v22/requirements.txt
+
+      - name: Run deterministic Gate 3.2 reproduction and verification
+        run: |
+          set -euo pipefail
+          python tools/gate3_v22/reproduce.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          qa = json.loads(Path('dist/gate3_v22_qa/reproduction_qa.json').read_text(encoding='utf-8'))
+          Path('dist/meta.env').write_text(
+              f"FINAL_BYTES={qa['bytes']}\n"
+              f"FINAL_SHA256={qa['sha256']}\n"
+              f"FINAL_LUFS={qa['technical_qa']['lufs_i']}\n"
+              f"FINAL_DBTP={qa['technical_qa']['dbtp']}\n",
+              encoding='utf-8',
+          )
+          print('VERIFIED V2.2:', qa['bytes'], qa['sha256'], qa['technical_qa'])
+          PY
+
+      - name: Upload Rainroji_Lofi_V2.2_1080p.mp4 to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          source dist/meta.env
+          TAG="v2.2-rainroji-lofi-1080p"
+          NOTES_FILE="dist/release_notes.md"
+          cat > "$NOTES_FILE" <<EOF
+          ## Rainroji Lo-Fi 四季像素短片 v2.2（物理光影融合终版 · 1080p）
+
+          ### 本版核心质变（全面重做，根治 v2.1 贴纸感与比例穿帮）
+          - **春 · 老巷暮色落花**：彻底清除断头屋脊猫与巨型车把雀；右侧院内旧晾衣架挂上受左暖右冷环境光的衣物随风柔和起褶摆动；整片粉花树冠随阵风方向轻晃，一阵暖金花瓣斜穿路灯光锥。
+          - **夏 · 雨夜街角小店**：彻底清除门口巨猫，重做湿润斑驳暗红水洼碎光（告别平行条形码）并与“网吧”灯牌、邻侧砖墙四次电流骤暗（21%～24%）100% 同帧联动；新增画外驶过车辆的柔和暖车灯扫光依次掠过湿沥青、红车侧面与低墙后隐去，配檐滴涟漪、理发转灯与日光灯偶发微闪。
+          - **秋 · 梧桐黄昏大道**：彻底清除违和巨鸽与实心白蛆热汽；改为阵性秋风吹动梧桐树冠与叶间钠灯轻颤、成片金叶贴地斜卷过斑马线、报刊亭暖窗内柔和朦胧摊主微动剪影、极柔半透明暖雾与远空两只雾化小归鸟。
+          - **冬 · 雪夜家属院**：彻底清除荧光大鸟；修复值班室暖窗翻页峰值帧（书页与台灯清晰分开零粘连，飘雪三维遮挡经过窗前）；屋顶淡烟改为斜飘拉长融入蓝灰夜空，配合暖路灯光锥雪阵、枝梢抖雪与远楼自下而上的声控灯。
+
+          ### 成片规格
+          - **文件名**：\`Rainroji_Lofi_V2.2_1080p.mp4\`
+          - **文件大小**：${FINAL_BYTES} 字节
+          - **SHA-256**：\`${FINAL_SHA256}\`
+          - **画面**：\`1920×1080\`（\`320×180\` 原生像素画经 6× 最近邻无损整数放大）、30 fps、5,917 帧（3 分 17.23 秒）、H.264 High / CRF 14 / yuv420p / BT.709 / faststart
+          - **音频**：无损流拷贝沿用已签收 v2.0 全部 9,247 个 AAC-LC 包（48 kHz 立体声 256 kbps），综合响度 **${FINAL_LUFS} LUFS**，真峰值 **${FINAL_DBTP} dBTP**，零削波
+
+          ### 音乐与致谢（CC BY 4.0）
+          > Music: “Green Tea” by Purrple Cat, from *Bloom* (https://purrplecat.itch.io/bloom), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Used in full with mild EQ/level adjustment, original procedural ambience/foley, and synchronization to the four-season animation. Original ambience and page-turn foley by this project. Visual prototype acknowledgment: [Rainroji](https://github.com/yiggeror/Rainroji/tree/deliver/four-seasons-1080p).
+          EOF
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/Rainroji_Lofi_V2.2_1080p.mp4 --repo "$GITHUB_REPOSITORY" --clobber
+            gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --title "Rainroji Lo-Fi 四季像素短片 v2.2（物理光影融合终版 · 1080p）" --notes-file "$NOTES_FILE" --latest
+          else
+            gh release create "$TAG" dist/Rainroji_Lofi_V2.2_1080p.mp4 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Rainroji Lo-Fi 四季像素短片 v2.2（物理光影融合终版 · 1080p）" --notes-file "$NOTES_FILE" --latest
+          fi
