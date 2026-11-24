@@ -1,0 +1,10 @@
+{
+  "filename": "picture_only.mp4",
+  "bytes": 126348917,
+  "sha256": "97bd088abedea5a39771f8ddd780ae46af5c18b4d43f31cd9ca85a3e9e82c1f3",
+  "count_written": 5917,
+  "assembled_native_stream_sha256": "6561a3c705fed764fc04359459e92789a6dbd41dc456d37278de4c8f3b68bc29",
+  "preencode_adjacent_equal_count": 0,
+  "preencode_adjacent_equal_indices": [],
+  "elapsed_s": 174.871
+}

@@ -1,0 +1,165 @@
+{
+  "output": "Rainroji_Lofi_V2.4_1080p.mp4",
+  "sha256": "81297609f124b90bcbc97533a0a9514179a7681fb66a0c05903b277a973229ae",
+  "bytes": 132850666,
+  "toolchain": {
+    "python": "3.12.14",
+    "machine": "x86_64",
+    "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "Pillow": "13.0.0",
+      "scipy": "1.17.0"
+    },
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "x264": "264 - core 164 r3108 31e19f9"
+  },
+  "source_commit": "ffd3b67dc2d7a7bf84e9cb58d866ae3b0d0d8d0a",
+  "review_commit": "1fa86680089be1b6ee8a07dab2a13d865de05dd6",
+  "picture_input_policy": "16 pinned Gate 2.4 lossless split parts only; no previous cut, viewing proxy or authored NPY",
+  "input_manifest_sha256": "522888e7d7a26bbc24a51084cb203567ca04bb0a4be3e0ae377b626c7bf4ecca",
+  "native_inputs": {
+    "spring": {
+      "scene": "spring",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 59,
+      "rgb_sha256": "b2ef3a8bda8ddda5b32f7e24588def8e9a14cfe133e3d2c1db581c000ddbfe67",
+      "npy_sha256": "b423d37bd3e22a97181a9a9ad719515a3b22ed7c80cf99bcd931984405705d43",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "summer": {
+      "scene": "summer",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 59,
+      "rgb_sha256": "dc107babbdc5723026e43274fb28f0e37ed763fc6e949383beaaa6a3f7be7403",
+      "npy_sha256": "1334764077c576e9098acf3408fd4bb930558cfcb9a17a6ccee9c6dfd1ff317b",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "autumn": {
+      "scene": "autumn",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 60,
+      "rgb_sha256": "d33f17329e4cb4823237cdd0fe4d0f5b986250c8bf7f27f864f3cc3478f765ed",
+      "npy_sha256": "850489623ee4f34c7cb2f2c95340ee78f0a2b3bab71c759557fe7c7aa1febc3f",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "winter": {
+      "scene": "winter",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 60,
+      "rgb_sha256": "499f216c23b6dfe1e9cfe51b4674865006a09cda28e5a4b7fc64be187ed91408",
+      "npy_sha256": "b6dc9167a7d0d34dccf9dcdf963d82de8af385d77fdabc4aaa772710e6d371fe",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    }
+  },
+  "picture_only": {
+    "sha256": "97bd088abedea5a39771f8ddd780ae46af5c18b4d43f31cd9ca85a3e9e82c1f3",
+    "bytes": 126348917,
+    "count": 5917
+  },
+  "preencode_native_rgb": {
+    "scope": "5917 ordered frames, 320x180, packed RGB24 byte stream no headers",
+    "local_sha256": "6561a3c705fed764fc04359459e92789a6dbd41dc456d37278de4c8f3b68bc29",
+    "reference_sha256_this_build": "6561a3c705fed764fc04359459e92789a6dbd41dc456d37278de4c8f3b68bc29",
+    "local_toolchain_matches_reference_environment": true,
+    "matches_independent_reference": true,
+    "adjacent_equal_count": 0,
+    "adjacent_equal_timeline_indices": []
+  },
+  "audio_source": {
+    "author": "Purrple Cat",
+    "title": "Green Tea",
+    "url": "https://html-classic.itch.zone/html/19949767/media/Green%20Tea.mp3",
+    "license": "CC BY 4.0",
+    "bytes": 8245791,
+    "sha256": "f6feac60dc29b89ea1513e04d0b30addf86f9c8576827e7566e27b5abd522e71",
+    "pcm_original_samples_at_48k": 9466286,
+    "used_verified_local_cache": false
+  },
+  "fresh_audio_mix": {
+    "script_sha256": "f6d3a31932246e2bb518c0167b6ae82030d574539d4b09f55bb8e376f39bec19",
+    "mixer_m4a_sha256": "5b857acaf4afbc751af806e9b9d268bc1d16b03d11a86cacd529ed601e0ac63b",
+    "effective_samples": 9467200,
+    "report": "audio_tail_report.json",
+    "full_evidence_timing": "180–197.233333 seconds"
+  },
+  "audio_packets_preserved_during_mux": {
+    "codec": "aac",
+    "profile": "LC",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "effective_samples": 9467200,
+    "duration_exact_seconds": "5917/30",
+    "packet_count": 9247,
+    "first_packet_pts_samples": -1024,
+    "last_packet_duration_samples": 320,
+    "priming_samples": 1024,
+    "discard_padding": 0,
+    "audiocfg_sha256": "b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+    "timings_sha256": "244b7c3d3715c481c66e09c212e87677609013922987aa06c59106b326a51d1e",
+    "ordered_payloads_sha256": "94f762462c8c7609bdc82ec2789ca31f7cf76c67d567a5dbf75002143bbf731b",
+    "ordered_full_identity_sha256": "804c4880b05f787be04253b210e6f8bcfb9f33127e1ede0e1a205a01baec0f19",
+    "adts_sha256": "85a02277f56e9476c9ed000690b2a84928fe2a26a26a49249a1041ba03ed7f02"
+  },
+  "technical_qa": {
+    "video": {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "nb_frames": "5917",
+      "color_space": "bt709",
+      "color_range": "tv",
+      "start_pts": 0,
+      "color_transfer": null,
+      "color_primaries": null
+    },
+    "pts_checked": 5917,
+    "duration": "197.233333",
+    "full_audio_video_decode": true,
+    "faststart": true,
+    "lufs_i": -16.05,
+    "dbtp": -4.74,
+    "lra_lu": 14.1,
+    "bitrate_bps": 5388568,
+    "muxer": "Lavf61.7.103",
+    "video_packet_payload_sequence_sha256": "174afd475672eb3ff8d114416fd43221c2079ea1d304ad0b6187bdf233821268"
+  }
+}

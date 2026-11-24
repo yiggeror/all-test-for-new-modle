@@ -1,0 +1,134 @@
+{
+  "decoded_head_fade_F022.png": {
+    "frame": 22,
+    "seconds": 0.733333,
+    "bytes": 543359,
+    "sha256": "e26ee9c69ccaeaaf4f9aa6afbf94c90f28274a188aca50fc63b6a65690c197ae"
+  },
+  "decoded_spring_cat_entry_F050.png": {
+    "frame": 50,
+    "seconds": 1.666667,
+    "bytes": 610876,
+    "sha256": "579f81b212c861d486911de5084ec715ca62a42caa22a5a6db356070da32b40a"
+  },
+  "decoded_spring_birds_before_crown_F120.png": {
+    "frame": 120,
+    "seconds": 4.0,
+    "bytes": 346821,
+    "sha256": "241645ff3c52c3f0fbf3ab6eb10565c204269d8251dcde1a704a1b19159679c0"
+  },
+  "decoded_spring_lamp_notch_F141.png": {
+    "frame": 141,
+    "seconds": 4.7,
+    "bytes": 488597,
+    "sha256": "6734105f0824278029bc985dc13056378f8ca2e8579d2200ab6b7832644b5189"
+  },
+  "decoded_spring_cat_tail_lift_F150.png": {
+    "frame": 150,
+    "seconds": 5.0,
+    "bytes": 403836,
+    "sha256": "a814041f7eb25ed685451751bf1c41a84af287ee417551d5ef652853ca632a3d"
+  },
+  "decoded_spring_birds_after_crown_F175.png": {
+    "frame": 175,
+    "seconds": 5.833333,
+    "bytes": 410290,
+    "sha256": "75bf4caa3ec3648319181dad50431d396531a82f6e588e0c6cf2d443828098c9"
+  },
+  "decoded_spring_bilateral_petals_F225.png": {
+    "frame": 225,
+    "seconds": 7.5,
+    "bytes": 383663,
+    "sha256": "64eab166c1e9b657da75464456f17d1d050fdacd3da977d5ef8f2a9daaff01bf"
+  },
+  "decoded_spring_summer_F1440.png": {
+    "frame": 1440,
+    "seconds": 48.0,
+    "bytes": 706278,
+    "sha256": "9b257e2195a10b0138b45cc18234af980effa8c80e27e2bfe565a929f5d8dc0b"
+  },
+  "decoded_summer_wet_warm_light_F1534.png": {
+    "frame": 1534,
+    "seconds": 51.133333,
+    "bytes": 500555,
+    "sha256": "4ddd0f8b144bd37b0a2f2cfbfec563ffd81f82cebeb5d6283ff81bb884047ad8"
+  },
+  "decoded_summer_car_warm_light_F1563.png": {
+    "frame": 1563,
+    "seconds": 52.1,
+    "bytes": 505810,
+    "sha256": "48f5b5adc214ac22935561978e07be573cbacde4577aee379345c76c0dc95aa5"
+  },
+  "decoded_summer_neon_in_dip_F1604.png": {
+    "frame": 1604,
+    "seconds": 53.466667,
+    "bytes": 494315,
+    "sha256": "e12e06b5e28eb23e29ada16d09d8c5a64f8b0ef2989354ef857a42c8e57d7b64"
+  },
+  "decoded_summer_autumn_F2880.png": {
+    "frame": 2880,
+    "seconds": 96.0,
+    "bytes": 635818,
+    "sha256": "0841f03e340a3c0507ee823a2a372e13546642d1017a0582ad792723fe5a144d"
+  },
+  "decoded_autumn_bilateral_leaves_F2992.png": {
+    "frame": 2992,
+    "seconds": 99.733333,
+    "bytes": 358767,
+    "sha256": "c39d52a1a8d56e5d9980cba6f91ee840a4151a1872b09213b31acb2a10a3c93b"
+  },
+  "decoded_autumn_birds_and_rolling_F3002.png": {
+    "frame": 3002,
+    "seconds": 100.066667,
+    "bytes": 346858,
+    "sha256": "3b4d0d7bd1f2d48609a3262cca170c40c863b50ea53f4c5edd85713ce2b1de7a"
+  },
+  "decoded_autumn_local_warm_dapple_F3004.png": {
+    "frame": 3004,
+    "seconds": 100.133333,
+    "bytes": 343785,
+    "sha256": "e56f4d1c750be3af6dbbd9e4a9c47c9ff839c3c0df108a75356a4784b420f3ff"
+  },
+  "decoded_autumn_lamp_notch_F3055.png": {
+    "frame": 3055,
+    "seconds": 101.833333,
+    "bytes": 407069,
+    "sha256": "58717a56e812c30c8d34a93bee6386556f17fdeda228604c570aa7536c03d46b"
+  },
+  "decoded_autumn_winter_F4320.png": {
+    "frame": 4320,
+    "seconds": 144.0,
+    "bytes": 885732,
+    "sha256": "14e90e7e4450b754cddc8767783bdd1b2872eafc3dd7f4cdc01e45746aae37b0"
+  },
+  "decoded_winter_banner_F4440.png": {
+    "frame": 4440,
+    "seconds": 148.0,
+    "bytes": 501012,
+    "sha256": "10e7e123aa9f786d4933434023649b9e899f8016a273f2f366da176ecf92b682"
+  },
+  "decoded_winter_separate_page_F4455.png": {
+    "frame": 4455,
+    "seconds": 148.5,
+    "bytes": 664669,
+    "sha256": "745645805571669bf957cc3e9117fbc62196cc02fbee8dea574d497ae8526e43"
+  },
+  "decoded_winter_lamp_notch_F4495.png": {
+    "frame": 4495,
+    "seconds": 149.833333,
+    "bytes": 785727,
+    "sha256": "e0260e56dc632ba12ad33999cc9a8806af96d57201173fb08ffaeefe482eb07b"
+  },
+  "decoded_tail_fade_F5870.png": {
+    "frame": 5870,
+    "seconds": 195.666667,
+    "bytes": 723427,
+    "sha256": "ea543dfa707e1edf30c0784de3a72600eb8c4d1b4af18c352a68c1e0fa378967"
+  },
+  "decoded_tail_black_F5916.png": {
+    "frame": 5916,
+    "seconds": 197.2,
+    "bytes": 6154,
+    "sha256": "4c6d2c8d8bbb3756757eacd65f2e662ac9a6f56594ea0e34760218bc21f02037"
+  }
+}

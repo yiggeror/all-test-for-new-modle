@@ -1,0 +1,99 @@
+{
+  "input_picture_scope": "Final full-resolution MP4 H.264 decoded pixels, without overlays or preview proxies.",
+  "source_phases_zero_based": true,
+  "spring": {
+    "origin": 0,
+    "cat_true_visible_film": [
+      40,
+      325
+    ],
+    "cat_pause_film_half_open": [
+      120,
+      180
+    ],
+    "lamp_drop_film_half_open": [
+      138,
+      144
+    ],
+    "bird_transit_film": [
+      60,
+      199
+    ],
+    "check_points": [
+      50,
+      120,
+      141,
+      150,
+      175,
+      225
+    ],
+    "checks": [
+      "small connected cat + ground",
+      "canopy/sky geometry",
+      "bilateral petals with authentic depth and local weak lamp dropout"
+    ]
+  },
+  "summer": {
+    "origin": 1410,
+    "identical_approved_gate2_3_lossless_parts_count": 8,
+    "neon_4_windows_film_half_open": [
+      [
+        1602,
+        1607
+      ],
+      [
+        1614,
+        1619
+      ],
+      [
+        1626,
+        1630
+      ],
+      [
+        1639,
+        1644
+      ]
+    ],
+    "check_points": [
+      1534,
+      1563,
+      1604
+    ]
+  },
+  "autumn": {
+    "origin": 2850,
+    "check_points": [
+      2992,
+      3002,
+      3004,
+      3055
+    ],
+    "checks": [
+      "both crown edges",
+      "existing birds and dry leaves",
+      "local sodium dapple and one of the brief pressure dips"
+    ]
+  },
+  "winter": {
+    "origin": 4290,
+    "check_points": [
+      4440,
+      4455,
+      4495
+    ],
+    "lamp_drop_film_half_open": [
+      4493,
+      4499
+    ],
+    "checks": [
+      "tethered bright cloth banner",
+      "separated page and lamp",
+      "old streetlamp and snow respond; no fictitious corridor light"
+    ]
+  },
+  "end": {
+    "fade_first_film_frame": 5802,
+    "last_black_film_frame": 5916,
+    "duration_seconds_exact": "5917/30"
+  }
+}

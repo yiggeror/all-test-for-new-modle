@@ -1,0 +1,670 @@
+{
+  "review_commit": "1fa86680089be1b6ee8a07dab2a13d865de05dd6",
+  "source": {
+    "title": "Green Tea",
+    "author": "Purrple Cat",
+    "license": "CC BY 4.0",
+    "source_page": "https://purrplecat.itch.io/bloom",
+    "author_mp3": "https://html-classic.itch.zone/html/19949767/media/Green%20Tea.mp3",
+    "sha256": "f6feac60dc29b89ea1513e04d0b30addf86f9c8576827e7566e27b5abd522e71",
+    "bytes": 8245791,
+    "complete_unchanged_samples": 9466286,
+    "duration_s": 197.21429166666667,
+    "alignment_zero_pad_samples": 914,
+    "prior_EQ_unchanged": "aresample=48000,bass=g=-1.5:f=150:w=0.7",
+    "last_unprocessed_source_sample_above_minus100_s_measured": 191.233958333,
+    "exact_unprocessed_digital_silence_from_s_measured": 191.2678125,
+    "frozen_music_full_pcm_f32le_sha256": "a0fb78a1c28619cec201b1884ade45c3de450983e2f41700fdac2adc8a7da42d"
+  },
+  "legacy_recipe_sha256": "714968f7637f14cb9950da582f7a15d00e2339d5b1b07508e9cfe4f756ae0200",
+  "baseline_float_wav_sha256": "7efa6318c001e3b2f396796b5cae0448f638b320472ad85397f27f4480c91403",
+  "baseline_float_wav_matches_previous_exact_local_rebuild": true,
+  "new_float_wav_sha256": "7a33d5bb15e53f965763b79050db082dada27e0e8603ef9ef95e1dcdb6f1b2f3",
+  "prefix_PCM_before_weather_change": {
+    "exact_samples_per_channel": 8880000,
+    "exact_duration_s": 185.0,
+    "byte_identical_before_after": true,
+    "pcm_f32le_sha256": "15ed8e8d17dec9c4efa2d35a46d5c9c5f9d9a55ae837d095a9c89e017fdf42ca"
+  },
+  "mix_changed_float_frames": 586230,
+  "winter_weather": {
+    "onset_rise_plateau_fade_finish_sample_positions": [
+      8880000,
+      9225600,
+      9336000,
+      9465600,
+      9467200
+    ],
+    "same_existing_winter_rng_seed": 20171223,
+    "old_original_winter_source_samples_24000": 1301600,
+    "raised_db_relative_to_tail_anchor": 8.0,
+    "measured_plateau_minus_anchor_ungated_dB": 8.2796,
+    "new_weather_plateau_at_or_over_2000_hz_percent": 0.0687105,
+    "automation": "squared smoothstep in dB, hold, cos-squared amplitude; prior winter bed and room hum only",
+    "prior_calibration_multipliers": {
+      "season_gain": 0.033373786569870514,
+      "ambient_gain": 1.0554718971252441,
+      "old_master_gain": 1.006171139898524
+    },
+    "paper_foley_no_amplitude_or_time_modification": [
+      {
+        "visible_window_s": [
+          147.3,
+          149.9
+        ],
+        "brush_center_s": [
+          148.21,
+          148.64,
+          149.28
+        ],
+        "brush_center_frames": [
+          4446,
+          4459,
+          4478
+        ]
+      },
+      {
+        "visible_window_s": [
+          158.3,
+          160.9
+        ],
+        "brush_center_s": [
+          159.21,
+          159.64,
+          160.28
+        ],
+        "brush_center_frames": [
+          4776,
+          4789,
+          4808
+        ]
+      },
+      {
+        "visible_window_s": [
+          169.3,
+          171.9
+        ],
+        "brush_center_s": [
+          170.21,
+          170.64,
+          171.28
+        ],
+        "brush_center_frames": [
+          5106,
+          5119,
+          5138
+        ]
+      },
+      {
+        "visible_window_s": [
+          180.3,
+          182.9
+        ],
+        "brush_center_s": [
+          181.21,
+          181.64,
+          182.28
+        ],
+        "brush_center_frames": [
+          5436,
+          5449,
+          5468
+        ]
+      },
+      {
+        "visible_window_s": [
+          191.3,
+          193.9
+        ],
+        "brush_center_s": [
+          192.21,
+          192.64,
+          193.28
+        ],
+        "brush_center_frames": [
+          5766,
+          5779,
+          5798
+        ]
+      }
+    ],
+    "paper_delta_roundoff_peak": 7.450580596923828e-09,
+    "music_additivity_roundoff_peak": 1.4901161193847656e-08
+  },
+  "transitions": [
+    {
+      "center_s": 48,
+      "center_frame": 1440,
+      "window_s": [
+        47.0,
+        49.0
+      ],
+      "sample_range_half_open": [
+        2256000,
+        2352000
+      ],
+      "overlap_samples": 96000,
+      "law": "cos/sin equal power; both gains 0.7071068 at midpoint"
+    },
+    {
+      "center_s": 96,
+      "center_frame": 2880,
+      "window_s": [
+        95.0,
+        97.0
+      ],
+      "sample_range_half_open": [
+        4560000,
+        4656000
+      ],
+      "overlap_samples": 96000,
+      "law": "cos/sin equal power; both gains 0.7071068 at midpoint"
+    },
+    {
+      "center_s": 144,
+      "center_frame": 4320,
+      "window_s": [
+        143.0,
+        145.0
+      ],
+      "sample_range_half_open": [
+        6864000,
+        6960000
+      ],
+      "overlap_samples": 96000,
+      "law": "cos/sin equal power; both gains 0.7071068 at midpoint"
+    }
+  ],
+  "timing": {
+    "audio_samples_per_channel": 9467200,
+    "video_frames": 5917,
+    "fps": 30,
+    "exact_seconds_fraction": "5917/30",
+    "last_black_pcm_silence_samples": 1600,
+    "black_eq_flushed_denormal_peak_amplitude": 1.5414283107572988e-43,
+    "A_B_audio_from": 180,
+    "A_B_samples_per_channel": 827200
+  },
+  "encoded_aac": {
+    "file": "final_audio.m4a",
+    "bytes": 6394953,
+    "sha256": "5b857acaf4afbc751af806e9b9d268bc1d16b03d11a86cacd529ed601e0ac63b",
+    "alignment_lag_samples": 0,
+    "dec_not_clipped": true,
+    "decoded_samples_including_decoder_padding": 9467904,
+    "decoded_black_peak_dBFS": -133.12599,
+    "meter": {
+      "integrated_lufs": -16.05,
+      "lra_lu": 14.1,
+      "true_peak_dbtp": -4.74
+    },
+    "stream": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200,
+      "bit_rate": "257808",
+      "extradata_hash": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      },
+      "codec_configured_bitrate_kbps": 256,
+      "packets": 9247,
+      "packet_payload_sequence_sha256": "0f68f224f17ad1f5674fd7a1cb46811f3a7d03002bdd1dc274600308296fcf2d",
+      "first_packet": {
+        "pts": -1024,
+        "dts": -1024,
+        "duration": 1024,
+        "data_hash": "SHA256:942ff6e261c0390f68a4ebc90fb4c33101c31715e9f2904c1acf56d5b2ec36b7",
+        "side_data_list": [
+          {
+            "side_data_type": "Skip Samples",
+            "skip_samples": 1024,
+            "discard_padding": 0,
+            "skip_reason": 0,
+            "discard_reason": 0
+          }
+        ]
+      },
+      "last_packet": {
+        "pts": 9466880,
+        "dts": 9466880,
+        "duration": 320,
+        "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+      }
+    }
+  },
+  "validation_windows": {
+    "old_bed_during_music_ramp_anchor": {
+      "s": [
+        184.0,
+        185.0
+      ],
+      "samples_half_open": [
+        8832000,
+        8880000
+      ],
+      "music": {
+        "rms_dBFS": -36.83276,
+        "ungated_LKFS": -35.35552,
+        "peak_dBFS": -25.38285
+      },
+      "old_winter_weather": {
+        "rms_dBFS": -38.55228,
+        "ungated_LKFS": -36.25028,
+        "peak_dBFS": -27.0753
+      },
+      "new_winter_weather": {
+        "rms_dBFS": -38.55228,
+        "ungated_LKFS": -36.25028,
+        "peak_dBFS": -27.0753
+      },
+      "old_environment": {
+        "rms_dBFS": -38.55228,
+        "ungated_LKFS": -36.25028,
+        "peak_dBFS": -27.0753
+      },
+      "new_environment": {
+        "rms_dBFS": -38.55228,
+        "ungated_LKFS": -36.25028,
+        "peak_dBFS": -27.0753
+      },
+      "inherited_page_only": {
+        "rms_dBFS": null,
+        "ungated_LKFS": -3035.29955,
+        "peak_dBFS": null
+      },
+      "old_mix": {
+        "rms_dBFS": -34.44911,
+        "ungated_LKFS": -32.62975,
+        "peak_dBFS": -22.18315
+      },
+      "new_mix": {
+        "rms_dBFS": -34.44911,
+        "ungated_LKFS": -32.62975,
+        "peak_dBFS": -22.18315
+      }
+    },
+    "new_weather_during_music_ramp_anchor": {
+      "s": [
+        184.0,
+        185.0
+      ],
+      "samples_half_open": [
+        8832000,
+        8880000
+      ],
+      "music": {
+        "rms_dBFS": -36.83276,
+        "ungated_LKFS": -35.35552,
+        "peak_dBFS": -25.38285
+      },
+      "old_winter_weather": {
+        "rms_dBFS": -38.55228,
+        "ungated_LKFS": -36.25028,
+        "peak_dBFS": -27.0753
+      },
+      "new_winter_weather": {
+        "rms_dBFS": -38.55228,
+        "ungated_LKFS": -36.25028,
+        "peak_dBFS": -27.0753
+      },
+      "old_environment": {
+        "rms_dBFS": -38.55228,
+        "ungated_LKFS": -36.25028,
+        "peak_dBFS": -27.0753
+      },
+      "new_environment": {
+        "rms_dBFS": -38.55228,
+        "ungated_LKFS": -36.25028,
+        "peak_dBFS": -27.0753
+      },
+      "inherited_page_only": {
+        "rms_dBFS": null,
+        "ungated_LKFS": -3035.29955,
+        "peak_dBFS": null
+      },
+      "old_mix": {
+        "rms_dBFS": -34.44911,
+        "ungated_LKFS": -32.62975,
+        "peak_dBFS": -22.18315
+      },
+      "new_mix": {
+        "rms_dBFS": -34.44911,
+        "ungated_LKFS": -32.62975,
+        "peak_dBFS": -22.18315
+      }
+    },
+    "music_handover": {
+      "s": [
+        185.0,
+        190.0
+      ],
+      "samples_half_open": [
+        8880000,
+        9120000
+      ],
+      "music": {
+        "rms_dBFS": -42.36189,
+        "ungated_LKFS": -41.03155,
+        "peak_dBFS": -27.75775
+      },
+      "old_winter_weather": {
+        "rms_dBFS": -39.81607,
+        "ungated_LKFS": -37.53047,
+        "peak_dBFS": -26.65748
+      },
+      "new_winter_weather": {
+        "rms_dBFS": -36.01275,
+        "ungated_LKFS": -33.72889,
+        "peak_dBFS": -22.51642
+      },
+      "old_environment": {
+        "rms_dBFS": -39.81607,
+        "ungated_LKFS": -37.53047,
+        "peak_dBFS": -26.65748
+      },
+      "new_environment": {
+        "rms_dBFS": -36.01275,
+        "ungated_LKFS": -33.72889,
+        "peak_dBFS": -22.51642
+      },
+      "inherited_page_only": {
+        "rms_dBFS": null,
+        "ungated_LKFS": null,
+        "peak_dBFS": null
+      },
+      "old_mix": {
+        "rms_dBFS": -37.87144,
+        "ungated_LKFS": -35.90738,
+        "peak_dBFS": -22.93602
+      },
+      "new_mix": {
+        "rms_dBFS": -35.09084,
+        "ungated_LKFS": -32.97483,
+        "peak_dBFS": -21.96192
+      }
+    },
+    "music_last_quarter_second": {
+      "s": [
+        191.0,
+        191.25
+      ],
+      "samples_half_open": [
+        9168000,
+        9180000
+      ],
+      "music": {
+        "rms_dBFS": -74.14517,
+        "ungated_LKFS": -73.14367,
+        "peak_dBFS": -60.68314
+      },
+      "old_winter_weather": {
+        "rms_dBFS": -45.23916,
+        "ungated_LKFS": -42.9581,
+        "peak_dBFS": -34.76056
+      },
+      "new_winter_weather": {
+        "rms_dBFS": -32.08633,
+        "ungated_LKFS": -29.80594,
+        "peak_dBFS": -21.72018
+      },
+      "old_environment": {
+        "rms_dBFS": -45.23916,
+        "ungated_LKFS": -42.9581,
+        "peak_dBFS": -34.76056
+      },
+      "new_environment": {
+        "rms_dBFS": -32.08633,
+        "ungated_LKFS": -29.80594,
+        "peak_dBFS": -21.72018
+      },
+      "inherited_page_only": {
+        "rms_dBFS": null,
+        "ungated_LKFS": null,
+        "peak_dBFS": null
+      },
+      "old_mix": {
+        "rms_dBFS": -45.2522,
+        "ungated_LKFS": -42.97197,
+        "peak_dBFS": -34.76303
+      },
+      "new_mix": {
+        "rms_dBFS": -32.09009,
+        "ungated_LKFS": -29.80964,
+        "peak_dBFS": -21.72073
+      }
+    },
+    "measured_pure_weather_plateau": {
+      "s": [
+        192.2,
+        194.5
+      ],
+      "samples_half_open": [
+        9225600,
+        9336000
+      ],
+      "music": {
+        "rms_dBFS": -859.16091,
+        "ungated_LKFS": -1117.10163,
+        "peak_dBFS": -856.24153
+      },
+      "old_winter_weather": {
+        "rms_dBFS": -46.32058,
+        "ungated_LKFS": -44.04536,
+        "peak_dBFS": -34.42226
+      },
+      "new_winter_weather": {
+        "rms_dBFS": -30.24656,
+        "ungated_LKFS": -27.97068,
+        "peak_dBFS": -17.44089
+      },
+      "old_environment": {
+        "rms_dBFS": -46.26638,
+        "ungated_LKFS": -43.97675,
+        "peak_dBFS": -34.43218
+      },
+      "new_environment": {
+        "rms_dBFS": -30.24509,
+        "ungated_LKFS": -27.9689,
+        "peak_dBFS": -17.44089
+      },
+      "inherited_page_only": {
+        "rms_dBFS": -65.42648,
+        "ungated_LKFS": -62.07449,
+        "peak_dBFS": -44.15333
+      },
+      "old_mix": {
+        "rms_dBFS": -46.26638,
+        "ungated_LKFS": -43.97675,
+        "peak_dBFS": -34.43218
+      },
+      "new_mix": {
+        "rms_dBFS": -30.24509,
+        "ungated_LKFS": -27.9689,
+        "peak_dBFS": -17.44089
+      }
+    },
+    "end_fade_first_half": {
+      "s": [
+        194.5,
+        195.85
+      ],
+      "samples_half_open": [
+        9336000,
+        9400800
+      ],
+      "music": {
+        "rms_dBFS": -859.16091,
+        "ungated_LKFS": -1117.10163,
+        "peak_dBFS": -856.24153
+      },
+      "old_winter_weather": {
+        "rms_dBFS": -49.73297,
+        "ungated_LKFS": -47.45107,
+        "peak_dBFS": -35.20682
+      },
+      "new_winter_weather": {
+        "rms_dBFS": -30.20747,
+        "ungated_LKFS": -27.92396,
+        "peak_dBFS": -16.34072
+      },
+      "old_environment": {
+        "rms_dBFS": -49.73297,
+        "ungated_LKFS": -47.45107,
+        "peak_dBFS": -35.20682
+      },
+      "new_environment": {
+        "rms_dBFS": -30.20747,
+        "ungated_LKFS": -27.92396,
+        "peak_dBFS": -16.34072
+      },
+      "inherited_page_only": {
+        "rms_dBFS": null,
+        "ungated_LKFS": -2001.75244,
+        "peak_dBFS": null
+      },
+      "old_mix": {
+        "rms_dBFS": -49.73297,
+        "ungated_LKFS": -47.45107,
+        "peak_dBFS": -35.20682
+      },
+      "new_mix": {
+        "rms_dBFS": -30.20747,
+        "ungated_LKFS": -27.92396,
+        "peak_dBFS": -16.34072
+      }
+    },
+    "end_fade_last_half": {
+      "s": [
+        195.85,
+        197.2
+      ],
+      "samples_half_open": [
+        9400800,
+        9465600
+      ],
+      "music": {
+        "rms_dBFS": -859.16091,
+        "ungated_LKFS": -1117.10163,
+        "peak_dBFS": -856.24153
+      },
+      "old_winter_weather": {
+        "rms_dBFS": -63.61672,
+        "ungated_LKFS": -61.32537,
+        "peak_dBFS": -47.6744
+      },
+      "new_winter_weather": {
+        "rms_dBFS": -41.78667,
+        "ungated_LKFS": -39.49535,
+        "peak_dBFS": -26.11029
+      },
+      "old_environment": {
+        "rms_dBFS": -63.61672,
+        "ungated_LKFS": -61.32537,
+        "peak_dBFS": -47.6744
+      },
+      "new_environment": {
+        "rms_dBFS": -41.78667,
+        "ungated_LKFS": -39.49535,
+        "peak_dBFS": -26.11029
+      },
+      "inherited_page_only": {
+        "rms_dBFS": null,
+        "ungated_LKFS": null,
+        "peak_dBFS": null
+      },
+      "old_mix": {
+        "rms_dBFS": -63.61672,
+        "ungated_LKFS": -61.32537,
+        "peak_dBFS": -47.6744
+      },
+      "new_mix": {
+        "rms_dBFS": -41.78667,
+        "ungated_LKFS": -39.49535,
+        "peak_dBFS": -26.11029
+      }
+    },
+    "black_frame_silence": {
+      "s": [
+        197.2,
+        197.23333333333332
+      ],
+      "samples_half_open": [
+        9465600,
+        9467200
+      ],
+      "music": {
+        "rms_dBFS": -862.83887,
+        "ungated_LKFS": -871.65059,
+        "peak_dBFS": -856.24153
+      },
+      "old_winter_weather": {
+        "rms_dBFS": null,
+        "ungated_LKFS": -206.83909,
+        "peak_dBFS": null
+      },
+      "new_winter_weather": {
+        "rms_dBFS": null,
+        "ungated_LKFS": -184.20252,
+        "peak_dBFS": null
+      },
+      "old_environment": {
+        "rms_dBFS": null,
+        "ungated_LKFS": -206.83909,
+        "peak_dBFS": null
+      },
+      "new_environment": {
+        "rms_dBFS": null,
+        "ungated_LKFS": -184.20252,
+        "peak_dBFS": null
+      },
+      "inherited_page_only": {
+        "rms_dBFS": null,
+        "ungated_LKFS": null,
+        "peak_dBFS": null
+      },
+      "old_mix": {
+        "rms_dBFS": -862.83887,
+        "ungated_LKFS": -206.83909,
+        "peak_dBFS": -856.24153
+      },
+      "new_mix": {
+        "rms_dBFS": null,
+        "ungated_LKFS": -184.20252,
+        "peak_dBFS": null
+      }
+    }
+  },
+  "export_versions": {
+    "numpy": "2.3.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  }
+}

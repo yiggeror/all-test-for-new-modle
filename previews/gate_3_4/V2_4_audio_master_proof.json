@@ -1,0 +1,802 @@
+{
+  "target_sha256": "81297609f124b90bcbc97533a0a9514179a7681fb66a0c05903b277a973229ae",
+  "audio_mode": "master",
+  "audio_sha256": "5b857acaf4afbc751af806e9b9d268bc1d16b03d11a86cacd529ed601e0ac63b",
+  "artist_mp3_sha256": "f6feac60dc29b89ea1513e04d0b30addf86f9c8576827e7566e27b5abd522e71",
+  "previous_published_source_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+  "pcm_full_align_n": 9467200,
+  "raw_decode_lengths_with_aac_pad_new_old": [
+    9467904,
+    9467904
+  ],
+  "original_master_track_samples": 9466286,
+  "original_source_last_amp_gt_minus80_global_sample_idx": 9178486,
+  "last_music_samples_original_and_frozen_mus_stem": {
+    "orig_idx": 9180854,
+    "new_last_above_minus120dBFS_idx": 9179420,
+    "new_last_above_minus120dBFS_seconds": 191.23791666666668,
+    "new_last_raw_float_nonzero_allowing_inaudible_Eq_denormals_idx": 9466285,
+    "artist_duration_s": 197.21429166666667
+  },
+  "gates": {
+    "final_container_audio_exactly_matches_chosen_AAC_packet_bytes_times_priming": true,
+    "original_aac_continuous_sample_clock": true,
+    "source_author_track_count_full_exact": true,
+    "earlier_unencoded_prefix_zero_changes": true,
+    "source_original_silence_preserved_in_mix_stem": true,
+    "only_bed_not_foley_music_or_other_layers_altered": true,
+    "bed_uplift_6_to_9dB": true,
+    "no_bright_white_noise": true,
+    "back_half_2p7_seconds_fades_to_digitally_silent_PCM_no_aac_spill": true,
+    "input_true_peak_and_loudness": true,
+    "bitrate_roughly_256kbps": true,
+    "all_three_transitions_and_reader_original_timing": true,
+    "no_clipped_samples": true
+  },
+  "pass": true,
+  "actual_loudnorm": {
+    "input_i": -16.05,
+    "input_tp": -4.74,
+    "input_lra": 14.1,
+    "input_thresh": -26.69
+  },
+  "audio_stream": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "time_base": "1/48000",
+    "start_pts": 0,
+    "duration_ts": 9467200,
+    "bit_rate": "257808",
+    "extradata_hash": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+    "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+    },
+    "tags": {
+      "creation_time": "2026-11-24T00:00:00.000000Z",
+      "language": "und",
+      "handler_name": "SoundHandler",
+      "vendor_id": "[0][0][0][0]"
+    }
+  },
+  "packet_timing_first_last": [
+    {
+      "pts": -1024,
+      "dts": -1024,
+      "duration": 1024,
+      "size": "521",
+      "flags": "KD_",
+      "data_hash": "SHA256:942ff6e261c0390f68a4ebc90fb4c33101c31715e9f2904c1acf56d5b2ec36b7",
+      "side_data_list": [
+        {
+          "side_data_type": "Skip Samples",
+          "skip_samples": 1024,
+          "discard_padding": 0,
+          "skip_reason": 0,
+          "discard_reason": 0
+        }
+      ]
+    },
+    {
+      "pts": 9466880,
+      "dts": 9466880,
+      "duration": 320,
+      "size": "6",
+      "flags": "K__",
+      "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+    }
+  ],
+  "packet_sha256_diff_vs_old_starts_at_index": 0,
+  "PCM_first_changed_sample_after_prefix": 8880056,
+  "intended_tail_time_contract": {
+    "original_music_tail_start_decays_s": 184.0,
+    "ramp_window": [
+      185,
+      192.2
+    ],
+    "winter_lead_hold_after_music_s": [
+      192.2,
+      194.5
+    ],
+    "env_fade_s": [
+      194.5,
+      197.2
+    ],
+    "frozen_master_end_s": 197.23333333333332
+  },
+  "measured_time_windows": [
+    {
+      "abs_t0_s": 184,
+      "abs_t1_s": 185,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -36.832764,
+          "peak_DBFS": -25.382853,
+          "ungated_K_LKFS": -35.360761
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -38.552283,
+          "peak_DBFS": -27.075303,
+          "ungated_K_LKFS": -36.25041
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -38.552283,
+          "peak_DBFS": -27.075303,
+          "ungated_K_LKFS": -36.25041
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": -38.552283,
+          "peak_DBFS": -27.075303,
+          "ungated_K_LKFS": -36.25041
+        },
+        "environment_after": {
+          "rms_DBFS": -38.552283,
+          "peak_DBFS": -27.075303,
+          "ungated_K_LKFS": -36.25041
+        },
+        "actual_aac": {
+          "rms_DBFS": -34.463638,
+          "peak_DBFS": -22.189704,
+          "ungated_K_LKFS": -32.649846
+        },
+        "old_aac": {
+          "rms_DBFS": -34.463638,
+          "peak_DBFS": -22.189704,
+          "ungated_K_LKFS": -32.649846
+        }
+      }
+    },
+    {
+      "abs_t0_s": 185,
+      "abs_t1_s": 186,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -38.55874,
+          "peak_DBFS": -27.757753,
+          "ungated_K_LKFS": -37.255696
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -38.843358,
+          "peak_DBFS": -27.242069,
+          "ungated_K_LKFS": -36.548466
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -38.698368,
+          "peak_DBFS": -26.847995,
+          "ungated_K_LKFS": -36.403415
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": -38.843358,
+          "peak_DBFS": -27.242069,
+          "ungated_K_LKFS": -36.548466
+        },
+        "environment_after": {
+          "rms_DBFS": -38.698368,
+          "peak_DBFS": -26.847995,
+          "ungated_K_LKFS": -36.403415
+        },
+        "actual_aac": {
+          "rms_DBFS": -35.600375,
+          "peak_DBFS": -22.923446,
+          "ungated_K_LKFS": -33.781576
+        },
+        "old_aac": {
+          "rms_DBFS": -35.673873,
+          "peak_DBFS": -22.978322,
+          "ungated_K_LKFS": -33.863023
+        }
+      }
+    },
+    {
+      "abs_t0_s": 186,
+      "abs_t1_s": 188,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -42.629436,
+          "peak_DBFS": -28.876148,
+          "ungated_K_LKFS": -41.313585
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -39.170731,
+          "peak_DBFS": -26.65748,
+          "ungated_K_LKFS": -36.889919
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -37.238572,
+          "peak_DBFS": -24.861284,
+          "ungated_K_LKFS": -34.95541
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": -39.170731,
+          "peak_DBFS": -26.65748,
+          "ungated_K_LKFS": -36.889919
+        },
+        "environment_after": {
+          "rms_DBFS": -37.238572,
+          "peak_DBFS": -24.861284,
+          "ungated_K_LKFS": -34.95541
+        },
+        "actual_aac": {
+          "rms_DBFS": -36.150374,
+          "peak_DBFS": -23.326225,
+          "ungated_K_LKFS": -34.071854
+        },
+        "old_aac": {
+          "rms_DBFS": -37.571588,
+          "peak_DBFS": -24.567168,
+          "ungated_K_LKFS": -35.574523
+        }
+      }
+    },
+    {
+      "abs_t0_s": 188,
+      "abs_t1_s": 191.25,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -48.718613,
+          "peak_DBFS": -34.163566,
+          "ungated_K_LKFS": -47.273973
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -42.261222,
+          "peak_DBFS": -29.170815,
+          "ungated_K_LKFS": -39.977452
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -33.557257,
+          "peak_DBFS": -21.240594,
+          "ungated_K_LKFS": -31.275842
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": -42.261222,
+          "peak_DBFS": -29.170815,
+          "ungated_K_LKFS": -39.977452
+        },
+        "environment_after": {
+          "rms_DBFS": -33.557257,
+          "peak_DBFS": -21.240594,
+          "ungated_K_LKFS": -31.275842
+        },
+        "actual_aac": {
+          "rms_DBFS": -33.433833,
+          "peak_DBFS": -21.727531,
+          "ungated_K_LKFS": -31.177234
+        },
+        "old_aac": {
+          "rms_DBFS": -41.358215,
+          "peak_DBFS": -27.157679,
+          "ungated_K_LKFS": -39.224924
+        }
+      }
+    },
+    {
+      "abs_t0_s": 191.25,
+      "abs_t1_s": 191.5,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -185.415412,
+          "peak_DBFS": -161.594266,
+          "ungated_K_LKFS": -182.849749
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -46.198286,
+          "peak_DBFS": -34.201527,
+          "ungated_K_LKFS": -43.881667
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -32.662302,
+          "peak_DBFS": -20.557734,
+          "ungated_K_LKFS": -30.34555
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": -46.198286,
+          "peak_DBFS": -34.201527,
+          "ungated_K_LKFS": -43.881667
+        },
+        "environment_after": {
+          "rms_DBFS": -32.662302,
+          "peak_DBFS": -20.557734,
+          "ungated_K_LKFS": -30.34555
+        },
+        "actual_aac": {
+          "rms_DBFS": -32.671817,
+          "peak_DBFS": -20.565033,
+          "ungated_K_LKFS": -30.355376
+        },
+        "old_aac": {
+          "rms_DBFS": -46.213866,
+          "peak_DBFS": -34.22738,
+          "ungated_K_LKFS": -43.897543
+        }
+      }
+    },
+    {
+      "abs_t0_s": 191.5,
+      "abs_t1_s": 192.2,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -859.160908,
+          "peak_DBFS": -856.241533,
+          "ungated_K_LKFS": -884.857859
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -45.84407,
+          "peak_DBFS": -34.531839,
+          "ungated_K_LKFS": -43.53348
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -31.566241,
+          "peak_DBFS": -19.871296,
+          "ungated_K_LKFS": -29.255224
+        },
+        "page_foley": {
+          "rms_DBFS": -73.608672,
+          "peak_DBFS": -51.750681,
+          "ungated_K_LKFS": -70.224137
+        },
+        "environment_before": {
+          "rms_DBFS": -45.839552,
+          "peak_DBFS": -34.007616,
+          "ungated_K_LKFS": -43.527057
+        },
+        "environment_after": {
+          "rms_DBFS": -31.566536,
+          "peak_DBFS": -19.755595,
+          "ungated_K_LKFS": -29.25547
+        },
+        "actual_aac": {
+          "rms_DBFS": -31.578045,
+          "peak_DBFS": -19.743512,
+          "ungated_K_LKFS": -29.267009
+        },
+        "old_aac": {
+          "rms_DBFS": -45.850301,
+          "peak_DBFS": -34.018018,
+          "ungated_K_LKFS": -43.537945
+        }
+      }
+    },
+    {
+      "abs_t0_s": 192.2,
+      "abs_t1_s": 192.45,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -859.160908,
+          "peak_DBFS": -856.241533,
+          "ungated_K_LKFS": -880.386279
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -46.542559,
+          "peak_DBFS": -36.836045,
+          "ungated_K_LKFS": -44.260016
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -31.584298,
+          "peak_DBFS": -21.947567,
+          "ungated_K_LKFS": -29.30142
+        },
+        "page_foley": {
+          "rms_DBFS": -65.407365,
+          "peak_DBFS": -46.771027,
+          "ungated_K_LKFS": -62.040593
+        },
+        "environment_before": {
+          "rms_DBFS": -46.469524,
+          "peak_DBFS": -36.499575,
+          "ungated_K_LKFS": -44.170606
+        },
+        "environment_after": {
+          "rms_DBFS": -31.579431,
+          "peak_DBFS": -21.885989,
+          "ungated_K_LKFS": -29.295922
+        },
+        "actual_aac": {
+          "rms_DBFS": -31.594485,
+          "peak_DBFS": -21.909798,
+          "ungated_K_LKFS": -29.310977
+        },
+        "old_aac": {
+          "rms_DBFS": -46.481632,
+          "peak_DBFS": -36.51826,
+          "ungated_K_LKFS": -44.182917
+        }
+      }
+    },
+    {
+      "abs_t0_s": 192.45,
+      "abs_t1_s": 194.5,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -859.160908,
+          "peak_DBFS": -856.241533,
+          "ungated_K_LKFS": -889.524417
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -46.294269,
+          "peak_DBFS": -34.422259,
+          "ungated_K_LKFS": -44.02015
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -30.10838,
+          "peak_DBFS": -17.440895,
+          "ungated_K_LKFS": -27.833303
+        },
+        "page_foley": {
+          "rms_DBFS": -65.428819,
+          "peak_DBFS": -44.153334,
+          "ungated_K_LKFS": -62.077596
+        },
+        "environment_before": {
+          "rms_DBFS": -46.242243,
+          "peak_DBFS": -34.432181,
+          "ungated_K_LKFS": -43.95399
+        },
+        "environment_after": {
+          "rms_DBFS": -30.107204,
+          "peak_DBFS": -17.440895,
+          "ungated_K_LKFS": -27.831853
+        },
+        "actual_aac": {
+          "rms_DBFS": -30.117387,
+          "peak_DBFS": -17.47254,
+          "ungated_K_LKFS": -27.842141
+        },
+        "old_aac": {
+          "rms_DBFS": -46.25344,
+          "peak_DBFS": -34.424493,
+          "ungated_K_LKFS": -43.965188
+        }
+      }
+    },
+    {
+      "abs_t0_s": 194.5,
+      "abs_t1_s": 195.5,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -859.160908,
+          "peak_DBFS": -856.241533,
+          "ungated_K_LKFS": -886.406878
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -48.864244,
+          "peak_DBFS": -35.206822,
+          "ungated_K_LKFS": -46.584344
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -29.545067,
+          "peak_DBFS": -16.340721,
+          "ungated_K_LKFS": -27.264038
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": -48.864244,
+          "peak_DBFS": -35.206822,
+          "ungated_K_LKFS": -46.584344
+        },
+        "environment_after": {
+          "rms_DBFS": -29.545067,
+          "peak_DBFS": -16.340721,
+          "ungated_K_LKFS": -27.264038
+        },
+        "actual_aac": {
+          "rms_DBFS": -29.557099,
+          "peak_DBFS": -16.3525,
+          "ungated_K_LKFS": -27.276127
+        },
+        "old_aac": {
+          "rms_DBFS": -48.874216,
+          "peak_DBFS": -35.228692,
+          "ungated_K_LKFS": -46.594429
+        }
+      }
+    },
+    {
+      "abs_t0_s": 195.5,
+      "abs_t1_s": 196.5,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -859.160908,
+          "peak_DBFS": -856.241533,
+          "ungated_K_LKFS": -886.406878
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -57.14389,
+          "peak_DBFS": -43.163662,
+          "ungated_K_LKFS": -54.851883
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -35.818761,
+          "peak_DBFS": -21.935658,
+          "ungated_K_LKFS": -33.526833
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": -57.14389,
+          "peak_DBFS": -43.163662,
+          "ungated_K_LKFS": -54.851883
+        },
+        "environment_after": {
+          "rms_DBFS": -35.818761,
+          "peak_DBFS": -21.935658,
+          "ungated_K_LKFS": -33.526833
+        },
+        "actual_aac": {
+          "rms_DBFS": -35.835635,
+          "peak_DBFS": -22.030689,
+          "ungated_K_LKFS": -33.543775
+        },
+        "old_aac": {
+          "rms_DBFS": -57.154941,
+          "peak_DBFS": -43.179287,
+          "ungated_K_LKFS": -54.862889
+        }
+      }
+    },
+    {
+      "abs_t0_s": 196.5,
+      "abs_t1_s": 197.2,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -859.160908,
+          "peak_DBFS": -856.241533,
+          "ungated_K_LKFS": -884.857859
+        },
+        "winter_bed_before": {
+          "rms_DBFS": -74.667256,
+          "peak_DBFS": -59.362973,
+          "ungated_K_LKFS": -72.384895
+        },
+        "winter_bed_after": {
+          "rms_DBFS": -52.255025,
+          "peak_DBFS": -36.985988,
+          "ungated_K_LKFS": -49.972538
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": -74.667256,
+          "peak_DBFS": -59.362973,
+          "ungated_K_LKFS": -72.384895
+        },
+        "environment_after": {
+          "rms_DBFS": -52.255025,
+          "peak_DBFS": -36.985988,
+          "ungated_K_LKFS": -49.972538
+        },
+        "actual_aac": {
+          "rms_DBFS": -52.267074,
+          "peak_DBFS": -37.00837,
+          "ungated_K_LKFS": -49.984643
+        },
+        "old_aac": {
+          "rms_DBFS": -74.671794,
+          "peak_DBFS": -59.397197,
+          "ungated_K_LKFS": -72.389589
+        }
+      }
+    },
+    {
+      "abs_t0_s": 197.2,
+      "abs_t1_s": 197.23333333333332,
+      "tracks": {
+        "music": {
+          "rms_DBFS": -862.838867,
+          "peak_DBFS": -856.241533,
+          "ungated_K_LKFS": -868.315828
+        },
+        "winter_bed_before": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "winter_bed_after": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "page_foley": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_before": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "environment_after": {
+          "rms_DBFS": null,
+          "peak_DBFS": null,
+          "ungated_K_LKFS": null
+        },
+        "actual_aac": {
+          "rms_DBFS": -151.382743,
+          "peak_DBFS": -133.125992,
+          "ungated_K_LKFS": -149.510177
+        },
+        "old_aac": {
+          "rms_DBFS": -169.463103,
+          "peak_DBFS": -150.85138,
+          "ungated_K_LKFS": -167.039157
+        }
+      }
+    }
+  ],
+  "3_transition_windows_and_folio": {
+    "48s": {
+      "sample_count": 96000,
+      "codepointwise_identical": true,
+      "zero_time_lag_waveform_similarity": 1.0,
+      "nrmse_signal_energy": 0.0,
+      "error_peak_float": 0.0
+    },
+    "96s": {
+      "sample_count": 96000,
+      "codepointwise_identical": true,
+      "zero_time_lag_waveform_similarity": 1.0,
+      "nrmse_signal_energy": 0.0,
+      "error_peak_float": 0.0
+    },
+    "144s": {
+      "sample_count": 96000,
+      "codepointwise_identical": true,
+      "zero_time_lag_waveform_similarity": 1.0,
+      "nrmse_signal_energy": 0.0,
+      "error_peak_float": 0.0
+    },
+    "147–150s_folio": {
+      "sample_count": 144000,
+      "codepointwise_identical": true,
+      "zero_time_lag_waveform_similarity": 1.0,
+      "nrmse_signal_energy": 0.0,
+      "error_peak_float": 0.0
+    },
+    "early_before_new_tail": {
+      "sample_count": 192000,
+      "codepointwise_identical": true,
+      "zero_time_lag_waveform_similarity": 1.0,
+      "nrmse_signal_energy": 0.0,
+      "error_peak_float": 0.0
+    }
+  },
+  "engineering_note": "Source author PCM raw count vs appended 914 sync samples; no new trim. Old official AAC may differ in encoder output, so protected early perceptual similarity plus exact pre-encode PCM prefix are the gates.",
+  "winter_bed_wider_before_fade_delta_db": 7.999999,
+  "raw_180s_bed_basis_sha256_if_supplied": "290afff6b018b902184590a78f5cd1a25e8cdee3db6ea8101b7db4a9d3fd0502",
+  "same_phase_old_envelope_removed_actual_new_gain_fits": {
+    "184.77": {
+      "relative_to_same_unautomated_physical_bed_db": -5.292965,
+      "residual_amplitude_rms": 3.1512330105697314e-06
+    },
+    "185.0": {
+      "relative_to_same_unautomated_physical_bed_db": -5.299999,
+      "residual_amplitude_rms": 2.3783280638098537e-09
+    },
+    "185.15": {
+      "relative_to_same_unautomated_physical_bed_db": -5.299938,
+      "residual_amplitude_rms": 4.586645714651624e-08
+    },
+    "186": {
+      "relative_to_same_unautomated_physical_bed_db": -5.271615,
+      "residual_amplitude_rms": 4.853929403809915e-06
+    },
+    "188": {
+      "relative_to_same_unautomated_physical_bed_db": -4.097466,
+      "residual_amplitude_rms": 7.696892602047185e-05
+    },
+    "190": {
+      "relative_to_same_unautomated_physical_bed_db": -0.350028,
+      "residual_amplitude_rms": 0.00017938579408061068
+    },
+    "191.27": {
+      "relative_to_same_unautomated_physical_bed_db": 2.070209,
+      "residual_amplitude_rms": 0.00012695146459933845
+    },
+    "192.2": {
+      "relative_to_same_unautomated_physical_bed_db": 2.7,
+      "residual_amplitude_rms": 1.549952739776192e-09
+    },
+    "193": {
+      "relative_to_same_unautomated_physical_bed_db": 2.7,
+      "residual_amplitude_rms": 1.6475390787398016e-09
+    },
+    "194.18": {
+      "relative_to_same_unautomated_physical_bed_db": 2.7,
+      "residual_amplitude_rms": 1.921015917976486e-09
+    },
+    "195.0": {
+      "relative_to_same_unautomated_physical_bed_db": 1.760311,
+      "residual_amplitude_rms": 0.0004905232472726745
+    },
+    "196.0": {
+      "relative_to_same_unautomated_physical_bed_db": -5.681506,
+      "residual_amplitude_rms": 0.0006328610146723638
+    }
+  },
+  "audio_tail_Hz_energy_192p36_192p58": {
+    "f_ge_1000_Hz_percent": 3.2891695499420166,
+    "f_ge_2000_Hz_percent": 0.07399755716323853,
+    "f_ge_4000_Hz_percent": 0.0011770367855206132,
+    "f_ge_6000_Hz_percent": 4.1632290958659723e-05
+  },
+  "bed_and_stem_composition": {
+    "PCM_full_change_equals_only_sample_aligned_bed_change": {
+      "sample_count": 827200,
+      "codepointwise_identical": false,
+      "zero_time_lag_waveform_similarity": 0.9999999999999999,
+      "nrmse_signal_energy": 2.1908256741352622e-08,
+      "error_peak_float": 7.450580596923828e-09
+    },
+    "old_other_effect_same_residue_as_v24": {
+      "sample_count": 827200,
+      "codepointwise_identical": false,
+      "zero_time_lag_waveform_similarity": 0.9999999999998618,
+      "nrmse_signal_energy": 5.255210355904751e-07,
+      "error_peak_float": 7.450580596923828e-09
+    },
+    "legacy_music_tail_stayed_equivalent_B24": {
+      "sample_count": 827200,
+      "codepointwise_identical": false,
+      "zero_time_lag_waveform_similarity": 0.9999999999903096,
+      "nrmse_signal_energy": 4.40230963400936e-06,
+      "error_peak_float": 1.1897463991772383e-07
+    },
+    "old_audio_recipe_baseline_PCM_identical_to_pinned": true,
+    "actual_bed_separately_archived_tail_page_stem_final_max_peak": 0.026320815086364746
+  },
+  "actual_aac_black_last_1600_sample_peak_DBFS": -133.125992
+}

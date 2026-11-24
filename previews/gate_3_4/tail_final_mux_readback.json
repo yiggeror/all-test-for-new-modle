@@ -1,0 +1,18 @@
+{
+  "starting_sample_global": 8640000,
+  "final_sample_exclusive_global": 9467200,
+  "first_seconds": 180.0,
+  "final_seconds_exact": "5917/30",
+  "channel_sample_count": 827200,
+  "actual_mux_aac_decoded_vs_listening_after_24_bit_flac_max_abs": 1.1896190699189901e-07,
+  "before_vs_after_encoded_rms_difference": 0.014633495835510572,
+  "new_mix_pcm_vs_encoded_rms_difference": 0.00021717898516993164,
+  "actual_audio_master_sha256": "5b857acaf4afbc751af806e9b9d268bc1d16b03d11a86cacd529ed601e0ac63b",
+  "embedded_aac_ordered_payloads_sha256": "94f762462c8c7609bdc82ec2789ca31f7cf76c67d567a5dbf75002143bbf731b",
+  "decoded_tail_last_black_max_pcm_abs": 2.2064821791900613e-07,
+  "sources": [
+    "tail_before.flac: unchanged old PCM for comparison",
+    "tail_after.flac: new mix 24-bit PCM prior to AAC",
+    "tail_after_encoded.flac: exact new AAC playback rounded to 24-bit FLAC"
+  ]
+}

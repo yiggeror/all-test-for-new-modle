@@ -1,0 +1,50 @@
+{
+  "spring": {
+    "input_mp4_sha256": "3c96dfbff937d62625cc3edae4b3aa41cd623a89f1de1f6b44468714029d63e3",
+    "probe_only_current_authored_npy_sha256": "b423d37bd3e22a97181a9a9ad719515a3b22ed7c80cf99bcd931984405705d43",
+    "palette_color_keys": 59,
+    "key_collisions": 0,
+    "frames_compared": 660,
+    "whole_native_pixels_compared": 38016000,
+    "mismatched_rgb_pixels": 0,
+    "adjacent_equal_count_with_cycle_boundary": 0,
+    "unique_rgb_frames": 330,
+    "raw_rgb24_cycle_sha256": "b2ef3a8bda8ddda5b32f7e24588def8e9a14cfe133e3d2c1db581c000ddbfe67"
+  },
+  "summer": {
+    "input_mp4_sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+    "probe_only_current_authored_npy_sha256": "1334764077c576e9098acf3408fd4bb930558cfcb9a17a6ccee9c6dfd1ff317b",
+    "palette_color_keys": 59,
+    "key_collisions": 0,
+    "frames_compared": 660,
+    "whole_native_pixels_compared": 38016000,
+    "mismatched_rgb_pixels": 0,
+    "adjacent_equal_count_with_cycle_boundary": 0,
+    "unique_rgb_frames": 330,
+    "raw_rgb24_cycle_sha256": "dc107babbdc5723026e43274fb28f0e37ed763fc6e949383beaaa6a3f7be7403"
+  },
+  "autumn": {
+    "input_mp4_sha256": "67335a4eb93ff758d5d91da2f4f8ca89818656fe3eb225bd91aa1e94bfbfdcbc",
+    "probe_only_current_authored_npy_sha256": "850489623ee4f34c7cb2f2c95340ee78f0a2b3bab71c759557fe7c7aa1febc3f",
+    "palette_color_keys": 60,
+    "key_collisions": 0,
+    "frames_compared": 660,
+    "whole_native_pixels_compared": 38016000,
+    "mismatched_rgb_pixels": 0,
+    "adjacent_equal_count_with_cycle_boundary": 0,
+    "unique_rgb_frames": 330,
+    "raw_rgb24_cycle_sha256": "d33f17329e4cb4823237cdd0fe4d0f5b986250c8bf7f27f864f3cc3478f765ed"
+  },
+  "winter": {
+    "input_mp4_sha256": "7979b70a88bd1df98763724c4c129e901ade660e154bcf4eb9c8f4ce70f61ba2",
+    "probe_only_current_authored_npy_sha256": "b6dc9167a7d0d34dccf9dcdf963d82de8af385d77fdabc4aaa772710e6d371fe",
+    "palette_color_keys": 60,
+    "key_collisions": 0,
+    "frames_compared": 660,
+    "whole_native_pixels_compared": 38016000,
+    "mismatched_rgb_pixels": 0,
+    "adjacent_equal_count_with_cycle_boundary": 0,
+    "unique_rgb_frames": 330,
+    "raw_rgb24_cycle_sha256": "499f216c23b6dfe1e9cfe51b4674865006a09cda28e5a4b7fc64be187ed91408"
+  }
+}

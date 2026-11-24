@@ -1,0 +1,33 @@
+test_all_opaque_unchanged_resampling_neighbour (test_assembly.PictureCuts.test_all_opaque_unchanged_resampling_neighbour) ... ok
+test_cadence_entire_film_four_cycles (test_assembly.PictureCuts.test_cadence_entire_film_four_cycles) ... ok
+test_cut_windows_centers_and_endpoints (test_assembly.PictureCuts.test_cut_windows_centers_and_endpoints) ... ok
+test_invalid_schedule (test_assembly.PictureCuts.test_invalid_schedule) ... ok
+test_open_close_exact_black_without_paused_phase (test_assembly.PictureCuts.test_open_close_exact_black_without_paused_phase) ... ok
+test_all_sources_are_path_checked_and_hash_locked (test_audio_protocol.Gate34AudioProtocol.test_all_sources_are_path_checked_and_hash_locked) ... ok
+test_full_sample_exact_aac_contract (test_audio_protocol.Gate34AudioProtocol.test_full_sample_exact_aac_contract) ... ok
+test_one_payload_or_config_change_changes_identity (test_audio_protocol.Gate34AudioProtocol.test_one_payload_or_config_change_changes_identity) ... ok
+test_one_shifted_packet_or_suffix_is_not_accepted (test_audio_protocol.Gate34AudioProtocol.test_one_shifted_packet_or_suffix_is_not_accepted) ... ok
+test_preserve_all_samples_and_localized_tail_report (test_audio_protocol.Gate34AudioProtocol.test_preserve_all_samples_and_localized_tail_report) ... ok
+test_exact_join_and_8db_plateau_and_fade (test_audio_tail.TailGuards.test_exact_join_and_8db_plateau_and_fade) ... ok
+test_only_flush_eq_subnormals_after_blackout (test_audio_tail.TailGuards.test_only_flush_eq_subnormals_after_blackout) ... ok
+test_recovers_original_single_precision_stem_calibration (test_audio_tail.TailGuards.test_recovers_original_single_precision_stem_calibration) ... ok
+test_tail_delta_never_rescales_prefix_or_removes_other_sound (test_audio_tail.TailGuards.test_tail_delta_never_rescales_prefix_or_removes_other_sound) ... ok
+test_detect_tamper_before_loading_table (test_recover_native.RecoverNativeTests.test_detect_tamper_before_loading_table) ... ok
+test_sampling_distinct_grid_cells_and_chroma_planes (test_recover_native.RecoverNativeTests.test_sampling_distinct_grid_cells_and_chroma_planes) ... ok
+test_truncated_plane_is_rejected (test_recover_native.RecoverNativeTests.test_truncated_plane_is_rejected) ... ok
+test_unknown_decoded_color_is_not_approximated (test_recover_native.RecoverNativeTests.test_unknown_decoded_color_is_not_approximated) ... ok
+test_yuv_collision_is_rejected (test_recover_native.RecoverNativeTests.test_yuv_collision_is_rejected) ... ok
+test_altered_local_split_manifest_refused (test_v24.Gate34Tests.test_altered_local_split_manifest_refused) ... ok
+test_approved_linear_light_curve_and_tail_geometry (test_v24.Gate34Tests.test_approved_linear_light_curve_and_tail_geometry) ... ok
+test_mux_preserves_priming_and_timings (test_v24.Gate34Tests.test_mux_preserves_priming_and_timings) ... ok
+test_one_part_tamper_is_not_silently_encoded (test_v24.Gate34Tests.test_one_part_tamper_is_not_silently_encoded) ... ok
+test_other_song_cache_rejected_unchanged (test_v24.Gate34Tests.test_other_song_cache_rejected_unchanged) ... ok
+test_unsupported_part_path_is_refused (test_v24.Gate34Tests.test_unsupported_part_path_is_refused) ... ok
+test_detect_cyclic_neighbor_hold_not_recent_anywhere (test_v24_holds.ApprovedSourceHolds.test_detect_cyclic_neighbor_hold_not_recent_anywhere) ... ok
+test_identical_approved_phases_preserved_as_independent_frames (test_v24_holds.ApprovedSourceHolds.test_identical_approved_phases_preserved_as_independent_frames) ... ok
+test_same_count_wrong_phase_refused (test_v24_holds.ApprovedSourceHolds.test_same_count_wrong_phase_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.991s
+
+OK

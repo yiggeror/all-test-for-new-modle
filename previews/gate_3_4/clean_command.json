@@ -1,0 +1,13 @@
+{
+  "command": "python tools/gate3_v24/reproduce.py",
+  "flags": [],
+  "from_empty_dist": true,
+  "actually_downloaded_sha_pinned_author_mp3": true,
+  "only_picture_inputs": "16 approved lossless bins; zero proxies or authored native frames",
+  "audio_i_o": "locked original MP3 + pinned legacy source + frozen new audio_tail.py (generated AAC in this execution)",
+  "sha256": "81297609f124b90bcbc97533a0a9514179a7681fb66a0c05903b277a973229ae",
+  "bytes": 132850666,
+  "clip_frames": 5917,
+  "effective_audio_samples": 9467200,
+  "exit_code": 0
+}

@@ -6,8 +6,10 @@
 
 **环境与拟音：**春季巷风和轻微枝叶，夏季低通棚雨、湿路和檐滴，秋季流风与簌簌叶响，冬季雪院风、值班室远通风声和隔窗翻页，均为本项目在本地依固定种子程序合成。未用外采音效、素材库录音、既有音景或 AI 生曲服务。四个季节声底以 2.0 秒等功率过渡，纸页拟音依画面实际时码。
 
+**v2.4 尾声：**随《Green Tea》的自然尾音渐弱，冬夜雪风与远处室内底声缓缓抬升。原曲静下来后留出短暂的雪夜声，再和画面一起淡出。仍在 03:17.23 结束，原曲与翻页拟音均保留。
+
 **原型致谢：**致谢 [Rainroji 的原始四季像素动画](https://github.com/yiggeror/Rainroji/tree/deliver/four-seasons-1080p)。本片没有使用原型的配乐或现成音效。
 
 可用于 Release/视频简介：
 
-> Music: “Green Tea” by Purrple Cat, from *Bloom* (https://purrplecat.itch.io/bloom), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Used in full with mild EQ/level adjustment, original procedural ambience/foley, and synchronization to the four-season animation. Original ambience and page-turn foley by this project. Visual prototype acknowledgment: Rainroji.
+> Music: “Green Tea” by Purrple Cat, from *Bloom* (https://purrplecat.itch.io/bloom), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Used in full with mild EQ/level adjustment, original procedural ambience/foley, and synchronization to the four-season animation. Original ambience and page-turn foley by this project. In v2.4, winter ambience gently rises under the song's natural tail and fades with the picture. Visual prototype acknowledgment: Rainroji.

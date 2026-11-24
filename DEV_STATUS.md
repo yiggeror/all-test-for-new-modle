@@ -1,5 +1,17 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 16：v2.4 / Gate 3.4 成片已合成，待实看实听终审
+
+按[终审前合片要求](https://github.com/yiggeror/all-test-for-new-modle/blob/1fa86680089be1b6ee8a07dab2a13d865de05dd6/REVIEW_LOG.md)，从已通过的 Gate 2.4 十六份无损分卷重建画面，保留 48 / 96 / 144 秒三处 2 秒线性光叠化、片头 1.5 秒淡入及片尾 3.8 秒淡黑。夏景使用原封分卷，不使用任何兼容预览作为素材。
+
+- 本地无参数重建产物 `dist/Rainroji_Lofi_V2.4_1080p.mp4`：132,850,666 字节，SHA-256 `81297609f124b90bcbc97533a0a9514179a7681fb66a0c05903b277a973229ae`。1920×1080、30 fps、5,917 帧、197.233333 秒，H.264 High / CRF14 / BT.709 矩阵限幅 / faststart。
+- 新音轨保留完整《Green Tea》和冬窗翻页。前 185 秒混音 PCM 与批准版逐样相同；原曲自然落静后，冬夜雪风留在前景，底声抬升约 8 dB，最后 2.7 秒渐淡。48 kHz 立体声 AAC-LC，精确 9,467,200 个采样帧，实测 −16.05 LUFS-I、−4.74 dBTP。
+- [重建入口](tools/gate3_v24/) · [实际解码帧、尾声试听及分轨曲线](previews/gate_3_4/) · [音乐及尾声署名](CREDITS.md)。
+
+本次提交可复现工具和审片证据。正式 GitHub Release 与 Drive 文件由终审发布；v2.3 归档保持不动。
+
+---
+
 ## Round 15–15d：v2.4 / Gate 2.4 四季双周期样片送审
 
 根据[评审要求](https://github.com/yiggeror/all-test-for-new-modle/blob/30f9d44033cd0a9dce73b9bc0467dc5e4d2317ae/REVIEW_LOG.md)，本轮在 v2.3 的干净画面上恢复细微动势。[四季 22 秒样片、无损分卷、源包和动作证据](previews/gate_2_4/) 已归集。
