@@ -1,0 +1,125 @@
+{
+  "reference": "frozen QP0 all 660 frames byte-matched to native+BT.709 exact grid",
+  "three_actual_native_rgb_regions": {
+    "neon_face_xyxy": [
+      225,
+      41,
+      235,
+      63
+    ],
+    "brick_face_xyxy": [
+      210,
+      42,
+      222,
+      66
+    ],
+    "street_organic_glints_xyxy": [
+      225,
+      141,
+      270,
+      165
+    ]
+  },
+  "per_cut_visible_red_edges": {
+    "neon_face_xyxy": [
+      {
+        "down_frame": 192,
+        "restored_frame": 197,
+        "down_delta_R_excess": -32.6932,
+        "up_delta_R_excess": 32.8204,
+        "low_mean_R_excess": 63.4759
+      },
+      {
+        "down_frame": 204,
+        "restored_frame": 209,
+        "down_delta_R_excess": -29.1477,
+        "up_delta_R_excess": 29.5818,
+        "low_mean_R_excess": 66.1964
+      },
+      {
+        "down_frame": 216,
+        "restored_frame": 220,
+        "down_delta_R_excess": -33.6205,
+        "up_delta_R_excess": 33.5568,
+        "low_mean_R_excess": 62.0011
+      },
+      {
+        "down_frame": 229,
+        "restored_frame": 234,
+        "down_delta_R_excess": -30.7523,
+        "up_delta_R_excess": 30.9886,
+        "low_mean_R_excess": 65.2859
+      }
+    ],
+    "brick_face_xyxy": [
+      {
+        "down_frame": 192,
+        "restored_frame": 197,
+        "down_delta_R_excess": -26.8646,
+        "up_delta_R_excess": 27.033,
+        "low_mean_R_excess": 1.7944
+      },
+      {
+        "down_frame": 204,
+        "restored_frame": 209,
+        "down_delta_R_excess": -27.2153,
+        "up_delta_R_excess": 26.8177,
+        "low_mean_R_excess": 2.0885
+      },
+      {
+        "down_frame": 216,
+        "restored_frame": 220,
+        "down_delta_R_excess": -27.6806,
+        "up_delta_R_excess": 27.3507,
+        "low_mean_R_excess": 1.5022
+      },
+      {
+        "down_frame": 229,
+        "restored_frame": 234,
+        "down_delta_R_excess": -26.7274,
+        "up_delta_R_excess": 26.5035,
+        "low_mean_R_excess": 2.1601
+      }
+    ],
+    "street_organic_glints_xyxy": [
+      {
+        "down_frame": 192,
+        "restored_frame": 197,
+        "down_delta_R_excess": -3.8495,
+        "up_delta_R_excess": 3.9968,
+        "low_mean_R_excess": 0.0687
+      },
+      {
+        "down_frame": 204,
+        "restored_frame": 209,
+        "down_delta_R_excess": -3.9514,
+        "up_delta_R_excess": 3.969,
+        "low_mean_R_excess": 0.0924
+      },
+      {
+        "down_frame": 216,
+        "restored_frame": 220,
+        "down_delta_R_excess": -3.9954,
+        "up_delta_R_excess": 3.9616,
+        "low_mean_R_excess": 0.1001
+      },
+      {
+        "down_frame": 229,
+        "restored_frame": 234,
+        "down_delta_R_excess": -3.862,
+        "up_delta_R_excess": 3.9713,
+        "low_mean_R_excess": 0.0597
+      }
+    ]
+  },
+  "red_glints_at_f190_R_excess_over_30_pixels": 47,
+  "max_contiguous_red_run_in_f190_roi_native_pixels": 5,
+  "f189_f190_changed_neon_glint_mask_pixels": 10,
+  "roof_to_sidewalk_y_m": 0.153,
+  "photo_in_motion_frames": {
+    "headlight_road": 124,
+    "headlight_car": 153,
+    "wet_lit": 190,
+    "wet_dim": 194
+  }
+}

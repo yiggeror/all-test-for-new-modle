@@ -1,0 +1,16 @@
+{
+  "samples": 3,
+  "frame_count": 330,
+  "wet_strength": 22.5,
+  "beam_strength": 0.59,
+  "view": "locked Gate 1.5, 320x180; square pixels",
+  "headlight_discrete_transport_samples": 31,
+  "components": [
+    "locked source geometry",
+    "shadowed physical dual lamp camera-space samples",
+    "facing real sampled sign aperture",
+    "asphalt roughness and rain-derived normal slope",
+    "world-space depth-tested rain/eave/steam",
+    "original 60-color palette"
+  ]
+}

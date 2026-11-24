@@ -1,0 +1,222 @@
+{
+  "round9_commit": "4c06e29619b2efa6ed8c4f9b75888417d91a4bb7",
+  "editorial": "PASS, local Gate2.2 preview and restored media; not Gate3 and not published by QA",
+  "seasons": {
+    "spring": {
+      "sha256": "2996c0403104aa276695c1c644d86858dbf08e29dd144dc8aaaf408ceeeea9a2",
+      "bytes": 48445073,
+      "reassembled_same_as_independently_audited": true,
+      "passes_technical": true,
+      "passes_editorial": true,
+      "join_f329_to_f330_RGB_MAE": 0.7059,
+      "adjacent_join_comparison_RGB_MAE_median": 0.71027,
+      "strict_decoded": "660",
+      "pixel_grid_split_frame_counts_YUV": [
+        0,
+        0,
+        0
+      ],
+      "loop_pair_count_pixel_exact": 330,
+      "source_RGB_center_max_diff": 3,
+      "full_actual_evidence_peak_frames": [
+        {
+          "frame": 105,
+          "sha256": "96d2e05236d22eb76c1d99efb0f7d879041282a4ff549408379600f53ba43fc8"
+        },
+        {
+          "frame": 186,
+          "sha256": "7f0d7a29e46e21a8893f8710f80bc12790de69455e12f63124acd7f632cd4c3c"
+        },
+        {
+          "frame": 203,
+          "sha256": "01f6d26506e51f1d302108caf538e0af554a07e94c82e2486d48730f9b6662fe"
+        }
+      ]
+    },
+    "summer": {
+      "sha256": "ba25bf92a092105b18c4cad354347b13757045b139781142e4951bb4fb8648f9",
+      "bytes": 70836939,
+      "reassembled_same_as_independently_audited": true,
+      "passes_technical": true,
+      "passes_editorial": true,
+      "join_f329_to_f330_RGB_MAE": 2.50933,
+      "adjacent_join_comparison_RGB_MAE_median": 2.48107,
+      "strict_decoded": "660",
+      "pixel_grid_split_frame_counts_YUV": [
+        0,
+        0,
+        0
+      ],
+      "loop_pair_count_pixel_exact": 330,
+      "source_RGB_center_max_diff": 3,
+      "full_actual_evidence_peak_frames": [
+        {
+          "frame": 109,
+          "sha256": "997acd8c5b841770bf378c3e17b900794cbb85f0fd252392cd5577307499103f"
+        },
+        {
+          "frame": 110,
+          "sha256": "0dd81a01f9696a4f9de4dbfbcd94caeaffd886fd4b40e0f99b7d6010af691417"
+        },
+        {
+          "frame": 124,
+          "sha256": "459a12d8fc1e54462780aada4757e4505428f2c6518dc343bb5e3012ff16746a"
+        },
+        {
+          "frame": 153,
+          "sha256": "904952e4dc60abd96c0318c757543d61e5bb67d001514f51f065d04103d58dec"
+        },
+        {
+          "frame": 190,
+          "sha256": "69e1cb8e8d657f11e643c25dc386f1bf13a78b9b5ad0905cce9aeea12077ca50"
+        },
+        {
+          "frame": 194,
+          "sha256": "e13f478b6f523087d108724b06b2b100509962446a998ea04961d288a65852f4"
+        }
+      ]
+    },
+    "autumn": {
+      "sha256": "bcea900e56b5c036293378fecfa1e6d56ff49ff4ce770586ecb52d106633e02e",
+      "bytes": 26671383,
+      "reassembled_same_as_independently_audited": true,
+      "passes_technical": true,
+      "passes_editorial": true,
+      "join_f329_to_f330_RGB_MAE": 0.22984,
+      "adjacent_join_comparison_RGB_MAE_median": 0.23229,
+      "strict_decoded": "660",
+      "pixel_grid_split_frame_counts_YUV": [
+        0,
+        0,
+        0
+      ],
+      "loop_pair_count_pixel_exact": 330,
+      "source_RGB_center_max_diff": 3,
+      "full_actual_evidence_peak_frames": [
+        {
+          "frame": 122,
+          "sha256": "4216ccd092eea75588745617c60e278516d094027b582c87962645712e7b8078"
+        },
+        {
+          "frame": 178,
+          "sha256": "6c4e90239e24f057a777cea7d13780a0e86d978b47d508631230f6ca16962e0e"
+        },
+        {
+          "frame": 201,
+          "sha256": "b0766c6b1a599e38db8aa7df5b885f38beda698bd4d51af3c6b136cbfc809781"
+        },
+        {
+          "frame": 222,
+          "sha256": "e3dd9dd782893392ee055f630ed2e65f2b5f9ff2d37770228940f1168cddbefb"
+        }
+      ]
+    },
+    "winter": {
+      "sha256": "e98fc613a958cc56dc7e17054849717573f69d0e50bf44067ad6dfbc7b61c664",
+      "bytes": 46457547,
+      "reassembled_same_as_independently_audited": true,
+      "passes_technical": true,
+      "passes_editorial": true,
+      "join_f329_to_f330_RGB_MAE": 0.75286,
+      "adjacent_join_comparison_RGB_MAE_median": 0.76403,
+      "strict_decoded": "660",
+      "pixel_grid_split_frame_counts_YUV": [
+        0,
+        0,
+        0
+      ],
+      "loop_pair_count_pixel_exact": 330,
+      "source_RGB_center_max_diff": 3,
+      "full_actual_evidence_peak_frames": [
+        {
+          "frame": 95,
+          "sha256": "28da2784da7729522c6783f05510a1608ac32ef19440a12c0e9a77310e0a6fff"
+        },
+        {
+          "frame": 153,
+          "sha256": "23152b9b8dca0fc30186ea24085fd7bb1446acb904136080eda7be7c8803e901"
+        },
+        {
+          "frame": 155,
+          "sha256": "daf3b5edc5011d984938682c00c76ec5b46b25397ba8cd0bf6211d680d30ce23"
+        },
+        {
+          "frame": 164,
+          "sha256": "51a4e6cacce28b90b518fb7245b6fe550607e3308eeb2af28c2b31bd21116dc9"
+        },
+        {
+          "frame": 214,
+          "sha256": "ebbd9d4eb88830e61c6c71c852ff7a297ef23f90111afef1f551473a93db260d"
+        }
+      ]
+    }
+  },
+  "summer": {
+    "zero_BARCODE_bands_all_330phases": true,
+    "bright_and_dark_real_wet_signal": true,
+    "sign_bricks_road_same_frame": true,
+    "actual_dark_intervals_cycle1": [
+      [
+        192,
+        197
+      ],
+      [
+        204,
+        209
+      ],
+      [
+        216,
+        220
+      ],
+      [
+        229,
+        234
+      ]
+    ],
+    "actual_dark_intervals_cycle2": [
+      [
+        522,
+        527
+      ],
+      [
+        534,
+        539
+      ],
+      [
+        546,
+        550
+      ],
+      [
+        559,
+        564
+      ]
+    ],
+    "wet_longest_row_screen_width_fraction": 0.1154
+  },
+  "winter": {
+    "method": "same_phase_no_page",
+    "scan_interval_half_open": [
+      124,
+      210
+    ],
+    "scan_total_phases": 86,
+    "true_closest_phase": 164,
+    "equally_close_phase_list": [
+      164,
+      165
+    ],
+    "closest_distance_between_native_centers_px": 4.12311,
+    "all_visible_phase_candidates_8_connected_to_lamp": []
+  },
+  "autumn": {
+    "main_whole_viewing_act": "One early canopy/airborne leaves gust, with an ensuing more subtle left-to-right ground leaf front.",
+    "real_A_B_ground_leaf_cluster_centers_x_native": {
+      "153": 115.2,
+      "178": 144.7,
+      "202": 160.4,
+      "221": 177.6
+    },
+    "native_9_code_RGB_ground_pixels_in_peak_at_f178": 101
+  },
+  "submission_gate_can_progress": true
+}

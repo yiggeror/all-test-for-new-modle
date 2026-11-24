@@ -1,0 +1,54 @@
+{
+  "washing": {
+    "roi_in_320x180": [
+      247,
+      145,
+      300,
+      174
+    ],
+    "halfsecond_motion_max_mean_rgb": 3.7571025807850793,
+    "strong_pixels_diff_gt8_at_frame_203_vs_15": 238,
+    "f329_to_f0_mean_rgb": 0.15354586857514638,
+    "normal_single_frame_median": 0.2928865755801344,
+    "normal_single_frame_p95": 0.6300585556278462
+  },
+  "canopy": {
+    "roi_in_320x180": [
+      155,
+      10,
+      270,
+      138
+    ],
+    "halfsecond_motion_max_mean_rgb": 9.395153985507246,
+    "strong_pixels_diff_gt8_at_frame_203_vs_15": 8593,
+    "f329_to_f0_mean_rgb": 1.8197690217391305,
+    "normal_single_frame_median": 1.7550271739130434,
+    "normal_single_frame_p95": 2.289397644927536
+  },
+  "lamp_shower": {
+    "roi_in_320x180": [
+      103,
+      77,
+      171,
+      132
+    ],
+    "halfsecond_motion_max_mean_rgb": 10.317379679144384,
+    "strong_pixels_diff_gt8_at_frame_203_vs_15": 905,
+    "f329_to_f0_mean_rgb": 0.8088235294117647,
+    "normal_single_frame_median": 0.807843137254902,
+    "normal_single_frame_p95": 2.610285204991087
+  },
+  "static_roofline": {
+    "roi_in_320x180": [
+      19,
+      16,
+      93,
+      36
+    ],
+    "halfsecond_motion_max_mean_rgb": 1.146171171171171,
+    "strong_pixels_diff_gt8_at_frame_203_vs_15": 32,
+    "f329_to_f0_mean_rgb": 0.3358108108108108,
+    "normal_single_frame_median": 0.20439189189189189,
+    "normal_single_frame_p95": 0.6250450450450445
+  }
+}

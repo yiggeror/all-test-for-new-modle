@@ -1,0 +1,28 @@
+{
+  "status": "BYTE_IDENTICAL",
+  "comparison": "split -> shipped restore_lossless.py -> cmp originals, 4 of 4 (no transcoding)",
+  "part_count": 26,
+  "bytes": 192410942,
+  "files": {
+    "spring": {
+      "bytes": 48445073,
+      "sha256": "2996c0403104aa276695c1c644d86858dbf08e29dd144dc8aaaf408ceeeea9a2",
+      "part_count": 7
+    },
+    "summer": {
+      "bytes": 70836939,
+      "sha256": "ba25bf92a092105b18c4cad354347b13757045b139781142e4951bb4fb8648f9",
+      "part_count": 9
+    },
+    "autumn": {
+      "bytes": 26671383,
+      "sha256": "bcea900e56b5c036293378fecfa1e6d56ff49ff4ce770586ecb52d106633e02e",
+      "part_count": 4
+    },
+    "winter": {
+      "bytes": 46457547,
+      "sha256": "e98fc613a958cc56dc7e17054849717573f69d0e50bf44067ad6dfbc7b61c664",
+      "part_count": 6
+    }
+  }
+}

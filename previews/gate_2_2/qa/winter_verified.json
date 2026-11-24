@@ -1,0 +1,25 @@
+{
+  "scene": "winter",
+  "unique_native_frames": 330,
+  "decoded_frames": 660,
+  "first_second_cycle_identical_pairs": 330,
+  "all_three_planes_in_every_frame_uniform_native_blocks": true,
+  "source_exact_native_rgb_pairs": 330,
+  "rgb_seam_mae": 0.752934,
+  "near_seam_maes": [
+    0.754427,
+    0.754786,
+    0.750729,
+    0.759803,
+    0.766429,
+    0.752934,
+    0.763895,
+    0.764612,
+    0.772749,
+    0.772344,
+    0.78305,
+    0.787813
+  ],
+  "native_npy_sha256": "0daebf6098f21d103fd35ea698c845cba7321a85d060f44a0f630bafa074a2d7",
+  "loop_qp0_mp4_sha256": "e98fc613a958cc56dc7e17054849717573f69d0e50bf44067ad6dfbc7b61c664"
+}

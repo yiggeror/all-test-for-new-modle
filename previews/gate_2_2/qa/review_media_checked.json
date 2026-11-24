@@ -1,0 +1,131 @@
+{
+  "spring": {
+    "mobile_bytes": 7791200,
+    "mobile_sha256": "a57e24adc9de92c7e15ca52e632ed9843d17cea088ef400654163e23c9259cae",
+    "format": [
+      "h264",
+      "High",
+      1920,
+      1080,
+      "30/1",
+      "660",
+      "22.000000",
+      "yuv420p"
+    ],
+    "peaks": [
+      {
+        "file": "peaks/spring_peak_105_roof_no_cat_neutral.png",
+        "bytes": 91863,
+        "sha256": "a9ba5f381eb01831633e800206f1825c842aabaa0651ad05d3755c5df387d144"
+      },
+      {
+        "file": "peaks/spring_peak_186_blossom_shower.png",
+        "bytes": 92390,
+        "sha256": "23f7f5bfb8d73300034a1a3548959731c190c1655c57d0611437d30c7f49dcaf"
+      },
+      {
+        "file": "peaks/spring_peak_203_washing_billow.png",
+        "bytes": 92126,
+        "sha256": "4c2f3c47f2b0d5d1c2a3367a9fb24f1af2bcfae5c72c141f26e58cd1954e4c14"
+      }
+    ]
+  },
+  "summer": {
+    "mobile_bytes": 7905026,
+    "mobile_sha256": "369bf8989096c66c27674e6839804d642749c763ad065766e65d1f70cdc6be12",
+    "format": [
+      "h264",
+      "High",
+      1920,
+      1080,
+      "30/1",
+      "660",
+      "22.000000",
+      "yuv420p"
+    ],
+    "peaks": [
+      {
+        "file": "peaks/summer_headlight_car_face_F153.png",
+        "bytes": 99262,
+        "sha256": "a36aae7cc3c0cbd77f257922ae734eae8e9335695688b6202f0caa788ca011a3"
+      },
+      {
+        "file": "peaks/summer_headlight_road_F124.png",
+        "bytes": 100593,
+        "sha256": "8215489833a62b25d603e31c6120ed1d0e9c99bbef0a426a2ca297983d8a315a"
+      },
+      {
+        "file": "peaks/summer_neon_dark_comparison_F194.png",
+        "bytes": 100885,
+        "sha256": "5a4d64d1e445e1f514667c6e6eb417d925c3243be79329293080c19333139df4"
+      },
+      {
+        "file": "peaks/summer_neon_wet_road_F190.png",
+        "bytes": 99089,
+        "sha256": "00bb1d1c89bc3ace74484f773ed0119fcd887c2867cf007d59dc1cb1882a0f2b"
+      }
+    ]
+  },
+  "autumn": {
+    "mobile_bytes": 8153211,
+    "mobile_sha256": "763628ac7f63e290bb7fb6fa2c0a6cd8daabfb28ee28e047c74cf2d111e66ba6",
+    "format": [
+      "h264",
+      "High",
+      1920,
+      1080,
+      "30/1",
+      "660",
+      "22.000000",
+      "yuv420p"
+    ],
+    "peaks": [
+      {
+        "file": "peaks/autumn_canopy_f122_1080p.png",
+        "bytes": 115475,
+        "sha256": "8fba994ccab3bd623ff38b6303aefc7e9d933582645a06a9d83f2a23cb7c531b"
+      },
+      {
+        "file": "peaks/autumn_gust_f178_1080p.png",
+        "bytes": 116868,
+        "sha256": "cdfb98fa8de9edf68e800cdc6dd474ab027b8d1f06e2df5c32a127f76999e286"
+      },
+      {
+        "file": "peaks/autumn_leaves_f201_1080p.png",
+        "bytes": 116177,
+        "sha256": "f3e8cd5de59bae531959d79ff518d303ed5c2b13c2c2c9cf1707d9d2f0af0504"
+      }
+    ]
+  },
+  "winter": {
+    "mobile_bytes": 7900992,
+    "mobile_sha256": "9ab58380e89f2839a6ad07066f145251b59444fcfb0a87ee344093b1f281420b",
+    "format": [
+      "h264",
+      "High",
+      1920,
+      1080,
+      "30/1",
+      "660",
+      "22.000000",
+      "yuv420p"
+    ],
+    "peaks": [
+      {
+        "file": "peaks/winter_page_f164_1080p.png",
+        "bytes": 112040,
+        "sha256": "e32fb8c9c38d79d271f66f82ea4d4d730703fd83076f8e190b9c28f2e765ecf0"
+      },
+      {
+        "file": "peaks/winter_snow_gust_f214_1080p.png",
+        "bytes": 111883,
+        "sha256": "d5bf2bc16f886b3be5a6b7df4ed183bebc9c33246546d4c58031654fcdd8f171"
+      },
+      {
+        "file": "peaks/winter_stairs_f095_1080p.png",
+        "bytes": 111863,
+        "sha256": "2dc9a8a6ae89f74b84476c4a20bc70942ce845733a6d475514d4d56ef1a304a0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source_fresh_extract_and_unsealed_static_rays": "PIXEL_EXACT",
+  "passed_original_frame_indices": [
+    190,
+    153
+  ],
+  "raw_rgb_sha256": {
+    "190": "0d397c9a5412fb242fb147fced9a7fbbc7a319fd015104121e7bbd2c416bac77",
+    "153": "9d845bee31634f861c05127258e8b3e75245795a87925f057c069123a2ab9b85"
+  }
+}
