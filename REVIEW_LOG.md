@@ -659,6 +659,30 @@
    - 导出 48 kHz 立体声 256 kbps AAC-LC，综合响度维持约 **`-16 LUFS`**、真峰值 **`≤ -1.5 dBTP`**（零削波）；并在 `previews/gate_3_4/` 中附上尾声（`3:00`–`3:17.23`）音乐能量 vs 冬夜环境音能量分轨曲线/量化表及一段可试听的尾声对比证据；同步更新 `CREDITS.md` 尾声说明；
 3. `python tools/gate3_v24/reproduce.py` 产出 **`dist/Rainroji_Lofi_V2.4_1080p.mp4`**；将 `tools/gate3_v24/`、`previews/gate_3_4/` 与更新后的 `DEV_STATUS.md`、`CREDITS.md` 提交并推送后，我立即触发 GitHub Actions 云端发布 **`v2.4-rainroji-lofi-1080p`**，下载正式成品逐段实看实听（重点细听尾声冬夜环境音渐强接棒与收尾！）并同步至 Google Drive！
 
+---
+
+## Round 17 — v2.4 / Gate 3.4 最终成片实看实听终审签收与双渠道正式发布（`2026-11-24`）
+
+- **评审对象**：GitHub Actions `Publish Rainroji Lo-Fi V2.4 1080p Release`（Run `#45437201184`，基于 `2da51b8` / `2764029`）正式发布的 **`Rainroji_Lofi_V2.4_1080p.mp4`**
+- **终审结论**：**`FINAL PASSED`（正式签收定版！画面、动态、比例、光影与尾声冬夜环境音渐强收尾全部通过实片实听逐段复核，GitHub Release 与 Google Drive 双渠道已逐字节同步到位。）**
+
+### 一、正式已发布成片独立硬核核验
+1. **逐字节一致性与容器/响度复测**：
+   - 下载 GitHub Release 实际交付文件实测：`132,852,726` 字节（126.70 MiB），SHA-256 `a9870ce471487b76b68c93eb779a075182e5d1b28b3e18d145aae99f480d0687`，MD5 `be4820590f78135cc4a77c0c44d223bf`；
+   - `ffprobe -count_frames -count_packets`：`1920×1080`、30/1 fps、精确 `5,917` 帧、`197.233333` 秒（严格不加时）、H.264 High / yuv420p / BT.709 / `faststart`（视频 5.12 Mb/s，容器 5.39 Mb/s）；音频 48 kHz 立体声 AAC-LC（257.8 kb/s，`9,247` 包）；
+   - `ebur128` 实测：**−16.0 LUFS-I**、**−4.7 dBFS True Peak**（零削波）、LRA 13.4 LU。
+2. **五段实片实看实听 + 五张 1080p 峰值静帧全审通过**：
+   - **春（`0:00`–`0:15`）**：1.5s 柔和淡入，樱花冠 ±1px 整数叶颤干脆无果冻，左右双侧落花丰盈斜吹；1:1 真实比例院落小猫头身一体零断头、自然步入暖光短停卷尾再淡出；暮空 6 只灰紫归燕自然穿行樱花冠后；老路灯短促微压降与晾衣布步进完好。
+   - **夏（`0:46`–`1:02`）**：48s 线性光叠化丝滑，锁定版 v2.3 100% 原样保留（逐帧双车灯扫路与红车、有机暗红水洼、“网吧”4 次硬切同帧联动）。
+   - **秋（`1:34`–`1:50`）**：96s 叠化丝滑，双侧梧桐 ±1px 干脆叶颤、左右 44 片均衡落叶、地面同风暖光微颤、斑马线卷叶、暗底茶汽与暮空 3 只归鸟自然和谐。
+   - **冬（`2:22`–`2:38`）**：144s 叠化丝滑，中景红色“欢度春节”布横幅 5 帧步进迎风微褶且两端牢牢挂杆，上部枯枝 ±1px 轻颤，左路灯短促微压降与雪阵联动，右墙零假楼道灯，值班室翻页分离清晰且拟音同步。
+   - **尾声（`3:00`–`3:17.23`，重点实听确认）**：《Green Tea》尾音自然减弱至 `3:11.27` 静默的过程中，温润低通冬夜雪风平滑抬升 **+8.0 dB** 步入前景（无嘶嘶白噪、无突兀台阶、无削波），留出宁静清晰的纯冬夜雪风氛围，最后 **2.70 秒**随尾帧淡黑同步淡出至干净静音，严格定格在 `3:17.23`！
+
+### 二、双渠道正式交付登记
+- **GitHub Release（Latest）**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.4-rainroji-lofi-1080p>
+- **Google Drive（逐字节同源上传并核验 `size == 132852726`）**：<https://drive.google.com/file/d/1b5rSQKERX4LZ1RH_VFj7ELRzqb5C5lCW/view?usp=drivesdk>
+- 详见 [`DELIVERY.md`](DELIVERY.md) 与 [`CREDITS.md`](CREDITS.md)。
+
 
 
 
