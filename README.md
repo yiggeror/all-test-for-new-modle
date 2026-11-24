@@ -28,7 +28,7 @@
 
 ## 当前阶段状态
 
-- **当前 Gate**：`v2.1 / Gate 2.1 — 四季动效可见度升级、丰富小动物循环 & 夏夜“网吧”经典霓虹闪烁回归`（详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 6）
+- **当前 Gate**：`v2.1 / Gate 3.1 — v2.1 最终 1080p 成片合片与双渠道更新发布`（Gate 2.1 已 `PASSED`，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 7）
 - **保持不变的已锁基线**：`320×180`（6× 最近邻整数放大至 `1920×1080` @ 30fps）、四季紧致构图、11 秒无缝循环、**Purrple Cat《Green Tea》（CC BY 4.0 全曲）** 与 48/96/144 秒乐句转场均保持不变。
 - **v2.0 已归档成品**：[GitHub Release (`v2.0-rainroji-lofi-1080p`)](https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.0-rainroji-lofi-1080p) · [Google Drive](https://drive.google.com/file/d/1pQLUQez4nAWbnoMQ7wYO3ojIl7b1zhEO/view?usp=drivesdk)（详见 [`DELIVERY.md`](DELIVERY.md)）
-- **下一步**：编码 AI 提交 `previews/gate_2_1/` 四季升级样片后，我将以 1× 正常观看视角审片放行，再组装并更新发布 v2.1 最终成片。
+- **下一步**：编码 AI 更新一键复现合片脚本对接 `previews/gate_2_1/lossless_parts/` 并提交 `previews/gate_3_1/` 校验后，我将终审实片并发布 `v2.1-rainroji-lofi-1080p` 至 GitHub Release 与 Google Drive。
