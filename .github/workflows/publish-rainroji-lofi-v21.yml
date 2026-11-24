@@ -1,0 +1,84 @@
+name: Publish Rainroji Lo-Fi V2.1 1080p Release
+
+on:
+  push:
+    branches:
+      - feat/lofi-seasons-v2
+    paths:
+      - .github/workflows/publish-rainroji-lofi-v21.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release-v21:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install FFmpeg and Python dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install -q -r tools/gate3_v21/requirements.txt
+
+      - name: Run deterministic Gate 3.1 reproduction and verification
+        run: |
+          set -euo pipefail
+          python tools/gate3_v21/reproduce.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          qa = json.loads(Path('dist/gate3_v21_qa/reproduction_qa.json').read_text(encoding='utf-8'))
+          Path('dist/meta.env').write_text(
+              f"FINAL_BYTES={qa['bytes']}\n"
+              f"FINAL_SHA256={qa['sha256']}\n"
+              f"FINAL_LUFS={qa['technical_qa']['lufs_i']}\n"
+              f"FINAL_DBTP={qa['technical_qa']['dbtp']}\n",
+              encoding='utf-8',
+          )
+          print('VERIFIED V2.1:', qa['bytes'], qa['sha256'], qa['technical_qa'])
+          PY
+
+      - name: Upload Rainroji_Lofi_V2.1_1080p.mp4 to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          source dist/meta.env
+          TAG="v2.1-rainroji-lofi-1080p"
+          NOTES_FILE="dist/release_notes.md"
+          cat > "$NOTES_FILE" <<EOF
+          ## Rainroji Lo-Fi 四季像素短片 v2.1（动效增强 & 霓虹闪烁回归 · 1080p 完整版）
+
+          ### 本版核心升级（相对 v2.0）
+          - **春 · 老巷暮色落花**：门楼睡猫明显抬头环顾、两次舒缓扫尾后再伏下；自行车车把新增蹦跳轻啄的暖棕小麻雀；主路灯四只暖金小蛾绕飞更清晰。
+          - **夏 · 雨夜街角小店**：恢复原版 Rainroji 经典 **“网吧”红霓虹电流闪烁**（6.40–7.80 秒四次骤暗跳闪至 21%～24%），灯字、邻侧砖墙红光与右下湿地红色碎光 100% 同帧联动；棚下亮暖货架前的避雨花猫升级为清晰抬爪洗脸与摆尾，檐滴涟漪与理发转灯同步加强。
+          - **秋 · 梧桐黄昏大道**：左侧落叶道新增 **3 只错拍蹦跳、低头啄食、扑翅回位的觅食小鸟/鸽子**；报刊亭暗底暖白热汽加高至约 22 px 清晰袅袅上卷；上方粉紫暮空 4 只归鸟清晰扇翅滑翔，另有金叶贴地滑过斑马线。
+          - **冬 · 雪夜家属院**：右下前景新增 **一只暖胸小肥鸟从雪人帽顶歪头抖雪 → 短飞落到石凳 → 蹦跳飞回雪人帽顶**；值班室暖窗在 4.30–6.90s 原时码翻页且书页反光更清楚，屋顶小烟囱淡烟更连贯，远楼声控灯错拍温柔。
+
+          ### 成片规格
+          - **文件名**：\`Rainroji_Lofi_V2.1_1080p.mp4\`
+          - **文件大小**：${FINAL_BYTES} 字节
+          - **SHA-256**：\`${FINAL_SHA256}\`
+          - **画面**：\`1920×1080\`（\`320×180\` 原生像素画经 6× 最近邻无损整数放大）、30 fps、5,917 帧（3 分 17.23 秒）、H.264 High / CRF 14 / yuv420p / BT.709 / faststart
+          - **音频**：完整无损沿用已签收 v2.0 全部 9,247 个 AAC-LC 包（48 kHz 立体声 256 kbps），综合响度 **${FINAL_LUFS} LUFS**，真峰值 **${FINAL_DBTP} dBTP**，零削波
+
+          ### 音乐与致谢（CC BY 4.0）
+          > Music: “Green Tea” by Purrple Cat, from *Bloom* (https://purrplecat.itch.io/bloom), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Used in full with mild EQ/level adjustment, original procedural ambience/foley, and synchronization to the four-season animation. Original ambience and page-turn foley by this project. Visual prototype acknowledgment: [Rainroji](https://github.com/yiggeror/Rainroji/tree/deliver/four-seasons-1080p).
+          EOF
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/Rainroji_Lofi_V2.1_1080p.mp4 --repo "$GITHUB_REPOSITORY" --clobber
+            gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --title "Rainroji Lo-Fi 四季像素短片 v2.1（动效增强版 · 1080p）" --notes-file "$NOTES_FILE" --latest
+          else
+            gh release create "$TAG" dist/Rainroji_Lofi_V2.1_1080p.mp4 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Rainroji Lo-Fi 四季像素短片 v2.1（动效增强版 · 1080p）" --notes-file "$NOTES_FILE" --latest
+          fi
