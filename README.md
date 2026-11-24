@@ -28,7 +28,9 @@
 
 ## 当前阶段状态
 
-- **当前 Gate**：`v2.2 / Gate 3.2 — v2.2 最终 1080p 成片合片与双渠道正式发布`（Gate 2.2 已 `PASSED`，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 10）
-- **本轮质变亮点**：彻底清除贴纸感动物、断头、白蛆热汽与条形码水洼；升级为**春夜晾衣架随风飘拂+粉花阵风、夏夜画外车灯扫过湿路与红车+有机斑驳红水洼同帧闪烁、秋日梧桐阵风卷叶+暖窗摊主微影+柔雾、冬夜干净翻页暖窗+柔斜烟囱+暖光雪涡与楼道灯**。
-- **保持不变的已锁基线**：`320×180`（6× 最近邻整数放大至 `1920×1080` @ 30fps）、11 秒无缝循环、**Purrple Cat《Green Tea》（CC BY 4.0 全曲）** 与 48/96/144 秒乐句转场。
-- **下一步**：编码 AI 提交 `tools/gate3_v22/` 一键复现与 `previews/gate_3_2/` 校验后，我将终审实片并发布 **`v2.2-rainroji-lofi-1080p`** 至 GitHub Release 与 Google Drive。
+- **当前状态**：`COMPLETED / v2.2 FINAL PASSED`（Round 11 终审签收通过，完整单文件 1080p 成片已通过 GitHub Release 与 Google Drive 双渠道正式发布，详见 [`DELIVERY.md`](DELIVERY.md) 与 [`REVIEW_LOG.md`](REVIEW_LOG.md)）
+- **最新成片双渠道直达（逐字节完全一致，`196,231,965` 字节，SHA-256 `334ef2fd...`）**：
+  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.2-rainroji-lofi-1080p>
+  - **Google Drive**：<https://drive.google.com/file/d/1y9qdcQPk3geWR6BVjEySXCH69rjytw_3/view?usp=drivesdk>
+- **v2.2 终审定版亮点**：`320×180` 原生像素画经 `6×` 最近邻无损放大至 `1920×1080 @ 30fps`（3 分 17.23 秒），配完整 **Purrple Cat《Green Tea》（CC BY 4.0）** 与四季低通环境音/翻书拟音；彻底清除 v2.1 贴纸感动物、断头、白条热汽与条形码水洼，升级为**春夜晾衣架随风飘拂+粉花阵风、夏夜画外车灯扫过湿路与红车+有机斑驳红水洼同帧四次骤暗闪烁、秋日梧桐阵风卷叶+暖窗摊主微影+柔雾、冬夜干净翻页暖窗+柔斜烟囱+暖光雪涡与楼道灯**。
+
