@@ -1,0 +1,21 @@
+1/5 获取并验证 v2.0 已签收 AAC 音轨
+AAC LOCK OK 9247 3eb43b1c07211e4ece9173fae7ff25e73e4195f50c430e2f388285971725693d
+2/5 验证并按序拼接 26 个无损分卷，恢复原生 RGB
+RGB OK spring 58 1981a38599cbf921505a1ee6cc867672517cb946efc558a12c7f43a1a49011ad
+RGB OK summer 59 8586a26833901b69aea974c0b2d1e89162cb166d2002314218e5d175e40cc188
+RGB OK autumn 60 d868aeabd6325173bc264f2d2c469d4394cca1c46a7b5af01fc0ab71700e83a2
+RGB OK winter 60 0daebf6098f21d103fd35ea698c845cba7321a85d060f44a0f630bafa074a2d7
+3/5 以已审 v2.0 叠化曲线合成 5917 帧，6× 近邻，只编画面一次
+PREFLIGHT_OK 16 (1440, 2880, 4320)
+PIPE 900/5917 elapsed 27.6s
+PIPE 1800/5917 elapsed 114.9s
+PIPE 2700/5917 elapsed 156.2s
+PIPE 3600/5917 elapsed 184.6s
+PIPE 4500/5917 elapsed 208.6s
+PIPE 5400/5917 elapsed 234.7s
+ENCODED {"filename": "picture_only.mp4", "bytes": 189737468, "sha256": "115ff854c675590c68b5d7af18ebd91336cbfc54772b69ba26e912bed0424ed0", "count_written": 5917, "assembled_native_stream_sha256": "9e412685c15d65b279d2d693a44cab4eefc94698d1df848bbfc4a09607aee6e8", "elapsed_s": 254.556, "ffmpeg_args": ["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "info", "-y", "-stats_period", "5", "-progress", "<isolated-build>/clean_checkout/dist/.gate32-5yc5qx2z/qa/encode_progress.log", "-filter_threads", "2", "-f", "rawvideo", "-pixel_format", "rgb24", "-video_size", "320x180", "-framerate", "30", "-i", "pipe:0", "-map", "0:v:0", "-an", "-vf", "scale=1920:1080:flags=neighbor:out_color_matrix=bt709:out_range=tv,format=yuv420p", "-c:v", "libx264", "-profile:v", "high", "-level:v", "4.0", "-crf", "14", "-preset", "slow", "-pix_fmt", "yuv420p", "-g", "60", "-keyint_min", "30", "-refs", "4", "-threads", "6", "-color_range", "tv", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-movflags", "+faststart", "<isolated-build>/clean_checkout/dist/.gate32-5yc5qx2z/picture_only.part.mp4"]}
+RAW RGB24 SHA 9e412685c15d65b279d2d693a44cab4eefc94698d1df848bbfc4a09607aee6e8 MATCHES_INDEPENDENT True
+4/5 stream copy 封装；检查音轨逐包身份、PTS、全解码与响度
+STRUCTURAL_OK {'resolution': [1920, 1080], 'profile': 'High', 'codec': 'h264', 'pix_fmt': 'yuv420p', 'fps': '30/1', 'bt709': True, 'faststart': True, 'pts_checked': 5917, 'timing_exact': True, 'duration_s': 197.23333333333332, 'sha256': '115ff854c675590c68b5d7af18ebd91336cbfc54772b69ba26e912bed0424ed0', 'bytes': 189737468, 'packet_step': 512, 'max_gop': 60, 'bit_rate_bps': 7695959, 'video_only': True, 'max_positive_pts': 3028992}
+DECODE_QA_OK 73 0.10434 {1534: 0.10582175925925925, 1563: 0.10782407407407407, 1600: 0.09305603780864198, 1604: 0.10281153549382716, 2601: 0.11905189043209877}
+5/5 已重建并校验 <isolated-build>/clean_checkout/dist/Rainroji_Lofi_V2.2_1080p.mp4 196231459 SHA-256 9f2e8e207e126752d97994d32e9eeba961d1ba6a6e254013f5648cc61041907a

@@ -1,0 +1,133 @@
+{
+  "mode": "candidate",
+  "tool": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "official": {
+    "path": "../alltest_gate2_1_audio_readonly/v2.0-release-verified.mp4",
+    "size_bytes": 151157219,
+    "file_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+    "stream": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200,
+      "nb_frames": "9247",
+      "extradata_hash": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10"
+    },
+    "adts_sha256": "3eb43b1c07211e4ece9173fae7ff25e73e4195f50c430e2f388285971725693d",
+    "ordered_raw_packet_hashes_sha256": "8c0f0358f256edcef450828d5bc4bde0fd173b9c6090acf45a56b8787452f2a0",
+    "ordered_packet_timing_flags_sizes_priming_sha256": "3279d53b588ad34fd0c24b80df3fe8ab22c5d991e4d0ff645f689f407b010995",
+    "packet_count": 9247,
+    "first_packet": {
+      "pts": -1024,
+      "dts": -1024,
+      "duration": 1024,
+      "size": "521",
+      "flags": "KD_",
+      "side_data_list": [
+        {
+          "side_data_type": "Skip Samples",
+          "skip_samples": 1024,
+          "discard_padding": 0,
+          "skip_reason": 0,
+          "discard_reason": 0
+        }
+      ],
+      "data_hash": "SHA256:345267ca70a1f095d2c354127f841143b467d4e386fe14dfbee4a5b75f06c0ab"
+    },
+    "last_packet": {
+      "pts": 9466880,
+      "dts": 9466880,
+      "duration": 320,
+      "size": "6",
+      "flags": "K__",
+      "side_data_list": null,
+      "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+    },
+    "container_video": {
+      "codec_name": "h264",
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "nb_frames": "5917",
+      "avg_frame_rate": "30/1",
+      "r_frame_rate": "30/1",
+      "start_pts": 0,
+      "duration_ts": 3029504,
+      "time_base": "1/15360",
+      "color_space": "bt709",
+      "exact_end_seconds_fraction": "5917/30",
+      "container_display_duration_s": 197.233333
+    }
+  },
+  "uses_full_video_decode": false,
+  "candidate": {
+    "path": "../alltest_gate32_prod/clean_checkout/dist/Rainroji_Lofi_V2.2_1080p.mp4",
+    "size_bytes": 196231459,
+    "file_sha256": "9f2e8e207e126752d97994d32e9eeba961d1ba6a6e254013f5648cc61041907a",
+    "stream": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200,
+      "nb_frames": "9247",
+      "extradata_hash": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10"
+    },
+    "adts_sha256": "3eb43b1c07211e4ece9173fae7ff25e73e4195f50c430e2f388285971725693d",
+    "ordered_raw_packet_hashes_sha256": "8c0f0358f256edcef450828d5bc4bde0fd173b9c6090acf45a56b8787452f2a0",
+    "ordered_packet_timing_flags_sizes_priming_sha256": "3279d53b588ad34fd0c24b80df3fe8ab22c5d991e4d0ff645f689f407b010995",
+    "packet_count": 9247,
+    "first_packet": {
+      "pts": -1024,
+      "dts": -1024,
+      "duration": 1024,
+      "size": "521",
+      "flags": "KD_",
+      "side_data_list": [
+        {
+          "side_data_type": "Skip Samples",
+          "skip_samples": 1024,
+          "discard_padding": 0,
+          "skip_reason": 0,
+          "discard_reason": 0
+        }
+      ],
+      "data_hash": "SHA256:345267ca70a1f095d2c354127f841143b467d4e386fe14dfbee4a5b75f06c0ab"
+    },
+    "last_packet": {
+      "pts": 9466880,
+      "dts": 9466880,
+      "duration": 320,
+      "size": "6",
+      "flags": "K__",
+      "side_data_list": null,
+      "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+    },
+    "container_video": {
+      "codec_name": "h264",
+      "profile": "High",
+      "pix_fmt": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "nb_frames": "5917",
+      "avg_frame_rate": "30/1",
+      "r_frame_rate": "30/1",
+      "start_pts": 0,
+      "duration_ts": 3029504,
+      "time_base": "1/15360",
+      "color_space": "bt709",
+      "exact_end_seconds_fraction": "5917/30",
+      "container_display_duration_s": 197.233333
+    }
+  },
+  "per_field_packet_mismatches": {},
+  "sample_mismatches": [],
+  "stream_profile_mismatches": {},
+  "candidate_passed": true
+}

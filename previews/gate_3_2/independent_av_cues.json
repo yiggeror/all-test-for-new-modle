@@ -1,0 +1,924 @@
+{
+  "goal": "independent very narrow reading to check existing audio stays aligned with literal visual output",
+  "approved_gate_source_commit": "352fa0a",
+  "summer_source": {
+    "input_path": "../alltest_gate22_root/restore/summer_loop.mp4",
+    "size_bytes": 70836939,
+    "sha256": "ba25bf92a092105b18c4cad354347b13757045b139781142e4951bb4fb8648f9"
+  },
+  "winter_source": {
+    "input_path": "../alltest_gate22_root/restore/winter_loop.mp4",
+    "size_bytes": 46457547,
+    "sha256": "e98fc613a958cc56dc7e17054849717573f69d0e50bf44067ad6dfbc7b61c664"
+  },
+  "official_audio_lock_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+  "approved_asset_neon": {
+    "region_metrics": {
+      "sign": {
+        "native_roi": [
+          225,
+          39,
+          234,
+          63
+        ],
+        "bright_min_red_excess": 88.57407,
+        "dip_max_red_excess": 62.94907,
+        "threshold": 75.76157,
+        "expected_off_median": 62.16667,
+        "expected_on_median": 89.32407,
+        "detected_dips_local_frames_half_open": [
+          [
+            192,
+            197
+          ],
+          [
+            204,
+            209
+          ],
+          [
+            216,
+            220
+          ],
+          [
+            229,
+            234
+          ]
+        ],
+        "detected_dips_film_frames_half_open": [
+          [
+            1602,
+            1607
+          ],
+          [
+            1614,
+            1619
+          ],
+          [
+            1626,
+            1630
+          ],
+          [
+            1639,
+            1644
+          ]
+        ],
+        "classification_margin_positive": true,
+        "wrong_frames": [],
+        "red_excess_by_local_frame": {
+          "185": 89.21759,
+          "186": 89.34259,
+          "187": 89.05556,
+          "188": 88.89815,
+          "189": 89.46759,
+          "190": 89.59259,
+          "191": 89.43981,
+          "192": 61.25926,
+          "193": 61.22222,
+          "194": 61.2963,
+          "195": 61.31481,
+          "196": 61.30556,
+          "197": 89.625,
+          "198": 89.31481,
+          "199": 89.66667,
+          "200": 89.24074,
+          "201": 89.1713,
+          "202": 89.12037,
+          "203": 89.33333,
+          "204": 62.94907,
+          "205": 62.5787,
+          "206": 62.62963,
+          "207": 62.55556,
+          "208": 62.76389,
+          "209": 88.63426,
+          "210": 88.84259,
+          "211": 89.625,
+          "212": 89.73611,
+          "213": 89.08333,
+          "214": 89.7037,
+          "215": 89.21759,
+          "216": 60.25926,
+          "217": 60.26852,
+          "218": 60.25463,
+          "219": 60.40278,
+          "220": 89.59259,
+          "221": 89.34259,
+          "222": 89.6713,
+          "223": 89.66204,
+          "224": 89.34259,
+          "225": 89.02778,
+          "226": 88.57407,
+          "227": 89.625,
+          "228": 89.31481,
+          "229": 62.16667,
+          "230": 62.16667,
+          "231": 62.30556,
+          "232": 62.36574,
+          "233": 62.21296,
+          "234": 89.22222,
+          "235": 88.87037,
+          "236": 89.46759,
+          "237": 89.05093
+        }
+      },
+      "adjacent_wall": {
+        "native_roi": [
+          215,
+          39,
+          225,
+          65
+        ],
+        "bright_min_red_excess": 35.03846,
+        "dip_max_red_excess": 1.48077,
+        "threshold": 18.25962,
+        "expected_off_median": 1.18077,
+        "expected_on_median": 35.38462,
+        "detected_dips_local_frames_half_open": [
+          [
+            192,
+            197
+          ],
+          [
+            204,
+            209
+          ],
+          [
+            216,
+            220
+          ],
+          [
+            229,
+            234
+          ]
+        ],
+        "detected_dips_film_frames_half_open": [
+          [
+            1602,
+            1607
+          ],
+          [
+            1614,
+            1619
+          ],
+          [
+            1626,
+            1630
+          ],
+          [
+            1639,
+            1644
+          ]
+        ],
+        "classification_margin_positive": true,
+        "wrong_frames": [],
+        "red_excess_by_local_frame": {
+          "185": 35.39615,
+          "186": 35.24231,
+          "187": 35.28846,
+          "188": 35.21923,
+          "189": 35.37308,
+          "190": 35.31538,
+          "191": 35.52308,
+          "192": 1.04615,
+          "193": 1.03462,
+          "194": 0.96538,
+          "195": 1.08462,
+          "196": 1.03077,
+          "197": 35.58462,
+          "198": 35.72692,
+          "199": 35.15,
+          "200": 35.29231,
+          "201": 35.22692,
+          "202": 36.30769,
+          "203": 35.64615,
+          "204": 1.26154,
+          "205": 1.2,
+          "206": 1.48077,
+          "207": 1.28462,
+          "208": 1.45769,
+          "209": 35.31538,
+          "210": 35.60385,
+          "211": 35.78846,
+          "212": 35.65,
+          "213": 35.16538,
+          "214": 35.31154,
+          "215": 35.39615,
+          "216": 0.54231,
+          "217": 0.52308,
+          "218": 0.53846,
+          "219": 0.51923,
+          "220": 35.31538,
+          "221": 35.43846,
+          "222": 35.32308,
+          "223": 35.82692,
+          "224": 35.19231,
+          "225": 35.03846,
+          "226": 35.27308,
+          "227": 35.58462,
+          "228": 35.72692,
+          "229": 1.35,
+          "230": 1.18077,
+          "231": 1.21154,
+          "232": 1.24615,
+          "233": 1.46923,
+          "234": 35.67308,
+          "235": 35.63462,
+          "236": 35.9,
+          "237": 35.24231
+        }
+      },
+      "wet_road": {
+        "native_roi": [
+          212,
+          130,
+          290,
+          176
+        ],
+        "bright_min_red_excess": 0.61706,
+        "dip_max_red_excess": 0.04766,
+        "threshold": 0.33236,
+        "expected_off_median": 0.02118,
+        "expected_on_median": 0.6636,
+        "detected_dips_local_frames_half_open": [
+          [
+            192,
+            197
+          ],
+          [
+            204,
+            209
+          ],
+          [
+            216,
+            220
+          ],
+          [
+            229,
+            234
+          ]
+        ],
+        "detected_dips_film_frames_half_open": [
+          [
+            1602,
+            1607
+          ],
+          [
+            1614,
+            1619
+          ],
+          [
+            1626,
+            1630
+          ],
+          [
+            1639,
+            1644
+          ]
+        ],
+        "classification_margin_positive": true,
+        "wrong_frames": [],
+        "red_excess_by_local_frame": {
+          "185": 0.69844,
+          "186": 0.70457,
+          "187": 0.64186,
+          "188": 0.63489,
+          "189": 0.72074,
+          "190": 0.7107,
+          "191": 0.65134,
+          "192": 0.00474,
+          "193": 0.0379,
+          "194": 0.02007,
+          "195": 0.01839,
+          "196": 0.03038,
+          "197": 0.69036,
+          "198": 0.67893,
+          "199": 0.70485,
+          "200": 0.64604,
+          "201": 0.66193,
+          "202": 0.63462,
+          "203": 0.69593,
+          "204": 0.01895,
+          "205": 0.01115,
+          "206": 0.02592,
+          "207": 0.02731,
+          "208": 0.04766,
+          "209": 0.71488,
+          "210": 0.74777,
+          "211": 0.6675,
+          "212": 0.65329,
+          "213": 0.65134,
+          "214": 0.65329,
+          "215": 0.70764,
+          "216": 0.0354,
+          "217": 0.01003,
+          "218": 0.01728,
+          "219": 0.02703,
+          "220": 0.67586,
+          "221": 0.61706,
+          "222": 0.65775,
+          "223": 0.68367,
+          "224": 0.65134,
+          "225": 0.63768,
+          "226": 0.66834,
+          "227": 0.66834,
+          "228": 0.66527,
+          "229": 0.02564,
+          "230": 0.00948,
+          "231": 0.02118,
+          "232": 0.017,
+          "233": 0.02564,
+          "234": 0.63796,
+          "235": 0.64716,
+          "236": 0.64465,
+          "237": 0.63852
+        }
+      }
+    },
+    "data_decoded_frames_half_open": [
+      185,
+      238
+    ],
+    "region_dips_on_same_frames": true,
+    "exact_all_four_runs_in_each_region": true,
+    "specified_overall_film_window_sec": [
+      53.4,
+      54.8
+    ],
+    "film_dips_sec_half_open": [
+      [
+        53.4,
+        53.566667
+      ],
+      [
+        53.8,
+        53.966667
+      ],
+      [
+        54.2,
+        54.333333
+      ],
+      [
+        54.633333,
+        54.8
+      ]
+    ]
+  },
+  "approved_asset_page": {
+    "data_decoded_frames_half_open": [
+      124,
+      211
+    ],
+    "page_control_window_sec_local": [
+      4.3,
+      6.9
+    ],
+    "page_control_window_film_frames_half_open": [
+      4419,
+      4497
+    ],
+    "page_control_window_film_sec": [
+      147.3,
+      149.9
+    ],
+    "peak_local_frame": 164,
+    "peak_film_frame": 4454,
+    "peak_film_sec": 148.46666667,
+    "peak_film_sample_48000": 7126400,
+    "foreground_paper_luma_at_rest_sampled": 181.4596,
+    "brightening_clean_page_roi_luma_at_f164": 32.831,
+    "tracking_positions_luma_threshold": 199.0,
+    "thresholded_f164_components": {
+      "page": {
+        "tracked_native_xy": [
+          261,
+          110
+        ],
+        "component": 2,
+        "luma": 214.2906,
+        "rgb": [
+          235,
+          212,
+          176
+        ]
+      },
+      "shade": {
+        "tracked_native_xy": [
+          265,
+          109
+        ],
+        "component": 1,
+        "luma": 214.2906,
+        "rgb": [
+          235,
+          212,
+          176
+        ]
+      },
+      "component_count": 2,
+      "connected": false,
+      "distance_px": 4.12311
+    },
+    "bright_sampled_at_page_anchor_local_frames": [
+      164,
+      165
+    ],
+    "passed_f164_gap_and_local_motion": true,
+    "foley_centers_film_s": [
+      148.21,
+      148.64,
+      149.28
+    ],
+    "foley_centers_film_sample_48000": [
+      7114080,
+      7134720,
+      7165440
+    ],
+    "foley_relative_to_f164_sec": [
+      -0.25666667,
+      0.17333333,
+      0.81333333
+    ],
+    "all_foley_centers_inside_gesture_window": true,
+    "similar_full_turns_every_seconds": 11.0
+  },
+  "official_decoded_audio_context": [
+    {
+      "range_film_seconds": [
+        53.27,
+        54.92
+      ],
+      "samples_per_channel": 79200,
+      "pcm_f32le_sha256": "a78c145848422786b653b32f72237894c3ab827ac50e7899a7f6bac2e9dff9bc",
+      "decoded_mix_rms_dbfs": -16.7437,
+      "max_abs_sample": 0.51723593,
+      "no_hard_clip": true
+    },
+    {
+      "range_film_seconds": [
+        147.27,
+        150.0
+      ],
+      "samples_per_channel": 131040,
+      "pcm_f32le_sha256": "d96ba408fc199ac380b90eecbca8ef04018c9733bbf555555c544706ba606890",
+      "decoded_mix_rms_dbfs": -16.3659,
+      "max_abs_sample": 0.53383934,
+      "no_hard_clip": true
+    }
+  ],
+  "audio_context_explanation": "No added electrical buzz is expected: the agreed original mix contains warm low-pass rain here. Winter foley centers refer to the frozen local render recipe and fit the 4.30–6.90-s gesture; PCM fingerprints show timing and audio identity, not perceptual sound-source separation.",
+  "candidate_neon": {
+    "region_metrics": {
+      "sign": {
+        "native_roi": [
+          225,
+          39,
+          234,
+          63
+        ],
+        "bright_min_red_excess": 88.43981,
+        "dip_max_red_excess": 63.49074,
+        "threshold": 75.96528,
+        "expected_off_median": 62.07407,
+        "expected_on_median": 89.41898,
+        "detected_dips_local_frames_half_open": [
+          [
+            192,
+            197
+          ],
+          [
+            204,
+            209
+          ],
+          [
+            216,
+            220
+          ],
+          [
+            229,
+            234
+          ]
+        ],
+        "detected_dips_film_frames_half_open": [
+          [
+            1602,
+            1607
+          ],
+          [
+            1614,
+            1619
+          ],
+          [
+            1626,
+            1630
+          ],
+          [
+            1639,
+            1644
+          ]
+        ],
+        "classification_margin_positive": true,
+        "wrong_frames": [],
+        "red_excess_by_local_frame": {
+          "185": 89.375,
+          "186": 89.5787,
+          "187": 89.19907,
+          "188": 89.08333,
+          "189": 89.59259,
+          "190": 89.69444,
+          "191": 89.50926,
+          "192": 61.33333,
+          "193": 61.2963,
+          "194": 61.53241,
+          "195": 61.43981,
+          "196": 61.43056,
+          "197": 89.9537,
+          "198": 89.48611,
+          "199": 89.74537,
+          "200": 89.50926,
+          "201": 89.39815,
+          "202": 89.34259,
+          "203": 89.43981,
+          "204": 63.49074,
+          "205": 63.27315,
+          "206": 63.02778,
+          "207": 63.13889,
+          "208": 63.38889,
+          "209": 88.75926,
+          "210": 88.93056,
+          "211": 89.60185,
+          "212": 89.63889,
+          "213": 89.15278,
+          "214": 89.48148,
+          "215": 89.22222,
+          "216": 60.43056,
+          "217": 60.15741,
+          "218": 60.37037,
+          "219": 60.33796,
+          "220": 89.47685,
+          "221": 89.14352,
+          "222": 89.75926,
+          "223": 89.56019,
+          "224": 89.31944,
+          "225": 88.95833,
+          "226": 88.43981,
+          "227": 89.71296,
+          "228": 89.34259,
+          "229": 62.36574,
+          "230": 62.33333,
+          "231": 62.36111,
+          "232": 62.45833,
+          "233": 62.07407,
+          "234": 89.22685,
+          "235": 88.97222,
+          "236": 89.46759,
+          "237": 89.08333
+        }
+      },
+      "adjacent_wall": {
+        "native_roi": [
+          215,
+          39,
+          225,
+          65
+        ],
+        "bright_min_red_excess": 34.66154,
+        "dip_max_red_excess": 1.49231,
+        "threshold": 18.07692,
+        "expected_off_median": 1.09615,
+        "expected_on_median": 35.29423,
+        "detected_dips_local_frames_half_open": [
+          [
+            192,
+            197
+          ],
+          [
+            204,
+            209
+          ],
+          [
+            216,
+            220
+          ],
+          [
+            229,
+            234
+          ]
+        ],
+        "detected_dips_film_frames_half_open": [
+          [
+            1602,
+            1607
+          ],
+          [
+            1614,
+            1619
+          ],
+          [
+            1626,
+            1630
+          ],
+          [
+            1639,
+            1644
+          ]
+        ],
+        "classification_margin_positive": true,
+        "wrong_frames": [],
+        "red_excess_by_local_frame": {
+          "185": 35.36923,
+          "186": 35.07308,
+          "187": 35.19231,
+          "188": 35.24231,
+          "189": 35.31538,
+          "190": 35.27308,
+          "191": 35.49615,
+          "192": 1.09615,
+          "193": 0.88846,
+          "194": 0.93846,
+          "195": 1.01923,
+          "196": 0.97692,
+          "197": 35.68077,
+          "198": 35.84231,
+          "199": 35.21154,
+          "200": 35.42308,
+          "201": 35.37692,
+          "202": 36.28077,
+          "203": 35.39231,
+          "204": 1.32308,
+          "205": 1.31923,
+          "206": 1.49231,
+          "207": 1.22308,
+          "208": 1.32692,
+          "209": 35.13846,
+          "210": 35.29231,
+          "211": 35.6,
+          "212": 35.41538,
+          "213": 34.99615,
+          "214": 35.06538,
+          "215": 35.29615,
+          "216": 0.48846,
+          "217": 0.49231,
+          "218": 0.51923,
+          "219": 0.51154,
+          "220": 35.11154,
+          "221": 35.16923,
+          "222": 35.10769,
+          "223": 35.40385,
+          "224": 34.88462,
+          "225": 34.66154,
+          "226": 34.97692,
+          "227": 35.40385,
+          "228": 35.38077,
+          "229": 1.05,
+          "230": 1.12308,
+          "231": 1.15385,
+          "232": 1.35769,
+          "233": 1.16538,
+          "234": 35.33462,
+          "235": 35.20385,
+          "236": 35.44231,
+          "237": 34.96154
+        }
+      },
+      "wet_road": {
+        "native_roi": [
+          212,
+          130,
+          290,
+          176
+        ],
+        "bright_min_red_excess": 0.61037,
+        "dip_max_red_excess": 0.02425,
+        "threshold": 0.31731,
+        "expected_off_median": 0.00725,
+        "expected_on_median": 0.65608,
+        "detected_dips_local_frames_half_open": [
+          [
+            192,
+            197
+          ],
+          [
+            204,
+            209
+          ],
+          [
+            216,
+            220
+          ],
+          [
+            229,
+            234
+          ]
+        ],
+        "detected_dips_film_frames_half_open": [
+          [
+            1602,
+            1607
+          ],
+          [
+            1614,
+            1619
+          ],
+          [
+            1626,
+            1630
+          ],
+          [
+            1639,
+            1644
+          ]
+        ],
+        "classification_margin_positive": true,
+        "wrong_frames": [],
+        "red_excess_by_local_frame": {
+          "185": 0.6859,
+          "186": 0.67781,
+          "187": 0.62319,
+          "188": 0.62124,
+          "189": 0.6859,
+          "190": 0.69314,
+          "191": 0.65942,
+          "192": 0.0,
+          "193": 0.02397,
+          "194": 0.00111,
+          "195": 0.00223,
+          "196": 0.01254,
+          "197": 0.68255,
+          "198": 0.67224,
+          "199": 0.68841,
+          "200": 0.66332,
+          "201": 0.65524,
+          "202": 0.65691,
+          "203": 0.68339,
+          "204": 0.00418,
+          "205": 0.00279,
+          "206": 0.01087,
+          "207": 0.02425,
+          "208": 0.01589,
+          "209": 0.70931,
+          "210": 0.73941,
+          "211": 0.67113,
+          "212": 0.64799,
+          "213": 0.63712,
+          "214": 0.63294,
+          "215": 0.66137,
+          "216": 0.00864,
+          "217": 0.00251,
+          "218": 0.01031,
+          "219": 0.00725,
+          "220": 0.65803,
+          "221": 0.61455,
+          "222": 0.65468,
+          "223": 0.64939,
+          "224": 0.6296,
+          "225": 0.6335,
+          "226": 0.65719,
+          "227": 0.64353,
+          "228": 0.64548,
+          "229": 0.00279,
+          "230": 0.00139,
+          "231": 0.01338,
+          "232": 0.00613,
+          "233": 0.01115,
+          "234": 0.63099,
+          "235": 0.63127,
+          "236": 0.61037,
+          "237": 0.61399
+        }
+      }
+    },
+    "data_decoded_frames_half_open": [
+      1595,
+      1648
+    ],
+    "region_dips_on_same_frames": true,
+    "exact_all_four_runs_in_each_region": true,
+    "specified_overall_film_window_sec": [
+      53.4,
+      54.8
+    ],
+    "film_dips_sec_half_open": [
+      [
+        53.4,
+        53.566667
+      ],
+      [
+        53.8,
+        53.966667
+      ],
+      [
+        54.2,
+        54.333333
+      ],
+      [
+        54.633333,
+        54.8
+      ]
+    ]
+  },
+  "candidate_page": {
+    "data_decoded_frames_half_open": [
+      4414,
+      4501
+    ],
+    "page_control_window_sec_local": [
+      4.3,
+      6.9
+    ],
+    "page_control_window_film_frames_half_open": [
+      4419,
+      4497
+    ],
+    "page_control_window_film_sec": [
+      147.3,
+      149.9
+    ],
+    "peak_local_frame": 164,
+    "peak_film_frame": 4454,
+    "peak_film_sec": 148.46666667,
+    "peak_film_sample_48000": 7126400,
+    "foreground_paper_luma_at_rest_sampled": 181.4596,
+    "brightening_clean_page_roi_luma_at_f164": 33.9566,
+    "tracking_positions_luma_threshold": 199.0,
+    "thresholded_f164_components": {
+      "page": {
+        "tracked_native_xy": [
+          261,
+          110
+        ],
+        "component": 2,
+        "luma": 215.4162,
+        "rgb": [
+          239,
+          214,
+          160
+        ]
+      },
+      "shade": {
+        "tracked_native_xy": [
+          265,
+          109
+        ],
+        "component": 1,
+        "luma": 214.2906,
+        "rgb": [
+          235,
+          212,
+          176
+        ]
+      },
+      "component_count": 2,
+      "connected": false,
+      "distance_px": 4.12311
+    },
+    "bright_sampled_at_page_anchor_local_frames": [
+      164,
+      165
+    ],
+    "passed_f164_gap_and_local_motion": true,
+    "foley_centers_film_s": [
+      148.21,
+      148.64,
+      149.28
+    ],
+    "foley_centers_film_sample_48000": [
+      7114080,
+      7134720,
+      7165440
+    ],
+    "foley_relative_to_f164_sec": [
+      -0.25666667,
+      0.17333333,
+      0.81333333
+    ],
+    "all_foley_centers_inside_gesture_window": true,
+    "similar_full_turns_every_seconds": 11.0
+  },
+  "candidate_decoded_audio_context": [
+    {
+      "range_film_seconds": [
+        53.27,
+        54.92
+      ],
+      "samples_per_channel": 79200,
+      "pcm_f32le_sha256": "a78c145848422786b653b32f72237894c3ab827ac50e7899a7f6bac2e9dff9bc",
+      "decoded_mix_rms_dbfs": -16.7437,
+      "max_abs_sample": 0.51723593,
+      "no_hard_clip": true
+    },
+    {
+      "range_film_seconds": [
+        147.27,
+        150.0
+      ],
+      "samples_per_channel": 131040,
+      "pcm_f32le_sha256": "d96ba408fc199ac380b90eecbca8ef04018c9733bbf555555c544706ba606890",
+      "decoded_mix_rms_dbfs": -16.3659,
+      "max_abs_sample": 0.53383934,
+      "no_hard_clip": true
+    }
+  ],
+  "candidate_short_pcm_matches_reference_exactly": true,
+  "candidate_winter_f164_vs_approved_frame_crop_rgb_mean_abs_delta": 0.62542,
+  "candidate_picture_cue_pass": true,
+  "passed": true
+}

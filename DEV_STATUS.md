@@ -1,5 +1,13 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 10：Gate 2.2 已通过，Gate 3.2 成片待终审
+
+[Round 10](https://github.com/yiggeror/all-test-for-new-modle/blob/a76a1b807b114c15036caebe58bffadeec3f53dd/REVIEW_LOG.md) 已通过四季 v2.2 样片。本次完整成片只用批准的 [Gate 2.2 无损分卷](previews/gate_2_2/lossless_parts/) 恢复四季原生 RGB，再做锁定 48／96／144 秒的三处 2 秒线性光叠化、1.5 秒淡入和 3.8 秒尾淡，然后 6× 整数放大；未使用有损样片。完整 9,247 个正式 v2.0 AAC 压缩包与采样时戳原样沿用。
+
+**候审成片** Rainroji_Lofi_V2.2_1080p.mp4：196,231,459 字节，SHA-256 9f2e8e207e126752d97994d32e9eeba961d1ba6a6e254013f5648cc61041907a。成片 1920×1080 / 30fps / 5,917 帧 / 197.233333 秒。声画全解码、时戳逐帧与干净重做均通过。
+
+在仓库根目录运行 python tools/gate3_v22/reproduce.py。[重建操作](tools/gate3_v22/) · [独立成片核查](previews/gate_3_2/QA.md) · [候审技术报告](previews/gate_3_2/PRODUCTION_QA.md) · [一键实跑](previews/gate_3_2/one_click_verified.json)。夏景 51.133 秒车灯扫过湿路、52.100 秒掠过红车，53.400—54.800 秒灯牌、邻墙和红倒影同帧四次骤暗；冬景 148.467 秒书页与灯罩分离。本轮只提交复现与审片佐证，GitHub Release 与 Drive 更新留给终审；不动已归档的 v2.0/v2.1。
+
 ## Round 9：v2.2 / Gate 2.2 四季返工样片待实片审核
 
 依据 [Round 9 返工指令](https://github.com/yiggeror/all-test-for-new-modle/blob/4c06e29619b2efa6ed8c4f9b75888417d91a4bb7/REVIEW_LOG.md)，这一轮回到锁定的真 3D 分层场景和世界尺度，清掉退回版的巨型动物、断头和机械倒影。只交 [四季双周期样片、无损分卷、全幅动作峰值](previews/gate_2_2/)，尚未合片或发布 v2.2。

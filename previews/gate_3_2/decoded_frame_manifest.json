@@ -1,0 +1,32 @@
+{
+  "decoded_head_fade_F022.png": {
+    "frame": 22,
+    "seconds": 0.733333,
+    "bytes": 627649,
+    "sha256": "cb7a4861ceba880064365e279f51ffb0abf4fd605783a9f3a67ef4499930031f"
+  },
+  "decoded_spring_summer_F1440.png": {
+    "frame": 1440,
+    "seconds": 48.0,
+    "bytes": 768484,
+    "sha256": "4808ad90ba1e03bc3ba0582f4dd9170ff4bf1eff17e90cc079e2ea627c38917a"
+  },
+  "decoded_summer_autumn_F2880.png": {
+    "frame": 2880,
+    "seconds": 96.0,
+    "bytes": 736648,
+    "sha256": "3e2349d8527a08dc0ec4a83fc9093f6e58888a87c1bdf956c8a1a3fc04a581e0"
+  },
+  "decoded_autumn_winter_F4320.png": {
+    "frame": 4320,
+    "seconds": 144.0,
+    "bytes": 886238,
+    "sha256": "9b732e6f9b0376a20df541e00997de6f0539207a6ded263a65b76155d5627905"
+  },
+  "decoded_tail_fade_F5870.png": {
+    "frame": 5870,
+    "seconds": 195.666667,
+    "bytes": 720229,
+    "sha256": "3fd118b11d104bd32a18fdef91ba14919f98bddc2ec441de1678c956cdead738"
+  }
+}

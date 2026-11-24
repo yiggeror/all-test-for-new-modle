@@ -1,0 +1,398 @@
+{
+  "master": {
+    "file": "Rainroji_Lofi_V2.2_1080p.mp4",
+    "bytes": 196231459,
+    "sha256": "9f2e8e207e126752d97994d32e9eeba961d1ba6a6e254013f5648cc61041907a"
+  },
+  "review_commit": "a76a1b807b114c15036caebe58bffadeec3f53dd",
+  "approved_picture_commit": "352fa0a2e7d86b7f5b5030eed7c99b22ed162d3b",
+  "full_decode_actual": {
+    "returncode": 0,
+    "final_progress": {
+      "frame": "5917",
+      "fps": "188.55",
+      "stream_0_0_q": "-0.0",
+      "bitrate": "N/A",
+      "total_size": "N/A",
+      "out_time_us": "197233333",
+      "out_time_ms": "197233333",
+      "out_time": "00:03:17.233333",
+      "dup_frames": "0",
+      "drop_frames": "0",
+      "speed": "6.29x",
+      "progress": "end"
+    },
+    "stderr_bytes": 0,
+    "pass": true
+  },
+  "codec_and_timing": {
+    "one_video_one_aac_only": true,
+    "format_duration_5917_over_30": true,
+    "video_track_integer_duration_5917_over_30": true,
+    "audio_track_exact_9467200_stereo_samples_from_zero": true,
+    "all_5917_packets_in_continuous_pts_and_dts_grid": true,
+    "encoded_1920x1080_30_High_BT709_TV_range_and_CRF14": true,
+    "faststart_moov_before_mdat": true,
+    "picture_only_payloads_and_timestamps_unmodified_by_mux": true
+  },
+  "frame_coverage_and_max_errors": {
+    "all_compared_actual_decoded_frames": 5917,
+    "mean_per_frame_MAE": 1.247345,
+    "max_single_frame_MAE": 1.455897,
+    "max_MAE_frame": 4319,
+    "total_RGB_PSNR_db": 44.305832,
+    "minimum_frame_PSNR_db": 42.907033,
+    "border_full_check_sample_count": 642,
+    "unexpected_black_border_frame_indices": []
+  },
+  "verified_clean_reproduction": {
+    "production_used_no_proxy_or_previous_movie_picture": true,
+    "ordered_split_parts": 26,
+    "source_picture_preencode_rgb24_sha256": "9e412685c15d65b279d2d693a44cab4eefc94698d1df848bbfc4a09607aee6e8",
+    "audio_acquisition": "default official GitHub v2.0 release download, independently hash-checked",
+    "production_decoded_stills_verified": 5,
+    "producer_final_sha256_matches": true,
+    "production_and_independent_render_plan_match": true
+  },
+  "crossfades": {
+    "linear_light_curve": "smoothstep 3x²−2x³",
+    "three_centers_s": [
+      48,
+      96,
+      144
+    ],
+    "verified_quarter_alpha_expected": [
+      0.15625,
+      0.84375
+    ],
+    "verified_quarter_alpha_fit_in_actual_master": [
+      [
+        48.0,
+        [
+          0.165894,
+          0.847695
+        ]
+      ],
+      [
+        96.0,
+        [
+          0.153942,
+          0.836178
+        ]
+      ],
+      [
+        144.0,
+        [
+          0.157606,
+          0.84019
+        ]
+      ]
+    ],
+    "windows": [
+      {
+        "center_s": 48.0,
+        "two_second_interval_s": [
+          47.0,
+          49.0
+        ],
+        "mean_MAE_of_4_candidates": [
+          3.812334,
+          1.291855,
+          4.555024,
+          3.623676
+        ],
+        "best_fit": "smoothstep-time / linear light"
+      },
+      {
+        "center_s": 96.0,
+        "two_second_interval_s": [
+          95.0,
+          97.0
+        ],
+        "mean_MAE_of_4_candidates": [
+          2.704252,
+          1.292059,
+          2.990003,
+          2.333292
+        ],
+        "best_fit": "smoothstep-time / linear light"
+      },
+      {
+        "center_s": 144.0,
+        "two_second_interval_s": [
+          143.0,
+          145.0
+        ],
+        "mean_MAE_of_4_candidates": [
+          2.856753,
+          1.290101,
+          3.034721,
+          2.159117
+        ],
+        "best_fit": "smoothstep-time / linear light"
+      }
+    ]
+  },
+  "head_and_tail": {
+    "head_seconds": 1.5,
+    "tail_seconds": 3.8,
+    "compositor_endpoint_peak_RGB_codes": {
+      "0": 0,
+      "5916": 0
+    }
+  },
+  "original_audio": {
+    "source_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+    "packets": 9247,
+    "payload": true,
+    "timestamps_sizes_priming": true,
+    "aac_extradata_equal": true,
+    "original_and_new_packet_locked_hash": "24bcee4ea02e79719cee87c0211d21d639b8a21972988848016569a07a7ba8d8",
+    "page_cue_PCM_147_150_seconds": {
+      "exact_equal": true,
+      "stereo_pcm_s16le_48k_sha256": "b0a730a7f1eea1041bdf639bbc315e9ac3894a0396007f027aa398c67ddf6ed5",
+      "source_sha256": "b0a730a7f1eea1041bdf639bbc315e9ac3894a0396007f027aa398c67ddf6ed5",
+      "samples_and_seconds": [
+        [
+          7056000,
+          7200000
+        ],
+        [
+          147.0,
+          150.0
+        ]
+      ]
+    },
+    "loudness_lufs_i": -16.04,
+    "true_peak_dbTP": -4.74,
+    "lra": 8.1
+  },
+  "actual_principal_cues": {
+    "summer_headlight_Y": [
+      {
+        "phase": 110,
+        "output_frame": 1520,
+        "global_s": 50.666667,
+        "native_roi": [
+          80,
+          79,
+          273,
+          176
+        ],
+        "light_pixels_gt_7p4Y": 1217,
+        "mean_approved_light_Y": 14.491894,
+        "actual_mean_light_Y_vs_same_phase_no_headlight": 13.14965,
+        "actual_positive_fraction": 1.0
+      },
+      {
+        "phase": 124,
+        "output_frame": 1534,
+        "global_s": 51.133333,
+        "native_roi": [
+          80,
+          82,
+          273,
+          176
+        ],
+        "light_pixels_gt_7p4Y": 1396,
+        "mean_approved_light_Y": 14.947886,
+        "actual_mean_light_Y_vs_same_phase_no_headlight": 13.613982,
+        "actual_positive_fraction": 1.0
+      },
+      {
+        "phase": 130,
+        "output_frame": 1540,
+        "global_s": 51.333333,
+        "native_roi": [
+          80,
+          85,
+          273,
+          176
+        ],
+        "light_pixels_gt_7p4Y": 1711,
+        "mean_approved_light_Y": 13.164642,
+        "actual_mean_light_Y_vs_same_phase_no_headlight": 11.679354,
+        "actual_positive_fraction": 1.0
+      },
+      {
+        "phase": 153,
+        "output_frame": 1563,
+        "global_s": 52.1,
+        "native_roi": [
+          63,
+          103,
+          224,
+          166
+        ],
+        "light_pixels_gt_7p4Y": 1064,
+        "mean_approved_light_Y": 12.845467,
+        "actual_mean_light_Y_vs_same_phase_no_headlight": 11.906197,
+        "actual_positive_fraction": 1.0
+      }
+    ],
+    "summer_neon_dips": [
+      {
+        "global_interval_frames_half_open": [
+          1602,
+          1607
+        ],
+        "global_interval_seconds_half_open": [
+          53.4,
+          53.566667
+        ],
+        "dimming_delta_sign_wall_wet": [
+          -18.068849563598633,
+          -32.565738677978516,
+          -7.104559898376465
+        ],
+        "recover_delta_sign_wall_wet": [
+          18.14196014404297,
+          32.87752151489258,
+          7.186679840087891
+        ],
+        "all_responses_same_actual_frame": true
+      },
+      {
+        "global_interval_frames_half_open": [
+          1614,
+          1619
+        ],
+        "global_interval_seconds_half_open": [
+          53.8,
+          53.966667
+        ],
+        "dimming_delta_sign_wall_wet": [
+          -14.387109756469727,
+          -32.37858963012695,
+          -6.990509986877441
+        ],
+        "recover_delta_sign_wall_wet": [
+          14.956979751586914,
+          32.180301666259766,
+          6.917630195617676
+        ],
+        "all_responses_same_actual_frame": true
+      },
+      {
+        "global_interval_frames_half_open": [
+          1626,
+          1630
+        ],
+        "global_interval_seconds_half_open": [
+          54.2,
+          54.333333
+        ],
+        "dimming_delta_sign_wall_wet": [
+          -19.705379486083984,
+          -33.04111862182617,
+          -7.160789966583252
+        ],
+        "recover_delta_sign_wall_wet": [
+          19.8817195892334,
+          33.29507827758789,
+          7.093339920043945
+        ],
+        "all_responses_same_actual_frame": true
+      },
+      {
+        "global_interval_frames_half_open": [
+          1639,
+          1644
+        ],
+        "global_interval_seconds_half_open": [
+          54.633333,
+          54.8
+        ],
+        "dimming_delta_sign_wall_wet": [
+          -16.22368049621582,
+          -32.080078125,
+          -6.833789825439453
+        ],
+        "recover_delta_sign_wall_wet": [
+          17.006450653076172,
+          32.02825927734375,
+          7.186309814453125
+        ],
+        "all_responses_same_actual_frame": true
+      }
+    ],
+    "winter_closest": {
+      "native_phase": 164,
+      "output_frame": 4454,
+      "global_s": 148.466667,
+      "luma_200_bright_bridge_actual": false
+    },
+    "winter_approved_matte_closest_native_separation_px": 4.12311,
+    "winter_entire_bright_bridge_scan": {
+      "frames": 86,
+      "bridge_frames": 0
+    }
+  },
+  "actual_staged_images": {
+    "decoded_cue_check.jpg": {
+      "sha256": "40b9133f591882584ca0d1604e0c4605f17da307af5b9e1b33a9548f69358eae",
+      "bytes": 232825,
+      "width_height": [
+        1740,
+        535
+      ]
+    },
+    "decoded_fades.jpg": {
+      "sha256": "dbd2d4e2008663c2c201d98da856f0ada5fcee397a216267342945f9c237c405",
+      "bytes": 142121,
+      "width_height": [
+        1640,
+        376
+      ]
+    },
+    "decoded_transition_autumn_winter.jpg": {
+      "sha256": "261f4327de6df466d0894072bb17b8bffac10014d92986b1077b8e599b16be2b",
+      "bytes": 195494,
+      "width_height": [
+        1650,
+        400
+      ]
+    },
+    "decoded_transition_spring_summer.jpg": {
+      "sha256": "189cb822d0a66c6e436fc50e4442c6b9329d3e1199fa0626ae0086bc0e7b0f0f",
+      "bytes": 182069,
+      "width_height": [
+        1650,
+        400
+      ]
+    },
+    "decoded_transition_summer_autumn.jpg": {
+      "sha256": "ab54f6abfee1666e45f82c5701f39ca9412f6ade5b889057f518cb57bf8c52d9",
+      "bytes": 188999,
+      "width_height": [
+        1650,
+        400
+      ]
+    },
+    "frame_autumn_winter_center_f4320_1080p.png": {
+      "sha256": "14dbc0f2318b574b5a5c1f2b98dde78017d6bd2cc532e23786230705b6b369a7",
+      "bytes": 873910,
+      "width_height": [
+        1920,
+        1080
+      ]
+    },
+    "frame_spring_summer_center_f1440_1080p.png": {
+      "sha256": "e835597220a3e10484651b33336a2008d53ce050a8efa3703a8c4e946808c859",
+      "bytes": 760258,
+      "width_height": [
+        1920,
+        1080
+      ]
+    },
+    "frame_summer_autumn_center_f2880_1080p.png": {
+      "sha256": "5493e733baf81d29a653aedeb44abb4ee0533d2336484a81288d415628622081",
+      "bytes": 762066,
+      "width_height": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "mathematical_pass": true
+}

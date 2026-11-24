@@ -1,0 +1,144 @@
+{
+  "output": "Rainroji_Lofi_V2.2_1080p.mp4",
+  "sha256": "9f2e8e207e126752d97994d32e9eeba961d1ba6a6e254013f5648cc61041907a",
+  "bytes": 196231459,
+  "toolchain": {
+    "python": "3.12.14",
+    "machine": "x86_64",
+    "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "Pillow": "13.0.0"
+    },
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "x264": "264 - core 164 r3108 31e19f9"
+  },
+  "source_commit": "352fa0a2e7d86b7f5b5030eed7c99b22ed162d3b",
+  "review_commit": "a76a1b807b114c15036caebe58bffadeec3f53dd",
+  "picture_input_policy": "26 pinned lossless split parts only; no previous cut, viewing proxy or authored NPY",
+  "input_manifest_sha256": "9a11b07b232dce9f1409c0efa3daa0e80aa5ea30381c959b28d2451eca395d4c",
+  "native_inputs": {
+    "spring": {
+      "scene": "spring",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 58,
+      "rgb_sha256": "649dd931571574140c8238c72fe8618835147a044600fb116d8c28f6cf5ac618",
+      "npy_sha256": "1981a38599cbf921505a1ee6cc867672517cb946efc558a12c7f43a1a49011ad"
+    },
+    "summer": {
+      "scene": "summer",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 59,
+      "rgb_sha256": "bda2e75fc1722dc4ca889822efb173c2b3e4bcb4961df688bcd7e8637b92e3e6",
+      "npy_sha256": "8586a26833901b69aea974c0b2d1e89162cb166d2002314218e5d175e40cc188"
+    },
+    "autumn": {
+      "scene": "autumn",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 60,
+      "rgb_sha256": "b18100209f2b59abfe781fd5f694007a5cd8ba440420155b6c3e442cd43ab72f",
+      "npy_sha256": "d868aeabd6325173bc264f2d2c469d4394cca1c46a7b5af01fc0ab71700e83a2"
+    },
+    "winter": {
+      "scene": "winter",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 60,
+      "rgb_sha256": "4b32b297812a19a6b9ac40739748e444a7763e4cf217a0b9757a3061642dbdeb",
+      "npy_sha256": "0daebf6098f21d103fd35ea698c845cba7321a85d060f44a0f630bafa074a2d7"
+    }
+  },
+  "picture_only": {
+    "sha256": "115ff854c675590c68b5d7af18ebd91336cbfc54772b69ba26e912bed0424ed0",
+    "bytes": 189737468,
+    "count": 5917
+  },
+  "preencode_native_rgb": {
+    "scope": "5917 ordered frames, 320x180, packed RGB24 byte stream no headers",
+    "local_sha256": "9e412685c15d65b279d2d693a44cab4eefc94698d1df848bbfc4a09607aee6e8",
+    "reference_sha256_this_build": "9e412685c15d65b279d2d693a44cab4eefc94698d1df848bbfc4a09607aee6e8",
+    "reference_toolchain": true,
+    "matches_independent_reference": true
+  },
+  "audio_source": {
+    "url": "https://github.com/yiggeror/all-test-for-new-modle/releases/download/v2.0-rainroji-lofi-1080p/Rainroji_Lofi_V2_1080p.mp4",
+    "bytes": 151157219,
+    "mp4_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+    "used_verified_local_cache": false
+  },
+  "audio_packets_preserved": {
+    "packet_count": 9247,
+    "packet_payload_sequence_sha256": "8c0f0358f256edcef450828d5bc4bde0fd173b9c6090acf45a56b8787452f2a0",
+    "adts_sha256": "3eb43b1c07211e4ece9173fae7ff25e73e4195f50c430e2f388285971725693d",
+    "audio_timing_bytes_identity_sha256": "f6d5cd6c1a64f2d40ba0f6227bf9e179efc6b7a19c7ba143a2145ae5289629b5",
+    "first_pts_dts_duration_size": [
+      -1024,
+      -1024,
+      1024,
+      521
+    ],
+    "last_pts_dts_duration_size": [
+      9466880,
+      9466880,
+      320,
+      6
+    ],
+    "skip_samples": 1024,
+    "stream": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200
+    }
+  },
+  "technical_qa": {
+    "video": {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "30/1",
+      "nb_frames": "5917",
+      "color_space": "bt709",
+      "color_range": "tv",
+      "start_pts": 0,
+      "color_transfer": null,
+      "color_primaries": null
+    },
+    "pts_checked": 5917,
+    "duration": "197.233333",
+    "full_audio_video_decode": true,
+    "faststart": true,
+    "lufs_i": -16.04,
+    "dbtp": -4.74,
+    "lra_lu": 8.1,
+    "bitrate_bps": 7959362,
+    "muxer": "Lavf61.7.103",
+    "video_packet_payload_sequence_sha256": "540b90786a28d1238619f45316ca7cfd0fea5df61fc1a8a3c1a5763090f00ef0"
+  }
+}

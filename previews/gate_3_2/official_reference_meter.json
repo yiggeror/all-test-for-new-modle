@@ -1,0 +1,7 @@
+{
+  "reference_file_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+  "meter": "ffmpeg loudnorm input statistics, no output gain applied",
+  "reference_lufs_i": -16.04,
+  "reference_dbtp": -4.74,
+  "reference_lra_lu": 8.1
+}

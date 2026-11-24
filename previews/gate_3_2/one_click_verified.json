@@ -1,0 +1,24 @@
+{
+  "command": "python tools/gate3_v22/reproduce.py",
+  "no_command_line_options": true,
+  "exit_code": 0,
+  "clean_tree_inputs": {
+    "gate_2_2_lossless_parts_and_manifest": true,
+    "Gate_3_2_versioned_tools": true,
+    "old_working_video_or_preexisting_npy": false,
+    "viewing_proxies": false,
+    "audio_cache_preloaded": false
+  },
+  "fresh_download_sha256": "2987f1b6b85cc9fe2ecc165315b3cc8fef6dc3c9eae4b3efdd2101f67569fe5b",
+  "output": "Rainroji_Lofi_V2.2_1080p.mp4",
+  "bytes": 196231459,
+  "sha256": "9f2e8e207e126752d97994d32e9eeba961d1ba6a6e254013f5648cc61041907a",
+  "unit_tests": 16,
+  "preencode_RGB_in_pipe": {
+    "scope": "5917 ordered frames, 320x180, packed RGB24 byte stream no headers",
+    "local_sha256": "9e412685c15d65b279d2d693a44cab4eefc94698d1df848bbfc4a09607aee6e8",
+    "reference_sha256_this_build": "9e412685c15d65b279d2d693a44cab4eefc94698d1df848bbfc4a09607aee6e8",
+    "reference_toolchain": true,
+    "matches_independent_reference": true
+  }
+}

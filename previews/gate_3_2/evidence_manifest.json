@@ -1,0 +1,54 @@
+{
+  "decoded_autumn_winter_F4320.png": {
+    "bytes": 886238,
+    "sha256": "9b732e6f9b0376a20df541e00997de6f0539207a6ded263a65b76155d5627905"
+  },
+  "decoded_frame_manifest.json": {
+    "bytes": 933,
+    "sha256": "7c9d646079a7751a67d9a6f3140f1d03abb5dfc4966d87f0e6e5c036d63459ec"
+  },
+  "decoded_head_fade_F022.png": {
+    "bytes": 627649,
+    "sha256": "cb7a4861ceba880064365e279f51ffb0abf4fd605783a9f3a67ef4499930031f"
+  },
+  "decoded_spring_summer_F1440.png": {
+    "bytes": 768484,
+    "sha256": "4808ad90ba1e03bc3ba0582f4dd9170ff4bf1eff17e90cc079e2ea627c38917a"
+  },
+  "decoded_summer_autumn_F2880.png": {
+    "bytes": 736648,
+    "sha256": "3e2349d8527a08dc0ec4a83fc9093f6e58888a87c1bdf956c8a1a3fc04a581e0"
+  },
+  "decoded_tail_fade_F5870.png": {
+    "bytes": 720229,
+    "sha256": "3fd118b11d104bd32a18fdef91ba14919f98bddc2ec441de1678c956cdead738"
+  },
+  "encode.log": {
+    "bytes": 8818,
+    "sha256": "8f3cad5b41d933174774cef181a3cfc43e18f1ffc1199ffd52d005ae9b84763b"
+  },
+  "encode_progress.log": {
+    "bytes": 10538,
+    "sha256": "e447cc9ca5d2c8892a745de3924a9abd918659496d8344bf74909454165d9767"
+  },
+  "encoded_transition_storyboard.jpg": {
+    "bytes": 656121,
+    "sha256": "eeafc28040fa4018030e7ab4713ccff636ac7c3c12ce033ef47947dbe0de489b"
+  },
+  "picture_complete_qa.json": {
+    "bytes": 18573,
+    "sha256": "a90860f36eedaf751f632d06ab45c44787ebb6a2de27e6b96c7f1b8989432a95"
+  },
+  "picture_plan.json": {
+    "bytes": 4958,
+    "sha256": "e7c09fc590b3d4bef04940293b1a62fbd10bab68aa9b38ccacd3de05a898163f"
+  },
+  "picture_render.json": {
+    "bytes": 292,
+    "sha256": "1ed75b18409947eff4f3a1dbdd02bdd68f7437b9059c00ed31c322161962c221"
+  },
+  "reproduction_qa.json": {
+    "bytes": 4775,
+    "sha256": "eed77a3659992b7ae8a7df4b7fe68bbbe37355788a3fd6944c854903271b8afc"
+  }
+}

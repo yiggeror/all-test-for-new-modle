@@ -1,0 +1,38 @@
+{
+  "spring": {
+    "forward_yuv_color_keys": 58,
+    "key_collisions": 0,
+    "actual_decoded_frames_covered": 660,
+    "all_pixels_recovered_match_independently_verified_authored_RGB": true,
+    "single_phase_sha256_raw_RGB24": "649dd931571574140c8238c72fe8618835147a044600fb116d8c28f6cf5ac618",
+    "local_authored_NPY_sha256_used_in_probe_only": "1981a38599cbf921505a1ee6cc867672517cb946efc558a12c7f43a1a49011ad",
+    "input_sha256": "2996c0403104aa276695c1c644d86858dbf08e29dd144dc8aaaf408ceeeea9a2"
+  },
+  "summer": {
+    "forward_yuv_color_keys": 59,
+    "key_collisions": 0,
+    "actual_decoded_frames_covered": 660,
+    "all_pixels_recovered_match_independently_verified_authored_RGB": true,
+    "single_phase_sha256_raw_RGB24": "bda2e75fc1722dc4ca889822efb173c2b3e4bcb4961df688bcd7e8637b92e3e6",
+    "local_authored_NPY_sha256_used_in_probe_only": "8586a26833901b69aea974c0b2d1e89162cb166d2002314218e5d175e40cc188",
+    "input_sha256": "ba25bf92a092105b18c4cad354347b13757045b139781142e4951bb4fb8648f9"
+  },
+  "autumn": {
+    "forward_yuv_color_keys": 60,
+    "key_collisions": 0,
+    "actual_decoded_frames_covered": 660,
+    "all_pixels_recovered_match_independently_verified_authored_RGB": true,
+    "single_phase_sha256_raw_RGB24": "b18100209f2b59abfe781fd5f694007a5cd8ba440420155b6c3e442cd43ab72f",
+    "local_authored_NPY_sha256_used_in_probe_only": "d868aeabd6325173bc264f2d2c469d4394cca1c46a7b5af01fc0ab71700e83a2",
+    "input_sha256": "bcea900e56b5c036293378fecfa1e6d56ff49ff4ce770586ecb52d106633e02e"
+  },
+  "winter": {
+    "forward_yuv_color_keys": 60,
+    "key_collisions": 0,
+    "actual_decoded_frames_covered": 660,
+    "all_pixels_recovered_match_independently_verified_authored_RGB": true,
+    "single_phase_sha256_raw_RGB24": "4b32b297812a19a6b9ac40739748e444a7763e4cf217a0b9757a3061642dbdeb",
+    "local_authored_NPY_sha256_used_in_probe_only": "0daebf6098f21d103fd35ea698c845cba7321a85d060f44a0f630bafa074a2d7",
+    "input_sha256": "e98fc613a958cc56dc7e17054849717573f69d0e50bf44067ad6dfbc7b61c664"
+  }
+}

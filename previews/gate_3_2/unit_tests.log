@@ -1,0 +1,21 @@
+test_all_opaque_unchanged_resampling_neighbour (test_assembly.PictureCuts.test_all_opaque_unchanged_resampling_neighbour) ... ok
+test_cadence_entire_film_four_cycles (test_assembly.PictureCuts.test_cadence_entire_film_four_cycles) ... ok
+test_cut_windows_centers_and_endpoints (test_assembly.PictureCuts.test_cut_windows_centers_and_endpoints) ... ok
+test_invalid_schedule (test_assembly.PictureCuts.test_invalid_schedule) ... ok
+test_open_close_exact_black_without_paused_phase (test_assembly.PictureCuts.test_open_close_exact_black_without_paused_phase) ... ok
+test_detect_tamper_before_loading_table (test_recover_native.RecoverNativeTests.test_detect_tamper_before_loading_table) ... ok
+test_sampling_distinct_grid_cells_and_chroma_planes (test_recover_native.RecoverNativeTests.test_sampling_distinct_grid_cells_and_chroma_planes) ... ok
+test_truncated_plane_is_rejected (test_recover_native.RecoverNativeTests.test_truncated_plane_is_rejected) ... ok
+test_unknown_decoded_color_is_not_approximated (test_recover_native.RecoverNativeTests.test_unknown_decoded_color_is_not_approximated) ... ok
+test_yuv_collision_is_rejected (test_recover_native.RecoverNativeTests.test_yuv_collision_is_rejected) ... ok
+test_altered_local_split_manifest_refused (test_v22.Gate32Tests.test_altered_local_split_manifest_refused) ... ok
+test_approved_linear_light_curve_and_tail_geometry (test_v22.Gate32Tests.test_approved_linear_light_curve_and_tail_geometry) ... ok
+test_mux_preserves_priming_and_timings (test_v22.Gate32Tests.test_mux_preserves_priming_and_timings) ... ok
+test_non_release_cache_rejected_unchanged (test_v22.Gate32Tests.test_non_release_cache_rejected_unchanged) ... ok
+test_one_part_tamper_is_not_silently_encoded (test_v22.Gate32Tests.test_one_part_tamper_is_not_silently_encoded) ... ok
+test_unsupported_part_path_is_refused (test_v22.Gate32Tests.test_unsupported_part_path_is_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.169s
+
+OK
