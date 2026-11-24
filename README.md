@@ -28,9 +28,7 @@
 
 ## 当前阶段状态
 
-- **当前状态**：`COMPLETED / v2.1 FINAL PASSED`（八轮严格评审全部通过，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 8 与 [`DELIVERY.md`](DELIVERY.md)）
-- **v2.1 最新交付链接（同一份 `153,200,285` 字节 1080p 成片，SHA-256 `62ceff09...`）**：
-  - **GitHub Release（Latest）**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.1-rainroji-lofi-1080p>
-  - **Google Drive**：<https://drive.google.com/file/d/1DIg66GW6FHtitbUyHgslwJta29awbtD-/view?usp=drivesdk>
-- **v2.0 历史归档**：[GitHub Release (`v2.0-rainroji-lofi-1080p`)](https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.0-rainroji-lofi-1080p) · [Google Drive](https://drive.google.com/file/d/1pQLUQez4nAWbnoMQ7wYO3ojIl7b1zhEO/view?usp=drivesdk)
-- **最终成片规格**：**`1920×1080`（`320×180` 经 6× 最近邻整数放大）· 30 fps · 3 分 17.23 秒 · CRF 14 · −16.04 LUFS**，配乐 **Purrple Cat《Green Tea》（CC BY 4.0 全曲）** + 四季克制环境音 + 1× 清晰可读四季动物动态与夏夜“网吧”经典霓虹闪烁。
+- **当前 Gate**：`v2.2 / Gate 2.2 — 全面审美返工：清除 2D 贴纸感/比例穿帮/头身分离，重做物理光影融合与四季差异化动态`（`v2.1` 已退回重做，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 9）
+- **绝对红线（一票否决）**：严禁硬 P 感 2D 贴纸、严禁违背真实世界比例的巨型动物、严禁头身分离、严禁跨季复用小鸟模板、严禁实心白蛆烟雾与条形码水洼。
+- **保持不变的已锁基线**：`320×180`（6× 最近邻整数放大至 `1920×1080` @ 30fps）、四季紧致构图、11 秒无缝循环、**Purrple Cat《Green Tea》（CC BY 4.0 全曲）** 与 48/96/144 秒乐句转场均保持不变。
+- **下一步**：编码 AI 提交 `previews/gate_2_2/` 四季样片与原尺寸动作峰值静帧后，我将从构图、比例、光影融合、解剖连贯与跨季多样性全维度严审，彻底过关后再组装发布 v2.2。
