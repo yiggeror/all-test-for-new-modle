@@ -1,0 +1,108 @@
+{
+  "status": "FOUR_WHOLE_FILES_COMPARED_BYTE_FOR_BYTE",
+  "review_commit": "16951626d5db44eacf6ac0f9b52caf80cafd2a5b",
+  "parts": 16,
+  "bytes": 108344747,
+  "scenes": {
+    "spring": {
+      "exact_restored_lossless_bytes": 1686000,
+      "exact_restored_sha256": "5e22061cfe7de79c4d906a949012bd3c5d01d3bf3fdff6d660b72f350e4793ab",
+      "byte_equal_to_production_master": true,
+      "parts": 1,
+      "compatible_preview_SHA256": "0da19b8f953d96d127cad021defbafe00efb49d8d41c5c7b585aab665aa9190e",
+      "preview_bytes": 1774131,
+      "verify_decoded_peaks_1920x1080": {
+        "spring_peak_015_calm_no_cat.png": {
+          "sha256": "5f2a8e7589864899c1af31dd01152f8e1a869abaf11c04ea9372314845e269eb",
+          "bytes": 94872
+        },
+        "spring_peak_180_blossom_shower.png": {
+          "sha256": "1ffeb67cdab263c284fd014f2cc2a8cca0e879186e609d5d471058bf4de69c56",
+          "bytes": 94865
+        },
+        "spring_peak_195_washing_billow.png": {
+          "sha256": "466ff65a2f0776e3d33e859293586d6cb7f1d5143d62dd40c83499163b020ff4",
+          "bytes": 94875
+        }
+      }
+    },
+    "summer": {
+      "exact_restored_lossless_bytes": 60593471,
+      "exact_restored_sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+      "byte_equal_to_production_master": true,
+      "parts": 8,
+      "compatible_preview_SHA256": "94fa9764b2ed624ee65a0f99cf0becffa9d0211abc552ded0d41c6fab687b10e",
+      "preview_bytes": 7896648,
+      "verify_decoded_peaks_1920x1080": {
+        "summer_headlight_car_face_F153.png": {
+          "sha256": "044eb04274d3925d5104686834cdd3664e109a4a57a9a1c591f6423553bb009c",
+          "bytes": 98956
+        },
+        "summer_headlight_road_F124.png": {
+          "sha256": "038db3ae83d8fda63256b8256cac0bee440b60c573915b4db6c9194580ad0576",
+          "bytes": 100881
+        },
+        "summer_neon_dark_comparison_F194.png": {
+          "sha256": "0ab97d640045a31a5c4d80b63c3e6d189516419cffaa673e6cce348f7c3e87d8",
+          "bytes": 103205
+        },
+        "summer_neon_wet_road_F190.png": {
+          "sha256": "1349960497472f6bc6cb2769d25c58025bfdbe39be1041599874ee258cd45626",
+          "bytes": 99658
+        },
+        "summer_rain_eave_drop_F071.png": {
+          "sha256": "a5c2496d20486c9ec134444d7ab96ec0a4cfdf615f1b4d3bc581844e9774bd0d",
+          "bytes": 99674
+        }
+      }
+    },
+    "autumn": {
+      "exact_restored_lossless_bytes": 1659665,
+      "exact_restored_sha256": "71812950a010e85e6e7834aa427bdeca245d8a6e1b5ee17d639f5eebfdcc5c07",
+      "byte_equal_to_production_master": true,
+      "parts": 1,
+      "compatible_preview_SHA256": "200dbf42d9a343426d4947d2c0d0944d43cb65e12a02fb808a33c4f88b278a3e",
+      "preview_bytes": 1841940,
+      "verify_decoded_peaks_1920x1080": {
+        "autumn_aloft_f123_1080p.png": {
+          "sha256": "cc6d3d8b95925f770e346c332721d1ee2fdb8b6d731f8a3f4f60a7ffe97667d4",
+          "bytes": 116246
+        },
+        "autumn_bird_wings_f152_1080p.png": {
+          "sha256": "4f402cd014c5f2983fb7f15cfc5f4d49be2027b705da827ff9da40c5842f7cdc",
+          "bytes": 116113
+        },
+        "autumn_gust_and_birds_f149_1080p.png": {
+          "sha256": "6a713c06fffbdf38be523a7c9ed9073ab7bb3034b9e5edfaf28c280ae07ae2d8",
+          "bytes": 116233
+        },
+        "autumn_roll_and_vapor_f178_1080p.png": {
+          "sha256": "c0fd2a5ae4d4b4d90e7021b0e01c5de1119137253c48a24402a6edbc3d1a0338",
+          "bytes": 116479
+        }
+      }
+    },
+    "winter": {
+      "exact_restored_lossless_bytes": 44405611,
+      "exact_restored_sha256": "a398278d0086c0d8144c5b8cccc03a6e4094974e42ed1acb259622a3b1b2514a",
+      "byte_equal_to_production_master": true,
+      "parts": 6,
+      "compatible_preview_SHA256": "66b96f52ce24d4bee4e290ce64ba8694f4ebb94534e3262c034ee0ca06fcadfb",
+      "preview_bytes": 7907749,
+      "verify_decoded_peaks_1920x1080": {
+        "winter_page_f165_1080p.png": {
+          "sha256": "1fbcac6087a88d3a4bdcf0392e13fe09aad06dc1fb214bca36d18508d16d53ae",
+          "bytes": 111557
+        },
+        "winter_snow_gust_f220_1080p.png": {
+          "sha256": "cb7ea9d8f418762dce3c52606dcfc24eb2bf453ea6701b9ec94e59ad06e3a9d7",
+          "bytes": 111333
+        },
+        "winter_warm_window_f153_1080p.png": {
+          "sha256": "d6cbd2138c0d91637c8dd25116e1acf74d8668bd35cfd5ed0190b174384b3cb1",
+          "bytes": 112334
+        }
+      }
+    }
+  }
+}

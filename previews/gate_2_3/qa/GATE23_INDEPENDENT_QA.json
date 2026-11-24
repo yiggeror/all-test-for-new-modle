@@ -1,0 +1,758 @@
+{
+  "review_commit": "16951626d5db44eacf6ac0f9b52caf80cafd2a5b",
+  "review_log_git_blob": "4ca66c1b127d67091a531299c9dca354bf582372",
+  "gate": "2.3 / four clips only",
+  "passes_all_four": true,
+  "has_hold": false,
+  "scenes": {
+    "spring": {
+      "technical": {
+        "QP0_explicit": true,
+        "full_res_PTS": true,
+        "equal_scene_two_cycles": true,
+        "lossless_pixel_grid_YUV": true,
+        "src_center_rgb_roundoff_max4": true,
+        "strict_decode_660_pts_and_no_errors": true,
+        "no_complete_dark_border_rows_or_columns_observed": true
+      },
+      "sha256": "5e22061cfe7de79c4d906a949012bd3c5d01d3bf3fdff6d660b72f350e4793ab",
+      "lossless_split": {
+        "parts": 1,
+        "joined_bytes": 1686000,
+        "sha256": "5e22061cfe7de79c4d906a949012bd3c5d01d3bf3fdff6d660b72f350e4793ab",
+        "all_individual_checked": true,
+        "actual_independently_decoded_file_matches_join": true
+      },
+      "real_decoded_frames": 660,
+      "equal_native_pairs": 330,
+      "center_code_rounding_max": 3,
+      "seam_329_to_330_rgb_mean": 0.01311,
+      "seam_rank_percentile_among_actual_phases": 75.15152,
+      "native_nearest_blocks": {
+        "performed": true,
+        "frames_tested": 660,
+        "frames_with_any_split_block_per_plane": [
+          0,
+          0,
+          0
+        ],
+        "max_split_blocks_one_frame_per_plane": [
+          0,
+          0,
+          0
+        ],
+        "exact_6x6_Y_3x3_UV_or_6x6_444_all_frames": true
+      },
+      "real_playback": {
+        "real_player_rate": 1.0,
+        "real_audio_none": true,
+        "last_video_time_near_22s": 21.98,
+        "max_display_frames_dropped": 0,
+        "elapsed_wall_s_including_setup": 22.6338,
+        "direct_QP0_file_displayed": true,
+        "visual_observation": "Sampled first action, seam, later repeat while complete actual 22s playback ran."
+      },
+      "actual_full_1080_peaks": [
+        {
+          "f": 15,
+          "ideal_t": 0.5,
+          "1080_png": "spring_f015_1080p.png",
+          "sha256": "0da9c7cf721c5b08bf80ecab14860485bd43f99d847ac4cebb0922871a9510c6"
+        },
+        {
+          "f": 180,
+          "ideal_t": 6.0,
+          "1080_png": "spring_f180_1080p.png",
+          "sha256": "a1db656718baf6990d85cc030758f423a9cc2a023459318f29fc87ca77e117cc"
+        },
+        {
+          "f": 195,
+          "ideal_t": 6.5,
+          "1080_png": "spring_f195_1080p.png",
+          "sha256": "72780ce9999d88aafc6d3e28fdefac85fc38e0c1eae26b2950d1fa08ed8ce72f"
+        }
+      ],
+      "actual_source_and_motion": {
+        "static_control_independently_replayed_only_without_foreground_petals": true,
+        "protected_crown_trunk_and_branch": [
+          {
+            "roi": "main crown",
+            "geometry_only_exact_static_330": true,
+            "geometry_only_peak_channel_delta": 0,
+            "raw_visible_full": {
+              "rect": [
+                157,
+                5,
+                273,
+                133
+              ],
+              "phase0_pixels_ever_at_least_threshold": 790,
+              "fraction_of_roi_that_ever_changes_at_least_threshold": 0.05321,
+              "max_changed_pixels_single_adjacent_phase": 67,
+              "phase_with_max_adjacent_step": 190,
+              "code_threshold": 6
+            },
+            "pixels_crossed_by_projected_foreground_petals_in_that_ROI": 813
+          },
+          {
+            "roi": "trunk core and edges",
+            "geometry_only_exact_static_330": true,
+            "geometry_only_peak_channel_delta": 0,
+            "raw_visible_full": {
+              "rect": [
+                200,
+                122,
+                222,
+                163
+              ],
+              "phase0_pixels_ever_at_least_threshold": 0,
+              "fraction_of_roi_that_ever_changes_at_least_threshold": 0.0,
+              "max_changed_pixels_single_adjacent_phase": 0,
+              "phase_with_max_adjacent_step": 0,
+              "code_threshold": 6
+            },
+            "pixels_crossed_by_projected_foreground_petals_in_that_ROI": 0
+          },
+          {
+            "roi": "principal branch",
+            "geometry_only_exact_static_330": true,
+            "geometry_only_peak_channel_delta": 0,
+            "raw_visible_full": {
+              "rect": [
+                172,
+                66,
+                238,
+                114
+              ],
+              "phase0_pixels_ever_at_least_threshold": 320,
+              "fraction_of_roi_that_ever_changes_at_least_threshold": 0.10101,
+              "max_changed_pixels_single_adjacent_phase": 32,
+              "phase_with_max_adjacent_step": 176,
+              "code_threshold": 6
+            },
+            "pixels_crossed_by_projected_foreground_petals_in_that_ROI": 334
+          }
+        ],
+        "all_66_consecutive_5f_cloth_blocks": true,
+        "left_cloth_on_vs_wall_actual_layer_deltas": {
+          "15": {
+            "on_vs_wall_pixels_RGB_difference_10_or_more": 329,
+            "mean_Luma_display_gain_code": 5.5965,
+            "median_Luma_display_gain_code": 4.1446,
+            "mean_delta_RGB": [
+              -18.78700065612793,
+              11.753999710083008,
+              16.40399932861328
+            ],
+            "median_warmwall_vs_cloth_blue_chroma_delta_code": 36.0
+          },
+          "180": {
+            "on_vs_wall_pixels_RGB_difference_10_or_more": 335,
+            "mean_Luma_display_gain_code": 7.0574,
+            "median_Luma_display_gain_code": 5.336,
+            "mean_delta_RGB": [
+              -16.608999252319336,
+              13.086999893188477,
+              17.020999908447266
+            ],
+            "median_warmwall_vs_cloth_blue_chroma_delta_code": 36.0
+          },
+          "195": {
+            "on_vs_wall_pixels_RGB_difference_10_or_more": 349,
+            "mean_Luma_display_gain_code": 7.0499,
+            "median_Luma_display_gain_code": 5.567,
+            "mean_delta_RGB": [
+              -16.77899932861328,
+              13.128999710083008,
+              17.0
+            ],
+            "median_warmwall_vs_cloth_blue_chroma_delta_code": 35.0
+          }
+        }
+      },
+      "editorial_verdict": "PASS"
+    },
+    "summer": {
+      "technical": {
+        "QP0_explicit": true,
+        "full_res_PTS": true,
+        "equal_scene_two_cycles": true,
+        "lossless_pixel_grid_YUV": true,
+        "src_center_rgb_roundoff_max4": true,
+        "strict_decode_660_pts_and_no_errors": true,
+        "no_complete_dark_border_rows_or_columns_observed": true
+      },
+      "sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+      "lossless_split": {
+        "parts": 8,
+        "joined_bytes": 60593471,
+        "sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+        "all_individual_checked": true,
+        "actual_independently_decoded_file_matches_join": true
+      },
+      "real_decoded_frames": 660,
+      "equal_native_pairs": 330,
+      "center_code_rounding_max": 3,
+      "seam_329_to_330_rgb_mean": 1.5923,
+      "seam_rank_percentile_among_actual_phases": 18.48485,
+      "native_nearest_blocks": {
+        "performed": true,
+        "frames_tested": 660,
+        "frames_with_any_split_block_per_plane": [
+          0,
+          0,
+          0
+        ],
+        "max_split_blocks_one_frame_per_plane": [
+          0,
+          0,
+          0
+        ],
+        "exact_6x6_Y_3x3_UV_or_6x6_444_all_frames": true
+      },
+      "real_playback": {
+        "real_player_rate": 1.0,
+        "real_audio_none": true,
+        "last_video_time_near_22s": 21.96,
+        "max_display_frames_dropped": 0,
+        "elapsed_wall_s_including_setup": 22.7108,
+        "direct_QP0_file_displayed": true,
+        "visual_observation": "Sampled first action, seam, later repeat while complete actual 22s playback ran."
+      },
+      "actual_full_1080_peaks": [
+        {
+          "f": 69,
+          "ideal_t": 2.3,
+          "1080_png": "summer_f069_1080p.png",
+          "sha256": "854fc3a400b845a0ef441f21243fc85a7d96e1eefcd96a249667e1634d8b645c"
+        },
+        {
+          "f": 115,
+          "ideal_t": 3.8333333333333335,
+          "1080_png": "summer_f115_1080p.png",
+          "sha256": "445492fd45ba61561e9528fd196891c0a4285e01acf17c1e322459e93401bdaa"
+        },
+        {
+          "f": 124,
+          "ideal_t": 4.133333333333334,
+          "1080_png": "summer_f124_1080p.png",
+          "sha256": "0c4139bbe65bfd779580e9a06bcc2539b52f56f0c8a20be27a661e2bb9a02327"
+        },
+        {
+          "f": 153,
+          "ideal_t": 5.1,
+          "1080_png": "summer_f153_1080p.png",
+          "sha256": "ccc3168ebfc4ae65e2663c0c04e182919132dc3649dc5b8e263676940a3642f4"
+        },
+        {
+          "f": 190,
+          "ideal_t": 6.333333333333333,
+          "1080_png": "summer_f190_1080p.png",
+          "sha256": "dfdb1a15f23ca73b743ab2e246eb056f229900419dc48c0f103e5223c30e7d8c"
+        },
+        {
+          "f": 194,
+          "ideal_t": 6.466666666666667,
+          "1080_png": "summer_f194_1080p.png",
+          "sha256": "f5a27e02bee8ea20bf4f4baebe1686a126b9882b9e698132a99a11d8c1a957d0"
+        }
+      ],
+      "actual_source_and_motion": {
+        "full_actual_phase_shadow_trace_count": 330,
+        "direct_active_phases": 154,
+        "distinct_shadow_ray_counts_while_lights_active": 154,
+        "bands_hist_all_first_330_actual_decoded": {
+          "0": 330
+        },
+        "max_horizontal_bright_fraction": 0.0897,
+        "actual_independent_same_phase_physical_Headlights_only_F124_wet_vs_F153_car": [
+          {
+            "roi": [
+              225,
+              141,
+              270,
+              166
+            ],
+            "mean_Y_added": 4.5167317390441895,
+            "max_Y_added": 17.94860076904297,
+            "over_7_motion_pixels": 275,
+            "mean_R_minus_related_G_B_on": 2.624176502227783,
+            "mean_R_minus_related_G_B_off": -1.0711123943328857
+          },
+          {
+            "roi": [
+              98,
+              130,
+              162,
+              152
+            ],
+            "mean_Y_added": 7.181240558624268,
+            "max_Y_added": 28.972606658935547,
+            "over_7_motion_pixels": 696,
+            "mean_R_minus_related_G_B_on": 22.310792922973633,
+            "mean_R_minus_related_G_B_off": 4.705539226531982
+          }
+        ],
+        "exact_four_half_open_dips": [
+          [
+            192,
+            197
+          ],
+          [
+            204,
+            209
+          ],
+          [
+            216,
+            220
+          ],
+          [
+            229,
+            234
+          ]
+        ],
+        "same_frame_sign_wall_wet_on_start_and_end": true
+      },
+      "editorial_verdict": "PASS"
+    },
+    "autumn": {
+      "technical": {
+        "QP0_explicit": true,
+        "full_res_PTS": true,
+        "equal_scene_two_cycles": true,
+        "lossless_pixel_grid_YUV": true,
+        "src_center_rgb_roundoff_max4": true,
+        "strict_decode_660_pts_and_no_errors": true,
+        "no_complete_dark_border_rows_or_columns_observed": true
+      },
+      "sha256": "71812950a010e85e6e7834aa427bdeca245d8a6e1b5ee17d639f5eebfdcc5c07",
+      "lossless_split": {
+        "parts": 1,
+        "joined_bytes": 1659665,
+        "sha256": "71812950a010e85e6e7834aa427bdeca245d8a6e1b5ee17d639f5eebfdcc5c07",
+        "all_individual_checked": true,
+        "actual_independently_decoded_file_matches_join": true
+      },
+      "real_decoded_frames": 660,
+      "equal_native_pairs": 330,
+      "center_code_rounding_max": 3,
+      "seam_329_to_330_rgb_mean": 0.0062,
+      "seam_rank_percentile_among_actual_phases": 35.75758,
+      "native_nearest_blocks": {
+        "performed": true,
+        "frames_tested": 660,
+        "frames_with_any_split_block_per_plane": [
+          0,
+          0,
+          0
+        ],
+        "max_split_blocks_one_frame_per_plane": [
+          0,
+          0,
+          0
+        ],
+        "exact_6x6_Y_3x3_UV_or_6x6_444_all_frames": true
+      },
+      "real_playback": {
+        "real_player_rate": 1.0,
+        "real_audio_none": true,
+        "last_video_time_near_22s": 21.96,
+        "max_display_frames_dropped": 0,
+        "elapsed_wall_s_including_setup": 22.6914,
+        "direct_QP0_file_displayed": true,
+        "visual_observation": "Sampled first action, seam, later repeat while complete actual 22s playback ran."
+      },
+      "actual_full_1080_peaks": [
+        {
+          "f": 123,
+          "ideal_t": 4.1,
+          "1080_png": "autumn_f123_1080p.png",
+          "sha256": "1f5370608461555f861ec02ff95c4dc3b9d74e5e6235e1e44ac197919359b826"
+        },
+        {
+          "f": 149,
+          "ideal_t": 4.966666666666667,
+          "1080_png": "autumn_f149_1080p.png",
+          "sha256": "53db98d65d26ce9e143ee3f51a4021a1339e06def5184df7708efd9b4c9a66cd"
+        },
+        {
+          "f": 152,
+          "ideal_t": 5.066666666666666,
+          "1080_png": "autumn_f152_1080p.png",
+          "sha256": "ee080faa335d1e076d8a050098c594357f40b26d371d598da73984774efbf6d1"
+        },
+        {
+          "f": 178,
+          "ideal_t": 5.933333333333334,
+          "1080_png": "autumn_f178_1080p.png",
+          "sha256": "c88880b3ae7cec07ff3e3dc0b218eeb76fddd5df8dcb17e0a7e1f766e3dd18ad"
+        }
+      ],
+      "actual_source_and_motion": {
+        "same_live_frame_path_against_frozen_media": [
+          0,
+          109,
+          123,
+          149,
+          152,
+          178,
+          237,
+          329
+        ],
+        "effects_omitted": [
+          "aloft",
+          "rolling",
+          "steam",
+          "birds"
+        ],
+        "independent_whole_control_peak_rgb_difference": 0,
+        "anchored_peak_rgb_difference": {
+          "trunks_branches": 0,
+          "fixed_crown": 0,
+          "facade_roi": 0
+        },
+        "mask_visible_counts": {
+          "trunks_branches": 4213,
+          "fixed_crown": 23200,
+          "facade_roi": 0
+        },
+        "distinct_3_visible_birds_f152": [
+          {
+            "f": 152,
+            "roi": [
+              119,
+              0,
+              199,
+              27
+            ],
+            "pixels_delta_ge6": 11,
+            "max_luma_on_changed": 151.7310028076172,
+            "shadow_on_off_Luma_extreme": 56.07660675048828,
+            "centroid_xy": [
+              160.45454545454544,
+              10.545454545454545
+            ],
+            "2px_or_larger_8conn": [
+              {
+                "area": 5,
+                "box_hw": [
+                  3,
+                  5
+                ],
+                "center_yx": [
+                  5.8,
+                  48.0
+                ]
+              },
+              {
+                "area": 3,
+                "box_hw": [
+                  1,
+                  3
+                ],
+                "center_yx": [
+                  12.0,
+                  41.0
+                ]
+              },
+              {
+                "area": 3,
+                "box_hw": [
+                  1,
+                  3
+                ],
+                "center_yx": [
+                  17.0,
+                  31.0
+                ]
+              }
+            ]
+          }
+        ],
+        "rolling_patch_at_f149": [
+          {
+            "f": 149,
+            "roi": [
+              68,
+              135,
+              241,
+              180
+            ],
+            "pixels_delta_ge6": 75,
+            "max_luma_on_changed": 154.2834014892578,
+            "shadow_on_off_Luma_extreme": 69.89119720458984,
+            "centroid_xy": [
+              116.92,
+              158.54666666666668
+            ],
+            "2px_or_larger_8conn": [
+              {
+                "area": 16,
+                "box_hw": [
+                  5,
+                  8
+                ],
+                "center_yx": [
+                  17.0625,
+                  58.125
+                ]
+              },
+              {
+                "area": 13,
+                "box_hw": [
+                  4,
+                  6
+                ],
+                "center_yx": [
+                  32.46153846153846,
+                  37.76923076923077
+                ]
+              },
+              {
+                "area": 8,
+                "box_hw": [
+                  3,
+                  3
+                ],
+                "center_yx": [
+                  21.875,
+                  59.875
+                ]
+              },
+              {
+                "area": 6,
+                "box_hw": [
+                  3,
+                  3
+                ],
+                "center_yx": [
+                  20.166666666666668,
+                  54.166666666666664
+                ]
+              },
+              {
+                "area": 6,
+                "box_hw": [
+                  2,
+                  3
+                ],
+                "center_yx": [
+                  20.5,
+                  31.0
+                ]
+              },
+              {
+                "area": 5,
+                "box_hw": [
+                  3,
+                  3
+                ],
+                "center_yx": [
+                  24.0,
+                  66.0
+                ]
+              },
+              {
+                "area": 3,
+                "box_hw": [
+                  2,
+                  3
+                ],
+                "center_yx": [
+                  19.333333333333332,
+                  37.0
+                ]
+              },
+              {
+                "area": 3,
+                "box_hw": [
+                  1,
+                  3
+                ],
+                "center_yx": [
+                  19.0,
+                  70.0
+                ]
+              },
+              {
+                "area": 3,
+                "box_hw": [
+                  1,
+                  3
+                ],
+                "center_yx": [
+                  36.0,
+                  40.0
+                ]
+              },
+              {
+                "area": 2,
+                "box_hw": [
+                  2,
+                  1
+                ],
+                "center_yx": [
+                  18.5,
+                  51.0
+                ]
+              },
+              {
+                "area": 2,
+                "box_hw": [
+                  1,
+                  2
+                ],
+                "center_yx": [
+                  31.0,
+                  9.5
+                ]
+              },
+              {
+                "area": 2,
+                "box_hw": [
+                  1,
+                  2
+                ],
+                "center_yx": [
+                  31.0,
+                  31.5
+                ]
+              },
+              {
+                "area": 2,
+                "box_hw": [
+                  1,
+                  2
+                ],
+                "center_yx": [
+                  38.0,
+                  37.5
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "editorial_verdict": "PASS"
+    },
+    "winter": {
+      "technical": {
+        "QP0_explicit": true,
+        "full_res_PTS": true,
+        "equal_scene_two_cycles": true,
+        "lossless_pixel_grid_YUV": true,
+        "src_center_rgb_roundoff_max4": true,
+        "strict_decode_660_pts_and_no_errors": true,
+        "no_complete_dark_border_rows_or_columns_observed": true
+      },
+      "sha256": "a398278d0086c0d8144c5b8cccc03a6e4094974e42ed1acb259622a3b1b2514a",
+      "lossless_split": {
+        "parts": 6,
+        "joined_bytes": 44405611,
+        "sha256": "a398278d0086c0d8144c5b8cccc03a6e4094974e42ed1acb259622a3b1b2514a",
+        "all_individual_checked": true,
+        "actual_independently_decoded_file_matches_join": true
+      },
+      "real_decoded_frames": 660,
+      "equal_native_pairs": 330,
+      "center_code_rounding_max": 3,
+      "seam_329_to_330_rgb_mean": 0.72716,
+      "seam_rank_percentile_among_actual_phases": 26.36364,
+      "native_nearest_blocks": {
+        "performed": true,
+        "frames_tested": 660,
+        "frames_with_any_split_block_per_plane": [
+          0,
+          0,
+          0
+        ],
+        "max_split_blocks_one_frame_per_plane": [
+          0,
+          0,
+          0
+        ],
+        "exact_6x6_Y_3x3_UV_or_6x6_444_all_frames": true
+      },
+      "real_playback": {
+        "real_player_rate": 1.0,
+        "real_audio_none": true,
+        "last_video_time_near_22s": 21.97,
+        "max_display_frames_dropped": 0,
+        "elapsed_wall_s_including_setup": 23.0209,
+        "direct_QP0_file_displayed": true,
+        "visual_observation": "Sampled first action, seam, later repeat while complete actual 22s playback ran."
+      },
+      "actual_full_1080_peaks": [
+        {
+          "f": 153,
+          "ideal_t": 5.1,
+          "1080_png": "winter_f153_1080p.png",
+          "sha256": "40ee76da06022709ae7b2961ceda167220c7d9c253ea7ed1857efdacc9e95a06"
+        },
+        {
+          "f": 164,
+          "ideal_t": 5.466666666666667,
+          "1080_png": "winter_f164_1080p.png",
+          "sha256": "153fd162a2e0891f1712749f4e7d9db89945ad6b28e69965fc22e6f385f08c7c"
+        },
+        {
+          "f": 165,
+          "ideal_t": 5.5,
+          "1080_png": "winter_f165_1080p.png",
+          "sha256": "f70e7432c27bb2f5b1268eabf5602851b4731e1dcd7501138162765fac094a03"
+        },
+        {
+          "f": 214,
+          "ideal_t": 7.133333333333334,
+          "1080_png": "winter_f214_1080p.png",
+          "sha256": "f205cd5b9f7fcaa59b2bc073a0d8d0593e4ba1a3b05ca73ddd99e1acd2e50da7"
+        }
+      ],
+      "actual_source_and_motion": {
+        "same_live_frame_path_against_frozen_media": [
+          0,
+          84,
+          153,
+          164,
+          165,
+          184,
+          220,
+          329
+        ],
+        "effects_omitted": [
+          "page",
+          "smoke",
+          "snow",
+          "window_snow",
+          "powder",
+          "gust"
+        ],
+        "independent_whole_control_peak_rgb_difference": 0,
+        "anchored_peak_rgb_difference": {
+          "trunks_branches": 0,
+          "fixed_crown": 0,
+          "facade_roi": 0
+        },
+        "mask_visible_counts": {
+          "trunks_branches": 7654,
+          "fixed_crown": 51,
+          "facade_roi": 1596
+        },
+        "real_folio_action_scanned_phases": 86,
+        "tied_closest_original_phases": [
+          164,
+          165
+        ],
+        "closest_paper_lamp_distance_native_px": 4.12311,
+        "actual_decode_luma_200_bridge": [],
+        "old_fabricated_stair_four_fixed_location_actual_red_spans": {
+          "80": 3.941,
+          "63": 3.96133,
+          "45": 4.76133,
+          "28": 3.50134
+        }
+      },
+      "editorial_verdict": "PASS"
+    }
+  }
+}

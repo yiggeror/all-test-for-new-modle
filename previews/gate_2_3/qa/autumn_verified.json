@@ -1,0 +1,25 @@
+{
+  "scene": "autumn",
+  "unique_native_frames": 330,
+  "decoded_frames": 660,
+  "first_second_cycle_identical_pairs": 330,
+  "all_three_planes_in_every_frame_uniform_native_blocks": true,
+  "source_exact_native_rgb_pairs": 330,
+  "rgb_seam_mae": 0.006209,
+  "near_seam_maes": [
+    0.00897,
+    0.005972,
+    0.005463,
+    0.003553,
+    0.005926,
+    0.006209,
+    0.002535,
+    0.009253,
+    0.004057,
+    0.008275,
+    0.005961,
+    0.011667
+  ],
+  "native_npy_sha256": "7bb41f765fd9e3d1234e0795106df053f650b5f3c60418fb5fde9119326dda74",
+  "loop_qp0_mp4_sha256": "71812950a010e85e6e7834aa427bdeca245d8a6e1b5ee17d639f5eebfdcc5c07"
+}

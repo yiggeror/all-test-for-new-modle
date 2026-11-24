@@ -1,0 +1,514 @@
+{
+  "scene": "summer",
+  "native_count": 330,
+  "master_count": 660,
+  "first_cycle_seconds": 11,
+  "npy_sha256": "1334764077c576e9098acf3408fd4bb930558cfcb9a17a6ccee9c6dfd1ff317b",
+  "master_sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+  "master_bytes": 60593471,
+  "actual_native_palette_size": 59,
+  "actual_palette_rgb": [
+    [
+      25,
+      33,
+      53
+    ],
+    [
+      32,
+      39,
+      59
+    ],
+    [
+      37,
+      43,
+      64
+    ],
+    [
+      42,
+      47,
+      69
+    ],
+    [
+      44,
+      44,
+      61
+    ],
+    [
+      45,
+      40,
+      53
+    ],
+    [
+      50,
+      51,
+      70
+    ],
+    [
+      53,
+      47,
+      66
+    ],
+    [
+      55,
+      47,
+      57
+    ],
+    [
+      58,
+      52,
+      67
+    ],
+    [
+      58,
+      59,
+      79
+    ],
+    [
+      65,
+      57,
+      72
+    ],
+    [
+      68,
+      48,
+      67
+    ],
+    [
+      68,
+      55,
+      66
+    ],
+    [
+      71,
+      55,
+      58
+    ],
+    [
+      76,
+      63,
+      73
+    ],
+    [
+      80,
+      45,
+      54
+    ],
+    [
+      81,
+      60,
+      58
+    ],
+    [
+      85,
+      51,
+      69
+    ],
+    [
+      85,
+      67,
+      72
+    ],
+    [
+      90,
+      100,
+      88
+    ],
+    [
+      91,
+      73,
+      82
+    ],
+    [
+      92,
+      66,
+      60
+    ],
+    [
+      97,
+      74,
+      73
+    ],
+    [
+      104,
+      49,
+      60
+    ],
+    [
+      105,
+      74,
+      63
+    ],
+    [
+      105,
+      84,
+      86
+    ],
+    [
+      111,
+      83,
+      76
+    ],
+    [
+      117,
+      102,
+      120
+    ],
+    [
+      121,
+      56,
+      72
+    ],
+    [
+      121,
+      84,
+      67
+    ],
+    [
+      125,
+      95,
+      85
+    ],
+    [
+      129,
+      141,
+      162
+    ],
+    [
+      136,
+      94,
+      70
+    ],
+    [
+      139,
+      104,
+      87
+    ],
+    [
+      142,
+      58,
+      74
+    ],
+    [
+      151,
+      105,
+      73
+    ],
+    [
+      152,
+      125,
+      109
+    ],
+    [
+      156,
+      127,
+      210
+    ],
+    [
+      164,
+      115,
+      79
+    ],
+    [
+      168,
+      46,
+      46
+    ],
+    [
+      169,
+      71,
+      81
+    ],
+    [
+      177,
+      148,
+      124
+    ],
+    [
+      181,
+      129,
+      84
+    ],
+    [
+      186,
+      201,
+      245
+    ],
+    [
+      189,
+      184,
+      170
+    ],
+    [
+      202,
+      71,
+      85
+    ],
+    [
+      202,
+      174,
+      141
+    ],
+    [
+      203,
+      152,
+      100
+    ],
+    [
+      209,
+      203,
+      186
+    ],
+    [
+      222,
+      174,
+      111
+    ],
+    [
+      227,
+      191,
+      148
+    ],
+    [
+      232,
+      158,
+      99
+    ],
+    [
+      233,
+      77,
+      88
+    ],
+    [
+      241,
+      204,
+      136
+    ],
+    [
+      252,
+      142,
+      131
+    ],
+    [
+      252,
+      254,
+      254
+    ],
+    [
+      255,
+      181,
+      171
+    ],
+    [
+      255,
+      227,
+      115
+    ]
+  ],
+  "decoded_equal_to_native_rgb_plus_locked_Bt709_exact_6x_filter": 660,
+  "second_cycle_byte_identical_to_first_frames": 330,
+  "maximum_near_native_seam_mae_rgb": 1.638559,
+  "seam_neighborhood_steps": [
+    {
+      "from_frame": 321,
+      "to_frame": 322,
+      "mae_rgb": 1.59548,
+      "changed_native_pixels": 8489
+    },
+    {
+      "from_frame": 322,
+      "to_frame": 323,
+      "mae_rgb": 1.583993,
+      "changed_native_pixels": 8470
+    },
+    {
+      "from_frame": 323,
+      "to_frame": 324,
+      "mae_rgb": 1.563223,
+      "changed_native_pixels": 8410
+    },
+    {
+      "from_frame": 324,
+      "to_frame": 325,
+      "mae_rgb": 1.584896,
+      "changed_native_pixels": 8426
+    },
+    {
+      "from_frame": 325,
+      "to_frame": 326,
+      "mae_rgb": 1.591979,
+      "changed_native_pixels": 8441
+    },
+    {
+      "from_frame": 326,
+      "to_frame": 327,
+      "mae_rgb": 1.592697,
+      "changed_native_pixels": 8490
+    },
+    {
+      "from_frame": 327,
+      "to_frame": 328,
+      "mae_rgb": 1.568443,
+      "changed_native_pixels": 8419
+    },
+    {
+      "from_frame": 328,
+      "to_frame": 329,
+      "mae_rgb": 1.571042,
+      "changed_native_pixels": 8443
+    },
+    {
+      "from_frame": 329,
+      "to_frame": 0,
+      "mae_rgb": 1.56827,
+      "changed_native_pixels": 8478
+    },
+    {
+      "from_frame": 0,
+      "to_frame": 1,
+      "mae_rgb": 1.570851,
+      "changed_native_pixels": 8474
+    },
+    {
+      "from_frame": 1,
+      "to_frame": 2,
+      "mae_rgb": 1.638559,
+      "changed_native_pixels": 8637
+    },
+    {
+      "from_frame": 2,
+      "to_frame": 3,
+      "mae_rgb": 1.623362,
+      "changed_native_pixels": 8563
+    },
+    {
+      "from_frame": 3,
+      "to_frame": 4,
+      "mae_rgb": 1.583704,
+      "changed_native_pixels": 8476
+    },
+    {
+      "from_frame": 4,
+      "to_frame": 5,
+      "mae_rgb": 1.573773,
+      "changed_native_pixels": 8493
+    },
+    {
+      "from_frame": 5,
+      "to_frame": 6,
+      "mae_rgb": 1.5575,
+      "changed_native_pixels": 8370
+    },
+    {
+      "from_frame": 6,
+      "to_frame": 7,
+      "mae_rgb": 1.554091,
+      "changed_native_pixels": 8281
+    },
+    {
+      "from_frame": 7,
+      "to_frame": 8,
+      "mae_rgb": 1.551053,
+      "changed_native_pixels": 8285
+    }
+  ],
+  "decoded_1080p_peak_stills": {
+    "headlight_road": {
+      "frame_index": 124,
+      "t_seconds": 4.133333,
+      "file": "summer_headlight_road_F124.png",
+      "sha256": "038db3ae83d8fda63256b8256cac0bee440b60c573915b4db6c9194580ad0576"
+    },
+    "headlight_car_face": {
+      "frame_index": 153,
+      "t_seconds": 5.1,
+      "file": "summer_headlight_car_face_F153.png",
+      "sha256": "044eb04274d3925d5104686834cdd3664e109a4a57a9a1c591f6423553bb009c"
+    },
+    "neon_wet_road": {
+      "frame_index": 190,
+      "t_seconds": 6.333333,
+      "file": "summer_neon_wet_road_F190.png",
+      "sha256": "1349960497472f6bc6cb2769d25c58025bfdbe39be1041599874ee258cd45626"
+    },
+    "neon_dark_comparison": {
+      "frame_index": 194,
+      "t_seconds": 6.466667,
+      "file": "summer_neon_dark_comparison_F194.png",
+      "sha256": "0ab97d640045a31a5c4d80b63c3e6d189516419cffaa673e6cce348f7c3e87d8"
+    },
+    "rain_eave_drop": {
+      "frame_index": 71,
+      "t_seconds": 2.366667,
+      "file": "summer_rain_eave_drop_F071.png",
+      "sha256": "a5c2496d20486c9ec134444d7ab96ec0a4cfdf615f1b4d3bc581844e9774bd0d"
+    }
+  },
+  "mobile": {
+    "bytes": 7896648,
+    "sha256": "94fa9764b2ed624ee65a0f99cf0becffa9d0211abc552ded0d41c6fab687b10e",
+    "video_spec": {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1080,
+      "closed_captions": 0,
+      "film_grain": 0,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 337920,
+      "duration": "22.000000",
+      "bit_rate": "2868906",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "660",
+      "extradata_size": 50,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc61.19.101 libx264"
+      }
+    }
+  }
+}

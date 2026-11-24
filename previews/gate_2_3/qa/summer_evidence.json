@@ -1,0 +1,494 @@
+{
+  "actual_master_sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+  "motion_scope": "330 native RGB24 and all 660 YUV verified; per-pixel adjacent delta >=6",
+  "heatmap_includes_loop_wrap": true,
+  "AB_match_frozen_native_frames": 5,
+  "same_phase_causal_images": {
+    "115:headlight": {
+      "wet_film": {
+        "native_xyxy": [
+          226,
+          142,
+          267,
+          164
+        ],
+        "positive_luma_delta_mean": 4.4036,
+        "native_count_plus7": 204,
+        "native_count_changed": 665,
+        "red_excess_on": 5.9889,
+        "red_excess_off": 4.6508
+      },
+      "wet_road": {
+        "native_xyxy": [
+          225,
+          140,
+          278,
+          176
+        ],
+        "positive_luma_delta_mean": 3.6214,
+        "native_count_plus7": 273,
+        "native_count_changed": 1283,
+        "red_excess_on": 2.8844,
+        "red_excess_off": 2.206
+      },
+      "car_body": {
+        "native_xyxy": [
+          98,
+          130,
+          162,
+          152
+        ],
+        "positive_luma_delta_mean": 0.0457,
+        "native_count_plus7": 2,
+        "native_count_changed": 13,
+        "red_excess_on": 5.4794,
+        "red_excess_off": 5.4283
+      },
+      "near_left_brick_and_kerb": {
+        "native_xyxy": [
+          10,
+          101,
+          78,
+          146
+        ],
+        "positive_luma_delta_mean": 0.0592,
+        "native_count_plus7": 16,
+        "native_count_changed": 29,
+        "red_excess_on": 20.3435,
+        "red_excess_off": 20.2931
+      },
+      "warm_lamp_rain": {
+        "native_xyxy": [
+          42,
+          31,
+          91,
+          99
+        ],
+        "positive_luma_delta_mean": 0.0234,
+        "native_count_plus7": 5,
+        "native_count_changed": 14,
+        "red_excess_on": 31.2384,
+        "red_excess_off": 31.2267
+      },
+      "eave_landing": {
+        "native_xyxy": [
+          190,
+          87,
+          213,
+          133
+        ],
+        "positive_luma_delta_mean": 0.057,
+        "native_count_plus7": 2,
+        "native_count_changed": 9,
+        "red_excess_on": 4.906,
+        "red_excess_off": 4.8644
+      }
+    },
+    "124:headlight": {
+      "wet_film": {
+        "native_xyxy": [
+          226,
+          142,
+          267,
+          164
+        ],
+        "positive_luma_delta_mean": 4.8702,
+        "native_count_plus7": 259,
+        "native_count_changed": 683,
+        "red_excess_on": 5.9673,
+        "red_excess_off": 4.5809
+      },
+      "wet_road": {
+        "native_xyxy": [
+          225,
+          140,
+          278,
+          176
+        ],
+        "positive_luma_delta_mean": 3.8658,
+        "native_count_plus7": 327,
+        "native_count_changed": 1308,
+        "red_excess_on": 2.8831,
+        "red_excess_off": 2.1792
+      },
+      "car_body": {
+        "native_xyxy": [
+          98,
+          130,
+          162,
+          152
+        ],
+        "positive_luma_delta_mean": 0.2027,
+        "native_count_plus7": 20,
+        "native_count_changed": 56,
+        "red_excess_on": 5.9155,
+        "red_excess_off": 5.7546
+      },
+      "near_left_brick_and_kerb": {
+        "native_xyxy": [
+          10,
+          101,
+          78,
+          146
+        ],
+        "positive_luma_delta_mean": 0.1125,
+        "native_count_plus7": 20,
+        "native_count_changed": 56,
+        "red_excess_on": 20.6201,
+        "red_excess_off": 20.5356
+      },
+      "warm_lamp_rain": {
+        "native_xyxy": [
+          42,
+          31,
+          91,
+          99
+        ],
+        "positive_luma_delta_mean": 0.072,
+        "native_count_plus7": 17,
+        "native_count_changed": 39,
+        "red_excess_on": 31.3753,
+        "red_excess_off": 31.3375
+      },
+      "eave_landing": {
+        "native_xyxy": [
+          190,
+          87,
+          213,
+          133
+        ],
+        "positive_luma_delta_mean": 0.1909,
+        "native_count_plus7": 9,
+        "native_count_changed": 28,
+        "red_excess_on": 4.9239,
+        "red_excess_off": 4.7788
+      }
+    },
+    "153:headlight": {
+      "wet_film": {
+        "native_xyxy": [
+          226,
+          142,
+          267,
+          164
+        ],
+        "positive_luma_delta_mean": 0.0158,
+        "native_count_plus7": 0,
+        "native_count_changed": 6,
+        "red_excess_on": 4.7284,
+        "red_excess_off": 4.7284
+      },
+      "wet_road": {
+        "native_xyxy": [
+          225,
+          140,
+          278,
+          176
+        ],
+        "positive_luma_delta_mean": 0.0228,
+        "native_count_plus7": 0,
+        "native_count_changed": 14,
+        "red_excess_on": 2.2369,
+        "red_excess_off": 2.2369
+      },
+      "car_body": {
+        "native_xyxy": [
+          98,
+          130,
+          162,
+          152
+        ],
+        "positive_luma_delta_mean": 7.1921,
+        "native_count_plus7": 696,
+        "native_count_changed": 766,
+        "red_excess_on": 22.5863,
+        "red_excess_off": 5.6009
+      },
+      "near_left_brick_and_kerb": {
+        "native_xyxy": [
+          10,
+          101,
+          78,
+          146
+        ],
+        "positive_luma_delta_mean": 0.701,
+        "native_count_plus7": 46,
+        "native_count_changed": 309,
+        "red_excess_on": 21.2113,
+        "red_excess_off": 20.551
+      },
+      "warm_lamp_rain": {
+        "native_xyxy": [
+          42,
+          31,
+          91,
+          99
+        ],
+        "positive_luma_delta_mean": 0.1659,
+        "native_count_plus7": 48,
+        "native_count_changed": 74,
+        "red_excess_on": 31.6888,
+        "red_excess_off": 31.5591
+      },
+      "eave_landing": {
+        "native_xyxy": [
+          190,
+          87,
+          213,
+          133
+        ],
+        "positive_luma_delta_mean": 0.0234,
+        "native_count_plus7": 1,
+        "native_count_changed": 3,
+        "red_excess_on": 4.7812,
+        "red_excess_off": 4.7528
+      }
+    },
+    "70:rain": {
+      "wet_film": {
+        "native_xyxy": [
+          226,
+          142,
+          267,
+          164
+        ],
+        "positive_luma_delta_mean": 0.5345,
+        "native_count_plus7": 29,
+        "native_count_changed": 44,
+        "red_excess_on": 4.6458,
+        "red_excess_off": 4.5953
+      },
+      "wet_road": {
+        "native_xyxy": [
+          225,
+          140,
+          278,
+          176
+        ],
+        "positive_luma_delta_mean": 0.6548,
+        "native_count_plus7": 79,
+        "native_count_changed": 104,
+        "red_excess_on": 2.1997,
+        "red_excess_off": 2.1724
+      },
+      "car_body": {
+        "native_xyxy": [
+          98,
+          130,
+          162,
+          152
+        ],
+        "positive_luma_delta_mean": 1.1138,
+        "native_count_plus7": 110,
+        "native_count_changed": 118,
+        "red_excess_on": 5.5781,
+        "red_excess_off": 5.1861
+      },
+      "near_left_brick_and_kerb": {
+        "native_xyxy": [
+          10,
+          101,
+          78,
+          146
+        ],
+        "positive_luma_delta_mean": 0.9713,
+        "native_count_plus7": 171,
+        "native_count_changed": 255,
+        "red_excess_on": 20.4701,
+        "red_excess_off": 20.1423
+      },
+      "warm_lamp_rain": {
+        "native_xyxy": [
+          42,
+          31,
+          91,
+          99
+        ],
+        "positive_luma_delta_mean": 1.6557,
+        "native_count_plus7": 297,
+        "native_count_changed": 342,
+        "red_excess_on": 31.4937,
+        "red_excess_off": 30.947
+      },
+      "eave_landing": {
+        "native_xyxy": [
+          190,
+          87,
+          213,
+          133
+        ],
+        "positive_luma_delta_mean": 0.8182,
+        "native_count_plus7": 52,
+        "native_count_changed": 95,
+        "red_excess_on": 4.9064,
+        "red_excess_off": 4.4712
+      }
+    },
+    "72:eave": {
+      "wet_film": {
+        "native_xyxy": [
+          226,
+          142,
+          267,
+          164
+        ],
+        "positive_luma_delta_mean": 0.0,
+        "native_count_plus7": 0,
+        "native_count_changed": 0,
+        "red_excess_on": 4.689,
+        "red_excess_off": 4.689
+      },
+      "wet_road": {
+        "native_xyxy": [
+          225,
+          140,
+          278,
+          176
+        ],
+        "positive_luma_delta_mean": 0.0,
+        "native_count_plus7": 0,
+        "native_count_changed": 0,
+        "red_excess_on": 2.217,
+        "red_excess_off": 2.217
+      },
+      "car_body": {
+        "native_xyxy": [
+          98,
+          130,
+          162,
+          152
+        ],
+        "positive_luma_delta_mean": 0.0,
+        "native_count_plus7": 0,
+        "native_count_changed": 0,
+        "red_excess_on": 5.5863,
+        "red_excess_off": 5.5863
+      },
+      "near_left_brick_and_kerb": {
+        "native_xyxy": [
+          10,
+          101,
+          78,
+          146
+        ],
+        "positive_luma_delta_mean": 0.0,
+        "native_count_plus7": 0,
+        "native_count_changed": 0,
+        "red_excess_on": 20.3763,
+        "red_excess_off": 20.3763
+      },
+      "warm_lamp_rain": {
+        "native_xyxy": [
+          42,
+          31,
+          91,
+          99
+        ],
+        "positive_luma_delta_mean": 0.0,
+        "native_count_plus7": 0,
+        "native_count_changed": 0,
+        "red_excess_on": 31.4821,
+        "red_excess_off": 31.4821
+      },
+      "eave_landing": {
+        "native_xyxy": [
+          190,
+          87,
+          213,
+          133
+        ],
+        "positive_luma_delta_mean": 0.1937,
+        "native_count_plus7": 2,
+        "native_count_changed": 3,
+        "red_excess_on": 4.6919,
+        "red_excess_off": 4.6474
+      }
+    }
+  },
+  "each_lamp_frame_independent": true,
+  "total_physical_queries": 15561667,
+  "direct_lamp_pose_frames": 330,
+  "active_phases": 154,
+  "strongest_ground_transport_phase": 115,
+  "neon_links_four_cuts": {
+    "sign": [
+      {
+        "dark_first_frame": 192,
+        "restored_first_frame": 197,
+        "red_excess_change_dark": -32.71818,
+        "red_excess_change_restore": 32.54545
+      },
+      {
+        "dark_first_frame": 204,
+        "restored_first_frame": 209,
+        "red_excess_change_dark": -30.44545,
+        "red_excess_change_restore": 29.92273
+      },
+      {
+        "dark_first_frame": 216,
+        "restored_first_frame": 220,
+        "red_excess_change_dark": -33.91591,
+        "red_excess_change_restore": 33.63864
+      },
+      {
+        "dark_first_frame": 229,
+        "restored_first_frame": 234,
+        "red_excess_change_dark": -30.75682,
+        "red_excess_change_restore": 30.77273
+      }
+    ],
+    "wall": [
+      {
+        "dark_first_frame": 192,
+        "restored_first_frame": 197,
+        "red_excess_change_dark": -27.24653,
+        "red_excess_change_restore": 27.15104
+      },
+      {
+        "dark_first_frame": 204,
+        "restored_first_frame": 209,
+        "red_excess_change_dark": -27.05729,
+        "red_excess_change_restore": 26.80729
+      },
+      {
+        "dark_first_frame": 216,
+        "restored_first_frame": 220,
+        "red_excess_change_dark": -27.63021,
+        "red_excess_change_restore": 27.44965
+      },
+      {
+        "dark_first_frame": 229,
+        "restored_first_frame": 234,
+        "red_excess_change_dark": -26.88021,
+        "red_excess_change_restore": 26.79861
+      }
+    ],
+    "wet_reflection": [
+      {
+        "dark_first_frame": 192,
+        "restored_first_frame": 197,
+        "red_excess_change_dark": -3.98889,
+        "red_excess_change_restore": 4.02685
+      },
+      {
+        "dark_first_frame": 204,
+        "restored_first_frame": 209,
+        "red_excess_change_dark": -3.85278,
+        "red_excess_change_restore": 3.88889
+      },
+      {
+        "dark_first_frame": 216,
+        "restored_first_frame": 220,
+        "red_excess_change_dark": -4.05139,
+        "red_excess_change_restore": 3.88472
+      },
+      {
+        "dark_first_frame": 229,
+        "restored_first_frame": 234,
+        "red_excess_change_dark": -4.02222,
+        "red_excess_change_restore": 3.86481
+      }
+    ]
+  },
+  "physical_low_beam_only_green_ceiling_observed": 0.00784157495945692
+}
