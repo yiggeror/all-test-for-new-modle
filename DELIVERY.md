@@ -1,41 +1,46 @@
-# 四季像素短片 · 成片交付（v2.3 返工进行中）
+# 四季像素短片 V2.3 · 成片交付（最新终审签收）
 
-> **当前状态（2026-11-24 Round 12）**：v2.2 实片复看检出春/秋树冠及冬枯树果冻式扭曲、冬夜无窗墙面凭空机械渐变假灯等严重像素质感问题，已打回并启动 **v2.3（Gate 2.3）全面返工**（详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 12）。以下 v2.2 链接暂作迭代对照留存，待 v2.3 终审通过后将以 `v2.3-rainroji-lofi-1080p` 正式替代。
+**v2.3 纯正像素质感终审版**已完成源码红线审计、全 330 帧独立运动热力图、高倍率连续帧放大条带、云端确定性重建与五段带音轨 1× 实片抽看抽听终审，并以**逐字节完全一致的同一份单个 1080p MP4 文件**完成 **GitHub Release** 与 **Google Drive** 双渠道发布（仓库不存放超限二进制文件）。
 
 ---
 
-## 当前对照版本：v2.2（待 v2.3 替代）
+## 最新推荐版本：v2.3（零果冻扭曲 · 零凭空机械假灯 · 纯正像素画质感）
 
 ### 双渠道正式链接（两处逐字节完全一致）
-- **GitHub Release 页面**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.2-rainroji-lofi-1080p>
-- **GitHub Release 单文件直链**：<https://github.com/yiggeror/all-test-for-new-modle/releases/download/v2.2-rainroji-lofi-1080p/Rainroji_Lofi_V2.2_1080p.mp4>
-- **Google Drive 单文件**：<https://drive.google.com/file/d/1y9qdcQPk3geWR6BVjEySXCH69rjytw_3/view?usp=drivesdk>（File ID：`1y9qdcQPk3geWR6BVjEySXCH69rjytw_3`）
+- **GitHub Release 页面**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.3-rainroji-lofi-1080p>
+- **GitHub Release 单文件直链**：<https://github.com/yiggeror/all-test-for-new-modle/releases/download/v2.3-rainroji-lofi-1080p/Rainroji_Lofi_V2.3_1080p.mp4>
+- **Google Drive 单文件**：<https://drive.google.com/file/d/1OHGVCFF3U3X4Y-5tgJif8t7-Fo4H99rr/view?usp=drivesdk>（File ID：`1OHGVCFF3U3X4Y-5tgJif8t7-Fo4H99rr`）
 
-### v2.2 已发布成品实测参数
+### v2.3 已发布成品实测参数
 
 | 项目 | 参数 |
 | --- | --- |
-| 文件名 | `Rainroji_Lofi_V2.2_1080p.mp4` |
-| 文件大小 | `196,231,965` 字节（187.14 MiB，GitHub Release 与 Google Drive 完全一致） |
-| SHA-256 | `334ef2fde251af347048bc608d202d9a44700a8810e886dd2e4c4a7ec39b66d4` |
-| MD5 | `07192e603639e133dce2a3339e833cd4` |
-| 视频 | `1920×1080`（由 `320×180` 原生像素画经 `6×` 最近邻无损整数放大）· 30 fps · 5,917 帧 · H.264 High / CRF 14 / yuv420p / BT.709 / faststart |
-| 时长与码率 | 197.233333 秒（3 分 17.23 秒）· 容器约 7.96 Mb/s · 视频约 7.69 Mb/s |
-| 音频 | 无损流拷贝沿用 v2.0 全部 9,247 个 AAC-LC 包（48 kHz 立体声 · 256 kb/s） |
+| 文件名 | `Rainroji_Lofi_V2.3_1080p.mp4` |
+| 文件大小 | `124,559,510` 字节（118.79 MiB，GitHub Release 与 Google Drive 完全一致） |
+| SHA-256 | `e33bc5e738ed472fabdcb8ba1837779087c7c8f3e3c2a28882b8d4604453dee8` |
+| MD5 | `b2bb6620cc77b9e7f29aa5b7dd6fee65` |
+| 视频 | `1920×1080`（由 `320×180` 原生像素画经 `6×` 最近邻无损整数放大）· 30 fps · `5,917` 帧 · H.264 High / CRF 14 / yuv420p / BT.709 / faststart |
+| 时长与码率 | 197.233333 秒（3 分 17.23 秒）· 容器约 5.05 Mb/s · 视频约 4.79 Mb/s |
+| 音频 | 无损流拷贝沿用 v2.0 全部 9,247 个 AAC-LC 包（48 kHz 立体声 · 257.5 kb/s） |
 | 实测响度 | −16.0 LUFS-I · −4.7 dBFS True Peak · LRA 8.3 LU（零削波） |
-| 发布构建流水线 | GitHub Actions `Publish Rainroji Lo-Fi V2.2 1080p Release`（Run `#45350243443`，Ubuntu 24.04 + FFmpeg 6.1.1 + Python 3.12） |
+| 发布构建流水线 | GitHub Actions `Publish Rainroji Lo-Fi V2.3 1080p Release`（Run `#45403465994`，Ubuntu 24.04 + FFmpeg 6.1.1 + Python 3.12） |
 
-### v2.2 核心质变升级一览
-- **春 · 老巷暮色落花**：彻底清除断头屋脊猫与巨型车把雀；右下院内旧晾衣架上的两片衣物按左暖右冷环境光随风柔和起褶飘动，粉花树冠随阵风整片轻晃，一阵暖金花瓣斜穿路灯光锥。
-- **夏 · 雨夜街角小店**：彻底清除比例失调巨猫与平行条形码红水洼；新增画外车辆暖色车灯依次扫过湿沥青（51.1s）、红车漆面与低墙（52.1s）；右下湿地升级为有机湿润、随雨滴波场散开的斑驳暗红碎光，并与“网吧”红霓虹、邻侧砖墙红光在 53.4–54.8s 保持 4 次 100% 同帧骤暗联动。
-- **秋 · 梧桐黄昏大道**：彻底清除违和冷色大鸽与实心白条热汽；升级为阵性秋风吹动梧桐冠与叶间钠灯微颤、金叶贴地斜卷过斑马线、报刊亭暖窗内柔和模糊的摊主微动剪影、极柔半透明暖雾与远空两只雾化小归鸟。
-- **冬 · 雪夜家属院**：彻底清除违和复用的荧光大鸟；修复值班室暖窗翻页与灯罩粘连（148.467s 峰值帧书页与台灯清晰分离 >4 原生像素，落雪经过玻璃前），屋顶斜烟柔和融入蓝灰夜空，配合路灯光锥雪阵、树梢抖雪与远楼声控灯。
+### v2.3 相对 v2.2 核心修复与质变
+- **春 · 老巷暮色**：彻底清除整树/树干正弦波浪形变，树干与樱花主冠全 330 帧 100% 像素锁定稳固（零果冻感）；右下院内米白/浅灰蓝素布与暖砖墙清晰分离，采用 5 帧一换（6 fps）离散像素步进摆动；暖路灯光锥内落花呈现平静 → 阵风斜穿 → 平静的呼吸节奏。
+- **夏 · 雨夜街角**：取消 31 帧抽帧插值，升级为 330 帧逐帧真实双车灯传输（零重影）；暖琥珀光斑柔和轻掠湿路（51.133s）与红车车身（52.100s），不再把右下有机红水洼冲糊发白；“网吧”红霓虹 4 次硬切瞬暗（53.4–54.8s）+ 邻墙红光 + 湿沥青碎红倒影 100% 同帧联动；左灯雨丝与檐滴更锐利克制。
+- **秋 · 梧桐黄昏**：彻底删除 `map_coordinates` 2D 液化扭曲，双侧梧桐树冠与树干 100% 像素锁定锐利；清除报刊亭脏暗糊块与雾中红渍；聚焦稳固树影下的分层落叶、5 帧姿态保持的贴地翻滚金叶、暗底柔和茶汽与紫暮空隙 3 只可读剪影归鸟。
+- **冬 · 雪夜家属院**：彻底拆除空白墙面凭空浮现的 5 盏机械渐变假楼道灯与前景枯树 2D 扭曲；远楼仅留有实体窗框的固定暖窗；完整保留值班室干净翻页（148.500s 峰值书页与台灯分离 >4 原生像素，零亮桥粘连）、屋顶斜飘淡烟、路灯光锥风雪与枝梢抖雪。
 
 ---
 
 ## 历史归档版本
 
-### v2.1（已被 v2.2 全面取代 — 仅作迭代归档）
+### v2.2（已被 v2.3 全面取代 — 仅作迭代归档）
+- **GitHub Release 页面**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.2-rainroji-lofi-1080p>
+- **Google Drive 单文件**：<https://drive.google.com/file/d/1y9qdcQPk3geWR6BVjEySXCH69rjytw_3/view?usp=drivesdk>
+- **文件名 / 大小 / SHA-256**：`Rainroji_Lofi_V2.2_1080p.mp4` / `196,231,965` 字节 / `334ef2fde251af347048bc608d202d9a44700a8810e886dd2e4c4a7ec39b66d4`
+
+### v2.1（已被后续版本取代 — 仅作迭代归档）
 - **GitHub Release 页面**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.1-rainroji-lofi-1080p>
 - **Google Drive 单文件**：<https://drive.google.com/file/d/1DIg66GW6FHtitbUyHgslwJta29awbtD-/view?usp=drivesdk>
 - **文件名 / 大小 / SHA-256**：`Rainroji_Lofi_V2.1_1080p.mp4` / `153,200,285` 字节 / `62ceff09d8cd365f80f74686ae385f7aec6a138da27e2a428402483a23cc098b`
@@ -49,5 +54,5 @@
 
 ## 从仓库一键重建与核查文档
 
-- v2.2 重建：`python tools/gate3_v22/reproduce.py`（说明见 [tools/gate3_v22/README.md](tools/gate3_v22/README.md)）
-- v2.2 实解码抽帧与独立复验：[春→夏转场](previews/gate_3_2/decoded_transition_spring_summer.jpg) · [夏→秋转场](previews/gate_3_2/decoded_transition_summer_autumn.jpg) · [秋→冬转场](previews/gate_3_2/decoded_transition_autumn_winter.jpg) · [关键动作核查](previews/gate_3_2/decoded_cue_check.jpg) · [独立复验报告](previews/gate_3_2/QA.md) · [完整音乐署名（CC BY 4.0）](CREDITS.md) · [全流程审片记录](REVIEW_LOG.md)
+- v2.3 重建：`python tools/gate3_v23/reproduce.py`（说明见 [tools/gate3_v23/README.md](tools/gate3_v23/README.md)）
+- v2.3 实解码抽帧与独立复验：[春→夏转场](previews/gate_3_3/decoded_transition_spring_summer.jpg) · [夏→秋转场](previews/gate_3_3/decoded_transition_summer_autumn.jpg) · [秋→冬转场](previews/gate_3_3/decoded_transition_autumn_winter.jpg) · [夏冬关键动作](previews/gate_3_3/decoded_cue_check.jpg) · [春布持帧与秋叶](previews/gate_3_3/decoded_held_spring_and_autumn_leaf.jpg) · [独立复验报告](previews/gate_3_3/QA.md) · [完整音乐署名（CC BY 4.0）](CREDITS.md) · [全流程审片记录](REVIEW_LOG.md)
