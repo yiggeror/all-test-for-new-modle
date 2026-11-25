@@ -1,0 +1,20 @@
+{
+  "review_commit": "347e47c41b5c5ee19cbf0a289e1d96aac57d9fba",
+  "approved_base_commit": "ffd3b67dc2d7a7bf84e9cb58d866ae3b0d0d8d0a",
+  "source_base_zip_git_blob": "171898e7d4254d66da856fd138adf264e0369418",
+  "clean_actual_render_not_from_old_RGB_or_plate_cache": true,
+  "lossless": {
+    "output": "spring_loop.mp4",
+    "bytes": 7598883,
+    "sha256": "97925b42050839be716c283b49e55f0f99ad3b3cefdae260fe0b65ce97eedfd6",
+    "parts": [
+      {
+        "path": "lossless_parts/spring/part-00.bin",
+        "bytes": 7598883,
+        "sha256": "97925b42050839be716c283b49e55f0f99ad3b3cefdae260fe0b65ce97eedfd6"
+      }
+    ]
+  },
+  "native_npy_sha256": "8424d2fedc2b95b3f91739088001d4f3f6509b92258ef9f01352b3291d17118f",
+  "proxy_sha256": "a7654d2a69ede25cdd821f6d2361aa7c3edb793462c55a79938c672c5282bc78"
+}

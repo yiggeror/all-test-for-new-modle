@@ -1,0 +1,24 @@
+{
+  "frame_count": 660,
+  "time_base": "1/15360",
+  "first_pts": 0,
+  "last_pts": 337408,
+  "fixed_pts_tick": 512,
+  "lossless_parts_verified_against_mp4": {
+    "output": "autumn_loop.mp4",
+    "bytes": 9466657,
+    "sha256": "82152ac538b069b7a04ffa22e836183f35791f9ef97c6d1b312bca7cddfd7d8c",
+    "parts": [
+      {
+        "path": "lossless_parts/autumn/part-00.bin",
+        "bytes": 8000000,
+        "sha256": "991ac8f7a8b451bc9a3176d69c93f0599c1d06dcec20c8e0614e1ef401f72914"
+      },
+      {
+        "path": "lossless_parts/autumn/part-01.bin",
+        "bytes": 1466657,
+        "sha256": "c8b7e5de1e7f46b9bc9885bb9b4d824047bf59e6bb62f80e8956741cefe9e105"
+      }
+    ]
+  }
+}

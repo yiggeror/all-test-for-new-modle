@@ -1,0 +1,17 @@
+{
+  "frame_count": 330,
+  "base_and_light_group_arrays_byte_exact_sha256": {
+    "static": "2b09a5e43efcdb7bda9a6fc6953ce96453a57574ac71d842b57e152e652bb0a0",
+    "lamp_r": "7da5720f648db00f7bb228fc0eb875606a9708cb9dcfd324419332691c98b584",
+    "tube_r": "380a530c5e8cb262c5c7cc14b9c297ecc031fd1fd91501b23861ae49c5a3c645",
+    "tv_r": "63926d8deae5bef75ca7b3de19227a25a150346da0201772d966d9683a1da287"
+  },
+  "actual_v24_layer_isolated_sha256": {
+    "rolling": "8ece0b8d294d891ed37926e1e1df5316b04fedb572d17385f4c167d434f23258",
+    "steam": "bfbf135b1254ab6ed1af4cbac9605fbb319d859af6e185a20d127d62be330045",
+    "birds": "ce336959511a5135ac4924bd246725a32c04a61b9a2347cbfcfcce5c68597e4e",
+    "lamp": "69bc41f99b4cb0d00bab4e0fd5afb9bbe35a42e2512918ba7814df0671191929",
+    "kiosk": "6fce2c505ffc7beea1980ed6d630e96aff167ffc2942b60d1819a6b7c667d105",
+    "tv": "50d9ee43904f55b2f47dceb2d34b5d19fd0ec3427521a6f24e30ba8562abea81"
+  }
+}

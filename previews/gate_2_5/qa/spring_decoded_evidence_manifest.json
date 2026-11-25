@@ -1,0 +1,83 @@
+{
+  "spring_peak_000_cat_present_initial.png": {
+    "frame": 0,
+    "bytes": 100688,
+    "sha256": "5d7a5a672df4cae055dea60c8509678f8395499cf607f8872e2bc470793e1bc7",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_065_cat_toward_warm_left.png": {
+    "frame": 65,
+    "bytes": 101005,
+    "sha256": "d08d39453ab03f2d1dc4e6d99aea3eb0aae8018ab79679486d6d22cbcab42afd",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_120_swallows_and_ground_cat.png": {
+    "frame": 120,
+    "bytes": 100780,
+    "sha256": "19359634128b87dcc03b831647ad06d82668674e7bf103eb1ed749fdd684ea3b",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_125_cat_scent_pause.png": {
+    "frame": 125,
+    "bytes": 100622,
+    "sha256": "037cd772ae17bd6826084560a5d6df066e82b7e4c66b0139f8967dbd5ee4fc80",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_141_locked_lamp_notch.png": {
+    "frame": 141,
+    "bytes": 100667,
+    "sha256": "211526f39b8248b890f40fa34fae2f29a523d0aaf3ad9cadc5cae59c5956e731",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_175_cat_rounds_turn.png": {
+    "frame": 175,
+    "bytes": 100763,
+    "sha256": "c399d98fb75f9b8c0e74fc731772b2e89410912d7c8ee258896e3ba08ed109b2",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_225_bilateral_petals_and_return_path.png": {
+    "frame": 225,
+    "bytes": 100717,
+    "sha256": "63a7b56fdeea6a361ebd6eb16ae6d217bb72f982e64a63950042c2595203724f",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_265_cat_on_offset_return.png": {
+    "frame": 265,
+    "bytes": 100863,
+    "sha256": "85faee795bb8dc37de044295005fea3892da3efaa88d4b1183e59aa9f58b55e3",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_330_seam_cat_same_frame_again.png": {
+    "frame": 330,
+    "bytes": 100688,
+    "sha256": "5d7a5a672df4cae055dea60c8509678f8395499cf607f8872e2bc470793e1bc7",
+    "size": [
+      1920,
+      1080
+    ]
+  }
+}

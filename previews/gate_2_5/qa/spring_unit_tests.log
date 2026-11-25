@@ -1,0 +1,16 @@
+test_exact_world_closure_and_true_path_separation (test_cat25.CourtGeometry.test_exact_world_closure_and_true_path_separation) ... ok
+test_planted_feet_never_sink_or_resize_head (test_cat25.CourtGeometry.test_planted_feet_never_sink_or_resize_head) ... ok
+test_same_cat_watertight_equal_at_actual_wrap (test_cat25.CourtGeometry.test_same_cat_watertight_equal_at_actual_wrap) ... ok
+test_geometry_is_held_on_five_frames (test_flock24.Flock.test_geometry_is_held_on_five_frames) ... ok
+test_glide_and_opposed_wingbeats_are_different_world_shapes (test_flock24.Flock.test_glide_and_opposed_wingbeats_are_different_world_shapes) ... ok
+test_outside_natural_transit_is_unchanged (test_flock24.Flock.test_outside_natural_transit_is_unchanged) ... ok
+test_primary_geometry_cannot_paint_through_foreground (test_flock24.Flock.test_primary_geometry_cannot_paint_through_foreground) ... ok
+test_5f_holds_and_exact_repeat (test_wind25.Wind.test_5f_holds_and_exact_repeat) ... ok
+test_empty_mask (test_wind25.Wind.test_empty_mask) ... ok
+test_mask_edges_and_depth_stay_locked (test_wind25.Wind.test_mask_edges_and_depth_stay_locked) ... ok
+test_public_denominator_includes_mixed_and_protected_without_tapping_them (test_wind25.Wind.test_public_denominator_includes_mixed_and_protected_without_tapping_them) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.919s
+
+OK

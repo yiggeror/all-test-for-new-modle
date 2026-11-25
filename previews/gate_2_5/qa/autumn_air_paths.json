@@ -1,0 +1,2353 @@
+{
+  "path_columns": [
+    "x_native",
+    "y_native",
+    "range_m",
+    "alpha",
+    "world_x",
+    "world_y",
+    "world_z",
+    "camera_z",
+    "geometry_pixel_count",
+    "visible_pixel_count",
+    "max_sample_coverage"
+  ],
+  "source_count": 88,
+  "visible_trajectory_count": 88,
+  "max_concurrent": 37,
+  "median_concurrent": 29.0,
+  "ids": [
+    {
+      "id": "A00",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -4.087957382202148,
+        8.176793098449707,
+        12.245271682739258
+      ],
+      "seed_native_xy": [
+        67,
+        11
+      ],
+      "mesh_triangle": 9368,
+      "distance_m": 19.351964950561523,
+      "release_s": 0.317,
+      "duration_s": 4.5945981876977475,
+      "physical_length_m": 0.2132355542053755,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 4.0,
+      "pre_snap_world_xyz": [
+        -5.958751311926989,
+        8.132386379752504,
+        9.489152421869179
+      ],
+      "native_raster_visible_frames": 82,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 41
+    },
+    {
+      "id": "A01",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -2.2895004749298096,
+        6.261052131652832,
+        10.915445327758789
+      ],
+      "seed_native_xy": [
+        110,
+        55
+      ],
+      "mesh_triangle": 4227,
+      "distance_m": 20.099233627319336,
+      "release_s": 5.9190000000000005,
+      "duration_s": 4.921871084560697,
+      "physical_length_m": 0.1732932236889522,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -2.9709939424188603,
+        7.156718942349582,
+        10.597408612246857
+      ],
+      "native_raster_visible_frames": 105,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 26
+    },
+    {
+      "id": "A02",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        6.357215881347656,
+        7.395879745483398,
+        8.245838165283203
+      ],
+      "seed_native_xy": [
+        272,
+        38
+      ],
+      "mesh_triangle": 43311,
+      "distance_m": 23.51014518737793,
+      "release_s": 0.5210000000000008,
+      "duration_s": 5.948434336960275,
+      "physical_length_m": 0.18335668775958106,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        5.47182781592703,
+        7.015820814080781,
+        7.437962188792375
+      ],
+      "native_raster_visible_frames": 150,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 9
+    },
+    {
+      "id": "A03",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -4.163881301879883,
+        8.80182933807373,
+        9.938373565673828
+      ],
+      "seed_native_xy": [
+        76,
+        7
+      ],
+      "mesh_triangle": 9557,
+      "distance_m": 21.695722579956055,
+      "release_s": 6.123000000000001,
+      "duration_s": 4.955612607979911,
+      "physical_length_m": 0.2047871303124855,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 3.0,
+      "pre_snap_world_xyz": [
+        -3.834739229186807,
+        8.312789425871047,
+        6.007509538916561
+      ],
+      "native_raster_visible_frames": 64,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 68
+    },
+    {
+      "id": "A04",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -3.4931421279907227,
+        8.247610092163086,
+        0.9138641357421875
+      ],
+      "seed_native_xy": [
+        111,
+        38
+      ],
+      "mesh_triangle": 56311,
+      "distance_m": 30.316301345825195,
+      "release_s": 0.7250000000000014,
+      "duration_s": 7.63813633156174,
+      "physical_length_m": 0.18521029853137722,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 2.888888888888889,
+      "pre_snap_world_xyz": [
+        -3.286439322266724,
+        7.179663815087952,
+        3.316121856708853
+      ],
+      "native_raster_visible_frames": 93,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 112
+    },
+    {
+      "id": "A05",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        2.7421462535858154,
+        7.907051086425781,
+        4.936397552490234
+      ],
+      "seed_native_xy": [
+        201,
+        36
+      ],
+      "mesh_triangle": 37860,
+      "distance_m": 26.168500900268555,
+      "release_s": 6.327000000000002,
+      "duration_s": 6.7800981468645825,
+      "physical_length_m": 0.19422630356912687,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 3.7777777777777777,
+      "pre_snap_world_xyz": [
+        3.5659346782050365,
+        7.7833897092324325,
+        4.218186584074455
+      ],
+      "native_raster_visible_frames": 77,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 105
+    },
+    {
+      "id": "A06",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -3.042572498321533,
+        6.093095302581787,
+        -0.4016075134277344
+      ],
+      "seed_native_xy": [
+        119,
+        68
+      ],
+      "mesh_triangle": 58155,
+      "distance_m": 31.401487350463867,
+      "release_s": 0.929000000000002,
+      "duration_s": 6.548281270068836,
+      "physical_length_m": 0.16200626161108006,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -3.0234804253285463,
+        6.844331149793757,
+        2.500034712282023
+      ],
+      "native_raster_visible_frames": 118,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 57
+    },
+    {
+      "id": "A07",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -7.2679338455200195,
+        5.809544563293457,
+        4.928401947021484
+      ],
+      "seed_native_xy": [
+        44,
+        69
+      ],
+      "mesh_triangle": 21091,
+      "distance_m": 26.960676193237305,
+      "release_s": 6.530999999999999,
+      "duration_s": 5.451198967123839,
+      "physical_length_m": 0.18703469266262798,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -5.564698665540099,
+        6.905020974257104,
+        6.021648737342727
+      ],
+      "native_raster_visible_frames": 78,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 67
+    },
+    {
+      "id": "A08",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        2.3191137313842773,
+        6.845154762268066,
+        1.9672050476074219
+      ],
+      "seed_native_xy": [
+        191,
+        56
+      ],
+      "mesh_triangle": 68633,
+      "distance_m": 28.979198455810547,
+      "release_s": 1.1330000000000027,
+      "duration_s": 5.525368555140261,
+      "physical_length_m": 0.14993453416421207,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 4.0,
+      "pre_snap_world_xyz": [
+        4.020556700779042,
+        7.785420949907959,
+        2.871975563575842
+      ],
+      "native_raster_visible_frames": 92,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 54
+    },
+    {
+      "id": "A09",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -3.307081937789917,
+        6.62099552154541,
+        11.768390655517578
+      ],
+      "seed_native_xy": [
+        86,
+        46
+      ],
+      "mesh_triangle": 3535,
+      "distance_m": 19.446619033813477,
+      "release_s": 6.7350000000000065,
+      "duration_s": 6.939689353764269,
+      "physical_length_m": 0.19072035955849337,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -2.9954785064070744,
+        6.996935731435222,
+        10.814399658956658
+      ],
+      "native_raster_visible_frames": 137,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 39
+    },
+    {
+      "id": "A10",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -6.980909824371338,
+        5.964980125427246,
+        5.70280647277832
+      ],
+      "seed_native_xy": [
+        45,
+        66
+      ],
+      "mesh_triangle": 21725,
+      "distance_m": 26.144067764282227,
+      "release_s": 1.3370000000000033,
+      "duration_s": 6.7512805930787305,
+      "physical_length_m": 0.1866955060765363,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -5.305078815401133,
+        7.259344190453517,
+        4.0010532002421675
+      ],
+      "native_raster_visible_frames": 121,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 51
+    },
+    {
+      "id": "A11",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -2.5974197387695312,
+        6.654024600982666,
+        -13.947273254394531
+      ],
+      "seed_native_xy": [
+        136,
+        68
+      ],
+      "mesh_triangle": 80682,
+      "distance_m": 44.87609100341797,
+      "release_s": 6.939,
+      "duration_s": 6.877636073326518,
+      "physical_length_m": 0.19657012287510126,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -3.042794427317852,
+        8.065923888519706,
+        -10.220621444081873
+      ],
+      "native_raster_visible_frames": 150,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 32
+    },
+    {
+      "id": "A12",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        3.1724414825439453,
+        6.8571977615356445,
+        -11.3692626953125
+      ],
+      "seed_native_xy": [
+        190,
+        65
+      ],
+      "mesh_triangle": 96119,
+      "distance_m": 42.320438385009766,
+      "release_s": 1.5409999999999968,
+      "duration_s": 4.954857642756113,
+      "physical_length_m": 0.2143054397260855,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        4.166537355681043,
+        7.523671728506977,
+        -12.737235202644984
+      ],
+      "native_raster_visible_frames": 82,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 51
+    },
+    {
+      "id": "A13",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -3.3953611850738525,
+        8.938764572143555,
+        -9.374629974365234
+      ],
+      "seed_native_xy": [
+        125,
+        43
+      ],
+      "mesh_triangle": 81573,
+      "distance_m": 40.55143737792969,
+      "release_s": 7.143000000000001,
+      "duration_s": 5.638518546592534,
+      "physical_length_m": 0.1978643732765179,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 2.7777777777777777,
+      "pre_snap_world_xyz": [
+        -5.580300098495237,
+        7.741827292073042,
+        -5.564950755384947
+      ],
+      "native_raster_visible_frames": 56,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 95
+    },
+    {
+      "id": "A14",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        2.357171058654785,
+        6.7327351570129395,
+        -22.17209243774414
+      ],
+      "seed_native_xy": [
+        178,
+        70
+      ],
+      "mesh_triangle": 132929,
+      "distance_m": 53.0492057800293,
+      "release_s": 1.7449999999999903,
+      "duration_s": 7.612506259824899,
+      "physical_length_m": 0.16515111620402645,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        4.017953866719223,
+        7.882676271901723,
+        -19.29643127773684
+      ],
+      "native_raster_visible_frames": 138,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 66
+    },
+    {
+      "id": "A15",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -4.965276718139648,
+        5.870979309082031,
+        -13.453189849853516
+      ],
+      "seed_native_xy": [
+        114,
+        75
+      ],
+      "mesh_triangle": 85400,
+      "distance_m": 44.57231140136719,
+      "release_s": 7.346999999999994,
+      "duration_s": 4.565810514566457,
+      "physical_length_m": 0.17289180854517,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -3.7533678972543183,
+        6.979516855474113,
+        -7.185462332363045
+      ],
+      "native_raster_visible_frames": 99,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 23
+    },
+    {
+      "id": "A16",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        4.847786903381348,
+        6.024233818054199,
+        -8.004276275634766
+      ],
+      "seed_native_xy": [
+        210,
+        72
+      ],
+      "mesh_triangle": 102573,
+      "distance_m": 39.094886779785156,
+      "release_s": 1.948999999999998,
+      "duration_s": 7.658046547794196,
+      "physical_length_m": 0.19416124612465807,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        4.923342582656787,
+        6.307845725079767,
+        -7.0939489611240845
+      ],
+      "native_raster_visible_frames": 127,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 76
+    },
+    {
+      "id": "A17",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -3.5135653018951416,
+        6.6174821853637695,
+        -13.059711456298828
+      ],
+      "seed_native_xy": [
+        127,
+        68
+      ],
+      "mesh_triangle": 86579,
+      "distance_m": 44.05839157104492,
+      "release_s": 7.551000000000002,
+      "duration_s": 7.024833980376783,
+      "physical_length_m": 0.20423563235413117,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -4.577358187259412,
+        7.170278705832061,
+        -10.186237830913207
+      ],
+      "native_raster_visible_frames": 112,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 75
+    },
+    {
+      "id": "A18",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        2.9844629764556885,
+        5.810962677001953,
+        -21.70336151123047
+      ],
+      "seed_native_xy": [
+        183,
+        77
+      ],
+      "mesh_triangle": 132878,
+      "distance_m": 52.5842399597168,
+      "release_s": 2.153000000000006,
+      "duration_s": 6.102675147573201,
+      "physical_length_m": 0.19593546459611016,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        5.243122772383871,
+        6.393728515762754,
+        -18.082563623532504
+      ],
+      "native_raster_visible_frames": 147,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 17
+    },
+    {
+      "id": "A19",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -2.8298418521881104,
+        7.014086723327637,
+        -39.313838958740234
+      ],
+      "seed_native_xy": [
+        144,
+        72
+      ],
+      "mesh_triangle": 139513,
+      "distance_m": 70.21636199951172,
+      "release_s": 7.7549999999999955,
+      "duration_s": 7.278484563591057,
+      "physical_length_m": 0.2137683779827309,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -3.4713038583882825,
+        7.434061439040371,
+        -40.37284172642869
+      ],
+      "native_raster_visible_frames": 97,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 96
+    },
+    {
+      "id": "A20",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        3.072777509689331,
+        5.884243965148926,
+        -44.84092330932617
+      ],
+      "seed_native_xy": [
+        177,
+        79
+      ],
+      "mesh_triangle": 162333,
+      "distance_m": 75.70133972167969,
+      "release_s": 2.3569999999999993,
+      "duration_s": 6.976075066520357,
+      "physical_length_m": 0.18360507370645707,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        4.066255417916999,
+        7.258442795092217,
+        -40.854342829917094
+      ],
+      "native_raster_visible_frames": 117,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 68
+    },
+    {
+      "id": "A21",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -3.4704229831695557,
+        6.246540546417236,
+        -23.464550018310547
+      ],
+      "seed_native_xy": [
+        134,
+        74
+      ],
+      "mesh_triangle": 114135,
+      "distance_m": 54.411170959472656,
+      "release_s": 7.959000000000003,
+      "duration_s": 7.0514852540473205,
+      "physical_length_m": 0.1957889844538928,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 4.888888888888889,
+      "pre_snap_world_xyz": [
+        -5.014984514394066,
+        7.196322203371722,
+        -24.054860692533424
+      ],
+      "native_raster_visible_frames": 97,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 92
+    },
+    {
+      "id": "A22",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        2.941042423248291,
+        6.378154754638672,
+        -23.43164825439453
+      ],
+      "seed_native_xy": [
+        182,
+        73
+      ],
+      "mesh_triangle": 134379,
+      "distance_m": 54.3213005065918,
+      "release_s": 2.560999999999993,
+      "duration_s": 7.2703394190963255,
+      "physical_length_m": 0.187713126460038,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 4.888888888888889,
+      "pre_snap_world_xyz": [
+        4.026699002970425,
+        7.84807288097313,
+        -27.32220538734829
+      ],
+      "native_raster_visible_frames": 67,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 126
+    },
+    {
+      "id": "A23",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -2.1286063194274902,
+        6.7766618728637695,
+        -23.349933624267578
+      ],
+      "seed_native_xy": [
+        144,
+        70
+      ],
+      "mesh_triangle": 111944,
+      "distance_m": 54.23817825317383,
+      "release_s": 8.163000000000011,
+      "duration_s": 7.686350009874915,
+      "physical_length_m": 0.20922024206897485,
+      "source_history": "v2.3 path/clock/leaf retained; source snapped to true leaf",
+      "sample_clear_line_escape": 4.888888888888889,
+      "pre_snap_world_xyz": [
+        -2.6277588733561683,
+        8.283745713709376,
+        -28.710868384533786
+      ],
+      "native_raster_visible_frames": 156,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 50
+    },
+    {
+      "id": "A24",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -4.263816833496094,
+        6.170190811157227,
+        13.337141036987305
+      ],
+      "seed_native_xy": [
+        57,
+        53
+      ],
+      "mesh_triangle": 12667,
+      "distance_m": 18.088764190673828,
+      "release_s": 1.15,
+      "duration_s": 6.356729507163043,
+      "physical_length_m": 0.20097532914452015,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        -3.863952159881592,
+        6.331213008880615,
+        14.247783660888672
+      ],
+      "native_raster_visible_frames": 160,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 10
+    },
+    {
+      "id": "A25",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -3.0012826919555664,
+        8.050626754760742,
+        11.059638977050781
+      ],
+      "seed_native_xy": [
+        95,
+        18
+      ],
+      "mesh_triangle": 9558,
+      "distance_m": 20.2686767578125,
+      "release_s": 4.245,
+      "duration_s": 4.5568215723638446,
+      "physical_length_m": 0.21792818266130992,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 2.0,
+      "pre_snap_world_xyz": [
+        -3.002049446105957,
+        8.038441192626953,
+        11.059225082397461
+      ],
+      "native_raster_visible_frames": 79,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 43
+    },
+    {
+      "id": "A26",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -4.708859443664551,
+        7.6962785720825195,
+        13.734989166259766
+      ],
+      "seed_native_xy": [
+        44,
+        16
+      ],
+      "mesh_triangle": 13799,
+      "distance_m": 18.005367279052734,
+      "release_s": 7.34,
+      "duration_s": 5.668811056467732,
+      "physical_length_m": 0.18898956295071068,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 4.0,
+      "pre_snap_world_xyz": [
+        -4.77507209777832,
+        7.638651382446289,
+        14.474753379821777
+      ],
+      "native_raster_visible_frames": 104,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 46
+    },
+    {
+      "id": "A27",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -3.350799798965454,
+        8.49512767791748,
+        11.53448486328125
+      ],
+      "seed_native_xy": [
+        86,
+        7
+      ],
+      "mesh_triangle": 9550,
+      "distance_m": 19.94441795349121,
+      "release_s": 10.435,
+      "duration_s": 4.832348326222197,
+      "physical_length_m": 0.1865911605272911,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 2.6666666666666665,
+      "pre_snap_world_xyz": [
+        -3.393040418624878,
+        8.527998458862305,
+        11.55536937713623
+      ],
+      "native_raster_visible_frames": 62,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 67
+    },
+    {
+      "id": "A28",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -3.196781635284424,
+        9.614774703979492,
+        1.5530223846435547
+      ],
+      "seed_native_xy": [
+        114,
+        18
+      ],
+      "mesh_triangle": 53486,
+      "distance_m": 29.840375900268555,
+      "release_s": 2.530000000000001,
+      "duration_s": 6.692328953916008,
+      "physical_length_m": 0.15760362879276846,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 1.0,
+      "pre_snap_world_xyz": [
+        -3.1987130641937256,
+        9.599615585327149,
+        1.553374171257019
+      ],
+      "native_raster_visible_frames": 73,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 105
+    },
+    {
+      "id": "A29",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -4.171570777893066,
+        7.673155784606934,
+        13.360843658447266
+      ],
+      "seed_native_xy": [
+        59,
+        18
+      ],
+      "mesh_triangle": 13781,
+      "distance_m": 18.218931198120117,
+      "release_s": 5.625,
+      "duration_s": 6.067927606176804,
+      "physical_length_m": 0.1541528318346129,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 4.111111111111111,
+      "pre_snap_world_xyz": [
+        -4.164034843444824,
+        7.655795108795166,
+        13.39575481414795
+      ],
+      "native_raster_visible_frames": 137,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 26
+    },
+    {
+      "id": "A30",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -4.793792247772217,
+        8.719465255737305,
+        2.309762954711914
+      ],
+      "seed_native_xy": [
+        90,
+        29
+      ],
+      "mesh_triangle": 61919,
+      "distance_m": 29.197526931762695,
+      "release_s": 8.719999999999999,
+      "duration_s": 5.60353010793489,
+      "physical_length_m": 0.1435356834569196,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 2.0,
+      "pre_snap_world_xyz": [
+        -4.832936763763428,
+        8.741047393798828,
+        2.0792744159698486
+      ],
+      "native_raster_visible_frames": 68,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 83
+    },
+    {
+      "id": "A31",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        3.868431806564331,
+        7.587716102600098,
+        10.124870300292969
+      ],
+      "seed_native_xy": [
+        233,
+        30
+      ],
+      "mesh_triangle": 48188,
+      "distance_m": 21.173696517944336,
+      "release_s": 3.1599999999999997,
+      "duration_s": 4.712955205602266,
+      "physical_length_m": 0.15080518318669542,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        3.831393003463745,
+        7.585183631896973,
+        10.05213737487793
+      ],
+      "native_raster_visible_frames": 119,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 6
+    },
+    {
+      "id": "A32",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        4.965286731719971,
+        8.451701164245605,
+        9.529529571533203
+      ],
+      "seed_native_xy": [
+        252,
+        15
+      ],
+      "mesh_triangle": 44077,
+      "distance_m": 22.090761184692383,
+      "release_s": 6.255,
+      "duration_s": 4.881323203140808,
+      "physical_length_m": 0.14974355896943856,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 4.777777777777778,
+      "pre_snap_world_xyz": [
+        5.039949893951416,
+        8.36286784362793,
+        9.6636962890625
+      ],
+      "native_raster_visible_frames": 123,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 8
+    },
+    {
+      "id": "A33",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        3.1939899921417236,
+        7.359368324279785,
+        9.490270614624023
+      ],
+      "seed_native_xy": [
+        218,
+        36
+      ],
+      "mesh_triangle": 48004,
+      "distance_m": 21.66383934020996,
+      "release_s": 9.35,
+      "duration_s": 5.0292305390454075,
+      "physical_length_m": 0.19465267268514838,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 4.777777777777778,
+      "pre_snap_world_xyz": [
+        3.244962692260742,
+        7.345230590820313,
+        9.489230155944824
+      ],
+      "native_raster_visible_frames": 127,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 8
+    },
+    {
+      "id": "A34",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        4.132683753967285,
+        7.8214616775512695,
+        10.59981918334961
+      ],
+      "seed_native_xy": [
+        240,
+        24
+      ],
+      "mesh_triangle": 32386,
+      "distance_m": 20.790664672851562,
+      "release_s": 1.4450000000000003,
+      "duration_s": 7.166315554315532,
+      "physical_length_m": 0.17376870493768665,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        4.095777988433838,
+        7.7654762382507325,
+        10.536980628967285
+      ],
+      "native_raster_visible_frames": 178,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 15
+    },
+    {
+      "id": "A35",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        5.081355571746826,
+        7.481895446777344,
+        10.149591445922852
+      ],
+      "seed_native_xy": [
+        257,
+        32
+      ],
+      "mesh_triangle": 35435,
+      "distance_m": 21.3769474029541,
+      "release_s": 4.540000000000001,
+      "duration_s": 5.058268225857441,
+      "physical_length_m": 0.13716710005925017,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        5.130486011505127,
+        7.5199952239990235,
+        10.147411346435547
+      ],
+      "native_raster_visible_frames": 101,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 33
+    },
+    {
+      "id": "A36",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        4.989999294281006,
+        6.266548156738281,
+        10.105716705322266
+      ],
+      "seed_native_xy": [
+        255,
+        56
+      ],
+      "mesh_triangle": 42834,
+      "distance_m": 21.28078269958496,
+      "release_s": 7.634999999999998,
+      "duration_s": 4.126780192673855,
+      "physical_length_m": 0.14206051437150904,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        4.935922622680664,
+        6.3040456886291505,
+        10.126199722290039
+      ],
+      "native_raster_visible_frames": 94,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 17
+    },
+    {
+      "id": "A37",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        3.6309454441070557,
+        8.383427619934082,
+        8.326473236083984
+      ],
+      "seed_native_xy": [
+        223,
+        20
+      ],
+      "mesh_triangle": 43616,
+      "distance_m": 23.0071964263916,
+      "release_s": 10.729999999999997,
+      "duration_s": 4.468624110318992,
+      "physical_length_m": 0.2142202334290118,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 2.111111111111111,
+      "pre_snap_world_xyz": [
+        3.6878786087036133,
+        8.369941246032715,
+        8.320442199707031
+      ],
+      "native_raster_visible_frames": 64,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 56
+    },
+    {
+      "id": "A38",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        4.999881267547607,
+        8.992963790893555,
+        8.888021469116211
+      ],
+      "seed_native_xy": [
+        250,
+        7
+      ],
+      "mesh_triangle": 35500,
+      "distance_m": 22.80958366394043,
+      "release_s": 2.825000000000003,
+      "duration_s": 4.69418612913756,
+      "physical_length_m": 0.20063477656554124,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 2.333333333333333,
+      "pre_snap_world_xyz": [
+        5.012095928192139,
+        9.042892944335938,
+        8.84345817565918
+      ],
+      "native_raster_visible_frames": 102,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 24
+    },
+    {
+      "id": "A39",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        5.037642478942871,
+        7.028243064880371,
+        10.119401931762695
+      ],
+      "seed_native_xy": [
+        256,
+        41
+      ],
+      "mesh_triangle": 43774,
+      "distance_m": 21.344173431396484,
+      "release_s": 5.920000000000002,
+      "duration_s": 6.906542481725648,
+      "physical_length_m": 0.2040813713370979,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 5.0,
+      "pre_snap_world_xyz": [
+        4.916704177856445,
+        7.027099620819092,
+        9.988739013671875
+      ],
+      "native_raster_visible_frames": 153,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 32
+    },
+    {
+      "id": "A40",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        4.283423900604248,
+        8.506414413452148,
+        9.815574645996094
+      ],
+      "seed_native_xy": [
+        240,
+        13
+      ],
+      "mesh_triangle": 43619,
+      "distance_m": 21.687602996826172,
+      "release_s": 9.015,
+      "duration_s": 5.273153583069542,
+      "physical_length_m": 0.1941671308916515,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 4.777777777777778,
+      "pre_snap_world_xyz": [
+        4.282806873321533,
+        8.490690719604492,
+        9.817526817321777
+      ],
+      "native_raster_visible_frames": 121,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 20
+    },
+    {
+      "id": "A41",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        5.79366397857666,
+        7.871763229370117,
+        9.55687141418457
+      ],
+      "seed_native_xy": [
+        268,
+        26
+      ],
+      "mesh_triangle": 35856,
+      "distance_m": 22.168411254882812,
+      "release_s": 1.1099999999999994,
+      "duration_s": 6.99354032404843,
+      "physical_length_m": 0.21239598473616728,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 4.888888888888889,
+      "pre_snap_world_xyz": [
+        5.78852653503418,
+        7.96094323348999,
+        9.575953483581543
+      ],
+      "native_raster_visible_frames": 164,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 23
+    },
+    {
+      "id": "A42",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        2.2302346229553223,
+        7.747454643249512,
+        8.545064926147461
+      ],
+      "seed_native_xy": [
+        198,
+        31
+      ],
+      "mesh_triangle": 37599,
+      "distance_m": 22.536436080932617,
+      "release_s": 4.204999999999998,
+      "duration_s": 4.385670405890222,
+      "physical_length_m": 0.18958871792604826,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 4.888888888888889,
+      "pre_snap_world_xyz": [
+        2.314028739929199,
+        7.830225955963135,
+        8.250411987304688
+      ],
+      "native_raster_visible_frames": 101,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 17
+    },
+    {
+      "id": "A43",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        3.602646827697754,
+        7.03770112991333,
+        9.555669784545898
+      ],
+      "seed_native_xy": [
+        226,
+        42
+      ],
+      "mesh_triangle": 43085,
+      "distance_m": 21.62334632873535,
+      "release_s": 7.299999999999997,
+      "duration_s": 4.83199818690254,
+      "physical_length_m": 0.1460896425458512,
+      "source_history": "v2.4 path/clock/leaf retained; exact ray on its release surface",
+      "sample_clear_line_escape": 4.888888888888889,
+      "pre_snap_world_xyz": [
+        3.6041696071624756,
+        6.9226746673583985,
+        9.525175094604492
+      ],
+      "native_raster_visible_frames": 121,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 8
+    },
+    {
+      "id": "A44",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -3.7612290382385254,
+        7.381836891174316,
+        12.686605453491211
+      ],
+      "seed_native_xy": [
+        72,
+        27
+      ],
+      "mesh_triangle": 6245,
+      "distance_m": 18.731014251708984,
+      "release_s": 1.577896152388023,
+      "duration_s": 5.928157657506393,
+      "physical_length_m": 0.13741066070917235,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.0,
+      "native_raster_visible_frames": 103,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 55
+    },
+    {
+      "id": "A45",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -4.30812931060791,
+        6.464543342590332,
+        12.465156555175781
+      ],
+      "seed_native_xy": [
+        61,
+        48
+      ],
+      "mesh_triangle": 13258,
+      "distance_m": 18.96611976623535,
+      "release_s": 4.185998801863703,
+      "duration_s": 5.846064445795701,
+      "physical_length_m": 0.17056372604113282,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 4.222222222222222,
+      "native_raster_visible_frames": 117,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 38
+    },
+    {
+      "id": "A46",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -3.4790947437286377,
+        7.034008026123047,
+        12.966924667358398
+      ],
+      "seed_native_xy": [
+        77,
+        34
+      ],
+      "mesh_triangle": 6478,
+      "distance_m": 18.355257034301758,
+      "release_s": 6.758481043861076,
+      "duration_s": 5.294574594157008,
+      "physical_length_m": 0.15278594802966405,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.4444444444444446,
+      "native_raster_visible_frames": 100,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 42
+    },
+    {
+      "id": "A47",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -3.5816938877105713,
+        7.79847526550293,
+        12.03335189819336
+      ],
+      "seed_native_xy": [
+        79,
+        20
+      ],
+      "mesh_triangle": 6034,
+      "distance_m": 19.387104034423828,
+      "release_s": 9.491686623814267,
+      "duration_s": 6.243752504403242,
+      "physical_length_m": 0.19266670899667993,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.5555555555555554,
+      "native_raster_visible_frames": 98,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 70
+    },
+    {
+      "id": "A48",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -5.114538192749023,
+        8.084651947021484,
+        13.234861373901367
+      ],
+      "seed_native_xy": [
+        38,
+        9
+      ],
+      "mesh_triangle": 13699,
+      "distance_m": 18.657472610473633,
+      "release_s": 0.9811199728766162,
+      "duration_s": 6.061646477867996,
+      "physical_length_m": 0.16430331998349904,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.4444444444444446,
+      "native_raster_visible_frames": 89,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 72
+    },
+    {
+      "id": "A49",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -6.007267951965332,
+        8.116379737854004,
+        13.526601791381836
+      ],
+      "seed_native_xy": [
+        15,
+        7
+      ],
+      "mesh_triangle": 18804,
+      "distance_m": 18.668745040893555,
+      "release_s": 4.260726000031443,
+      "duration_s": 5.042240813592926,
+      "physical_length_m": 0.15198295091734781,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.0,
+      "native_raster_visible_frames": 75,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 61
+    },
+    {
+      "id": "A50",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -2.7089548110961914,
+        6.493429183959961,
+        13.099603652954102
+      ],
+      "seed_native_xy": [
+        94,
+        46
+      ],
+      "mesh_triangle": 4571,
+      "distance_m": 18.025733947753906,
+      "release_s": 6.650787809804221,
+      "duration_s": 5.814485287220914,
+      "physical_length_m": 0.1685252250453964,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.111111111111111,
+      "native_raster_visible_frames": 115,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 40
+    },
+    {
+      "id": "A51",
+      "side": "left",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        -3.2137339115142822,
+        7.506643295288086,
+        12.744518280029297
+      ],
+      "seed_native_xy": [
+        84,
+        24
+      ],
+      "mesh_triangle": 11388,
+      "distance_m": 18.582889556884766,
+      "release_s": 9.477691134412254,
+      "duration_s": 6.584019246632654,
+      "physical_length_m": 0.19154806975513047,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.0,
+      "native_raster_visible_frames": 113,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 64
+    },
+    {
+      "id": "A52",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -2.3914177417755127,
+        9.1613187789917,
+        1.6895828247070312
+      ],
+      "seed_native_xy": [
+        125,
+        24
+      ],
+      "mesh_triangle": 53537,
+      "distance_m": 29.553586959838867,
+      "release_s": 0.9874592208671373,
+      "duration_s": 4.946787729514116,
+      "physical_length_m": 0.1781525614770364,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.0,
+      "native_raster_visible_frames": 87,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 44
+    },
+    {
+      "id": "A53",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -3.619487762451172,
+        9.444714546203613,
+        2.160245895385742
+      ],
+      "seed_native_xy": [
+        107,
+        19
+      ],
+      "mesh_triangle": 54008,
+      "distance_m": 29.27083396911621,
+      "release_s": 3.779150220914463,
+      "duration_s": 6.688472215987867,
+      "physical_length_m": 0.23162552855446952,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.0,
+      "native_raster_visible_frames": 104,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 75
+    },
+    {
+      "id": "A54",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -2.2440261840820312,
+        10.156620025634766,
+        1.7352008819580078
+      ],
+      "seed_native_xy": [
+        127,
+        10
+      ],
+      "mesh_triangle": 53532,
+      "distance_m": 29.659334182739258,
+      "release_s": 6.301804629917033,
+      "duration_s": 5.015880534206214,
+      "physical_length_m": 0.16892997112037972,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.333333333333333,
+      "native_raster_visible_frames": 83,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 51
+    },
+    {
+      "id": "A55",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -3.1036815643310547,
+        10.045570373535156,
+        2.3430023193359375
+      ],
+      "seed_native_xy": [
+        114,
+        10
+      ],
+      "mesh_triangle": 59190,
+      "distance_m": 29.13011932373047,
+      "release_s": 9.48284054247468,
+      "duration_s": 7.380885467277946,
+      "physical_length_m": 0.18565417444849228,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.2222222222222223,
+      "native_raster_visible_frames": 84,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 113
+    },
+    {
+      "id": "A56",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -3.5854790210723877,
+        10.130583763122559,
+        1.8842658996582031
+      ],
+      "seed_native_xy": [
+        108,
+        10
+      ],
+      "mesh_triangle": 56379,
+      "distance_m": 29.652076721191406,
+      "release_s": 0.858423894181243,
+      "duration_s": 7.400186572689815,
+      "physical_length_m": 0.21375027989277404,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.888888888888889,
+      "native_raster_visible_frames": 104,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 94
+    },
+    {
+      "id": "A57",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -2.7601611614227295,
+        10.075933456420898,
+        0.1252307891845703
+      ],
+      "seed_native_xy": [
+        122,
+        15
+      ],
+      "mesh_triangle": 59360,
+      "distance_m": 31.270401000976562,
+      "release_s": 3.873384288560551,
+      "duration_s": 5.089190159571167,
+      "physical_length_m": 0.2279550818150754,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.2222222222222223,
+      "native_raster_visible_frames": 79,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 56
+    },
+    {
+      "id": "A58",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -4.82451868057251,
+        8.620323181152344,
+        0.8857498168945312
+      ],
+      "seed_native_xy": [
+        93,
+        33
+      ],
+      "mesh_triangle": 55724,
+      "distance_m": 30.58116912841797,
+      "release_s": 6.459555031378962,
+      "duration_s": 5.081042359111586,
+      "physical_length_m": 0.1960571803544152,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.7777777777777777,
+      "native_raster_visible_frames": 66,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 70
+    },
+    {
+      "id": "A59",
+      "side": "left",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        -3.854160785675049,
+        9.914098739624023,
+        1.4930438995361328
+      ],
+      "seed_native_xy": [
+        105,
+        14
+      ],
+      "mesh_triangle": 59162,
+      "distance_m": 30.031579971313477,
+      "release_s": 9.167956105181233,
+      "duration_s": 5.8751790011733815,
+      "physical_length_m": 0.2045321692774451,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.888888888888889,
+      "native_raster_visible_frames": 94,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 64
+    },
+    {
+      "id": "A60",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -2.4461729526519775,
+        6.221611022949219,
+        -42.9923210144043
+      ],
+      "seed_native_xy": [
+        147,
+        77
+      ],
+      "mesh_triangle": 153060,
+      "distance_m": 73.8552474975586,
+      "release_s": 1.0025115313854513,
+      "duration_s": 6.726401452807073,
+      "physical_length_m": 0.2298222858715319,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 5.0,
+      "native_raster_visible_frames": 111,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 68
+    },
+    {
+      "id": "A61",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -2.30208420753479,
+        9.922277450561523,
+        -18.932785034179688
+      ],
+      "seed_native_xy": [
+        141,
+        43
+      ],
+      "mesh_triangle": 113868,
+      "distance_m": 50.060970306396484,
+      "release_s": 3.4520536241877053,
+      "duration_s": 6.093035920675263,
+      "physical_length_m": 0.2517182085982133,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.0,
+      "native_raster_visible_frames": 91,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 71
+    },
+    {
+      "id": "A62",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -4.105935573577881,
+        5.7051568031311035,
+        -23.056289672851562
+      ],
+      "seed_native_xy": [
+        129,
+        78
+      ],
+      "mesh_triangle": 114158,
+      "distance_m": 54.039737701416016,
+      "release_s": 6.427533797299901,
+      "duration_s": 5.05280526159487,
+      "physical_length_m": 0.2542886052341795,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.333333333333333,
+      "native_raster_visible_frames": 88,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 46
+    },
+    {
+      "id": "A63",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -3.982494354248047,
+        9.65290355682373,
+        -11.274105072021484
+      ],
+      "seed_native_xy": [
+        121,
+        38
+      ],
+      "mesh_triangle": 83025,
+      "distance_m": 42.56401062011719,
+      "release_s": 8.955629895130237,
+      "duration_s": 4.90686108392991,
+      "physical_length_m": 0.2326807943515379,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.0,
+      "native_raster_visible_frames": 56,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 75
+    },
+    {
+      "id": "A64",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -2.5819129943847656,
+        6.073917388916016,
+        -21.858070373535156
+      ],
+      "seed_native_xy": [
+        140,
+        75
+      ],
+      "mesh_triangle": 115682,
+      "distance_m": 52.74954605102539,
+      "release_s": 0.4303578692289136,
+      "duration_s": 6.51075574748079,
+      "physical_length_m": 0.2526844087186759,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.6666666666666665,
+      "native_raster_visible_frames": 139,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 34
+    },
+    {
+      "id": "A65",
+      "side": "left",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        -2.3676226139068604,
+        9.941682815551758,
+        -13.788532257080078
+      ],
+      "seed_native_xy": [
+        138,
+        38
+      ],
+      "mesh_triangle": 115461,
+      "distance_m": 44.960269927978516,
+      "release_s": 3.3781723479262737,
+      "duration_s": 6.786210775136043,
+      "physical_length_m": 0.2041589602838691,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.0,
+      "native_raster_visible_frames": 138,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 43
+    },
+    {
+      "id": "A66",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        2.5726635456085205,
+        6.1056060791015625,
+        9.422918319702148
+      ],
+      "seed_native_xy": [
+        206,
+        60
+      ],
+      "mesh_triangle": 32825,
+      "distance_m": 21.542491912841797,
+      "release_s": 2.6559408816467385,
+      "duration_s": 5.6947198232708685,
+      "physical_length_m": 0.17577104553039624,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.333333333333333,
+      "native_raster_visible_frames": 145,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 8
+    },
+    {
+      "id": "A67",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        3.456575632095337,
+        6.390043258666992,
+        9.828121185302734
+      ],
+      "seed_native_xy": [
+        224,
+        54
+      ],
+      "mesh_triangle": 40711,
+      "distance_m": 21.275104522705078,
+      "release_s": 5.1289530037505715,
+      "duration_s": 4.988149189480062,
+      "physical_length_m": 0.1495489370112782,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 5.0,
+      "native_raster_visible_frames": 110,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 22
+    },
+    {
+      "id": "A68",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        6.4608235359191895,
+        5.841987609863281,
+        9.413698196411133
+      ],
+      "seed_native_xy": [
+        280,
+        65
+      ],
+      "mesh_triangle": 43395,
+      "distance_m": 22.29425811767578,
+      "release_s": 8.232811437420901,
+      "duration_s": 5.512217426040078,
+      "physical_length_m": 0.1561360157663027,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.2222222222222223,
+      "native_raster_visible_frames": 111,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 31
+    },
+    {
+      "id": "A69",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        3.762517213821411,
+        8.089017868041992,
+        9.847599029541016
+      ],
+      "seed_native_xy": [
+        230,
+        21
+      ],
+      "mesh_triangle": 43472,
+      "distance_m": 21.49787139892578,
+      "release_s": 10.737919972924693,
+      "duration_s": 5.232745012314095,
+      "physical_length_m": 0.21062108125674392,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 4.0,
+      "native_raster_visible_frames": 130,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 11
+    },
+    {
+      "id": "A70",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        4.009060859680176,
+        6.666863918304443,
+        10.729986190795898
+      ],
+      "seed_native_xy": [
+        238,
+        47
+      ],
+      "mesh_triangle": 32305,
+      "distance_m": 20.504173278808594,
+      "release_s": 2.366919322341312,
+      "duration_s": 6.852168429602381,
+      "physical_length_m": 0.18202755142003452,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 5.0,
+      "native_raster_visible_frames": 184,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 0
+    },
+    {
+      "id": "A71",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        6.360606670379639,
+        5.71657133102417,
+        8.635082244873047
+      ],
+      "seed_native_xy": [
+        274,
+        68
+      ],
+      "mesh_triangle": 34810,
+      "distance_m": 23.010066986083984,
+      "release_s": 5.0791070454395,
+      "duration_s": 6.019269419922868,
+      "physical_length_m": 0.17300757284275708,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 5.0,
+      "native_raster_visible_frames": 144,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 15
+    },
+    {
+      "id": "A72",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        4.782199382781982,
+        5.960171222686768,
+        10.126426696777344
+      ],
+      "seed_native_xy": [
+        251,
+        62
+      ],
+      "mesh_triangle": 43093,
+      "distance_m": 21.196308135986328,
+      "release_s": 8.023467788585322,
+      "duration_s": 6.18582528154597,
+      "physical_length_m": 0.15535328441402124,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 5.0,
+      "native_raster_visible_frames": 155,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 11
+    },
+    {
+      "id": "A73",
+      "side": "right",
+      "tag": 1,
+      "stratum": "near",
+      "seed_world_xyz": [
+        4.88655948638916,
+        6.45490837097168,
+        9.650386810302734
+      ],
+      "seed_native_xy": [
+        251,
+        53
+      ],
+      "mesh_triangle": 43385,
+      "distance_m": 21.715028762817383,
+      "release_s": 10.47508260002689,
+      "duration_s": 6.5340801729459805,
+      "physical_length_m": 0.18465772691096977,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 4.666666666666666,
+      "native_raster_visible_frames": 162,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 13
+    },
+    {
+      "id": "A74",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        9.219831466674805,
+        5.898913383483887,
+        2.539400100708008
+      ],
+      "seed_native_xy": [
+        291,
+        69
+      ],
+      "mesh_triangle": 66394,
+      "distance_m": 29.670303344726562,
+      "release_s": 2.3167009687514017,
+      "duration_s": 6.7291882380897725,
+      "physical_length_m": 0.2251002536717451,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 4.0,
+      "native_raster_visible_frames": 151,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 29
+    },
+    {
+      "id": "A75",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        9.201553344726562,
+        10.032607078552246,
+        0.7382183074951172
+      ],
+      "seed_native_xy": [
+        283,
+        14
+      ],
+      "mesh_triangle": 71630,
+      "distance_m": 31.79970359802246,
+      "release_s": 5.275382782831816,
+      "duration_s": 7.033811958099966,
+      "physical_length_m": 0.23158997893541663,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.5555555555555554,
+      "native_raster_visible_frames": 108,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 80
+    },
+    {
+      "id": "A76",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        2.2378368377685547,
+        9.54835033416748,
+        5.682550430297852
+      ],
+      "seed_native_xy": [
+        194,
+        8
+      ],
+      "mesh_triangle": 46305,
+      "distance_m": 25.639511108398438,
+      "release_s": 7.926959475781427,
+      "duration_s": 7.378361850123767,
+      "physical_length_m": 0.2027702230705525,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.6666666666666665,
+      "native_raster_visible_frames": 67,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 131
+    },
+    {
+      "id": "A77",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        9.283910751342773,
+        10.508453369140625,
+        0.9534549713134766
+      ],
+      "seed_native_xy": [
+        285,
+        7
+      ],
+      "mesh_triangle": 67373,
+      "distance_m": 31.70195960998535,
+      "release_s": 10.475510261809589,
+      "duration_s": 6.541512672516792,
+      "physical_length_m": 0.20114213433722122,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.333333333333333,
+      "native_raster_visible_frames": 149,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 27
+    },
+    {
+      "id": "A78",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        7.19919490814209,
+        7.059853553771973,
+        5.136379241943359
+      ],
+      "seed_native_xy": [
+        272,
+        49
+      ],
+      "mesh_triangle": 42274,
+      "distance_m": 26.683696746826172,
+      "release_s": 2.2270295982520025,
+      "duration_s": 5.251959572453911,
+      "physical_length_m": 0.19977070949704528,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.4444444444444446,
+      "native_raster_visible_frames": 59,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 80
+    },
+    {
+      "id": "A79",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        9.340643882751465,
+        6.457733631134033,
+        1.2451057434082031
+      ],
+      "seed_native_xy": [
+        287,
+        62
+      ],
+      "mesh_triangle": 70844,
+      "distance_m": 30.965782165527344,
+      "release_s": 5.09427283408403,
+      "duration_s": 4.810725687721266,
+      "physical_length_m": 0.22286969306048,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.888888888888889,
+      "native_raster_visible_frames": 98,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 29
+    },
+    {
+      "id": "A80",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        3.6233749389648438,
+        5.932920932769775,
+        -2.508930206298828
+      ],
+      "seed_native_xy": [
+        203,
+        71
+      ],
+      "mesh_triangle": 66744,
+      "distance_m": 33.498477935791016,
+      "release_s": 7.707768307628953,
+      "duration_s": 6.72583352821679,
+      "physical_length_m": 0.20561895004467265,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.888888888888889,
+      "native_raster_visible_frames": 150,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 31
+    },
+    {
+      "id": "A81",
+      "side": "right",
+      "tag": 1,
+      "stratum": "mid",
+      "seed_world_xyz": [
+        8.876738548278809,
+        10.603958129882812,
+        0.8416366577148438
+      ],
+      "seed_native_xy": [
+        279,
+        6
+      ],
+      "mesh_triangle": 67456,
+      "distance_m": 31.711355209350586,
+      "release_s": 10.317045519078626,
+      "duration_s": 5.344339132274412,
+      "physical_length_m": 0.1854236165827024,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.2222222222222223,
+      "native_raster_visible_frames": 68,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 76
+    },
+    {
+      "id": "A82",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        2.1421127319335938,
+        6.070573329925537,
+        -44.84443283081055
+      ],
+      "seed_native_xy": [
+        172,
+        78
+      ],
+      "mesh_triangle": 162051,
+      "distance_m": 75.67875671386719,
+      "release_s": 1.9406207317012445,
+      "duration_s": 6.047340887508078,
+      "physical_length_m": 0.21825182234215224,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 4.777777777777778,
+      "native_raster_visible_frames": 45,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 115
+    },
+    {
+      "id": "A83",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        3.230644941329956,
+        6.067276477813721,
+        -9.358352661132812
+      ],
+      "seed_native_xy": [
+        192,
+        72
+      ],
+      "mesh_triangle": 96103,
+      "distance_m": 40.28874969482422,
+      "release_s": 4.649940732575651,
+      "duration_s": 6.034000604577719,
+      "physical_length_m": 0.21186881464147933,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 4.111111111111111,
+      "native_raster_visible_frames": 124,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 37
+    },
+    {
+      "id": "A84",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        2.3639302253723145,
+        10.56767463684082,
+        -19.246185302734375
+      ],
+      "seed_native_xy": [
+        179,
+        38
+      ],
+      "mesh_triangle": 121777,
+      "distance_m": 50.421775817871094,
+      "release_s": 7.245131571646148,
+      "duration_s": 7.117833551641151,
+      "physical_length_m": 0.24589796497406502,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.888888888888889,
+      "native_raster_visible_frames": 100,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 89
+    },
+    {
+      "id": "A85",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        2.034893035888672,
+        8.129986763000488,
+        -34.165767669677734
+      ],
+      "seed_native_xy": [
+        173,
+        64
+      ],
+      "mesh_triangle": 147960,
+      "distance_m": 65.0755386352539,
+      "release_s": 10.339875887146782,
+      "duration_s": 4.884844136580726,
+      "physical_length_m": 0.19592626401636418,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 3.111111111111111,
+      "native_raster_visible_frames": 68,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 62
+    },
+    {
+      "id": "A86",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        2.086899757385254,
+        9.101917266845703,
+        -25.900768280029297
+      ],
+      "seed_native_xy": [
+        175,
+        54
+      ],
+      "mesh_triangle": 133886,
+      "distance_m": 56.89339065551758,
+      "release_s": 1.9060309536347901,
+      "duration_s": 4.749492848413277,
+      "physical_length_m": 0.18410768152549956,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 2.7777777777777777,
+      "native_raster_visible_frames": 60,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 67
+    },
+    {
+      "id": "A87",
+      "side": "right",
+      "tag": 1,
+      "stratum": "far",
+      "seed_world_xyz": [
+        4.0333662033081055,
+        5.723172187805176,
+        -11.719486236572266
+      ],
+      "seed_native_xy": [
+        198,
+        76
+      ],
+      "mesh_triangle": 96648,
+      "distance_m": 42.69745635986328,
+      "release_s": 4.401650570254937,
+      "duration_s": 5.996709467100781,
+      "physical_length_m": 0.20326313310728095,
+      "source_history": "new Gate 2.5 true 3D detachable leaf",
+      "sample_clear_line_escape": 4.0,
+      "native_raster_visible_frames": 100,
+      "not_visible_due_to_depth_or_projection_despite_inflight_alpha": 61
+    }
+  ]
+}
