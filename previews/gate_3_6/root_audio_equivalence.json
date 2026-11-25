@@ -1,0 +1,43 @@
+{
+  "source_sha256": "90b96d6e02b63b7a3054d262a2101b32c2a75735f52bc85de1151775452407fd",
+  "streams": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "time_base": "1/48000",
+    "start_pts": 0,
+    "duration_ts": 9467200,
+    "extradata_hash": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10"
+  },
+  "packets": 9247,
+  "presented_pcm_samples": 9467200,
+  "first_packet": {
+    "pts": -1024,
+    "dts": -1024,
+    "duration": 1024,
+    "size": "521",
+    "flags": "KD_",
+    "data_hash": "SHA256:345267ca70a1f095d2c354127f841143b467d4e386fe14dfbee4a5b75f06c0ab",
+    "side_data_list": [
+      {
+        "side_data_type": "Skip Samples",
+        "skip_samples": 1024,
+        "discard_padding": 0
+      }
+    ]
+  },
+  "last_packet": {
+    "pts": 9466880,
+    "dts": 9466880,
+    "duration": 320,
+    "size": "6",
+    "flags": "K__",
+    "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+  },
+  "candidate_sha256": "c193872a27cc2d0384429f86e3153711ebf9d878f3b7c5188e782098923c8931",
+  "identical_audio_packet_fields": true,
+  "identical_pcm_presented": true,
+  "decoded_samples_including_codec_tail": 9467904,
+  "presented_pcm_s32le_sha256": "8bc294922e08aa216efd3e15dfd54aafd98d570b3a22b767d711e95e8298a1d9"
+}

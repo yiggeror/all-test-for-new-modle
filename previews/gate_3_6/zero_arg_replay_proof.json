@@ -1,0 +1,11 @@
+{
+  "built_from_sibling_repo_with_only_approved_parts_and_tools": true,
+  "command": "python tools/gate3_v26/reproduce.py",
+  "direct_v25_release_auto_download_sha256": "90b96d6e02b63b7a3054d262a2101b32c2a75735f52bc85de1151775452407fd",
+  "mp4_sha256": "c193872a27cc2d0384429f86e3153711ebf9d878f3b7c5188e782098923c8931",
+  "mp4_bytes": 141456016,
+  "same_toolchain_identical_to_verified_local_override": true,
+  "native_rgb_identical": true,
+  "audio_packet_stream_identical": true,
+  "decoded_final_1080p_png_identical": 32
+}

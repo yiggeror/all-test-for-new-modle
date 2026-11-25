@@ -1,0 +1,298 @@
+{
+  "output": "Rainroji_Lofi_V2.6_1080p.mp4",
+  "sha256": "c193872a27cc2d0384429f86e3153711ebf9d878f3b7c5188e782098923c8931",
+  "bytes": 141456016,
+  "toolchain": {
+    "python": "3.12.14",
+    "machine": "x86_64",
+    "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "Pillow": "13.0.0"
+    },
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "x264": "264 - core 164 r3108 31e19f9"
+  },
+  "source_commit": "44964634a3fb72c168ae5304988e402b767708ac",
+  "review_commit": "2b1f97a62d61b2375029e8ed32419890f6ade03f",
+  "picture_input_policy": "16 pinned Gate 2.6 lossless split parts only (1+8+1+6); no previous cut, viewing proxy or authored NPY",
+  "input_manifest_sha256": "7b37e9527d578797430c4b15f4a1a3d12830f10b3f62777c0fea37bab506baaf",
+  "native_inputs": {
+    "spring": {
+      "scene": "spring",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 59,
+      "rgb_sha256": "0af949bfdf6b845041d215703ebf55392725b381e6683b61effac11e4f191c2e",
+      "npy_sha256": "c1e5b2621e023f39bb7483db263998ed99e884d6282a54d919ca6861548d52d3",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "summer": {
+      "scene": "summer",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 59,
+      "rgb_sha256": "dc107babbdc5723026e43274fb28f0e37ed763fc6e949383beaaa6a3f7be7403",
+      "npy_sha256": "1334764077c576e9098acf3408fd4bb930558cfcb9a17a6ccee9c6dfd1ff317b",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "autumn": {
+      "scene": "autumn",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 60,
+      "rgb_sha256": "384d1297ec871b560415300d7af0d50ef2cce71622026ca1cdedfec1dfdd8839",
+      "npy_sha256": "eba9bcffb727c0c240b82feb29a09dd25b26845f75dac6c0b248dfd6e7276ac5",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "winter": {
+      "scene": "winter",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 60,
+      "rgb_sha256": "499f216c23b6dfe1e9cfe51b4674865006a09cda28e5a4b7fc64be187ed91408",
+      "npy_sha256": "b6dc9167a7d0d34dccf9dcdf963d82de8af385d77fdabc4aaa772710e6d371fe",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    }
+  },
+  "picture_only": {
+    "sha256": "7255f71d85c4c95fd6d529321bd60cc50d3f782d595ae61dd0ba76a27583dfb7",
+    "bytes": 134954203,
+    "count": 5917
+  },
+  "preencode_native_rgb": {
+    "scope": "5917 ordered frames, 320x180, packed RGB24 byte stream no headers",
+    "local_sha256": "a5b17e2c3a20ebf0e56245871346fc010c08154dc8beec42b49a6810f1f9ccc0",
+    "reference_sha256_this_build": "a5b17e2c3a20ebf0e56245871346fc010c08154dc8beec42b49a6810f1f9ccc0",
+    "local_toolchain_matches_reference_environment": false,
+    "matches_independent_reference": true,
+    "adjacent_equal_count": 0,
+    "adjacent_equal_timeline_indices": [],
+    "actual_window_fingerprints": {
+      "spring": {
+        "frames_inclusive": [
+          0,
+          1410
+        ],
+        "rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3"
+      },
+      "blend_spring_summer": {
+        "frames_inclusive": [
+          1411,
+          1469
+        ],
+        "rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e"
+      },
+      "summer": {
+        "frames_inclusive": [
+          1470,
+          2850
+        ],
+        "rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86"
+      },
+      "blend_summer_autumn": {
+        "frames_inclusive": [
+          2851,
+          2909
+        ],
+        "rgb_sha256": "1e4284a9d98993caf7449c8deb7dcf936f82b260bc5485d0fc479ddb568a74e7"
+      },
+      "autumn": {
+        "frames_inclusive": [
+          2910,
+          4290
+        ],
+        "rgb_sha256": "aefff7fab50c11adbb0564a552cd13ff81d788a724dfe077c0cab412f2aa1798"
+      },
+      "blend_autumn_winter": {
+        "frames_inclusive": [
+          4291,
+          4349
+        ],
+        "rgb_sha256": "d023086aa47e23f16682a801cd2107120e84da06f4d6e70caf39a05da90e94f2"
+      },
+      "winter": {
+        "frames_inclusive": [
+          4350,
+          5916
+        ],
+        "rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02"
+      }
+    },
+    "independent_reference_including_v25_lock": {
+      "spring": {
+        "frames_inclusive": [
+          0,
+          1410
+        ],
+        "rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3",
+        "prior_rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3",
+        "frames_with_legitimate_actor_change": 0
+      },
+      "blend_spring_summer": {
+        "frames_inclusive": [
+          1411,
+          1469
+        ],
+        "rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e",
+        "prior_rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e",
+        "frames_with_legitimate_actor_change": 0
+      },
+      "summer": {
+        "frames_inclusive": [
+          1470,
+          2850
+        ],
+        "rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86",
+        "prior_rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86",
+        "frames_with_legitimate_actor_change": 0
+      },
+      "blend_summer_autumn": {
+        "frames_inclusive": [
+          2851,
+          2909
+        ],
+        "rgb_sha256": "1e4284a9d98993caf7449c8deb7dcf936f82b260bc5485d0fc479ddb568a74e7",
+        "prior_rgb_sha256": "85dc46539a072db813ca18554e8a43057bbc007f95d9634e1406c1ce9bd56795",
+        "frames_with_legitimate_actor_change": 59
+      },
+      "autumn": {
+        "frames_inclusive": [
+          2910,
+          4290
+        ],
+        "rgb_sha256": "aefff7fab50c11adbb0564a552cd13ff81d788a724dfe077c0cab412f2aa1798",
+        "prior_rgb_sha256": "b60757f0670218e089021a8b31aae59f34e69007cce734549ac7b599c42f0b56",
+        "frames_with_legitimate_actor_change": 1381
+      },
+      "blend_autumn_winter": {
+        "frames_inclusive": [
+          4291,
+          4349
+        ],
+        "rgb_sha256": "d023086aa47e23f16682a801cd2107120e84da06f4d6e70caf39a05da90e94f2",
+        "prior_rgb_sha256": "1b086596f88b1fbb9ffdebb5726a55e8a68c96ac8ec086c6df909afaacec1069",
+        "frames_with_legitimate_actor_change": 59
+      },
+      "winter": {
+        "frames_inclusive": [
+          4350,
+          5916
+        ],
+        "rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02",
+        "prior_rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02",
+        "frames_with_legitimate_actor_change": 0
+      }
+    },
+    "direct_stitched_v25_identical_raw_ranges": {
+      "prefix": {
+        "frames_inclusive": [
+          0,
+          2850
+        ],
+        "rgb_sha256": "2cafbaff692924f49d408f3e369b7e68dc2db17f471d16a355c70ffe86409f1c"
+      },
+      "suffix": {
+        "frames_inclusive": [
+          4350,
+          5916
+        ],
+        "rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02"
+      }
+    }
+  },
+  "audio_source": {
+    "url": "https://github.com/yiggeror/all-test-for-new-modle/releases/download/v2.5-rainroji-lofi-1080p/Rainroji_Lofi_V2.5_1080p.mp4",
+    "bytes": 141154392,
+    "mp4_sha256": "90b96d6e02b63b7a3054d262a2101b32c2a75735f52bc85de1151775452407fd",
+    "used_verified_local_cache": true
+  },
+  "audio_packets_preserved": {
+    "packet_count": 9247,
+    "packet_payload_sequence_sha256": "cada2969b15e00c13dfb564868318180a333d34e17819ddaf338ac1a604f5220",
+    "adts_sha256": "507c422e4f6d5f476a3b3c0ee594adb5a4bbea336bf3a2d7d5d951d50f7ef0ab",
+    "audio_timing_bytes_identity_sha256": "d7d76c40dbcd12425a82aaaed197e50e918c0e4c3be3f254e2a8604d7bd4bfdf",
+    "aac_audiospecificconfig_sha256": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+    "presented_samples_at_48000": 9467200,
+    "first_pts_dts_duration_size": [
+      -1024,
+      -1024,
+      1024,
+      521
+    ],
+    "last_pts_dts_duration_size": [
+      9466880,
+      9466880,
+      320,
+      6
+    ],
+    "skip_samples": 1024,
+    "discard_padding": 0,
+    "stream": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200
+    }
+  },
+  "technical_qa": {
+    "video": {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "nb_frames": "5917",
+      "color_space": "bt709",
+      "color_range": "tv",
+      "start_pts": 0,
+      "color_transfer": null,
+      "color_primaries": null
+    },
+    "pts_checked": 5917,
+    "duration": "197.233333",
+    "full_audio_video_decode": true,
+    "faststart": true,
+    "lufs_i": -16.05,
+    "dbtp": -4.74,
+    "lra_lu": 14.1,
+    "bitrate_bps": 5737610,
+    "muxer": "Lavf61.7.103",
+    "video_packet_payload_sequence_sha256": "02de16a528ae6d397d1ef336afb56721eae22cf1202c6d337fb747c54a345c92"
+  }
+}

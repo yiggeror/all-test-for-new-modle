@@ -1,0 +1,351 @@
+{
+  "actual_master_mp4_sha256": "c193872a27cc2d0384429f86e3153711ebf9d878f3b7c5188e782098923c8931",
+  "locked_official_reference": {
+    "official_v25_release_sha256": "90b96d6e02b63b7a3054d262a2101b32c2a75735f52bc85de1151775452407fd",
+    "official_v24_release_sha256": "a9870ce471487b76b68c93eb779a075182e5d1b28b3e18d145aae99f480d0687",
+    "official_v25_and_v24_all_packets_equal": true,
+    "reference_timing": {
+      "stream": {
+        "codec_name": "aac",
+        "profile": "LC",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "duration_ts": 9467200,
+        "bit_rate": "257808",
+        "extradata_hash": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-11-24T00:00:00.000000Z",
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      },
+      "packet_count": 9247,
+      "serialized_each_packet_sha256_sequence": "e6f1d2c8e7a28aed5c239907933a370809d1cfaf412e83ca99f3ae9a842c256e",
+      "payload_bytes": 6356732,
+      "presented_samples": 9467200,
+      "first_ref_packets": [
+        {
+          "pts": -1024,
+          "dts": -1024,
+          "duration": 1024,
+          "size": "521",
+          "flags": "KD_",
+          "data_hash": "SHA256:345267ca70a1f095d2c354127f841143b467d4e386fe14dfbee4a5b75f06c0ab",
+          "side_data_list": [
+            {
+              "side_data_type": "Skip Samples",
+              "skip_samples": 1024,
+              "discard_padding": 0,
+              "skip_reason": 0,
+              "discard_reason": 0
+            }
+          ]
+        },
+        {
+          "pts": 0,
+          "dts": 0,
+          "duration": 1024,
+          "size": "481",
+          "flags": "K__",
+          "data_hash": "SHA256:ab11f0c7605c2122dc75f13084f58464ce6c0e2121b83b2a8a7f586beaa3261a"
+        }
+      ],
+      "last_ref_packet": {
+        "pts": 9466880,
+        "dts": 9466880,
+        "duration": 320,
+        "size": "6",
+        "flags": "K__",
+        "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+      },
+      "nonempty_all_packet_side_data_indices": [
+        0
+      ]
+    },
+    "unchanged_AAC_stream_copy_ADTS_copy_len_sha256": [
+      6421461,
+      "507c422e4f6d5f476a3b3c0ee594adb5a4bbea336bf3a2d7d5d951d50f7ef0ab"
+    ],
+    "pcm_f32le_decoded_frames_including_codec_padding": 9467904,
+    "audio_presentation_PCM_stereo_frames": 9467200,
+    "approved_pcm_sha256_full_FFmpeg_codec_unpack": "9eb575d0d3c41d42e1f4b6c8ca7ad877ca30d19d053481e36a3bde421836c222",
+    "approved_pcm_sha256_9467200_stereo_frames": "19de343d4bad6b25cab3d33a90ad58b30c975b8e7bfce460e2689e60aac21c2f",
+    "known_listening_anchors_exact_PCM_segment_metrics": [
+      {
+        "range_t": [
+          0,
+          9
+        ],
+        "samples_presented": 432000,
+        "rms_dbfs": -29.85605373207758,
+        "pcm_sample_peak_dbfs": -12.580234634129523,
+        "pcm_f32_stereo_sha256": "e77dde039115dea1d903c32f868dfa7b62a041bf8a7952c15e685ec07e8147ac"
+      },
+      {
+        "range_t": [
+          47,
+          49
+        ],
+        "samples_presented": 96000,
+        "rms_dbfs": -18.03503809704956,
+        "pcm_sample_peak_dbfs": -6.472456207011572,
+        "pcm_f32_stereo_sha256": "3f16cd52fd514657a3590a50ac4701816908f5296e16c912743168d31c5e3280"
+      },
+      {
+        "range_t": [
+          95,
+          97
+        ],
+        "samples_presented": 96000,
+        "rms_dbfs": -17.712465137234688,
+        "pcm_sample_peak_dbfs": -5.722750656008502,
+        "pcm_f32_stereo_sha256": "94f95fa1a55ea4424cfce9c09205e77613d881eb5c602d82a9081ec86d747c27"
+      },
+      {
+        "range_t": [
+          99.6,
+          101.08
+        ],
+        "samples_presented": 71040,
+        "rms_dbfs": -16.674055354836206,
+        "pcm_sample_peak_dbfs": -5.824678482654436,
+        "pcm_f32_stereo_sha256": "ed5484b4048feea50664bbb7fff5b8ac80b875ee03274b326fb636e5abe47627"
+      },
+      {
+        "range_t": [
+          143,
+          145
+        ],
+        "samples_presented": 96000,
+        "rms_dbfs": -17.231965631778834,
+        "pcm_sample_peak_dbfs": -5.943507760152635,
+        "pcm_f32_stereo_sha256": "001f7d43d96a76518dcea30f5d1c0f0c9720a275d4e2d8f833e4ed4455c5d690"
+      },
+      {
+        "range_t": [
+          148.1,
+          150.0
+        ],
+        "samples_presented": 91200,
+        "rms_dbfs": -16.57688538910168,
+        "pcm_sample_peak_dbfs": -5.6132548932392385,
+        "pcm_f32_stereo_sha256": "27b4c31cdffbdefd2001d3483d70c53a62878b44ff09a2f89490a5371bcbc2da"
+      },
+      {
+        "range_t": [
+          184.6,
+          185.6
+        ],
+        "samples_presented": 48000,
+        "rms_dbfs": -35.38531610520036,
+        "pcm_sample_peak_dbfs": -22.923446447130186,
+        "pcm_f32_stereo_sha256": "d878c99de4927b522e491842b84703a649c16a4dfcf6e1a1112919dcfd0bd121"
+      },
+      {
+        "range_t": [
+          188.5,
+          190.5
+        ],
+        "samples_presented": 96000,
+        "rms_dbfs": -33.570288503388454,
+        "pcm_sample_peak_dbfs": -21.731780299210264,
+        "pcm_f32_stereo_sha256": "59dea904ca5ec56b7c68413f49d67862ac5ed66d60bc104c563db781b9f5e66d"
+      },
+      {
+        "range_t": [
+          192.2,
+          193.4
+        ],
+        "samples_presented": 57600,
+        "rms_dbfs": -30.99888361046515,
+        "pcm_sample_peak_dbfs": -18.666667886062946,
+        "pcm_f32_stereo_sha256": "30f4a4c6d0b3f5fd21369fb2d3bd650eb88331ae6edd3124aee68faafd2b9c32"
+      },
+      {
+        "range_t": [
+          193.4,
+          194.5
+        ],
+        "samples_presented": 52800,
+        "rms_dbfs": -29.567912720924685,
+        "pcm_sample_peak_dbfs": -17.47253978037114,
+        "pcm_f32_stereo_sha256": "9b8a7d75ea7919124cc33d8d3c1f5d70b35519816d1cf5019bb65f78b11ea763"
+      },
+      {
+        "range_t": [
+          194.5,
+          195.5
+        ],
+        "samples_presented": 48000,
+        "rms_dbfs": -29.557098825708508,
+        "pcm_sample_peak_dbfs": -16.352499639639852,
+        "pcm_f32_stereo_sha256": "08dd2507a94ae9f342cf379722843c72350f6e7cf40333ceaf6f3c274a42e6e2"
+      },
+      {
+        "range_t": [
+          195.5,
+          196.5
+        ],
+        "samples_presented": 48000,
+        "rms_dbfs": -35.835635311787975,
+        "pcm_sample_peak_dbfs": -22.030689051629942,
+        "pcm_f32_stereo_sha256": "a771d32e2bbe459a684e5cedeb8ccf4cb1906de3da9259f46681924fc88108c3"
+      },
+      {
+        "range_t": [
+          196.5,
+          197.2
+        ],
+        "samples_presented": 33600,
+        "rms_dbfs": -52.26707375259161,
+        "pcm_sample_peak_dbfs": -37.00837001455308,
+        "pcm_f32_stereo_sha256": "db84a3b9220380509843131f02d0f9efba6d4eaa44dbc13cded1e4475126f8d9"
+      },
+      {
+        "range_t": [
+          197.2,
+          197.23333333333332
+        ],
+        "samples_presented": 1600,
+        "rms_dbfs": -151.38274329155843,
+        "pcm_sample_peak_dbfs": -133.12599151625668,
+        "pcm_f32_stereo_sha256": "b13b3ab324a01ef3fef3302232d449d996c4976909263e1c2dcb93d7f1c89b0b"
+      }
+    ]
+  },
+  "candidate_raw_AAC": {
+    "stream": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200,
+      "bit_rate": "257808",
+      "extradata_hash": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "creation_time": "2026-11-24T00:00:00.000000Z",
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    "packet_count": 9247,
+    "serialized_each_packet_sha256_sequence": "e6f1d2c8e7a28aed5c239907933a370809d1cfaf412e83ca99f3ae9a842c256e",
+    "payload_bytes": 6356732,
+    "presented_samples": 9467200,
+    "first_ref_packets": [
+      {
+        "pts": -1024,
+        "dts": -1024,
+        "duration": 1024,
+        "size": "521",
+        "flags": "KD_",
+        "data_hash": "SHA256:345267ca70a1f095d2c354127f841143b467d4e386fe14dfbee4a5b75f06c0ab",
+        "side_data_list": [
+          {
+            "side_data_type": "Skip Samples",
+            "skip_samples": 1024,
+            "discard_padding": 0,
+            "skip_reason": 0,
+            "discard_reason": 0
+          }
+        ]
+      },
+      {
+        "pts": 0,
+        "dts": 0,
+        "duration": 1024,
+        "size": "481",
+        "flags": "K__",
+        "data_hash": "SHA256:ab11f0c7605c2122dc75f13084f58464ce6c0e2121b83b2a8a7f586beaa3261a"
+      }
+    ],
+    "last_ref_packet": {
+      "pts": 9466880,
+      "dts": 9466880,
+      "duration": 320,
+      "size": "6",
+      "flags": "K__",
+      "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+    },
+    "nonempty_all_packet_side_data_indices": [
+      0
+    ]
+  },
+  "all_9247_raw_AAC_payloads_dts_pts_duration_flags_and_skip_side_data_match": true,
+  "audio_presented_samples": 9467200,
+  "priming_skip": {
+    "side_data_type": "Skip Samples",
+    "skip_samples": 1024,
+    "discard_padding": 0,
+    "skip_reason": 0,
+    "discard_reason": 0
+  },
+  "audio_last_coded_packet": {
+    "pts": 9466880,
+    "dts": 9466880,
+    "duration": 320,
+    "size": "6",
+    "flags": "K__",
+    "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+  },
+  "presentation_PCM_f32le_SHA256": "19de343d4bad6b25cab3d33a90ad58b30c975b8e7bfce460e2689e60aac21c2f",
+  "full_FFmpeg_decode_with_codec_padding_PCM_f32le_SHA256": "9eb575d0d3c41d42e1f4b6c8ca7ad877ca30d19d053481e36a3bde421836c222",
+  "inherited_exact_approved_purrple_cat_ambience_book_and_winter_plus8_PCM": true,
+  "actual_loudness_and_peak": {
+    "input_i": -16.05,
+    "input_tp": -4.74,
+    "input_lra": 14.1,
+    "input_thresh": -26.69
+  },
+  "scope_note": "Identical presentation bytes prove no re-encode or timing shift. The +8 dB automation originally belongs to the winter weather stem; its mixed waveform is preserved, not inferred from loudness of the mix."
+}

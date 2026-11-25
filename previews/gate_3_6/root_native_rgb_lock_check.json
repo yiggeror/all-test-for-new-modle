@@ -1,0 +1,47 @@
+{
+  "v25_reference_sha256": "ec41d7f865316a6a205e4471749dc7ee35a43952f18d72ab7235a5465f02315e",
+  "v26_native_rgb_sha256": "a5b17e2c3a20ebf0e56245871346fc010c08154dc8beec42b49a6810f1f9ccc0",
+  "frames": 5917,
+  "records": {
+    "locked_opening_first_dissolve_summer": {
+      "first": 0,
+      "last": 2850,
+      "frames": 2851,
+      "changed_frames": 0,
+      "old_rgb_sha256": "2cafbaff692924f49d408f3e369b7e68dc2db17f471d16a355c70ffe86409f1c",
+      "new_rgb_sha256": "2cafbaff692924f49d408f3e369b7e68dc2db17f471d16a355c70ffe86409f1c"
+    },
+    "into_autumn": {
+      "first": 2851,
+      "last": 2909,
+      "frames": 59,
+      "changed_frames": 59,
+      "old_rgb_sha256": "85dc46539a072db813ca18554e8a43057bbc007f95d9634e1406c1ce9bd56795",
+      "new_rgb_sha256": "1e4284a9d98993caf7449c8deb7dcf936f82b260bc5485d0fc479ddb568a74e7"
+    },
+    "autumn": {
+      "first": 2910,
+      "last": 4290,
+      "frames": 1381,
+      "changed_frames": 1381,
+      "old_rgb_sha256": "b60757f0670218e089021a8b31aae59f34e69007cce734549ac7b599c42f0b56",
+      "new_rgb_sha256": "aefff7fab50c11adbb0564a552cd13ff81d788a724dfe077c0cab412f2aa1798"
+    },
+    "into_winter": {
+      "first": 4291,
+      "last": 4349,
+      "frames": 59,
+      "changed_frames": 59,
+      "old_rgb_sha256": "1b086596f88b1fbb9ffdebb5726a55e8a68c96ac8ec086c6df909afaacec1069",
+      "new_rgb_sha256": "d023086aa47e23f16682a801cd2107120e84da06f4d6e70caf39a05da90e94f2"
+    },
+    "locked_winter_and_tail": {
+      "first": 4350,
+      "last": 5916,
+      "frames": 1567,
+      "changed_frames": 0,
+      "old_rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02",
+      "new_rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02"
+    }
+  }
+}

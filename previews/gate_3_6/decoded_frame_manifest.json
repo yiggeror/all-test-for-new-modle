@@ -1,0 +1,194 @@
+{
+  "decoded_head_black_F0000.png": {
+    "frame": 0,
+    "seconds": 0.0,
+    "bytes": 6154,
+    "sha256": "4c6d2c8d8bbb3756757eacd65f2e662ac9a6f56594ea0e34760218bc21f02037"
+  },
+  "decoded_head_fade_F0022.png": {
+    "frame": 22,
+    "seconds": 0.733333,
+    "bytes": 571346,
+    "sha256": "c541d8f7dfee0e0d8da3606ee42db1e95686234975307de18996ac1bf21d70ae"
+  },
+  "decoded_head_full_F0045.png": {
+    "frame": 45,
+    "seconds": 1.5,
+    "bytes": 666268,
+    "sha256": "fb0288a21e447008c051e29875bdd46807175e77c536bc259c1bf1e4d727e216"
+  },
+  "decoded_spring_warm_cat_pause_F0120.png": {
+    "frame": 120,
+    "seconds": 4.0,
+    "bytes": 373508,
+    "sha256": "74cfabeb4dcd4967168738a2ec288e6d5774f15728e701fd19f5ec60a3908f57"
+  },
+  "decoded_spring_true_turn_F0150.png": {
+    "frame": 150,
+    "seconds": 5.0,
+    "bytes": 466763,
+    "sha256": "d221bc624cdaacd984ce52c746489d086384b43703147f3577c7bd770647b0da"
+  },
+  "decoded_spring_right_pivot_F0315.png": {
+    "frame": 315,
+    "seconds": 10.5,
+    "bytes": 409454,
+    "sha256": "953b5adea9d6709ee51fc875eafb6720f4957b475c8e5f40496c3e248d266260"
+  },
+  "decoded_spring_summer_start_F1410.png": {
+    "frame": 1410,
+    "seconds": 47.0,
+    "bytes": 436393,
+    "sha256": "579ac14a4dd25e91d1febc4437e38f69d8e9fb2a63910e33a351477f5a3cc4fe"
+  },
+  "decoded_spring_summer_center_F1440.png": {
+    "frame": 1440,
+    "seconds": 48.0,
+    "bytes": 708697,
+    "sha256": "6a00c5700f786d78405273466d42ef3ab8d98748e5a7cec1b36ac5a4d935d905"
+  },
+  "decoded_spring_summer_end_F1470.png": {
+    "frame": 1470,
+    "seconds": 49.0,
+    "bytes": 626059,
+    "sha256": "46988b9be4bce38bae121c232a9befd8b394449ba643058f313f46ec21eb40f6"
+  },
+  "decoded_summer_wet_warm_light_F1534.png": {
+    "frame": 1534,
+    "seconds": 51.133333,
+    "bytes": 500555,
+    "sha256": "4ddd0f8b144bd37b0a2f2cfbfec563ffd81f82cebeb5d6283ff81bb884047ad8"
+  },
+  "decoded_summer_car_warm_light_F1563.png": {
+    "frame": 1563,
+    "seconds": 52.1,
+    "bytes": 505810,
+    "sha256": "48f5b5adc214ac22935561978e07be573cbacde4577aee379345c76c0dc95aa5"
+  },
+  "decoded_summer_neon_in_dip_F1604.png": {
+    "frame": 1604,
+    "seconds": 53.466667,
+    "bytes": 494315,
+    "sha256": "e12e06b5e28eb23e29ada16d09d8c5a64f8b0ef2989354ef857a42c8e57d7b64"
+  },
+  "decoded_summer_autumn_start_F2850.png": {
+    "frame": 2850,
+    "seconds": 95.0,
+    "bytes": 499690,
+    "sha256": "82d844fc1abed89ebf47afc821cba2763ca0d45b3372b72bb635e2b30a54255b"
+  },
+  "decoded_summer_autumn_center_F2880.png": {
+    "frame": 2880,
+    "seconds": 96.0,
+    "bytes": 675830,
+    "sha256": "5156a5f1bfade4ae2856fcfa0f77d0bd110133f60c3b97530812fcf6698431be"
+  },
+  "decoded_summer_autumn_end_F2910.png": {
+    "frame": 2910,
+    "seconds": 97.0,
+    "bytes": 812554,
+    "sha256": "5838e3e4e36911fcf896c56bbe8beb5e0d8eab95ed137f0335cc301d981c8f30"
+  },
+  "decoded_autumn_lean_cardigan_F2940.png": {
+    "frame": 2940,
+    "seconds": 98.0,
+    "bytes": 393785,
+    "sha256": "f08678d676bd1d66aa0efe1fe2b9f64458bf64afc7cd0837ca7e2c91bf7a437d"
+  },
+  "decoded_autumn_wind_and_hair_start_F2990.png": {
+    "frame": 2990,
+    "seconds": 99.666667,
+    "bytes": 544527,
+    "sha256": "247edc18ffdb7bece0eff656d3c0fa76f731eede40d134da99f3566727f9242d"
+  },
+  "decoded_autumn_girl_page_rise_F2995.png": {
+    "frame": 2995,
+    "seconds": 99.833333,
+    "bytes": 553027,
+    "sha256": "7cc3cd1c9477891e8711677cfb271bcaf9e05937fb5cc0a65a3ad46c8782a8f0"
+  },
+  "decoded_autumn_girl_page_cross_F3005.png": {
+    "frame": 3005,
+    "seconds": 100.166667,
+    "bytes": 464938,
+    "sha256": "350530e24b316becdab7993e2322a9fa33e5622007419f760bd5f9168b142959"
+  },
+  "decoded_autumn_girl_hair_return_F3010.png": {
+    "frame": 3010,
+    "seconds": 100.333333,
+    "bytes": 475185,
+    "sha256": "5cb81ae31e8d71681f816aba31735a8bd2f9ee64e745ba7ddaf5970cf260166f"
+  },
+  "decoded_autumn_ground_and_air_F3022.png": {
+    "frame": 3022,
+    "seconds": 100.733333,
+    "bytes": 496858,
+    "sha256": "90f6728bffa1961a988dfc22e91264986e089476709b736d362691f36f5bb73e"
+  },
+  "decoded_autumn_girl_page_settle_F3030.png": {
+    "frame": 3030,
+    "seconds": 101.0,
+    "bytes": 527133,
+    "sha256": "abde772e593ddc8bedabaaed7abf2c0b213c1d003a9e588b7259b46721a29e35"
+  },
+  "decoded_autumn_lamp_notch_F3055.png": {
+    "frame": 3055,
+    "seconds": 101.833333,
+    "bytes": 586745,
+    "sha256": "f75581b54dda7fe982dcfeb57d38df7c71da54ae633c5134014e02f99cad46e0"
+  },
+  "decoded_autumn_winter_start_F4290.png": {
+    "frame": 4290,
+    "seconds": 143.0,
+    "bytes": 537757,
+    "sha256": "193e384e58142ffce49d940cf22abbf6b91c6139e85ac2a7511bb14529490e80"
+  },
+  "decoded_autumn_winter_center_F4320.png": {
+    "frame": 4320,
+    "seconds": 144.0,
+    "bytes": 895795,
+    "sha256": "82a8e130e33ada7bd082a51715539af1870e89a631edf60976f9b461b4a5c620"
+  },
+  "decoded_autumn_winter_end_F4350.png": {
+    "frame": 4350,
+    "seconds": 145.0,
+    "bytes": 897131,
+    "sha256": "578669d7fe728cd35f65758ab3af896253415638de96057fd01762a075bb1b57"
+  },
+  "decoded_winter_banner_F4440.png": {
+    "frame": 4440,
+    "seconds": 148.0,
+    "bytes": 501012,
+    "sha256": "10e7e123aa9f786d4933434023649b9e899f8016a273f2f366da176ecf92b682"
+  },
+  "decoded_winter_separate_page_F4455.png": {
+    "frame": 4455,
+    "seconds": 148.5,
+    "bytes": 664669,
+    "sha256": "745645805571669bf957cc3e9117fbc62196cc02fbee8dea574d497ae8526e43"
+  },
+  "decoded_winter_lamp_notch_F4495.png": {
+    "frame": 4495,
+    "seconds": 149.833333,
+    "bytes": 785727,
+    "sha256": "e0260e56dc632ba12ad33999cc9a8806af96d57201173fb08ffaeefe482eb07b"
+  },
+  "decoded_tail_start_F5802.png": {
+    "frame": 5802,
+    "seconds": 193.4,
+    "bytes": 697649,
+    "sha256": "3d86ccb6bca3ebb900d36065b9a04de607fdf1aea308d31104ac60807bb10114"
+  },
+  "decoded_tail_fade_F5870.png": {
+    "frame": 5870,
+    "seconds": 195.666667,
+    "bytes": 723427,
+    "sha256": "ea543dfa707e1edf30c0784de3a72600eb8c4d1b4af18c352a68c1e0fa378967"
+  },
+  "decoded_tail_black_F5916.png": {
+    "frame": 5916,
+    "seconds": 197.2,
+    "bytes": 6154,
+    "sha256": "4c6d2c8d8bbb3756757eacd65f2e662ac9a6f56594ea0e34760218bc21f02037"
+  }
+}

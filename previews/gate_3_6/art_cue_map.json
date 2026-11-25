@@ -1,0 +1,84 @@
+{
+  "scope": "Final MP4 actual full resolution decoded H.264. Film frame indices are zero-based.",
+  "picture_loop_origins": {
+    "spring": 0,
+    "summer": 1410,
+    "autumn": 2850,
+    "winter": 4290
+  },
+  "locked_v25_preencode_rgb_ranges_inclusive": [
+    [
+      0,
+      2850
+    ],
+    [
+      4350,
+      5916
+    ]
+  ],
+  "autumn": {
+    "lean_local": 90,
+    "hair_gust_local_inclusive": [
+      140,
+      160
+    ],
+    "page_turn_local_inclusive": [
+      145,
+      180
+    ],
+    "lean_film": 2940,
+    "hair_gust_film_inclusive": [
+      2990,
+      3010
+    ],
+    "page_turn_film_inclusive": [
+      2995,
+      3030
+    ],
+    "page_over_hinge_film": 3005,
+    "organic_crown_air_and_ground_sample_F3022": 3022
+  },
+  "summer": {
+    "neon_4_windows_film_half_open": [
+      [
+        1602,
+        1607
+      ],
+      [
+        1614,
+        1619
+      ],
+      [
+        1626,
+        1630
+      ],
+      [
+        1639,
+        1644
+      ]
+    ]
+  },
+  "dissolves": [
+    [
+      1410,
+      1440,
+      1470
+    ],
+    [
+      2850,
+      2880,
+      2910
+    ],
+    [
+      4290,
+      4320,
+      4350
+    ]
+  ],
+  "ends": {
+    "head_last_frame": 45,
+    "tail_first": 5802,
+    "last_black": 5916,
+    "duration_seconds_exact": "5917/30"
+  }
+}

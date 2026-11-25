@@ -1,0 +1,1119 @@
+{
+  "reviewer_commit": "2b1f97a62d61b2375029e8ed32419890f6ade03f",
+  "review_file_blob": "0714c839d90855bbb84681339be739d7a756bb62",
+  "approved_picture_commit": "44964634a3fb72c168ae5304988e402b767708ac",
+  "approved_manifest_git_blob": "1f270ed416e1fb1be18df699af205d05493f483a",
+  "approved_manifest_sha256": "7b37e9527d578797430c4b15f4a1a3d12830f10b3f62777c0fea37bab506baaf",
+  "input_parts_total": 16,
+  "count_by_season": {
+    "spring": 1,
+    "summer": 8,
+    "autumn": 1,
+    "winter": 6
+  },
+  "read_any_preview_assets": false,
+  "seasons": {
+    "spring": {
+      "verified_parts": {
+        "lossless_exact_restored_sha256": "3d175471ece80d71fae4003ed385c66e9f86f4018116dbd780dfe14f5533049c",
+        "bytes": 7619920,
+        "parts": [
+          {
+            "path": "lossless_parts/spring/part-00.bin",
+            "bytes": 7619920,
+            "sha256": "3d175471ece80d71fae4003ed385c66e9f86f4018116dbd780dfe14f5533049c",
+            "git_blob_sha1": "16c7fa194def70812c94cef820f3b57dad9d74a6"
+          }
+        ],
+        "proxies_read": false,
+        "approval_source": "same prior approved exact Gate2.5 blobs; manifest entry equal to authoritative Gate2.6"
+      },
+      "normalized_exact_RGB": {
+        "decoded_frames": 660,
+        "exact_rgb_cycle_pairs": 330,
+        "palette_keys_unique": 59,
+        "rgb_frames_stream_sha256": "0af949bfdf6b845041d215703ebf55392725b381e6683b61effac11e4f191c2e",
+        "reconstructed_rgb_file_sha256": "c1e5b2621e023f39bb7483db263998ed99e884d6282a54d919ca6861548d52d3",
+        "observed_palette_forward_binding_sha256": "fd29fa37accf9a78f25879b06d2dfe387dd3ed8f37644366751be75df1ef1f91",
+        "decoder": "native-center plane sampler, not RGB proxy reversal"
+      }
+    },
+    "summer": {
+      "verified_parts": {
+        "lossless_exact_restored_sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+        "bytes": 60593471,
+        "parts": [
+          {
+            "path": "lossless_parts/summer/part-00.bin",
+            "bytes": 8000000,
+            "sha256": "f3c5b5388c806f97f5cc1af41833585f9998368f1b21bd283f6787f059dd6306",
+            "git_blob_sha1": "9aec26a2e428a2796be768ba6d11a313752738df"
+          },
+          {
+            "path": "lossless_parts/summer/part-01.bin",
+            "bytes": 8000000,
+            "sha256": "0e1157ae3d8139f1b8032776f1b7869078635d8a323d0d11fe21735f8cc198a6",
+            "git_blob_sha1": "efb97599277e5084a1bd60621e874f45ad0a811c"
+          },
+          {
+            "path": "lossless_parts/summer/part-02.bin",
+            "bytes": 8000000,
+            "sha256": "458361f3f019dc904e87888a53d214ba3d1d224ecd0fa88f5bb9c2046871f7d6",
+            "git_blob_sha1": "b3b9e956e97f4d47852999e510d481df47e6e733"
+          },
+          {
+            "path": "lossless_parts/summer/part-03.bin",
+            "bytes": 8000000,
+            "sha256": "8ebeedca5949962e1bd689fa76c4520be8725e7083b3d7ed1bcd11ead9257840",
+            "git_blob_sha1": "a4f348b0839fb36524919b33de3218b6e7c491e1"
+          },
+          {
+            "path": "lossless_parts/summer/part-04.bin",
+            "bytes": 8000000,
+            "sha256": "22669632951172d0e0433c7eb1d4c25d4e07d20570603834e7062f8df9d7e3be",
+            "git_blob_sha1": "23092705b63107dd2f6d1fbb485e279772b87ac2"
+          },
+          {
+            "path": "lossless_parts/summer/part-05.bin",
+            "bytes": 8000000,
+            "sha256": "4ef64446e20baf3fc97246eaa29833f8dce153ae86cf8606adf072171eb78d73",
+            "git_blob_sha1": "5fab4ec72c5d71e3043550417fac50d654153727"
+          },
+          {
+            "path": "lossless_parts/summer/part-06.bin",
+            "bytes": 8000000,
+            "sha256": "ac386a5ad01ce3379101d585b3f0b7995b1e4fa6969c946ddc0c62c32e895d07",
+            "git_blob_sha1": "402bbacf35c2ae0509a68f93bd59f4b70d47bf80"
+          },
+          {
+            "path": "lossless_parts/summer/part-07.bin",
+            "bytes": 4593471,
+            "sha256": "86ac8ba469473480fc22655eed51ed0223e0bc032c2fbe0f2a51d56307db7d37",
+            "git_blob_sha1": "07afda217dc544892c281293b4dbadefa1feac84"
+          }
+        ],
+        "proxies_read": false,
+        "approval_source": "same prior approved exact Gate2.5 blobs; manifest entry equal to authoritative Gate2.6"
+      },
+      "normalized_exact_RGB": {
+        "decoded_frames": 660,
+        "exact_rgb_cycle_pairs": 330,
+        "palette_keys_unique": 59,
+        "rgb_frames_stream_sha256": "dc107babbdc5723026e43274fb28f0e37ed763fc6e949383beaaa6a3f7be7403",
+        "reconstructed_rgb_file_sha256": "1334764077c576e9098acf3408fd4bb930558cfcb9a17a6ccee9c6dfd1ff317b",
+        "observed_palette_forward_binding_sha256": "8fc0a836eb56a5d79b72847fc65ac4e1fbb91d92acf572ffc2981aab0f3c6ed5",
+        "decoder": "native-center plane sampler, not RGB proxy reversal"
+      }
+    },
+    "autumn": {
+      "verified_parts": {
+        "lossless_exact_restored_sha256": "edd14a487041d22c54a6cbde5c5b77cda19631558070e02664f5ccfd55db2625",
+        "bytes": 5134953,
+        "parts": [
+          {
+            "path": "lossless_parts/autumn/part-00.bin",
+            "bytes": 5134953,
+            "sha256": "edd14a487041d22c54a6cbde5c5b77cda19631558070e02664f5ccfd55db2625",
+            "git_blob_sha1": "2287bbe086da8e390546ab1b4318739424a844ac"
+          }
+        ],
+        "proxies_read": false,
+        "approval_source": "Round24 changed approved Gate2.6 slice"
+      },
+      "normalized_exact_RGB": {
+        "decoded_frames": 660,
+        "exact_rgb_cycle_pairs": 330,
+        "palette_keys_unique": 60,
+        "rgb_frames_stream_sha256": "384d1297ec871b560415300d7af0d50ef2cce71622026ca1cdedfec1dfdd8839",
+        "reconstructed_rgb_file_sha256": "eba9bcffb727c0c240b82feb29a09dd25b26845f75dac6c0b248dfd6e7276ac5",
+        "observed_palette_forward_binding_sha256": "d05b898fd7a0ac05521ac06cffd417aad3dc80f29385f7a34d9b0c7c01a0abde",
+        "decoder": "native-center plane sampler, not RGB proxy reversal"
+      }
+    },
+    "winter": {
+      "verified_parts": {
+        "lossless_exact_restored_sha256": "7979b70a88bd1df98763724c4c129e901ade660e154bcf4eb9c8f4ce70f61ba2",
+        "bytes": 46027709,
+        "parts": [
+          {
+            "path": "lossless_parts/winter/part-00.bin",
+            "bytes": 8000000,
+            "sha256": "e149a5a887ac206f34d375ab2b481e698de49318cee4544cc9526175a9bfce5f",
+            "git_blob_sha1": "2ddcde04b873d895f36ae4447643d1c55c790e1e"
+          },
+          {
+            "path": "lossless_parts/winter/part-01.bin",
+            "bytes": 8000000,
+            "sha256": "6ef47ce096b48ba0416c262edb7ded49f3300d111ce7dd49d6d81d2828e81a1d",
+            "git_blob_sha1": "241b1e7d9edd7ecd3ba142d8f398bbdfb7d4969c"
+          },
+          {
+            "path": "lossless_parts/winter/part-02.bin",
+            "bytes": 8000000,
+            "sha256": "7f3754be0ad255c05b6d55ba739873cc0b26571620d644eabd9a28195227024b",
+            "git_blob_sha1": "27e4acd678498cb1ab796485111308cd9e2ae546"
+          },
+          {
+            "path": "lossless_parts/winter/part-03.bin",
+            "bytes": 8000000,
+            "sha256": "5f32b22bd932dacabbb0c3346168f7f2aa96084e6891457dd216c893f8370d7a",
+            "git_blob_sha1": "7cb2c5417f61e1a06ad56c28e6aad39e40056a61"
+          },
+          {
+            "path": "lossless_parts/winter/part-04.bin",
+            "bytes": 8000000,
+            "sha256": "37260f1ade52d05662b47b3461556fa930a00bf606a6a13a40e3eeac0ab4453a",
+            "git_blob_sha1": "a9a518f5bef4994b6bb13a0a3511026b538c41dc"
+          },
+          {
+            "path": "lossless_parts/winter/part-05.bin",
+            "bytes": 6027709,
+            "sha256": "889db21c263a7bdde65a08b34ff595a9de55b6755f10f30e9abfb7d332a47bc7",
+            "git_blob_sha1": "1625e3ff83a31cd92d1505c89f8f666e9c187e03"
+          }
+        ],
+        "proxies_read": false,
+        "approval_source": "same prior approved exact Gate2.5 blobs; manifest entry equal to authoritative Gate2.6"
+      },
+      "normalized_exact_RGB": {
+        "decoded_frames": 660,
+        "exact_rgb_cycle_pairs": 330,
+        "palette_keys_unique": 60,
+        "rgb_frames_stream_sha256": "499f216c23b6dfe1e9cfe51b4674865006a09cda28e5a4b7fc64be187ed91408",
+        "reconstructed_rgb_file_sha256": "b6dc9167a7d0d34dccf9dcdf963d82de8af385d77fdabc4aaa772710e6d371fe",
+        "observed_palette_forward_binding_sha256": "2e82b3379b28e942f008bd2ef577fde87cc1aa4daac70f3bb7a9a2ed377aa1c8",
+        "decoder": "native-center plane sampler, not RGB proxy reversal"
+      }
+    }
+  },
+  "assembled_native_stream_sha256": "a5b17e2c3a20ebf0e56245871346fc010c08154dc8beec42b49a6810f1f9ccc0",
+  "approved_v25_rebuilt_independently_native_rgb24": "ec41d7f865316a6a205e4471749dc7ee35a43952f18d72ab7235a5465f02315e",
+  "strict_picture_frames": 5917,
+  "fps": 30,
+  "output_duration_exact_rational": "5917/30",
+  "expected_adjacent_exact_picture_pairs": [],
+  "native_framewise_locked_v25_ranges": {
+    "spring_and_summer_to_first_autumn_dissolve_zero_weight": {
+      "frames_inclusive": [
+        0,
+        2850
+      ],
+      "frames_current_identical_to_v25": 2851,
+      "v26_rgb_sha256": "2cafbaff692924f49d408f3e369b7e68dc2db17f471d16a355c70ffe86409f1c",
+      "v25_rgb_sha256": "2cafbaff692924f49d408f3e369b7e68dc2db17f471d16a355c70ffe86409f1c"
+    },
+    "winter_after_autumn_dissolve_and_tail": {
+      "frames_inclusive": [
+        4350,
+        5916
+      ],
+      "frames_current_identical_to_v25": 1567,
+      "v26_rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02",
+      "v25_rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02"
+    }
+  },
+  "only_changed_native_frame_domain_yields_autumn": [
+    2851,
+    4349
+  ],
+  "total_expected_changed_native_frames_vs_v25": 1499,
+  "transitions": {
+    "centers": [
+      1440,
+      2880,
+      4320
+    ],
+    "intervals_halfopen": [
+      [
+        1410,
+        1470
+      ],
+      [
+        2850,
+        2910
+      ],
+      [
+        4290,
+        4350
+      ]
+    ],
+    "expected_discrete_time_quartiles": [
+      0.0,
+      0.15625,
+      0.5,
+      0.84375,
+      1.0
+    ],
+    "all_180_expected_incoming_alpha": [
+      [
+        1410,
+        0.0
+      ],
+      [
+        1411,
+        0.0008240740740740741
+      ],
+      [
+        1412,
+        0.003259259259259259
+      ],
+      [
+        1413,
+        0.007250000000000001
+      ],
+      [
+        1414,
+        0.012740740740740742
+      ],
+      [
+        1415,
+        0.019675925925925927
+      ],
+      [
+        1416,
+        0.028000000000000004
+      ],
+      [
+        1417,
+        0.03765740740740741
+      ],
+      [
+        1418,
+        0.0485925925925926
+      ],
+      [
+        1419,
+        0.06075
+      ],
+      [
+        1420,
+        0.07407407407407407
+      ],
+      [
+        1421,
+        0.08850925925925925
+      ],
+      [
+        1422,
+        0.10400000000000002
+      ],
+      [
+        1423,
+        0.12049074074074075
+      ],
+      [
+        1424,
+        0.13792592592592592
+      ],
+      [
+        1425,
+        0.15625
+      ],
+      [
+        1426,
+        0.17540740740740743
+      ],
+      [
+        1427,
+        0.1953425925925926
+      ],
+      [
+        1428,
+        0.216
+      ],
+      [
+        1429,
+        0.23732407407407405
+      ],
+      [
+        1430,
+        0.25925925925925924
+      ],
+      [
+        1431,
+        0.28174999999999994
+      ],
+      [
+        1432,
+        0.3047407407407407
+      ],
+      [
+        1433,
+        0.328175925925926
+      ],
+      [
+        1434,
+        0.3520000000000001
+      ],
+      [
+        1435,
+        0.37615740740740744
+      ],
+      [
+        1436,
+        0.4005925925925926
+      ],
+      [
+        1437,
+        0.4252500000000001
+      ],
+      [
+        1438,
+        0.45007407407407407
+      ],
+      [
+        1439,
+        0.47500925925925924
+      ],
+      [
+        1440,
+        0.5
+      ],
+      [
+        1441,
+        0.5249907407407408
+      ],
+      [
+        1442,
+        0.5499259259259259
+      ],
+      [
+        1443,
+        0.5747500000000001
+      ],
+      [
+        1444,
+        0.5994074074074074
+      ],
+      [
+        1445,
+        0.6238425925925927
+      ],
+      [
+        1446,
+        0.648
+      ],
+      [
+        1447,
+        0.6718240740740742
+      ],
+      [
+        1448,
+        0.6952592592592592
+      ],
+      [
+        1449,
+        0.71825
+      ],
+      [
+        1450,
+        0.7407407407407407
+      ],
+      [
+        1451,
+        0.7626759259259259
+      ],
+      [
+        1452,
+        0.7839999999999999
+      ],
+      [
+        1453,
+        0.8046574074074074
+      ],
+      [
+        1454,
+        0.8245925925925925
+      ],
+      [
+        1455,
+        0.84375
+      ],
+      [
+        1456,
+        0.8620740740740741
+      ],
+      [
+        1457,
+        0.8795092592592593
+      ],
+      [
+        1458,
+        0.8960000000000001
+      ],
+      [
+        1459,
+        0.9114907407407408
+      ],
+      [
+        1460,
+        0.925925925925926
+      ],
+      [
+        1461,
+        0.9392499999999999
+      ],
+      [
+        1462,
+        0.9514074074074075
+      ],
+      [
+        1463,
+        0.9623425925925926
+      ],
+      [
+        1464,
+        0.972
+      ],
+      [
+        1465,
+        0.9803240740740741
+      ],
+      [
+        1466,
+        0.9872592592592593
+      ],
+      [
+        1467,
+        0.99275
+      ],
+      [
+        1468,
+        0.9967407407407407
+      ],
+      [
+        1469,
+        0.999175925925926
+      ],
+      [
+        2850,
+        0.0
+      ],
+      [
+        2851,
+        0.0008240740740740741
+      ],
+      [
+        2852,
+        0.003259259259259259
+      ],
+      [
+        2853,
+        0.007250000000000001
+      ],
+      [
+        2854,
+        0.012740740740740742
+      ],
+      [
+        2855,
+        0.019675925925925927
+      ],
+      [
+        2856,
+        0.028000000000000004
+      ],
+      [
+        2857,
+        0.03765740740740741
+      ],
+      [
+        2858,
+        0.0485925925925926
+      ],
+      [
+        2859,
+        0.06075
+      ],
+      [
+        2860,
+        0.07407407407407407
+      ],
+      [
+        2861,
+        0.08850925925925925
+      ],
+      [
+        2862,
+        0.10400000000000002
+      ],
+      [
+        2863,
+        0.12049074074074075
+      ],
+      [
+        2864,
+        0.13792592592592592
+      ],
+      [
+        2865,
+        0.15625
+      ],
+      [
+        2866,
+        0.17540740740740743
+      ],
+      [
+        2867,
+        0.1953425925925926
+      ],
+      [
+        2868,
+        0.216
+      ],
+      [
+        2869,
+        0.23732407407407405
+      ],
+      [
+        2870,
+        0.25925925925925924
+      ],
+      [
+        2871,
+        0.28174999999999994
+      ],
+      [
+        2872,
+        0.3047407407407407
+      ],
+      [
+        2873,
+        0.328175925925926
+      ],
+      [
+        2874,
+        0.3520000000000001
+      ],
+      [
+        2875,
+        0.37615740740740744
+      ],
+      [
+        2876,
+        0.4005925925925926
+      ],
+      [
+        2877,
+        0.4252500000000001
+      ],
+      [
+        2878,
+        0.45007407407407407
+      ],
+      [
+        2879,
+        0.47500925925925924
+      ],
+      [
+        2880,
+        0.5
+      ],
+      [
+        2881,
+        0.5249907407407408
+      ],
+      [
+        2882,
+        0.5499259259259259
+      ],
+      [
+        2883,
+        0.5747500000000001
+      ],
+      [
+        2884,
+        0.5994074074074074
+      ],
+      [
+        2885,
+        0.6238425925925927
+      ],
+      [
+        2886,
+        0.648
+      ],
+      [
+        2887,
+        0.6718240740740742
+      ],
+      [
+        2888,
+        0.6952592592592592
+      ],
+      [
+        2889,
+        0.71825
+      ],
+      [
+        2890,
+        0.7407407407407407
+      ],
+      [
+        2891,
+        0.7626759259259259
+      ],
+      [
+        2892,
+        0.7839999999999999
+      ],
+      [
+        2893,
+        0.8046574074074074
+      ],
+      [
+        2894,
+        0.8245925925925925
+      ],
+      [
+        2895,
+        0.84375
+      ],
+      [
+        2896,
+        0.8620740740740741
+      ],
+      [
+        2897,
+        0.8795092592592593
+      ],
+      [
+        2898,
+        0.8960000000000001
+      ],
+      [
+        2899,
+        0.9114907407407408
+      ],
+      [
+        2900,
+        0.925925925925926
+      ],
+      [
+        2901,
+        0.9392499999999999
+      ],
+      [
+        2902,
+        0.9514074074074075
+      ],
+      [
+        2903,
+        0.9623425925925926
+      ],
+      [
+        2904,
+        0.972
+      ],
+      [
+        2905,
+        0.9803240740740741
+      ],
+      [
+        2906,
+        0.9872592592592593
+      ],
+      [
+        2907,
+        0.99275
+      ],
+      [
+        2908,
+        0.9967407407407407
+      ],
+      [
+        2909,
+        0.999175925925926
+      ],
+      [
+        4290,
+        0.0
+      ],
+      [
+        4291,
+        0.0008240740740740741
+      ],
+      [
+        4292,
+        0.003259259259259259
+      ],
+      [
+        4293,
+        0.007250000000000001
+      ],
+      [
+        4294,
+        0.012740740740740742
+      ],
+      [
+        4295,
+        0.019675925925925927
+      ],
+      [
+        4296,
+        0.028000000000000004
+      ],
+      [
+        4297,
+        0.03765740740740741
+      ],
+      [
+        4298,
+        0.0485925925925926
+      ],
+      [
+        4299,
+        0.06075
+      ],
+      [
+        4300,
+        0.07407407407407407
+      ],
+      [
+        4301,
+        0.08850925925925925
+      ],
+      [
+        4302,
+        0.10400000000000002
+      ],
+      [
+        4303,
+        0.12049074074074075
+      ],
+      [
+        4304,
+        0.13792592592592592
+      ],
+      [
+        4305,
+        0.15625
+      ],
+      [
+        4306,
+        0.17540740740740743
+      ],
+      [
+        4307,
+        0.1953425925925926
+      ],
+      [
+        4308,
+        0.216
+      ],
+      [
+        4309,
+        0.23732407407407405
+      ],
+      [
+        4310,
+        0.25925925925925924
+      ],
+      [
+        4311,
+        0.28174999999999994
+      ],
+      [
+        4312,
+        0.3047407407407407
+      ],
+      [
+        4313,
+        0.328175925925926
+      ],
+      [
+        4314,
+        0.3520000000000001
+      ],
+      [
+        4315,
+        0.37615740740740744
+      ],
+      [
+        4316,
+        0.4005925925925926
+      ],
+      [
+        4317,
+        0.4252500000000001
+      ],
+      [
+        4318,
+        0.45007407407407407
+      ],
+      [
+        4319,
+        0.47500925925925924
+      ],
+      [
+        4320,
+        0.5
+      ],
+      [
+        4321,
+        0.5249907407407408
+      ],
+      [
+        4322,
+        0.5499259259259259
+      ],
+      [
+        4323,
+        0.5747500000000001
+      ],
+      [
+        4324,
+        0.5994074074074074
+      ],
+      [
+        4325,
+        0.6238425925925927
+      ],
+      [
+        4326,
+        0.648
+      ],
+      [
+        4327,
+        0.6718240740740742
+      ],
+      [
+        4328,
+        0.6952592592592592
+      ],
+      [
+        4329,
+        0.71825
+      ],
+      [
+        4330,
+        0.7407407407407407
+      ],
+      [
+        4331,
+        0.7626759259259259
+      ],
+      [
+        4332,
+        0.7839999999999999
+      ],
+      [
+        4333,
+        0.8046574074074074
+      ],
+      [
+        4334,
+        0.8245925925925925
+      ],
+      [
+        4335,
+        0.84375
+      ],
+      [
+        4336,
+        0.8620740740740741
+      ],
+      [
+        4337,
+        0.8795092592592593
+      ],
+      [
+        4338,
+        0.8960000000000001
+      ],
+      [
+        4339,
+        0.9114907407407408
+      ],
+      [
+        4340,
+        0.925925925925926
+      ],
+      [
+        4341,
+        0.9392499999999999
+      ],
+      [
+        4342,
+        0.9514074074074075
+      ],
+      [
+        4343,
+        0.9623425925925926
+      ],
+      [
+        4344,
+        0.972
+      ],
+      [
+        4345,
+        0.9803240740740741
+      ],
+      [
+        4346,
+        0.9872592592592593
+      ],
+      [
+        4347,
+        0.99275
+      ],
+      [
+        4348,
+        0.9967407407407407
+      ],
+      [
+        4349,
+        0.999175925925926
+      ]
+    ],
+    "all_anchor_frames": [
+      {
+        "frame": 1410,
+        "transition_center": 1440,
+        "incoming_weight": 0.0,
+        "actual_expected_RGB_sha256": "32f0e49b8dddbe83e63804fff8a27aad68db7a380010161e7fd39ec47ad1cb54",
+        "same_as_v25_native": true
+      },
+      {
+        "frame": 1425,
+        "transition_center": 1440,
+        "incoming_weight": 0.15625,
+        "actual_expected_RGB_sha256": "261ffe52824701bf77149655a7e8dc1637eb8ebfc6ce601a3ad1eb18eb7751b5",
+        "same_as_v25_native": true
+      },
+      {
+        "frame": 1440,
+        "transition_center": 1440,
+        "incoming_weight": 0.5,
+        "actual_expected_RGB_sha256": "ff36c14df37ac2c6907df8a2aca7128ef195df7568251d61df3caec88204b866",
+        "same_as_v25_native": true
+      },
+      {
+        "frame": 1455,
+        "transition_center": 1440,
+        "incoming_weight": 0.84375,
+        "actual_expected_RGB_sha256": "753b2f948601417e3cbac74231e37fa74fc94faf52045cedc03c7dfba3105d8c",
+        "same_as_v25_native": true
+      },
+      {
+        "frame": 1470,
+        "transition_center": 1440,
+        "incoming_weight": 1.0,
+        "actual_expected_RGB_sha256": "08621577a3014ae08c96319b3cca220f4da0b04e3e463f64991d0e9b7036c915",
+        "same_as_v25_native": true
+      },
+      {
+        "frame": 2850,
+        "transition_center": 2880,
+        "incoming_weight": 0.0,
+        "actual_expected_RGB_sha256": "b4ad67b3c52f10be574fbb729d3be7a84eb10edfb3749246f7d7efb218ca613a",
+        "same_as_v25_native": true
+      },
+      {
+        "frame": 2865,
+        "transition_center": 2880,
+        "incoming_weight": 0.15625,
+        "actual_expected_RGB_sha256": "b7cee92a3c053b093eb69d699e1fb4aa9876655366be06de9e1d8d89a6aba6d7",
+        "same_as_v25_native": false
+      },
+      {
+        "frame": 2880,
+        "transition_center": 2880,
+        "incoming_weight": 0.5,
+        "actual_expected_RGB_sha256": "24f9b177ddb973e805e00059ff6c89366e02efe39b242c1c6d201e27bddec524",
+        "same_as_v25_native": false
+      },
+      {
+        "frame": 2895,
+        "transition_center": 2880,
+        "incoming_weight": 0.84375,
+        "actual_expected_RGB_sha256": "3c8be3d52dde0fdec63f4f3f28ce50eb184e2cb632865ba3f7eee2e8fd4c4121",
+        "same_as_v25_native": false
+      },
+      {
+        "frame": 2910,
+        "transition_center": 2880,
+        "incoming_weight": 1.0,
+        "actual_expected_RGB_sha256": "db9ddb4455e85d5b54672cbb75b7270f69efba99751d00dc6d5eaff7d44feba0",
+        "same_as_v25_native": false
+      },
+      {
+        "frame": 4290,
+        "transition_center": 4320,
+        "incoming_weight": 0.0,
+        "actual_expected_RGB_sha256": "1ea5bc7009d629621eefc1081845ad8b5f0d322a693af7a843eb6189b06ab650",
+        "same_as_v25_native": false
+      },
+      {
+        "frame": 4305,
+        "transition_center": 4320,
+        "incoming_weight": 0.15625,
+        "actual_expected_RGB_sha256": "9e74b0b91276a1bace9f0d8f38bdae363d9fb7589ddffd81c05c12d9f1908a1a",
+        "same_as_v25_native": false
+      },
+      {
+        "frame": 4320,
+        "transition_center": 4320,
+        "incoming_weight": 0.5,
+        "actual_expected_RGB_sha256": "e059542b7c137a137ea7dbf5c418cfb6236512a1a781fb937a11fdd4e83caf64",
+        "same_as_v25_native": false
+      },
+      {
+        "frame": 4335,
+        "transition_center": 4320,
+        "incoming_weight": 0.84375,
+        "actual_expected_RGB_sha256": "70e8f66d570071910f4f6e63e7a83c4a1a593591eee8b20dab3305b8ae071642",
+        "same_as_v25_native": false
+      },
+      {
+        "frame": 4350,
+        "transition_center": 4320,
+        "incoming_weight": 1.0,
+        "actual_expected_RGB_sha256": "465ca3e26f3942bf4dcc0cee198032f1cf6c70156524f2430f2e98562004d7af",
+        "same_as_v25_native": true
+      }
+    ],
+    "true_equal_v25_first_middle_last_transition_sha": [
+      [
+        "5ad48700191efb0ece8d4ae2e3b8d136bf3503d89b203a8c7e8f59426520a414",
+        "5ad48700191efb0ece8d4ae2e3b8d136bf3503d89b203a8c7e8f59426520a414"
+      ],
+      [
+        "d3c3062f7bc7c9c7892b69dee3cde270f047deae32ef7d551bf7c73f9a56b189",
+        "cc5d5b1f5ef61ec9cc39dc3ebd73764d44452adbd4653aa7fa2915ca98cf8b4b"
+      ],
+      [
+        "71a65da9f7c37e70d1138897570b8468b241ba7fc6c73a649392c65b7239b2d1",
+        "cfcb180c916578ab0829e87cc688f7a42af86f18c543aaa631d9654570e6313e"
+      ]
+    ]
+  },
+  "fades": {
+    "head_frames": 45,
+    "tail_frames": 114,
+    "tail_start_exact_global_f": 5802,
+    "last_black_frame": 5916
+  },
+  "autumn_anchor_rgb_preencode": {
+    "reader_and_wind_around_100s": {
+      "2893": "eab5bffb4e192ed13582e1a5797e7750baaa61ef9e2bd7cabd69280af5d3b4e4",
+      "2940": "622c456b0db9e86c1e64c2b20b3a7ba28601e5964c4ac2352a7b6e7939ad630b",
+      "2985": "089f9a258297a348cb80112ec9fc319c0ee08af8825c9d3eb9ab85ebaa2a0e2a",
+      "2990": "4346580959f4a054ad65f1e8dfeb568db0ea572aaa6c2d6e4ee8373e08cfa9a9",
+      "2995": "2f5429c3ac492d5840c0271624724c2ffe20c6f2e29f3f405347d3063076e45d",
+      "3000": "9f73be4ef0214648514f15766f2d75d2d1771b2d0ab47c7cf34b504c240b1845",
+      "3005": "4be68dd5115cd9dbf7386e42b188a89d72c75ab671f0fe461e95ab29dd5e1d83",
+      "3010": "c7cfe89219629b8ad22941817b4fd6a98d9327bdcc04a17de167d970799a9cf0",
+      "3015": "18089cb026d3e7d148ecb0f72475974b4eb82d653b349c98b0da914e17ff9d6f",
+      "3020": "dc68e8ae089b02a8145fb7e89cb7c8c36855feccae5b4425df0faca8fce564b7",
+      "3025": "3d1ff79667acb1820b0501c425504fbbe77514e518244e44a8630ebec9570847",
+      "3030": "19accb6331bbe41f3f33415e49e32bd2e0c80b109575f93e432829265cfc36ef",
+      "3055": "c30df1f5d96e601f6822eec4df6eed44e7912a7874084a9f5d6acd0ee0b5c61d",
+      "3110": "7510fd4c7ec4d84313eb2d3c38a9d8f734788b016d34e1b47f947ac96bac1bf5",
+      "3130": "6560bb02aac164f72587ece1974e4f3f07fb1dfb0a1800f9c0b4a501f934d64e",
+      "3179": "92d20de5c6a5efae2317e3981bcfdbab801900d6ecd0c7e9828a286e254729bf"
+    }
+  },
+  "official_previous_v25_mp4_audio_sha256": "90b96d6e02b63b7a3054d262a2101b32c2a75735f52bc85de1151775452407fd",
+  "calibration_note": "Only LUT swatches were learned from previously pinned native output. Every pixel and frame occurrence came from the reassembled QP0 parts. No production compiler imported."
+}
