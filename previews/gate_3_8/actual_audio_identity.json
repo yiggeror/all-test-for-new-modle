@@ -1,0 +1,108 @@
+{
+  "reference_v2.7": {
+    "container_sha256": "20a0082f699a8c01255dc0ea85607447c9c89ca115f82dca81d5da96ea724518",
+    "decoded_PCM": {
+      "sample_frames_full_AAC_decode_including_704_tail_padding_per_channel": 9467904,
+      "sample_frames_logical": 9467200,
+      "decoder_pcm_f32le_sha256": "9eb575d0d3c41d42e1f4b6c8ca7ad877ca30d19d053481e36a3bde421836c222",
+      "logical_pcm_f32le_sha256": "19de343d4bad6b25cab3d33a90ad58b30c975b8e7bfce460e2689e60aac21c2f",
+      "tail_192s_to_logical_end_f32le_sha256": "69746e7da8b2f7f4c9e6cd9e2b052cfe40c2a5197b733d21350a9ac29aecd543",
+      "sample_peak_dBFS": -4.745342444682644,
+      "tail_192s_to_end_sample_peak_dBFS": -16.352499639639852,
+      "tail_192s_to_end_RMS_dBFS": -31.53220140194489
+    },
+    "ebur128": {
+      "integrated_LUFS": -16.0,
+      "true_peak_dBTP": -4.7,
+      "LRA_LU": 13.4
+    },
+    "actual AAC packets": {
+      "AAC_config_extradata": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+      "packets": 9247,
+      "progressive_PTS_DTS_matches_samples": true,
+      "first_packet_without_pos": {
+        "pts": -1024,
+        "dts": -1024,
+        "duration": 1024,
+        "size": "521",
+        "flags": "KD_",
+        "data_hash": "SHA256:345267ca70a1f095d2c354127f841143b467d4e386fe14dfbee4a5b75f06c0ab",
+        "side_data_list": [
+          {
+            "side_data_type": "Skip Samples",
+            "skip_samples": 1024,
+            "discard_padding": 0,
+            "skip_reason": 0,
+            "discard_reason": 0
+          }
+        ]
+      },
+      "last_packet_without_pos": {
+        "pts": 9466880,
+        "dts": 9466880,
+        "duration": 320,
+        "size": "6",
+        "flags": "K__",
+        "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+      },
+      "raw_payload_bytes": 6356732,
+      "AAC_payload_concatenated_sha256": "b8a7215d0ab457d6a8d2a8611d1075c5307ba06a61f80105214e30ba897d8717",
+      "ordered_packet_identity_sha256": "0f33c794b7e53028f92ee56a082458c39a32385c613bc433bfbd99511cbb99b1"
+    }
+  },
+  "reference_v2.6_all_AAC_extradata_packets_payloads_PCM_clock_also_equal": true,
+  "reference_v2.6_sha256": "22e4039aff0e886323632568efe34a4d91c308f7f9ca45bd8ba904713d58e565",
+  "candidate": {
+    "container_sha256": "d25d4faa73950dc7e777d3207f109048036ab1f32b08fcd8ea8b379e1b1b2259",
+    "decoded_PCM": {
+      "sample_frames_full_AAC_decode_including_704_tail_padding_per_channel": 9467904,
+      "sample_frames_logical": 9467200,
+      "decoder_pcm_f32le_sha256": "9eb575d0d3c41d42e1f4b6c8ca7ad877ca30d19d053481e36a3bde421836c222",
+      "logical_pcm_f32le_sha256": "19de343d4bad6b25cab3d33a90ad58b30c975b8e7bfce460e2689e60aac21c2f",
+      "tail_192s_to_logical_end_f32le_sha256": "69746e7da8b2f7f4c9e6cd9e2b052cfe40c2a5197b733d21350a9ac29aecd543",
+      "sample_peak_dBFS": -4.745342444682644,
+      "tail_192s_to_end_sample_peak_dBFS": -16.352499639639852,
+      "tail_192s_to_end_RMS_dBFS": -31.53220140194489
+    },
+    "ebur128": {
+      "integrated_LUFS": -16.0,
+      "true_peak_dBTP": -4.7,
+      "LRA_LU": 13.4
+    },
+    "actual AAC packets": {
+      "AAC_config_extradata": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+      "packets": 9247,
+      "progressive_PTS_DTS_matches_samples": true,
+      "first_packet_without_pos": {
+        "pts": -1024,
+        "dts": -1024,
+        "duration": 1024,
+        "size": "521",
+        "flags": "KD_",
+        "data_hash": "SHA256:345267ca70a1f095d2c354127f841143b467d4e386fe14dfbee4a5b75f06c0ab",
+        "side_data_list": [
+          {
+            "side_data_type": "Skip Samples",
+            "skip_samples": 1024,
+            "discard_padding": 0,
+            "skip_reason": 0,
+            "discard_reason": 0
+          }
+        ]
+      },
+      "last_packet_without_pos": {
+        "pts": 9466880,
+        "dts": 9466880,
+        "duration": 320,
+        "size": "6",
+        "flags": "K__",
+        "data_hash": "SHA256:8a487dc722403a9dffef435b459f5afa999401a7623878ad7ab41eeb8ea0609b"
+      },
+      "raw_payload_bytes": 6356732,
+      "AAC_payload_concatenated_sha256": "b8a7215d0ab457d6a8d2a8611d1075c5307ba06a61f80105214e30ba897d8717",
+      "ordered_packet_identity_sha256": "0f33c794b7e53028f92ee56a082458c39a32385c613bc433bfbd99511cbb99b1"
+    }
+  },
+  "all_9247_exact_payloads_pts_dts_durations_flags_and_encoding_config_equal": true,
+  "full_float32_decode_and_9467200_logical_samples_equal": true
+}

@@ -1,0 +1,191 @@
+{
+  "review_clips": {
+    "review_winter_1080p_1x.mp4": {
+      "sha256": "a3035a154cdf59ef61bb1fb1e582303e4d5ecb9ff6f7650f4874db6b448175c3",
+      "picture_shape": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "pictures": 330,
+      "audio_start_sample": 0,
+      "audio_duration_samples": 528000,
+      "audio_sample_rate": 48000,
+      "seconds_both_tracks": 11,
+      "all_picture_pts_exact": true,
+      "decoded_sound_timing_cross_check_at_global_picture_frames": {
+        "4446": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9999431979402386,
+            0.9999368237490555
+          ],
+          "zero_sample_offset_similarity": [
+            0.9999431979402386,
+            0.9999368237490555
+          ]
+        },
+        "4459": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9998478828273365,
+            0.9998401192113966
+          ],
+          "zero_sample_offset_similarity": [
+            0.9998478828273365,
+            0.9998401192113966
+          ]
+        },
+        "4410": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9997598948746469,
+            0.999711402432318
+          ],
+          "zero_sample_offset_similarity": [
+            0.9997598948746469,
+            0.999711402432318
+          ]
+        },
+        "4620": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9998317760619018,
+            0.9998442095892343
+          ],
+          "zero_sample_offset_similarity": [
+            0.9998317760619018,
+            0.9998442095892343
+          ]
+        },
+        "4698": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9997832048586677,
+            0.9996064473713192
+          ],
+          "zero_sample_offset_similarity": [
+            0.9997832048586677,
+            0.9996064473713192
+          ]
+        }
+      },
+      "mean_abs_luma_change_for_lossy_review_copy": 0.15061326809764308,
+      "worst_frame_MAE": 0.20487847222222222
+    },
+    "review_winter_reader_5x_1x.mp4": {
+      "sha256": "f6095387ac5c34013ed4b44aff8237b2d4f7afe7bee4d102dc1ab5bd24dbaed1",
+      "picture_shape": [
+        960,
+        720
+      ],
+      "fps": 30,
+      "pictures": 330,
+      "audio_start_sample": 0,
+      "audio_duration_samples": 528000,
+      "audio_sample_rate": 48000,
+      "seconds_both_tracks": 11,
+      "all_picture_pts_exact": true,
+      "decoded_sound_timing_cross_check_at_global_picture_frames": {
+        "4446": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9999431979402386,
+            0.9999368237490555
+          ],
+          "zero_sample_offset_similarity": [
+            0.9999431979402386,
+            0.9999368237490555
+          ]
+        },
+        "4459": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9998478828273365,
+            0.9998401192113966
+          ],
+          "zero_sample_offset_similarity": [
+            0.9998478828273365,
+            0.9998401192113966
+          ]
+        },
+        "4410": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9997598948746469,
+            0.999711402432318
+          ],
+          "zero_sample_offset_similarity": [
+            0.9997598948746469,
+            0.999711402432318
+          ]
+        },
+        "4620": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9998317760619018,
+            0.9998442095892343
+          ],
+          "zero_sample_offset_similarity": [
+            0.9998317760619018,
+            0.9998442095892343
+          ]
+        },
+        "4698": {
+          "peaks_samples_shift": [
+            0,
+            0
+          ],
+          "independent_stereo_similarity_at_peaks": [
+            0.9997832048586677,
+            0.9996064473713192
+          ],
+          "zero_sample_offset_similarity": [
+            0.9997832048586677,
+            0.9996064473713192
+          ]
+        }
+      },
+      "pure_YUV_from_actual_final_crop_all_330_exact": true,
+      "ordered_decoded_330_crop_md5_hash": "a4bb96f1584ede0c1872658aa4434f183d5dce7a309f1881bb845086b83431ab"
+    }
+  },
+  "exact_frame_cuts_half_open": [
+    4384,
+    4714
+  ],
+  "input_original_mixed_samples_half_open": [
+    7014400,
+    7542400
+  ],
+  "comparison_same_frame_pairs": 24,
+  "comparison_exact_input_raster_examples": 48,
+  "comparison_sha256": "735a762665c4a3d5331dbdf0a319ade6219acf1ba3837cd19bd30eeff0332424"
+}

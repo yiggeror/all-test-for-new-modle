@@ -1,0 +1,366 @@
+{
+  "candidate_sha256": "d25d4faa73950dc7e777d3207f109048036ab1f32b08fcd8ea8b379e1b1b2259",
+  "candidate_bytes": 141459579,
+  "compared_official_v27_release_sha256": "20a0082f699a8c01255dc0ea85607447c9c89ca115f82dca81d5da96ea724518",
+  "final_structure": {
+    "fps": "30/1",
+    "strict_packet_PTS_count": 5917,
+    "last_frame_pts": "986/5",
+    "format_duration_s": "197.233333",
+    "duration_fraction_s": "5917/30",
+    "faststart_atoms": [
+      [
+        "ftyp",
+        32,
+        0
+      ],
+      [
+        "moov",
+        218355,
+        32
+      ],
+      [
+        "free",
+        8,
+        218387
+      ],
+      [
+        "mdat",
+        141241184,
+        218395
+      ]
+    ],
+    "actual_x264_SEI": "x264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=4 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=8 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=60 keyint_min=30 scenecut=40 intra_refresh=0 rc_lookahead=50 rc=crf mbtree=1 crf=14.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00",
+    "packet_payloads_sha256": "03a0a4712a7a806bc06abea7e3196369420669c66e77fe27ce3aae60b32038f9",
+    "sps_VUI": {
+      "colour_primaries": 2,
+      "transfer_characteristics": 2,
+      "matrix_coefficients": 1,
+      "video_full_range_flag": 0
+    },
+    "profiles": {
+      "codec_name": "h264",
+      "profile": "High",
+      "codec_tag_string": "avc1",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_range": "tv",
+      "field_order": "progressive",
+      "avg_frame_rate": "30/1",
+      "r_frame_rate": "30/1",
+      "nb_frames": "5917",
+      "start_pts": 0
+    }
+  },
+  "same_approved_v27_EBU_matrix_range_and_unspecified_transfer_primaries": true,
+  "strict_full_resolution_decode": {
+    "actual_1080p_decoded_frames": 5917,
+    "fully_decoded_audio_without_ffmpeg_errors": true,
+    "all_decoded_pts_cadence_1_over_30": true,
+    "duplicate_consecutive_decoded_full_frames": [],
+    "strict_frame_MD5_ordered_list_SHA256": "c53557960a2cba20be55fc86f0ebe1636708b3724fcfb64ce9c0f698ba99e1f7",
+    "first_DTS_pts_duration_bytes_MD5": [
+      "0",
+      "0",
+      "0",
+      "1",
+      "3110400",
+      "9b2c4088acb2c896d5d79adbe4b893ac"
+    ],
+    "last_DTS_pts_duration_bytes_MD5": [
+      "0",
+      "5916",
+      "5916",
+      "1",
+      "3110400",
+      "9b2c4088acb2c896d5d79adbe4b893ac"
+    ]
+  },
+  "real_decoded_pixel_registration": {
+    "all_actual_decoded_frames_compared_to_pinned_oracle": 5917,
+    "actual_window_xyxy_halfopen": [
+      242,
+      98,
+      274,
+      122
+    ],
+    "correlations_by_phase_lag_full_and_winter_window": {
+      "-5": [
+        0.00027114786757810545,
+        -0.0005807920844173186
+      ],
+      "-2": [
+        -0.0587049715707792,
+        -0.14435309565242443
+      ],
+      "-1": [
+        -0.30322692967818016,
+        -0.1665403215582932
+      ],
+      "0": [
+        0.9016315272361093,
+        0.9193858115436269
+      ],
+      "1": [
+        -0.30636750522924394,
+        -0.17043439106844568
+      ],
+      "2": [
+        -0.059300141228819284,
+        -0.14416829349392707
+      ],
+      "5": [
+        -0.0013088455168596333,
+        -0.0011398259023205264
+      ]
+    },
+    "motion_alignment_unique_max_at_zero_lag": true,
+    "regions": {
+      "spring": {
+        "old_vs_own_raw": {
+          "minimum": 0.0,
+          "median": 2.8897280092592594,
+          "mean": 2.874191795777883,
+          "p95": 2.8958564814814816,
+          "maximum": 2.911064814814815
+        },
+        "candidate_vs_own_raw": {
+          "minimum": 0.0,
+          "median": 2.8897280092592594,
+          "mean": 2.874191254396672,
+          "p95": 2.8958564814814816,
+          "maximum": 2.911064814814815
+        },
+        "decoded_difference_outside_enclosing_window_RGB_MAE": {
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 8.945426645639262e-06,
+          "p95": 1.759572072072072e-05,
+          "maximum": 0.0014545795795795795
+        }
+      },
+      "blend_spring_summer": {
+        "old_vs_own_raw": {
+          "minimum": 2.3872395833333333,
+          "median": 2.619872685185185,
+          "mean": 2.6167523932831136,
+          "p95": 2.8269774305555555,
+          "maximum": 2.8905671296296296
+        },
+        "candidate_vs_own_raw": {
+          "minimum": 2.3872395833333333,
+          "median": 2.619872685185185,
+          "mean": 2.6167523932831136,
+          "p95": 2.8269774305555555,
+          "maximum": 2.8905671296296296
+        },
+        "decoded_difference_outside_enclosing_window_RGB_MAE": {
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        }
+      },
+      "summer": {
+        "old_vs_own_raw": {
+          "minimum": 2.6503935185185186,
+          "median": 2.670023148148148,
+          "mean": 2.6705396233942125,
+          "p95": 2.68109375,
+          "maximum": 2.687986111111111
+        },
+        "candidate_vs_own_raw": {
+          "minimum": 2.6503935185185186,
+          "median": 2.6700636574074075,
+          "mean": 2.6705401011076244,
+          "p95": 2.68109375,
+          "maximum": 2.687986111111111
+        },
+        "decoded_difference_outside_enclosing_window_RGB_MAE": {
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0034753565794251894,
+          "p95": 0.040006803678678676,
+          "maximum": 0.07589620870870871
+        }
+      },
+      "blend_summer_autumn": {
+        "old_vs_own_raw": {
+          "minimum": 2.418252314814815,
+          "median": 2.6597453703703704,
+          "mean": 2.7230175965160077,
+          "p95": 3.041148148148148,
+          "maximum": 3.0671643518518517
+        },
+        "candidate_vs_own_raw": {
+          "minimum": 2.418252314814815,
+          "median": 2.6597453703703704,
+          "mean": 2.7230175965160077,
+          "p95": 3.041148148148148,
+          "maximum": 3.0671643518518517
+        },
+        "decoded_difference_outside_enclosing_window_RGB_MAE": {
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        }
+      },
+      "autumn": {
+        "old_vs_own_raw": {
+          "minimum": 3.031851851851852,
+          "median": 3.038894675925926,
+          "mean": 3.0395537486255266,
+          "p95": 3.048136574074074,
+          "maximum": 3.058385416666667
+        },
+        "candidate_vs_own_raw": {
+          "minimum": 3.031851851851852,
+          "median": 3.038894675925926,
+          "mean": 3.0395539078633305,
+          "p95": 3.048136574074074,
+          "maximum": 3.058385416666667
+        },
+        "decoded_difference_outside_enclosing_window_RGB_MAE": {
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 1.4100360316870094e-06,
+          "p95": 0.0,
+          "maximum": 0.000633445945945946
+        }
+      },
+      "blend_autumn_winter": {
+        "old_vs_own_raw": {
+          "minimum": 2.4139699074074072,
+          "median": 2.6696064814814813,
+          "mean": 2.7118313520087884,
+          "p95": 3.0674866898148148,
+          "maximum": 3.155497685185185
+        },
+        "candidate_vs_own_raw": {
+          "minimum": 2.412847222222222,
+          "median": 2.671099537037037,
+          "mean": 2.7113906544256117,
+          "p95": 3.0667934027777775,
+          "maximum": 3.155462962962963
+        },
+        "decoded_difference_outside_enclosing_window_RGB_MAE": {
+          "minimum": 0.0006627721471471472,
+          "median": 0.13147522522522523,
+          "mean": 0.12271891860080421,
+          "p95": 0.217726515578078,
+          "maximum": 0.24365381006006007
+        },
+        "window_change_signal_frames": 47,
+        "old_matches_own_ROI_count": 47,
+        "new_matches_own_ROI_count": 47,
+        "old_vs_own_signal_MAE": {
+          "minimum": 2.9,
+          "median": 3.9186991869918697,
+          "mean": 4.119917810660482,
+          "p95": 5.18834219858156,
+          "maximum": 5.46
+        },
+        "old_vs_other_signal_MAE": {
+          "minimum": 8.407407407407407,
+          "median": 16.3,
+          "mean": 16.638428669696548,
+          "p95": 23.316822562358276,
+          "maximum": 23.569444444444443
+        },
+        "new_vs_own_signal_MAE": {
+          "minimum": 2.7777777777777777,
+          "median": 3.9305555555555554,
+          "mean": 3.9215594534554477,
+          "p95": 4.804666666666666,
+          "maximum": 4.929078014184397
+        },
+        "new_vs_other_signal_MAE": {
+          "minimum": 7.37037037037037,
+          "median": 14.872340425531915,
+          "mean": 15.163556227022106,
+          "p95": 21.907270408163264,
+          "maximum": 22.099290780141843
+        },
+        "same_phase_signal_recovery": {
+          "minimum": 0.9535129833255898,
+          "median": 0.975471713957023,
+          "mean": 0.9786784748742409,
+          "p95": 1.0160564996489534,
+          "maximum": 1.031547507933545
+        }
+      },
+      "winter": {
+        "old_vs_own_raw": {
+          "minimum": 0.0,
+          "median": 2.463859953703704,
+          "mean": 2.44655106256943,
+          "p95": 2.4714467592592593,
+          "maximum": 2.5433680555555553
+        },
+        "candidate_vs_own_raw": {
+          "minimum": 0.0,
+          "median": 2.463344907407407,
+          "mean": 2.4461236416897116,
+          "p95": 2.470835648148148,
+          "maximum": 2.5435243055555556
+        },
+        "decoded_difference_outside_enclosing_window_RGB_MAE": {
+          "minimum": 0.0,
+          "median": 0.022352430555555556,
+          "mean": 0.03187959068273762,
+          "p95": 0.08946426895645643,
+          "maximum": 0.31569069069069067
+        },
+        "window_change_signal_frames": 1558,
+        "old_matches_own_ROI_count": 1558,
+        "new_matches_own_ROI_count": 1558,
+        "old_vs_own_signal_MAE": {
+          "minimum": 1.7916666666666667,
+          "median": 5.407785336356765,
+          "mean": 5.404429029359018,
+          "p95": 6.070252267573696,
+          "maximum": 6.731884057971015
+        },
+        "old_vs_other_signal_MAE": {
+          "minimum": 8.520833333333334,
+          "median": 23.98611111111111,
+          "mean": 23.853454415028306,
+          "p95": 26.834999999999997,
+          "maximum": 30.084848484848486
+        },
+        "new_vs_own_signal_MAE": {
+          "minimum": 1.962962962962963,
+          "median": 5.072875958894196,
+          "mean": 5.04130931070072,
+          "p95": 5.66,
+          "maximum": 6.2101449275362315
+        },
+        "new_vs_other_signal_MAE": {
+          "minimum": 7.041666666666667,
+          "median": 22.23158828748891,
+          "mean": 22.128546935182726,
+          "p95": 25.546666666666667,
+          "maximum": 29.6
+        },
+        "same_phase_signal_recovery": {
+          "minimum": 0.8802816901408451,
+          "median": 0.9614525865569592,
+          "mean": 0.9610445911738605,
+          "p95": 0.9793562914699515,
+          "maximum": 0.994723035395202
+        }
+      }
+    }
+  },
+  "encoded_and_raw_differentiated": {
+    "locked_native_RGB0_4290_exact": true,
+    "actual_decoded_1080p_YUV_prefix_matching_frames": 4047,
+    "actual_decoded_1080p_YUV_prefix_nonidentical_frames": 244,
+    "note": "CRF14 AVC recompression can alter decoded pixels outside the material edits; exact zero regression applies at independent native encoder input."
+  }
+}

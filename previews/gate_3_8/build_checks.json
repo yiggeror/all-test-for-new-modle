@@ -1,0 +1,42 @@
+{
+  "entrypoint": "python tools/gate3_v28/reproduce.py",
+  "unit_tests": {
+    "pass": 16,
+    "fail": 0
+  },
+  "approved_inputs_separately_decoded_and_composed": true,
+  "matching_separate_candidate_rebuild": true,
+  "full_technical_checks_completed": true,
+  "full_1x_visual_and_final_window_blind_QA": "independent_publishable_review.json",
+  "default_github_download_directly_verified": {
+    "sha256": "20a0082f699a8c01255dc0ea85607447c9c89ca115f82dca81d5da96ea724518",
+    "bytes": 141465116,
+    "aac_packets": 9247
+  },
+  "candidate": {
+    "file": "Rainroji_Lofi_V2.8_1080p.mp4",
+    "sha256": "d25d4faa73950dc7e777d3207f109048036ab1f32b08fcd8ea8b379e1b1b2259",
+    "bytes": 141459579,
+    "frames": 5917,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "production_sources_sha256": {
+    "README.md": "0d0771165b3a8907f1dcd261605d16813ca76047cc982b00bd082ba616981afe",
+    "assemble.py": "beeaa345de89fe0e0498f47d4827cc7ac915521f1163474feebad6f67aa17da7",
+    "audio_lock.py": "0ea94f1753ff822da3a30914e67c24832f6af4f92a18d8498153eb20c83550d5",
+    "check_picture.py": "37352a73865fa38c70c2de27fb659159a2f8d96950364d9d9b97fe939ff6510a",
+    "native_fingerprints.json": "f2105b302ef4af897bcb3b151f2e307b27da78dace913f43bdad6c017ecef831",
+    "recover_native.py": "8c42f19a19b1735a45345372242169530b49239685a4eaa213284ff3262501dc",
+    "reproduce.py": "0782deef6066c445d1fc4f46350bc8fb43398c9ba1e7c3e7650a3a7eb1305474",
+    "requirements.txt": "172e9ac1e2fee27cbad9a1ac0d62b903960e8c86e287f1c8f9851def49c70afd",
+    "review_cues.py": "aaa9f6c69a3e12dff1c6cc76742297dfb4e5cc1b9a7978859a83c9e4d8608403",
+    "review_exports.py": "081377771ee44f0aeef6a2d4861e917b207f7b5fd2c5ff39e0afdfedd8a5c807",
+    "rgb_locks.json": "647840c742b3a44faab79af19bac9aff0df18fd27f6935a266cdb8af240920c1",
+    "test_assembly.py": "0a372a80a78f2dc0d235dafee376c23f9aaffd84d51c2a432a95b8a92a74eeed",
+    "test_recover_native.py": "2bc19beaec5d94cde0352e7245c4587f0fa8333b74456431f21b8a1eb2ae116b",
+    "test_review.py": "92c4c522fc5247b25f91095037d2d81e8e2a9876946e65f01a9a4d759dd90664",
+    "test_v28.py": "6483b195df14801d72ffb86f3d32a95f739c958ab290a1943a5f0a7ec9a1d4f6"
+  }
+}

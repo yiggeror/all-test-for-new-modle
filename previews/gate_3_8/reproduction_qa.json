@@ -1,0 +1,308 @@
+{
+  "output": "Rainroji_Lofi_V2.8_1080p.mp4",
+  "sha256": "d25d4faa73950dc7e777d3207f109048036ab1f32b08fcd8ea8b379e1b1b2259",
+  "bytes": 141459579,
+  "toolchain": {
+    "python": "3.12.14",
+    "machine": "x86_64",
+    "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "Pillow": "13.0.0"
+    },
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "x264": "264 - core 164 r3108 31e19f9"
+  },
+  "source_commit": "382661831203769681ebcd369603f5512629f74f",
+  "review_commit": "ba035943bd6057ad107b8decf6eb1c416a81b624",
+  "picture_input_policy": "16 pinned Gate 2.8 lossless split parts only (1+8+1+6); no previous cut, viewing proxy or authored NPY",
+  "input_manifest_sha256": "486f29648f6bf9f69a5e77bda283fd372de3ae80f9ece3c97b7b83a0e085ed29",
+  "native_inputs": {
+    "spring": {
+      "scene": "spring",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "full_yuv_repeat_verified": true,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 59,
+      "rgb_sha256": "0af949bfdf6b845041d215703ebf55392725b381e6683b61effac11e4f191c2e",
+      "npy_sha256": "c1e5b2621e023f39bb7483db263998ed99e884d6282a54d919ca6861548d52d3",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "summer": {
+      "scene": "summer",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "full_yuv_repeat_verified": true,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 59,
+      "rgb_sha256": "dc107babbdc5723026e43274fb28f0e37ed763fc6e949383beaaa6a3f7be7403",
+      "npy_sha256": "1334764077c576e9098acf3408fd4bb930558cfcb9a17a6ccee9c6dfd1ff317b",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "autumn": {
+      "scene": "autumn",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "full_yuv_repeat_verified": true,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 60,
+      "rgb_sha256": "30bc7f04a58b39cc65cfe3192ff3c0e000aacd88b36f5ccbdb97282f34c7e744",
+      "npy_sha256": "642d030c67fea8310b5ded4cc594cb9da7846304d70a722358ceb3cc34010c59",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    },
+    "winter": {
+      "scene": "winter",
+      "frames": 330,
+      "full_decode_frames_checked": 660,
+      "full_yuv_repeat_verified": true,
+      "native_size": [
+        320,
+        180
+      ],
+      "palette_colors": 60,
+      "rgb_sha256": "da3d59cbde68abfe593813cb114ccbe9018af1458e944b05138557228a27de1e",
+      "npy_sha256": "04b7990f4f28f96af4ed6749c3de7101bcd9d96cef60a6915d71c3e29cc8df3b",
+      "source_pts_checked": 660,
+      "unique_rgb_frames": 330,
+      "adjacent_equal_count": 0,
+      "adjacent_equal_cycle_indices": []
+    }
+  },
+  "picture_only": {
+    "sha256": "a629bf7912c7ca07541b0435caafe2dd62655b108538cd07fb0256c55c0a0127",
+    "bytes": 134957766,
+    "count": 5917
+  },
+  "preencode_native_rgb": {
+    "scope": "5917 ordered frames, 320x180, packed RGB24 byte stream no headers",
+    "local_sha256": "614e33a5792bb020834e830c873d3f4524985cbe45f1c610acff17f2cbee3d6e",
+    "reference_sha256_this_build": "614e33a5792bb020834e830c873d3f4524985cbe45f1c610acff17f2cbee3d6e",
+    "local_toolchain_matches_reference_environment": true,
+    "matches_independent_reference": true,
+    "adjacent_equal_count": 0,
+    "adjacent_equal_timeline_indices": [],
+    "actual_window_fingerprints": {
+      "spring": {
+        "frames_inclusive": [
+          0,
+          1410
+        ],
+        "rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3"
+      },
+      "blend_spring_summer": {
+        "frames_inclusive": [
+          1411,
+          1469
+        ],
+        "rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e"
+      },
+      "summer": {
+        "frames_inclusive": [
+          1470,
+          2850
+        ],
+        "rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86"
+      },
+      "blend_summer_autumn": {
+        "frames_inclusive": [
+          2851,
+          2909
+        ],
+        "rgb_sha256": "68df525244da5356aa6a384d7eeab0d60634e42874ede1c2453e6a7239341838"
+      },
+      "autumn": {
+        "frames_inclusive": [
+          2910,
+          4290
+        ],
+        "rgb_sha256": "60273e5639377f2beb915787cf65d5ae66f9302b2647b1813812473a0f5bfb09"
+      },
+      "blend_autumn_winter": {
+        "frames_inclusive": [
+          4291,
+          4349
+        ],
+        "rgb_sha256": "38a6b13975afd5f651fb880c00efc2f14a9b9a7041a351e55831565f23c63193"
+      },
+      "winter": {
+        "frames_inclusive": [
+          4350,
+          5916
+        ],
+        "rgb_sha256": "3acf1ac9ddf980d9adc7052a6bb1c54045ad43fe1251d9fce97ce1b094106d2f"
+      }
+    },
+    "independent_reference_including_v27_lock": {
+      "spring": {
+        "frames_inclusive": [
+          0,
+          1410
+        ],
+        "rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3",
+        "prior_rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3",
+        "frames_with_legitimate_reader_change": 0,
+        "native_changed_pixels_summed": 0
+      },
+      "blend_spring_summer": {
+        "frames_inclusive": [
+          1411,
+          1469
+        ],
+        "rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e",
+        "prior_rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e",
+        "frames_with_legitimate_reader_change": 0,
+        "native_changed_pixels_summed": 0
+      },
+      "summer": {
+        "frames_inclusive": [
+          1470,
+          2850
+        ],
+        "rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86",
+        "prior_rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86",
+        "frames_with_legitimate_reader_change": 0,
+        "native_changed_pixels_summed": 0
+      },
+      "blend_summer_autumn": {
+        "frames_inclusive": [
+          2851,
+          2909
+        ],
+        "rgb_sha256": "68df525244da5356aa6a384d7eeab0d60634e42874ede1c2453e6a7239341838",
+        "prior_rgb_sha256": "68df525244da5356aa6a384d7eeab0d60634e42874ede1c2453e6a7239341838",
+        "frames_with_legitimate_reader_change": 0,
+        "native_changed_pixels_summed": 0
+      },
+      "autumn": {
+        "frames_inclusive": [
+          2910,
+          4290
+        ],
+        "rgb_sha256": "60273e5639377f2beb915787cf65d5ae66f9302b2647b1813812473a0f5bfb09",
+        "prior_rgb_sha256": "60273e5639377f2beb915787cf65d5ae66f9302b2647b1813812473a0f5bfb09",
+        "frames_with_legitimate_reader_change": 0,
+        "native_changed_pixels_summed": 0
+      },
+      "blend_autumn_winter": {
+        "frames_inclusive": [
+          4291,
+          4349
+        ],
+        "rgb_sha256": "38a6b13975afd5f651fb880c00efc2f14a9b9a7041a351e55831565f23c63193",
+        "prior_rgb_sha256": "e35d263e10e1ef6fa23c7c0a529a13abed8149d75d677dc264b9d589ca13d50d",
+        "frames_with_legitimate_reader_change": 58,
+        "native_changed_pixels_summed": 2809
+      },
+      "winter": {
+        "frames_inclusive": [
+          4350,
+          5916
+        ],
+        "rgb_sha256": "3acf1ac9ddf980d9adc7052a6bb1c54045ad43fe1251d9fce97ce1b094106d2f",
+        "prior_rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02",
+        "frames_with_legitimate_reader_change": 1566,
+        "native_changed_pixels_summed": 81546
+      }
+    },
+    "direct_stitched_v27_identical_raw_ranges": {
+      "prefix": {
+        "frames_inclusive": [
+          0,
+          4290
+        ],
+        "rgb_sha256": "7000c54156e984b25e51ff87c6888a7e9e32aac29759be0785b740fbc822db00"
+      }
+    }
+  },
+  "audio_source": {
+    "url": "https://github.com/yiggeror/all-test-for-new-modle/releases/download/v2.7-rainroji-lofi-1080p/Rainroji_Lofi_V2.7_1080p.mp4",
+    "bytes": 141465116,
+    "mp4_sha256": "20a0082f699a8c01255dc0ea85607447c9c89ca115f82dca81d5da96ea724518",
+    "used_verified_local_cache": true
+  },
+  "audio_packets_preserved": {
+    "packet_count": 9247,
+    "packet_payload_sequence_sha256": "cada2969b15e00c13dfb564868318180a333d34e17819ddaf338ac1a604f5220",
+    "adts_sha256": "507c422e4f6d5f476a3b3c0ee594adb5a4bbea336bf3a2d7d5d951d50f7ef0ab",
+    "audio_timing_bytes_identity_sha256": "d7d76c40dbcd12425a82aaaed197e50e918c0e4c3be3f254e2a8604d7bd4bfdf",
+    "aac_audiospecificconfig_sha256": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+    "presented_samples_at_48000": 9467200,
+    "first_pts_dts_duration_size": [
+      -1024,
+      -1024,
+      1024,
+      521
+    ],
+    "last_pts_dts_duration_size": [
+      9466880,
+      9466880,
+      320,
+      6
+    ],
+    "skip_samples": 1024,
+    "discard_padding": 0,
+    "stream": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200
+    },
+    "pcm_decode_comparison": {
+      "format": "f32le",
+      "channels": 2,
+      "presented_samples": 9467200,
+      "sha256": "19de343d4bad6b25cab3d33a90ad58b30c975b8e7bfce460e2689e60aac21c2f"
+    }
+  },
+  "technical_qa": {
+    "video": {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "nb_frames": "5917",
+      "color_space": "bt709",
+      "color_range": "tv",
+      "start_pts": 0,
+      "color_transfer": "unspecified",
+      "color_primaries": "unspecified"
+    },
+    "pts_checked": 5917,
+    "duration": "197.233333",
+    "full_audio_video_decode": true,
+    "faststart": true,
+    "lufs_i": -16.05,
+    "dbtp": -4.74,
+    "lra_lu": 14.1,
+    "bitrate_bps": 5737755,
+    "muxer": "Lavf61.7.103",
+    "video_packet_payload_sequence_sha256": "03a0a4712a7a806bc06abea7e3196369420669c66e77fe27ce3aae60b32038f9"
+  }
+}

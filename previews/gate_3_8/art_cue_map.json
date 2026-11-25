@@ -1,0 +1,90 @@
+{
+  "scope": "Stills and review clips decoded from the actual H.264/AAC release candidate on the 30fps zero-based timeline.",
+  "picture_loop_origins": {
+    "spring": 0,
+    "summer": 1410,
+    "autumn": 2850,
+    "winter": 4290
+  },
+  "locked_v27_preencode_rgb_range_inclusive": [
+    0,
+    4290
+  ],
+  "winter_reader_phase": {
+    "reach_pinch_inclusive": [
+      144,
+      155
+    ],
+    "turn_press_inclusive": [
+      156,
+      174
+    ],
+    "relax_inclusive": [
+      175,
+      192
+    ],
+    "paper_foley_centers": [
+      156,
+      169
+    ]
+  },
+  "winter_first_film_foley_frames": [
+    4446,
+    4459
+  ],
+  "winter_sfx_film_frames_each_complete_pair": [
+    [
+      4446,
+      4459
+    ],
+    [
+      4776,
+      4789
+    ],
+    [
+      5106,
+      5119
+    ],
+    [
+      5436,
+      5449
+    ],
+    [
+      5766,
+      5779
+    ]
+  ],
+  "full_speed_review_film_frame_half_open": [
+    4384,
+    4714
+  ],
+  "full_speed_detail_crop_original_native_xywh": [
+    242,
+    98,
+    32,
+    24
+  ],
+  "dissolves": [
+    [
+      1410,
+      1440,
+      1470
+    ],
+    [
+      2850,
+      2880,
+      2910
+    ],
+    [
+      4290,
+      4320,
+      4350
+    ]
+  ],
+  "ends": {
+    "head_last_frame": 45,
+    "tail_first": 5802,
+    "last_black": 5916,
+    "duration_seconds_exact": "5917/30"
+  }
+}

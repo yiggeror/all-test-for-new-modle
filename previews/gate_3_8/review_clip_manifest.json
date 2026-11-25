@@ -1,0 +1,120 @@
+{
+  "source_film_frame_half_open": [
+    4384,
+    4714
+  ],
+  "source_audio_sample_half_open": [
+    7014400,
+    7542400
+  ],
+  "no_text_no_speed_change": true,
+  "full_presentation_sound_from_finished_mux": true,
+  "full_size_original_crop_xywh": [
+    1452,
+    588,
+    192,
+    144
+  ],
+  "detail_integer_magnification_from_final": 5,
+  "first_paper_foley_cue_source_frames": [
+    4446,
+    4459
+  ],
+  "review_aac_only_recompressed_main_9247_packets_not_touched": true,
+  "clips": {
+    "review_winter_1080p_1x.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "duration": "11.000000",
+      "fps": "30/1",
+      "frames": 330,
+      "clip_audio_samples": 528000,
+      "clip_audio_rate": "48000",
+      "clip_start_pts_video_and_audio": [
+        0,
+        0
+      ],
+      "encoded_from_finished_mux": true,
+      "bytes": 6673791,
+      "sha256": "a3035a154cdf59ef61bb1fb1e582303e4d5ecb9ff6f7650f4874db6b448175c3",
+      "source_sound_cue_pcm_compare": [
+        {
+          "cue_film_frame": 4446,
+          "lag_in_samples": 0,
+          "correlation": 0.9999117053434142
+        },
+        {
+          "cue_film_frame": 4459,
+          "lag_in_samples": 0,
+          "correlation": 0.9999224870999427
+        }
+      ]
+    },
+    "review_winter_reader_5x_1x.mp4": {
+      "width": 960,
+      "height": 720,
+      "duration": "11.000000",
+      "fps": "30/1",
+      "frames": 330,
+      "clip_audio_samples": 528000,
+      "clip_audio_rate": "48000",
+      "clip_start_pts_video_and_audio": [
+        0,
+        0
+      ],
+      "encoded_from_finished_mux": true,
+      "bytes": 6741519,
+      "sha256": "f6095387ac5c34013ed4b44aff8237b2d4f7afe7bee4d102dc1ab5bd24dbaed1",
+      "source_sound_cue_pcm_compare": [
+        {
+          "cue_film_frame": 4446,
+          "lag_in_samples": 0,
+          "correlation": 0.9999117053434142
+        },
+        {
+          "cue_film_frame": 4459,
+          "lag_in_samples": 0,
+          "correlation": 0.9999224870999427
+        }
+      ],
+      "exact_decoded_YUV_matches_direct_crop_all_330": true
+    }
+  },
+  "comparison": {
+    "file": "reader_v27_v28_decoded_compare.png",
+    "source_window_1080p_xywh": [
+      1452,
+      588,
+      192,
+      144
+    ],
+    "frames": [
+      4410,
+      4414,
+      4418,
+      4422,
+      4426,
+      4430,
+      4434,
+      4438,
+      4442,
+      4446,
+      4450,
+      4454,
+      4458,
+      4462,
+      4466,
+      4470,
+      4474,
+      4478,
+      4482,
+      4486,
+      4490,
+      4494,
+      4498,
+      4502
+    ],
+    "bytes": 442430,
+    "sha256": "735a762665c4a3d5331dbdf0a319ade6219acf1ba3837cd19bd30eeff0332424"
+  }
+}

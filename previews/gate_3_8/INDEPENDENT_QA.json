@@ -1,0 +1,104 @@
+{
+  "review": "Independent Gate 3.8 QA PASS; candidate pending owner approval and release",
+  "round30": "ba035943bd6057ad107b8decf6eb1c416a81b624",
+  "approved_gate28_input_commit": "382661831203769681ebcd369603f5512629f74f",
+  "input_manifests_verified_sha256": "486f29648f6bf9f69a5e77bda283fd372de3ae80f9ece3c97b7b83a0e085ed29",
+  "verified_16_sealed_parts": 16,
+  "spring_summer_autumn_parts_unchanged": 10,
+  "master": {
+    "filename": "Rainroji_Lofi_V2.8_1080p.mp4",
+    "byte_size": 141459579,
+    "sha256": "d25d4faa73950dc7e777d3207f109048036ab1f32b08fcd8ea8b379e1b1b2259",
+    "separate_full_rebuild_byte_identical": true,
+    "full_decode": 5917,
+    "duration_s_exact": "5917/30",
+    "h264": "High profile / CRF 14 / BT.709 limited-range / faststart",
+    "video_packet_clock_exact": true,
+    "approved_v2_7_and_v2_8_SPS_colour_tags": {
+      "colour_primaries": 2,
+      "transfer_characteristics": 2,
+      "matrix_coefficients": 1,
+      "video_full_range_flag": 0
+    },
+    "real_encoded_motion_registration_correlation_for_zero_phase_error": [
+      0.9016315272361093,
+      0.9193858115436269
+    ],
+    "actual_h264_decoded_prefix_YUV_exact_frames": 4047
+  },
+  "verified_actual_encoder_RGB24_stdin": {
+    "all_frame_hashes_count": 5917,
+    "change_window_native_pixels_inclusive": [
+      250,
+      106,
+      262,
+      115
+    ],
+    "unchanged_frame_range_inclusive": [
+      0,
+      4290
+    ],
+    "locked_prefix_sha256": "7000c54156e984b25e51ff87c6888a7e9e32aac29759be0785b740fbc822db00",
+    "candidate_raw_sha256": "614e33a5792bb020834e830c873d3f4524985cbe45f1c610acff17f2cbee3d6e",
+    "changed_window_film_frames_count": 1624,
+    "changed_film_frame_extents_inclusive": [
+      4292,
+      5915
+    ],
+    "dissolve_centers_frames": [
+      1440,
+      2880,
+      4320
+    ],
+    "fade_and_zero_last_frame": [
+      [
+        0,
+        45
+      ],
+      [
+        5802,
+        5916
+      ]
+    ],
+    "scope": "Exact outside the approved animation footprint applies to pre-encode RGB. Other minor AVC changes are quantified but not claimed bit-identical."
+  },
+  "aac": {
+    "source_official_v2_7_sha256": "20a0082f699a8c01255dc0ea85607447c9c89ca115f82dca81d5da96ea724518",
+    "all_AAC_packets_extradata_PTS_DTS_bytes_match": 9247,
+    "AAC_payload_sha256": "b8a7215d0ab457d6a8d2a8611d1075c5307ba06a61f80105214e30ba897d8717",
+    "entire_decoded_PCM_f32le_sha256": "9eb575d0d3c41d42e1f4b6c8ca7ad877ca30d19d053481e36a3bde421836c222",
+    "LC_stereo_sample_rate": 48000,
+    "ebur128_loudness": {
+      "integrated_LUFS": -16.0,
+      "true_peak_dBTP": -4.7,
+      "LRA_LU": 13.4
+    },
+    "exact_original_stream_copy_observed": true
+  },
+  "realtime": {
+    "whole_frames": 5917,
+    "actual_unaccelerated_elapsed": 196.536,
+    "blind_window_pair_same_330_steps_each": true,
+    "both_window_first_to_last_presentation_s": {
+      "A": 10.967,
+      "B": 10.968
+    },
+    "cue_film_frames_paper_audio": [
+      4446,
+      4459
+    ],
+    "actual_turn_apex_film_frame": 4456,
+    "two_reviews_detail_cut_source_frame_half_open": [
+      4384,
+      4714
+    ],
+    "enlarged_actual_final_YUV_crop_exact_all_330": true,
+    "audio_alignment_at_both_cues_and_three_guard_windows": "0 samples independently in both channels",
+    "A_B_comparison_png_raw_decodes_frame_pairs": 24,
+    "both_review_mp4s_and_comparison_PNG_byte_identical_in_independent_reproduction": true,
+    "visual_findings": [
+      "片头由全黑进入春景；48、96、144 秒各过渡连续，未见多余插帧或停格；193.4 秒起尾淡，F5916 收至黑。",
+      "冬景原速全景看，暖窗动作安静，没有把注意力抢离降雪与路灯。放大盲看新版，两页平摊，约2:28.2贴桌捻右角，F4456窄幅拱起且留在书脊上，约2:28.63落向左页，头随手微低再回正。旧版的悬空白块和水平机械手已不见。"
+    ]
+  }
+}
