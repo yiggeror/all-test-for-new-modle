@@ -28,11 +28,12 @@
 
 ## 当前阶段状态
 
-- **当前 Gate**：**`v2.6 / Gate 2.6 — 秋景人物重塑为“倚靠梧桐树干惬意看书、发丝随风轻摇的少女”`**（春、夏、冬及秋景风波/落叶/地面积叶与 v2.4 尾声冬夜音轨 100% 锁定沿用 v2.5；详细要求见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 22）
+- **当前 Gate**：**`v2.6 / Gate 2.6 返工精修中（Round 23 初审 REJECTED）`**（秋景有机 FBM 树风、彻底去假独立地面积叶及春/夏/冬 100% 锁定已通过；**打回精修秋景靠树少女——修掉与树干撞色的棕色外套、让深色长发在浅燕麦外套与暖光前明显随风轻摇、把抬手翻书弧线做优雅可读**，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 23）
 - **当前最新已发布成片（v2.5，逐字节 100% 一致，`141,154,392` 字节）**：
   - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.5-rainroji-lofi-1080p>
   - **Google Drive**：<https://drive.google.com/file/d/1WIaoLMtNmBffElUx1ahcf0nYBwzyyDn6/view?usp=drivesdk>
-- **v2.6 专项精修目标**：替换 v2.5 秋景报刊亭前略显僵硬的岔腿站姿人物，改为一名**背部自然倚靠在报刊亭旁梧桐树干左侧暖光面上、双腿并拢微曲放松站立、低头捧书时而翻页、长发随秋风阵风轻摇的少女**；其余全部画面与声音要素 100% 零改动锁定。
+- **Round 23 精准返工目标**：仅改 `reader25.py`——浅燕麦色外套 + 微伞摆深色过膝半裙与树干清晰分离、深黑栗色长发顺风飘出 `2–4px` 在 1× 下清晰可见、翻书抬手弧线清晰优雅（其余全部已达标部分锁定不动）。
+
 
 
 
