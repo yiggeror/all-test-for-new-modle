@@ -28,10 +28,11 @@
 
 ## 当前阶段状态
 
-- **状态**：**`IN_PROGRESS / v2.7 (Gate 2.7 PASSED -> Gate 3.7 合片中)`**（2026-11-24 Round 27 盲看连续实审与 18× 像素尺规复核全项通过：秋景倚树少女彻底根除静蹲与大妈体型，身姿修长轻盈、三段长发迎风轻摇与身前清晰翻书动作连贯自然，春/夏/冬与秋景其余全层 0 回归；已正式放行进入 **Gate 3.7** 1080p 完整合片与双渠道发布，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 27）
-- **上一已发布基线（v2.6，待 v2.7 替代）**：
-  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.6-rainroji-lofi-1080p>
-  - **Google Drive**：<https://drive.google.com/file/d/1D-cOfHm4f93lEVud4uJ2auEOhPaiqJA3/view?usp=drivesdk>
+- **状态**：**`COMPLETED / v2.7 FINAL PASSED`**（全片已于 2026-11-24 完成盲看连续实审、像素尺规重建验收与正式发布成品六段全速实看实听终审，正式双渠道交付见 [`DELIVERY.md`](DELIVERY.md) 与 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 28）
+- **v2.7 正式双渠道链接（逐字节 100% 一致，`141,465,116` 字节，SHA-256 `20a0082f...ea724518`）**：
+  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.7-rainroji-lofi-1080p>
+  - **Google Drive**：<https://drive.google.com/file/d/1f9WOEhDfcBVXH3xt1DtUFh8N8RVGPqBu/view?usp=drivesdk>
+- **v2.7 终版亮点**：`1920×1080`（`320×180` 6× 最近邻整数放大）· 30 fps · `5,917` 帧 · `3:17.23`（严格不加时）；秋景彻底重塑为**修长优雅、半侧轻倚报刊亭旁梧桐树干的看书少女**（彻底根除 v2.6 静蹲折角与臃肿腹胀，三段迎风轻摇深栗长发 + 身前清晰负空间流畅翻页），无损保留有机多尺度 FBM 树冠风、静态路面 + 独立贴地落叶微动、88 条飘叶，以及锁定版春/夏/冬与 v2.4 尾声冬夜雪风渐强音轨。
 
 
 

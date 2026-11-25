@@ -1119,6 +1119,31 @@
    - 直接无损流拷贝（`-c:a copy`）沿用已正式发布的 `v2.6-rainroji-lofi-1080p`（或 `v2.4`/`v2.5`，全部 9,247 个 AAC-LC 包逐字节完全相同）中的全部 **9,247 个 AAC-LC 包**（完整 Purrple Cat《Green Tea》+ 四季确定性环境音 + 冬窗翻页拟音 + 尾声冬夜雪风 +8.0 dB 渐强收尾，实测 −16.0 LUFS-I / −4.7 dBFS True Peak）；
 3. `python tools/gate3_v27/reproduce.py` 产出 **`dist/Rainroji_Lofi_V2.7_1080p.mp4`**；将 `tools/gate3_v27/`、`previews/gate_3_7/` 与更新后的 `DEV_STATUS.md` 提交并推送后，我将立即触发 GitHub Actions 云端干净构建并发布 **`v2.7-rainroji-lofi-1080p`**，下载正式成品全段实看实听终审并逐字节同步至 Google Drive！
 
+---
+
+## Round 28 — v2.7 / Gate 3.7 最终成片六段实看实听终审签收与双渠道正式发布（`2026-11-24`）
+
+- **评审对象**：GitHub Actions `Publish Rainroji Lo-Fi V2.7 1080p Release`（Run `#45566619515`，基于 `f8991db` / `11e818e`）正式发布的 **`Rainroji_Lofi_V2.7_1080p.mp4`**
+- **终审结论**：**`FINAL PASSED`（正式签收定版！秋景彻底重塑的修长优雅倚树看书少女、三段自然迎风飘发、清晰身前翻书动作，叠加已锁定的春/夏/冬、秋景有机树风与独立地面积叶及尾声冬夜雪风渐强音轨，全部通过正式发布成品的六段实看实听终审，GitHub Release 与 Google Drive 双渠道逐字节同步到位。）**
+
+### 一、正式已发布成品独立核验
+1. **逐字节一致性与容器/响度复测**：
+   - 下载 GitHub Release 实际资产实测：`141,465,116` 字节（134.91 MiB），SHA-256 `20a0082f699a8c01255dc0ea85607447c9c89ca115f82dca81d5da96ea724518`，MD5 `153deaa44cb43bb3d0840d1ca3e922b6`；
+   - `ffprobe -count_frames -count_packets`：`1920×1080`、30/1 fps、精确 `5,917` 帧、`197.233333` 秒（严格不加时）、H.264 High / yuv420p / BT.709 / `faststart`（`moov` 位于字节 36，视频 5.47 Mb/s，容器 5.74 Mb/s）；音频无损沿用 v2.4–v2.6 全 9,247 个 48 kHz 立体声 AAC-LC 包（257.8 kb/s）；
+   - `ebur128` 实测：**−16.0 LUFS-I**、**−4.7 dBFS True Peak**（零削波）、LRA **13.4 LU**。
+2. **六段全速音画切片（含秋景人物原片放大实审）全项通过**：
+   - **春（`0:00`–`0:15`）**：1.5s 淡入，锁定版 v2.5 春景完好（整冠风波、暖地常驻单猫、双侧落花、6 只归燕、老路灯微压降与晾衣布）；
+   - **夏（`0:46`–`1:02`）**：48s 线性光叠化丝滑，锁定版 v2.3–v2.6 夏景完好；
+   - **秋（`1:34`–`1:50`）& 秋景人物原片直裁放大（`1:36`–`1:47`）**：96s 叠化丝滑，重塑后的倚树少女身姿修长轻盈、半侧轻倚报刊亭旁梧桐树干（零静蹲折角、零臃肿腹胀与龟颈），深色长裙自然垂落，深栗长发随秋风轻摇灵动，成片约 `1:40` 处身前翻页动作清晰连贯优雅；有机多尺度 FBM 树冠风场、静态路面 + 独立地面积叶微动、88 条双侧飘叶、热茶汽与 3 只归鸟完好；
+   - **冬（`2:22`–`2:38`）**：144s 叠化丝滑，锁定版 v2.4–v2.6 冬景完好（红横幅微褶、细枝风颤、值班室清晰翻页、零假灯）；
+   - **尾声（`3:00`–`3:17.23`）**：完整《Green Tea》自然静默后，温润低通冬夜雪风平滑抬升接棒并随尾帧淡黑同步淡出至干净静音，精确收束于 `3:17.23`。
+
+### 二、双渠道正式交付登记
+- **GitHub Release（Latest）**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.7-rainroji-lofi-1080p>
+- **Google Drive（逐字节同源上传并核验 `size == 141465116`）**：<https://drive.google.com/file/d/1f9WOEhDfcBVXH3xt1DtUFh8N8RVGPqBu/view?usp=drivesdk>
+- 详见 [`DELIVERY.md`](DELIVERY.md) 与 [`CREDITS.md`](CREDITS.md)。
+
+
 
 
 
