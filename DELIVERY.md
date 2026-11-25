@@ -1,43 +1,48 @@
-# 四季像素短片 · 成片交付（v2.8 返工中 / 当前已发布基线 v2.7）
+# 四季像素短片 · 成片交付（v2.8 终审定版）
 
-> **当前状态（2026-11-25 Round 29 · v2.8 返工中）**：用户实看指出冬夜值班室暖窗翻书动作生硬刻意（水平直臂举悬空亮白页块），已下达 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 29 返工令，正在重塑自然贴桌低弧度翻书与头肩微动（春、夏、秋 v2.7、冬景窗外全层及 9,247 包音轨 100% 锁定不动）。以下为上一已发布版本 v2.7 留档，待 v2.8 严审通过后发布替换。
+> **当前状态（2026-11-25 Round 31 · FINAL PASSED）**：**v2.8 终审定版**已完成盲看连续实审与 24 帧逐帧核验、GitHub Actions 云端干净构建、正式成品六段全速实看实听终审（含冬窗原片直裁放大），以及 **GitHub Release + Google Drive 双渠道逐字节一致发布**。
 
 ---
 
-## 上一已发布版本：v2.7（待 v2.8 替换）
+## 当前最新正式版：v2.8（终审定版 · 推荐）
 
 ### 双渠道正式链接（两处逐字节 100% 一致）
-- **GitHub Release 页面**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.7-rainroji-lofi-1080p>
-- **GitHub Release 单文件直链**：<https://github.com/yiggeror/all-test-for-new-modle/releases/download/v2.7-rainroji-lofi-1080p/Rainroji_Lofi_V2.7_1080p.mp4>
-- **Google Drive 单文件**：<https://drive.google.com/file/d/1f9WOEhDfcBVXH3xt1DtUFh8N8RVGPqBu/view?usp=drivesdk>（File ID：`1f9WOEhDfcBVXH3xt1DtUFh8N8RVGPqBu`）
+- **GitHub Release 页面**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.8-rainroji-lofi-1080p>
+- **GitHub Release 单文件直链**：<https://github.com/yiggeror/all-test-for-new-modle/releases/download/v2.8-rainroji-lofi-1080p/Rainroji_Lofi_V2.8_1080p.mp4>
+- **Google Drive 单文件**：<https://drive.google.com/file/d/1UVVet6giggXUzx_LOafk83aiTNf_mS3Y/view?usp=drivesdk>（File ID：`1UVVet6giggXUzx_LOafk83aiTNf_mS3Y`）
 
-### v2.7 已发布成品实测参数
+### v2.8 已发布成品实测参数
 
 | 项目 | 参数 |
 | --- | --- |
-| 文件名 | `Rainroji_Lofi_V2.7_1080p.mp4` |
-| 文件大小 | `141,465,116` 字节（134.91 MiB，GitHub Release 与 Google Drive 逐字节一致） |
-| SHA-256 | `20a0082f699a8c01255dc0ea85607447c9c89ca115f82dca81d5da96ea724518` |
-| MD5 | `153deaa44cb43bb3d0840d1ca3e922b6` |
+| 文件名 | `Rainroji_Lofi_V2.8_1080p.mp4` |
+| 文件大小 | `141,459,565` 字节（134.91 MiB，GitHub Release 与 Google Drive 逐字节一致） |
+| SHA-256 | `515b5185225f2c8c27ec7906dc5d77de112f9f943d76d9a6a7017abb59502cc9` |
+| MD5 | `41e37a5f8862d30edbb178d89c6514ca` |
 | 视频 | `1920×1080`（由 `320×180` 原生像素画经 `6×` 最近邻无损整数放大）· 30 fps · `5,917` 帧 · H.264 High / CRF 14 / yuv420p / BT.709 / `faststart` |
 | 时长与码率 | `197.233333` 秒（3 分 17.23 秒，严格不加时）· 容器约 5.74 Mb/s · 视频约 5.47 Mb/s |
-| 音频 | 无损流拷贝沿用已签收 v2.4–v2.6 全部 9,247 个 48 kHz 立体声 AAC-LC 包（257.8 kb/s · 完整 Purrple Cat《Green Tea》+ 四季确定性环境音 + 冬窗翻页拟音 + 尾声冬夜雪风 +8.0 dB 渐强收尾） |
+| 音频 | 无损流拷贝沿用已签收 v2.4–v2.7 全部 9,247 个 48 kHz 立体声 AAC-LC 包（257.8 kb/s · 完整 Purrple Cat《Green Tea》+ 四季确定性环境音 + 冬窗翻页拟音 + 尾声冬夜雪风 +8.0 dB 渐强收尾） |
 | 实测响度 | −16.0 LUFS-I · −4.7 dBFS True Peak · LRA 13.4 LU（零削波） |
-| 发布构建流水线 | GitHub Actions `Publish Rainroji Lo-Fi V2.7 1080p Release`（Run `#45566619515`，Ubuntu 24.04 + FFmpeg + Python 3.12） |
+| 发布构建流水线 | GitHub Actions `Publish Rainroji Lo-Fi V2.8 1080p Release`（Run `#45587982643`，Ubuntu 24.04 + FFmpeg + Python 3.12） |
 
-### v2.7 相对 v2.6 核心升级与实片终审亮点
-- **秋 · 梧桐黄昏（倚树看书少女彻底重塑）**：
-  - **修长轻盈的年轻少女体态与舒展轻倚**：彻底推翻 v2.6 的屈膝“靠墙静蹲”与臃肿前腹大妈体型，重塑为舒展半侧 3/4 轻倚报刊亭旁梧桐树干的少女（膝部前突由 +23.6 cm 降至 0.8 cm / 2.7 cm，深色过膝长裙顺直自然垂落至纤细脚踝与短靴，彻底消除身后静蹲空洞；删除 `front_give` 腹胀与龟颈前探，头身比与浅暖米色针织上衣腰线轻盈利落）；
-  - **三段自然迎风长发 + 清晰身前翻书动作**：深栗色中长发在 11 秒循环内随秋风自然走出三段柔和飘动波浪；收瘦躯干后身前留出清晰暗色负空间，手捧小巧暖色书本、在成片约 `1:40` 处平滑轻抬页角越过书上沿弧线翻过再落回书边并微点头续读，1× 与放大连续实看均清晰自然；
-  - **其余秋景层 100% 零回归沿用 v2.6**：多尺度有机 FBM 树冠微风、静态路面 + 左右广域独立贴地落叶翻滑、88 条双侧飘叶、斑马线卷叶、热茶汽、3 只归鸟与钠灯微压降 0 像素变动。
-- **春、夏、冬**：**100% 逐字节锁定沿用 v2.5 / v2.6**（春整冠风波 + 暖地常驻单猫 + 双侧落花 + 6 只归燕；夏逐帧暖琥珀车灯 + “网吧”4 次硬切同帧联动红水洼；冬“欢度春节”红横幅微褶 + 细枝风颤 + 值班室干净翻页 + 零假灯）。
+### v2.8 相对 v2.7 核心升级与实片终审亮点
+- **冬 · 雪夜家属院（值班室暖窗伏案翻书彻底重塑）**：
+  - **贴桌低弧度自然翻书**：彻底消除旧版“水平直臂空悬 0.8 秒 + 半空悬空发光小白旗/斧头”的违和感；翻起的暖纸单页底部始终稳扎桌面书脊，手腕贴桌顺滑轻捻并沿低矮柔和弧线（最高约 1.5 px）将书页从右向左翻过压平，精准对齐既有冬窗纸页轻拂拟音；
+  - **头肩柔和协同微动**：将暖窗伏案人影头肩纳入动态合成，翻页时自然配合极克制的微低头跟视与回正，零边缘渗漏与闪烁；
+  - **冬景窗外全层 100% 零回归**：完整保留“欢度春节”红横幅微褶、细枝风颤、路灯压降、电视微光、烟囱轻烟、全层落雪/窗雪/雪粉与空白墙面零假灯（暖窗 ROI 之外全屏 `0` 像素变动）。
+- **春、夏、秋**：**100% 逐字节锁定沿用 v2.7**（春整冠风波 + 暖地常驻单猫 + 双侧落花 + 6 只归燕；夏逐帧暖琥珀车灯 + “网吧”4 次硬切同帧联动红水洼；秋 v2.7 修长优雅倚树看书少女 + 三段迎风长发 + 身前清晰翻书 + 有机多尺度 FBM 树冠风 + 静态路面独立地面积叶 + 88 条双侧飘叶）。
 - **尾声冬夜环境音渐强收尾（不加时，精确 `3:17.23`）**：无损保留全部 9,247 个 AAC-LC 音包——在《Green Tea》自然静默的过程中，温润低通冬夜雪风平滑抬升 **+8.0 dB** 步入前景，最后 **2.70 秒**随尾帧淡黑同步淡出至干净静音。
 
 ---
 
 ## 历史归档版本
 
-### v2.6（已被 v2.7 升级取代 — 归档）
+### v2.7（已被 v2.8 升级取代 — 归档）
+- **GitHub Release 页面**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.7-rainroji-lofi-1080p>
+- **Google Drive 单文件**：<https://drive.google.com/file/d/1f9WOEhDfcBVXH3xt1DtUFh8N8RVGPqBu/view?usp=drivesdk>
+- **文件名 / 大小 / SHA-256**：`Rainroji_Lofi_V2.7_1080p.mp4` / `141,465,116` 字节 / `20a0082f699a8c01255dc0ea85607447c9c89ca115f82dca81d5da96ea724518`
+
+### v2.6（已被后续版本取代 — 归档）
 - **GitHub Release 页面**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.6-rainroji-lofi-1080p>
 - **Google Drive 单文件**：<https://drive.google.com/file/d/1D-cOfHm4f93lEVud4uJ2auEOhPaiqJA3/view?usp=drivesdk>
 - **文件名 / 大小 / SHA-256**：`Rainroji_Lofi_V2.6_1080p.mp4` / `141,458,386` 字节 / `22e4039aff0e886323632568efe34a4d91c308f7f9ca45bd8ba904713d58e565`
@@ -76,8 +81,8 @@
 
 ## 从仓库一键重建与核查文档
 
-- **v2.7 一键重建**：`python tools/gate3_v27/reproduce.py`（说明见 [tools/gate3_v27/README.md](tools/gate3_v27/README.md)）
-- **v2.7 实解码对比与独立复验**：[v2.6 vs v2.7 秋景少女实解逐帧对比](previews/gate_3_7/reader_v26_v27_decoded_compare.png) · [秋景少女 F3005 4× 实解](previews/gate_3_7/reader_v27_f3005_detail_4x.png) · [独立成片复验报告](previews/gate_3_7/INDEPENDENT_QA.md) · [完整音乐署名（CC BY 4.0）](CREDITS.md) · [全流程审片记录](REVIEW_LOG.md)
+- **v2.8 一键重建**：`python tools/gate3_v28/reproduce.py`（说明见 [tools/gate3_v28/README.md](tools/gate3_v28/README.md)）
+- **v2.8 实解码对比与独立复验**：[v2.7 vs v2.8 冬夜暖窗实解逐帧对比](previews/gate_3_8/reader_v27_v28_decoded_compare.png) · [冬夜暖窗 5× 实解带音原速片段](previews/gate_3_8/review_winter_reader_5x_1x.mp4) · [独立成片复验数据](previews/gate_3_8/INDEPENDENT_QA.json) · [完整音乐署名（CC BY 4.0）](CREDITS.md) · [全流程审片记录](REVIEW_LOG.md)
 
 
 

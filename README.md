@@ -28,10 +28,11 @@
 
 ## 当前阶段状态
 
-- **状态**：**`IN_PROGRESS / v2.8 (Gate 2.8 PASSED -> Gate 3.8 合片中)`**（2026-11-25 Round 30 盲看连续实审与 24 帧独立核验全项通过：冬夜值班室暖窗彻底告别“悬空小白旗”与机械直臂，改为贴桌低弧自然翻页与头肩柔和微动，春/夏/秋（v2.7）与冬景窗外全层 0 回归；已正式放行进入 **Gate 3.8** 1080p 完整合片与双渠道发布，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 30）
-- **上一已发布基线（v2.7，待 v2.8 替代）**：
-  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.7-rainroji-lofi-1080p>
-  - **Google Drive**：<https://drive.google.com/file/d/1f9WOEhDfcBVXH3xt1DtUFh8N8RVGPqBu/view?usp=drivesdk>
+- **状态**：**`COMPLETED / v2.8 FINAL PASSED`**（全片已于 2026-11-25 完成冬夜暖窗翻书重塑的盲看连续实审、24 帧逐帧核验与正式发布成品六段全速实看实听终审，正式双渠道交付见 [`DELIVERY.md`](DELIVERY.md) 与 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 31）
+- **v2.8 正式双渠道链接（逐字节 100% 一致，`141,459,565` 字节，SHA-256 `515b5185...9502cc9`）**：
+  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.8-rainroji-lofi-1080p>
+  - **Google Drive**：<https://drive.google.com/file/d/1UVVet6giggXUzx_LOafk83aiTNf_mS3Y/view?usp=drivesdk>
+- **v2.8 终版亮点**：`1920×1080`（`320×180` 6× 最近邻整数放大）· 30 fps · `5,917` 帧 · `3:17.23`（严格不加时）；冬夜值班室暖窗彻底重塑为**贴桌低弧自然翻书 + 头肩柔和跟视微动**（彻底消除旧版悬空亮白页块与水平机械直臂，精准对齐翻页拟音），并 100% 无损保留锁定版春、夏、秋（v2.7 修长倚树看书少女 + 有机秋风 + 独立贴地落叶）、冬景窗外全层与 v2.4 尾声冬夜雪风渐强音轨。
 
 
 
