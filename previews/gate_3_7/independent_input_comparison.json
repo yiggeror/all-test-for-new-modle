@@ -1,0 +1,49 @@
+{
+  "verified_github_parts": 16,
+  "source_cycles": {
+    "spring": 330,
+    "summer": 330,
+    "autumn": 330,
+    "winter": 330
+  },
+  "autumn_rgb_old": "384d1297ec871b560415300d7af0d50ef2cce71622026ca1cdedfec1dfdd8839",
+  "autumn_rgb_new": "30bc7f04a58b39cc65cfe3192ff3c0e000aacd88b36f5ccbdb97282f34c7e744",
+  "autumn_old_new_differing_native_cells_total": 48653,
+  "autumn_old_new_change_bbox_inclusive": [
+    42,
+    126,
+    59,
+    166
+  ],
+  "autumn_native_different_frames_all_330": true,
+  "unchanged_native_pixels_outside_reader_and_shadows": true,
+  "prior_v26_rgb_sha256": "a5b17e2c3a20ebf0e56245871346fc010c08154dc8beec42b49a6810f1f9ccc0",
+  "candidate_v27_rgb_sha256": "5dd33286e4332df12c401eecab5e2c0e69fccc374f267cac506f403513eed446",
+  "timeline_changed_frames_by_domain": {
+    "spring": 0,
+    "blend_spring_summer": 0,
+    "summer": 0,
+    "blend_summer_autumn": 58,
+    "autumn": 1381,
+    "blend_autumn_winter": 58,
+    "winter": 0
+  },
+  "timeline_unchanged_ranges": {
+    "prefix": {
+      "frames_inclusive": [
+        0,
+        2850
+      ],
+      "rgb_sha256": "2cafbaff692924f49d408f3e369b7e68dc2db17f471d16a355c70ffe86409f1c",
+      "prior_rgb_sha256": "2cafbaff692924f49d408f3e369b7e68dc2db17f471d16a355c70ffe86409f1c"
+    },
+    "suffix": {
+      "frames_inclusive": [
+        4350,
+        5916
+      ],
+      "rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02",
+      "prior_rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02"
+    }
+  }
+}

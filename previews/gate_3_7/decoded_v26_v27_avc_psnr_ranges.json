@@ -1,0 +1,20 @@
+{
+  "locked_F0_2850": {
+    "frames": 2851,
+    "decoded_exact_matches": 2615,
+    "lowest_PSNR_dB": 62.64,
+    "median_differing_PSNR_dB": 88.12
+  },
+  "changed_F2851_4349": {
+    "frames": 1499,
+    "decoded_exact_matches": 0,
+    "lowest_PSNR_dB": 44.77,
+    "median_differing_PSNR_dB": 45.55
+  },
+  "locked_F4350_5916": {
+    "frames": 1567,
+    "decoded_exact_matches": 1474,
+    "lowest_PSNR_dB": 55.89,
+    "median_differing_PSNR_dB": 60.68
+  }
+}
