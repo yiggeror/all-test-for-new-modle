@@ -1,0 +1,204 @@
+{
+  "method": "Independent Gate 3.9 QA recomposition of phase-locked RGB decoded from Gate 2.8 and 2.9 lossless volumes; comparison at the native stage before H.264.",
+  "review_commit": "a0d0e108f04f5f2d92455cb0eada3ee1c2f2adc1",
+  "independent_report_sha256": "d19efb227e0ef138454e0dc4f54862d5d5ce8cf3f969f634f47fa5fd48adc73e",
+  "rgb_sha256": "f843062bfe603be5a460d1fa149d0fc46a29ec1e1a30ef324099c38e4d0f63e1",
+  "prior_rgb_sha256": "614e33a5792bb020834e830c873d3f4524985cbe45f1c610acff17f2cbee3d6e",
+  "domains": {
+    "spring": {
+      "frames_inclusive": [
+        0,
+        1410
+      ],
+      "rgb_sha256": "21932e91053b254dac8c36a731f0d55c5911f3871e13a6f434c4accbf6e26be8",
+      "prior_rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3",
+      "native_changed_pixels_summed": 238129,
+      "frames_with_legitimate_lamp_change": 1410,
+      "first_last_changed_film_frames": [
+        1,
+        1410
+      ],
+      "max_changed_native_pixels": 173
+    },
+    "blend_spring_summer": {
+      "frames_inclusive": [
+        1411,
+        1469
+      ],
+      "rgb_sha256": "cce97468d95c4747c8090dc4c9d40b88a265ec03acb329d48369434d00270f6b",
+      "prior_rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e",
+      "native_changed_pixels_summed": 29456,
+      "frames_with_legitimate_lamp_change": 59,
+      "first_last_changed_film_frames": [
+        1411,
+        1469
+      ],
+      "max_changed_native_pixels": 546
+    },
+    "summer": {
+      "frames_inclusive": [
+        1470,
+        2850
+      ],
+      "rgb_sha256": "9bba7e99b75eae2b5da8a320b397a2b32dcd884ae3fc8a2b309174e5967d5f75",
+      "prior_rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86",
+      "native_changed_pixels_summed": 511928,
+      "frames_with_legitimate_lamp_change": 1381,
+      "first_last_changed_film_frames": [
+        1470,
+        2850
+      ],
+      "max_changed_native_pixels": 378
+    },
+    "blend_summer_autumn": {
+      "frames_inclusive": [
+        2851,
+        2909
+      ],
+      "rgb_sha256": "a18defb479d4204a423b97d9e9fdca51ab71e7c571ca81d9ec3bae9b4829ec9c",
+      "prior_rgb_sha256": "68df525244da5356aa6a384d7eeab0d60634e42874ede1c2453e6a7239341838",
+      "native_changed_pixels_summed": 20297,
+      "frames_with_legitimate_lamp_change": 58,
+      "first_last_changed_film_frames": [
+        2851,
+        2908
+      ],
+      "max_changed_native_pixels": 378
+    },
+    "autumn": {
+      "frames_inclusive": [
+        2910,
+        4290
+      ],
+      "rgb_sha256": "60273e5639377f2beb915787cf65d5ae66f9302b2647b1813812473a0f5bfb09",
+      "prior_rgb_sha256": "60273e5639377f2beb915787cf65d5ae66f9302b2647b1813812473a0f5bfb09",
+      "native_changed_pixels_summed": 0,
+      "frames_with_legitimate_lamp_change": 0,
+      "first_last_changed_film_frames": null,
+      "max_changed_native_pixels": 0
+    },
+    "blend_autumn_winter": {
+      "frames_inclusive": [
+        4291,
+        4349
+      ],
+      "rgb_sha256": "ab3b2db6922662ef58305f500c77965d319ce3d38b27cd23205fed2607159c55",
+      "prior_rgb_sha256": "38a6b13975afd5f651fb880c00efc2f14a9b9a7041a351e55831565f23c63193",
+      "native_changed_pixels_summed": 9968,
+      "frames_with_legitimate_lamp_change": 58,
+      "first_last_changed_film_frames": [
+        4292,
+        4349
+      ],
+      "max_changed_native_pixels": 183
+    },
+    "winter": {
+      "frames_inclusive": [
+        4350,
+        5916
+      ],
+      "rgb_sha256": "345b23fe88403ef96bc86df87a0c212ba380f2c8cfb33fee002e9315320ba3ae",
+      "prior_rgb_sha256": "3acf1ac9ddf980d9adc7052a6bb1c54045ad43fe1251d9fce97ce1b094106d2f",
+      "native_changed_pixels_summed": 279227,
+      "frames_with_legitimate_lamp_change": 1566,
+      "first_last_changed_film_frames": [
+        4350,
+        5915
+      ],
+      "max_changed_native_pixels": 183
+    }
+  },
+  "phase_supports": {
+    "spring": {
+      "street": {
+        "bbox_xyxy_inclusive": [
+          136,
+          84,
+          163,
+          100
+        ],
+        "spatial_unique_changed_pixels": 120,
+        "phase_pixels_summed": 37270,
+        "changed_frames": 330
+      },
+      "yard": {
+        "bbox_xyxy_inclusive": [
+          255,
+          111,
+          274,
+          123
+        ],
+        "spatial_unique_changed_pixels": 56,
+        "phase_pixels_summed": 18468,
+        "changed_frames": 330
+      }
+    },
+    "summer": {
+      "street": {
+        "bbox_xyxy_inclusive": [
+          43,
+          7,
+          70,
+          57
+        ],
+        "spatial_unique_changed_pixels": 422,
+        "phase_pixels_summed": 122328,
+        "changed_frames": 330
+      }
+    },
+    "autumn": {},
+    "winter": {
+      "street": {
+        "bbox_xyxy_inclusive": [
+          47,
+          39,
+          85,
+          59
+        ],
+        "spatial_unique_changed_pixels": 208,
+        "phase_pixels_summed": 58914,
+        "changed_frames": 330
+      }
+    }
+  },
+  "offsupport_change_pixels_all_5917": 0,
+  "boundary_frame_rgb_sha256": {
+    "0": "53853188f83a941e2f45ec1383293ae935106c5721918079000dcb2254fc550b",
+    "22": "0e471c3fe8486940f60e67d382943a945df4904a2dbca3ef8b76250215adb510",
+    "45": "11ced6add663d250e05e7ae3c5b6aa6aaa073e490e92945070c5cb2c2160fd31",
+    "1410": "782e28b3eee27571b991d0a61cdb4bebe6584ee7c24624ab6dd6737108f62608",
+    "1440": "c84c07a9f5dfcd7ee1b8a5c6d9d1afe6636caebaf1b6764fd22bc2ddc24870fb",
+    "1470": "516e295d9a6e606e568d6d3d2afb1ce4d9dacfcebd58ec66a7f10e84fccef7ab",
+    "2850": "e0d0b8a0a577278e12c0d70ae73adad3d947280e8378bdb2b0b7bcbcdf7d718d",
+    "2880": "c22651575bbd008b26c5cdbfeba6852547e2929388ddc306c8e2943d50a9548b",
+    "2909": "439034908bbdfd2d9b559d00ae1c75ca4d5b2e256a83bdc49d1a6ccdb1b8fab9",
+    "2910": "cbc229a6af75793e8fb752f9b5fffdc6e489c007c578635c661b9baa06d1ad26",
+    "4290": "16baa47e76d6a39e9d382015468c8b061420c9213ba8e200d86ccea5dc9b7e65",
+    "4291": "ddcf315033a69212650a47301b4b7d9b29ed46e77f2d8c8a0578870ee69d769e",
+    "4320": "6ba0748a9f331c565b057b9fbdc6cfb6100709e61482632194e9bf1628370ef1",
+    "4350": "58f0c8f2469a3d3f243bb8b1ab93e1d09828ca4ce5e212da01ff2ae43133b5b0",
+    "5802": "33dab37b8f65584ef2c95b1d6d431cd03b26849f7be9219cc36d80c7e46a4d46",
+    "5870": "a01a13e546bb8d85f952c1121405bf8cf74580b22c7fef23f7efdefcf107e61a",
+    "5916": "53853188f83a941e2f45ec1383293ae935106c5721918079000dcb2254fc550b"
+  },
+  "prior_boundary_frame_rgb_sha256": {
+    "0": "53853188f83a941e2f45ec1383293ae935106c5721918079000dcb2254fc550b",
+    "22": "3f95a934fe77cb72a2421415612c672ff3fead9c360a554e92cc2e0efe18c4c6",
+    "45": "f6f7c1ef4aeb2c43707e4b32f01ec7f99c2c69ba4b7edb98e94555cd9b6aece8",
+    "1410": "32f0e49b8dddbe83e63804fff8a27aad68db7a380010161e7fd39ec47ad1cb54",
+    "1440": "ff36c14df37ac2c6907df8a2aca7128ef195df7568251d61df3caec88204b866",
+    "1470": "08621577a3014ae08c96319b3cca220f4da0b04e3e463f64991d0e9b7036c915",
+    "2850": "b4ad67b3c52f10be574fbb729d3be7a84eb10edfb3749246f7d7efb218ca613a",
+    "2880": "191462748eaf673b3c26e9a54e57a0c0c9b0654d0fc9cb2324635b73eb8315b9",
+    "2909": "439034908bbdfd2d9b559d00ae1c75ca4d5b2e256a83bdc49d1a6ccdb1b8fab9",
+    "2910": "cbc229a6af75793e8fb752f9b5fffdc6e489c007c578635c661b9baa06d1ad26",
+    "4290": "16baa47e76d6a39e9d382015468c8b061420c9213ba8e200d86ccea5dc9b7e65",
+    "4291": "ddcf315033a69212650a47301b4b7d9b29ed46e77f2d8c8a0578870ee69d769e",
+    "4320": "95f94de6eed69331813f5a789975763c5abf072d26456e847ca0b4653c029528",
+    "4350": "8dfd985a6a4f320cf0eadfc7c8d95c3d9735f0d793f7a2d7ddfcf700f615d8d6",
+    "5802": "8a62cee3439501b044c2df5b83ffd3b222de49b5fd0ec598d42bb3f365736ce4",
+    "5870": "393d89776bd47a1927350ae62ad765f228b503e370f1e97986660ac2765bcc1e",
+    "5916": "53853188f83a941e2f45ec1383293ae935106c5721918079000dcb2254fc550b"
+  },
+  "both_endpoints_black": true
+}

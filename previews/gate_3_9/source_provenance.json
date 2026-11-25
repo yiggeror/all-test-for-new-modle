@@ -1,0 +1,109 @@
+{
+  "approved_source_commit": "03b5d2cef53f60a97b095e54323e35d22bd8e794",
+  "signed_review_commit": "a0d0e108f04f5f2d92455cb0eada3ee1c2f2adc1",
+  "all_16_parts_and_manifest_git_objects_match": true,
+  "files": [
+    {
+      "path": "previews/gate_2_9/lossless_parts/MANIFEST.json",
+      "bytes": 3605,
+      "git_blob": "89183cf878aec18705e22ae01f2464f5363559ed",
+      "sha256": "5bd9cb10e58907d10a28e338677fc2c3f70ae691de9f724bec418225f9cc0739"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/autumn/part-00.bin",
+      "bytes": 5142551,
+      "git_blob": "83fa79dc89bc70b46ebac2ea8b75ee68bd1d8899",
+      "sha256": "ee01e5b4e4f56f7134667bfe3825e91361f571624cf190762ff54f6caebf7ab0"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/spring/part-00.bin",
+      "bytes": 7615271,
+      "git_blob": "18870ad8967b14b8df1691840c13bf7a9e362d81",
+      "sha256": "26c930848acfd75af40da7932d7ef79626772e326b2431ee577b7432ed1411d6"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/summer/part-00.bin",
+      "bytes": 8000000,
+      "git_blob": "d4d4f3c5e97cf2d49e457f9ddc210a327ae2e038",
+      "sha256": "e1fefcda9b887404e81202751b40e3244a2b421206071d1f4c4bad3590f93de1"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/summer/part-01.bin",
+      "bytes": 8000000,
+      "git_blob": "302f28458bba28add2eb0a913859cccb0716e1e1",
+      "sha256": "0a9a12ab7dedc34dea357f8f84cd5b138b32d695e5420ba8e2631ccac6352981"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/summer/part-02.bin",
+      "bytes": 8000000,
+      "git_blob": "baecdafbb034b9f8a6fea80bc306a495a5739225",
+      "sha256": "449314b375052be31ca1532d2faf0eb0b555671f0016c6a30aa62fdd45e4a6d2"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/summer/part-03.bin",
+      "bytes": 8000000,
+      "git_blob": "71cf2c623786c80f46188d4bbd8af670f35bab26",
+      "sha256": "60da52b2fc704e683ae9d0e1fc92be95d6657bdccd17c890ed692f72eb0c5015"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/summer/part-04.bin",
+      "bytes": 8000000,
+      "git_blob": "bce728d0431a05e60c226eff43e32acf278b9c8f",
+      "sha256": "0e3d2e34f6bb93122cece18c89f9f7e3dd614fe4129e2d4763cf08c8746af92d"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/summer/part-05.bin",
+      "bytes": 8000000,
+      "git_blob": "32908465175fda84ecae5f88cd93675a5eec6259",
+      "sha256": "529decc98245e2740d521dd83488df350a14beff60167eab2389952be5e338c7"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/summer/part-06.bin",
+      "bytes": 8000000,
+      "git_blob": "cec3446bf7e9ab9350dfce63244a1d9d0ef250cf",
+      "sha256": "6689af1a4b75de2bf67d1408c08fb10c6053ce3994558af1e95817a26754522d"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/summer/part-07.bin",
+      "bytes": 4728457,
+      "git_blob": "2b07a7e0c2b22db55f384ed163030c9acabe3107",
+      "sha256": "4f25297f49d2ae203ec599910f9901a7473c4bb325efbdc2938f85f533a04c94"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/winter/part-00.bin",
+      "bytes": 8000000,
+      "git_blob": "9edabd021217bcf1023edaaf97d43c6dfea9f677",
+      "sha256": "31352ea55ca143f46d3640b63557f7608837ccb3c658cb2b2fc4229861528a2d"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/winter/part-01.bin",
+      "bytes": 8000000,
+      "git_blob": "1e51f5a139ecbff3df22ea32a3c8164da84ed5e3",
+      "sha256": "4bcd7fa312b99f7b46193a022e865ca25acccf39b0586fddb66966972c8289c8"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/winter/part-02.bin",
+      "bytes": 8000000,
+      "git_blob": "bdec7a5a11ff4237aa715bf5b8cd6822dcae9759",
+      "sha256": "5d582322842cd9ad819b776643246ad760fc002f7e90bfca451a9efe921a7680"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/winter/part-03.bin",
+      "bytes": 8000000,
+      "git_blob": "9078fc6a2d6b2a9ffc1c3798f334d2dcc776dc82",
+      "sha256": "f7fc350af37a68ca0fd2723a8a6c07419a24704c958da378a18148b9390dd848"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/winter/part-04.bin",
+      "bytes": 8000000,
+      "git_blob": "d1b972fc6154396bfe375aacf37e675dfdcda618",
+      "sha256": "477605e8927b6a6238245c77b0cc7b1f196c6ffd354ea4b05581552396878e98"
+    },
+    {
+      "path": "previews/gate_2_9/lossless_parts/winter/part-05.bin",
+      "bytes": 6047173,
+      "git_blob": "e04ac425b05e8fb96d12b0c2f83e4ce3f4f92b91",
+      "sha256": "bbfb408594296a40df6d4fb29325f1faafbe8856b565efdc09fa8fdeba79364d"
+    }
+  ]
+}
