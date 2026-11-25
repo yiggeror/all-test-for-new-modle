@@ -802,6 +802,39 @@
 - 请仅返工 **春猫（`cat25.py`）** 与 **秋看报人（`reader25.py`）**，其余已通过的春/秋整冠风波、88 条秋落叶、秋地面积叶微动以及锁定的夏、冬全部保持不变；
 - 重新提交至 `previews/gate_2_5/` 并更新 `spring_cat_two_cycles_4x.mp4` 与 `autumn_reader_normal_speed_detail.mp4`，我将继续先盲看原速与 4× 视频再查码，两项造型/可读性真正自然过关后立即放行 Gate 3.5 合片与发布！
 
+---
+
+## Round 20 — v2.5 / Gate 2.5 返工复审全项通过，正式放行 Gate 3.5 终版 1080p 合片（`2026-11-24`）
+
+- **评审对象**：commit `6ef7236`（`previews/gate_2_5/` Round 19 返工重交包）
+- **审片方式**：再次严格执行**盲看视频先行 + 4× 逐帧细查 + 独立无损解包与零回归核验**（先裸看 `spring_loop.mp4`、`autumn_loop.mp4`、`spring_cat_two_cycles_4x.mp4`、`autumn_reader_normal_speed_detail.mp4`、`autumn_turn_every_pose_4x.png`、`spring_cat_path_checked.png` 与 1080p 峰值静帧，再独立校验无损分卷与源码）。
+- **阶段结论**：**`PASSED`（Round 19 两项硬伤彻底修复到位，且零回归！正式放行进入 Gate 3.5 v2.5 最终 1080p 合片与双渠道发布！）**
+
+### 一、复审实看与独立核验结论
+1. **秋景报刊亭看报人（彻底蜕变，极度自然传神！）**：
+   - `autumn_reader_normal_speed_detail.mp4`、`autumn_turn_every_pose_4x.png`（`F125`–`F195`）与 `autumn_reader_r19_f155_1080p.png` 实看确认：
+     - 头部比例圆润自然并微微低头前倾看向胸前报纸，彻底告别 `2×6px` 长颈火柴棒；
+     - 双肘贴身微屈在胸口自然托住暖光照亮的展开报纸，彻底告别 45° 斜戳胯边拎便当盒；
+     - 外套肩线自然、双腿微错开踩实落叶人行道带真实投影，不遮挡左半幅杂志架与“报刊亭”招牌；
+     - `F145`–`F185` 胸前书页“轻掀→跨中缝折翻→落平”的动作在 1× 和 4× 下都清晰可读、安静高级。
+2. **春猫全程暖光自然往返（330/330 帧全程可爱可读！）**：
+   - `spring_cat_two_cycles_4x.mp4`、`spring_cat_path_checked.png`、`spring_peak_150_warm_ground_look_and_turn.png` 与 `spring_peak_315_right_pivot_no_vertical_blob.png` 实看确认：
+     - 整条宽舒展扁弧轨迹 100% 留在右侧至中部的暖橘受光院落地面带内，**彻底不再钻入左侧冷紫深阴影隐身**；
+     - 去程与回程路线自然错开，始终保持清晰的侧身 / 斜 3/4 侧身猫咪轮廓（头耳、身躯、小腿、翘尾与接地影清晰可见），**彻底告别 `2×4px` 竖黑块坍缩**，且全程 330/330 帧仅此一只猫无缝循环、零刷怪感。
+3. **独立无损与零回归复验全部通过**：
+   - `diff -rq` 实测 `summer` 与 `winter` 无损分卷与 v2.4 **100% 逐字节一致**；
+   - `spring` 与 `autumn` 无损分卷均完整解出 `660` 帧且 `cycle1 == cycle2`（100% 无缝双周期），源码 grep 零 `map_coordinates` / `affine_transform` / `Sway(`；
+   - 春、秋整冠连续 FBM 风场叶颤（广义 ROI 均维持 `43.9% / 6.92%` 与 `67.9% / 9.63%`，物理冠层 `71.10% / 12.57%` 与 `73.98% / 11.38%`）、秋 88 条双侧空中落叶与路牙地面积叶微动均 100% 保留无退化。
+
+### 二、Gate 3.5（v2.5 最终 1080p 合片）行动指令
+请新增独立目录 **`tools/gate3_v25/`**（不动已归档的 v2.0–v2.4）：
+1. **画面总装（精确 `197.233333` 秒 / `5,917` 帧，零加时）**：
+   - 以 `previews/gate_2_5/lossless_parts/` 的 16 份已审核无损分卷作为唯一画面输入（严禁读取预览代理），保留已锁定的 48 / 96 / 144 秒线性光 2.0 秒 smoothstep 叠化、1.5s 淡入、3.8s 尾淡（`193.4s–197.2s`）与 `1920×1080 @ 30fps`、H.264 High / CRF 14 / BT.709 / `faststart`；
+2. **音频无损沿用已签收 v2.4 成品音轨**：
+   - 直接无损流拷贝（`-c:a copy`）沿用已正式发布的 **`v2.4-rainroji-lofi-1080p`**（`Rainroji_Lofi_V2.4_1080p.mp4`，SHA-256 `a9870ce471487b76b68c93eb779a075182e5d1b28b3e18d145aae99f480d0687`）中的全部 **9,247 个 AAC-LC 包**（完整 Purrple Cat《Green Tea》+ 四季确定性环境音 + 冬窗翻页拟音 + 已验收的 v2.4 尾声冬夜雪风 +8.0 dB 渐强收尾，零二次压缩损失，实测 −16.0 LUFS-I / −4.7 dBFS True Peak）；
+3. `python tools/gate3_v25/reproduce.py` 产出 **`dist/Rainroji_Lofi_V2.5_1080p.mp4`**；将 `tools/gate3_v25/`、`previews/gate_3_5/` 与更新后的 `DEV_STATUS.md` 提交并推送后，我将立即触发 GitHub Actions 云端发布 **`v2.5-rainroji-lofi-1080p`**，下载正式成品全段实看实听终审并逐字节同步至 Google Drive！
+
+
 
 
 
