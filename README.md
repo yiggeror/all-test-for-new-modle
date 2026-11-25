@@ -28,7 +28,7 @@
 
 ## 当前阶段状态
 
-- **状态**：**`IN_PROGRESS / v2.7 (Gate 2.7 CHANGES_REQUESTED)`**（2026-11-24 Round 26 复审指出 v2.6 秋景靠树人物在连续实看下比例臃肿、驼背且双腿屈膝呈“靠墙静蹲”怪姿，已正式下达 **Round 26 返工令**，要求编码 AI 在 `previews/gate_2_7/` 彻底重建修长优雅的靠树看书少女；春、夏、冬与秋景有机树风/独立地面积叶/88 条飘叶及 v2.4 尾声渐强音轨 100% 锁定沿用，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 26）
+- **状态**：**`IN_PROGRESS / v2.7 (Gate 2.7 PASSED -> Gate 3.7 合片中)`**（2026-11-24 Round 27 盲看连续实审与 18× 像素尺规复核全项通过：秋景倚树少女彻底根除静蹲与大妈体型，身姿修长轻盈、三段长发迎风轻摇与身前清晰翻书动作连贯自然，春/夏/冬与秋景其余全层 0 回归；已正式放行进入 **Gate 3.7** 1080p 完整合片与双渠道发布，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 27）
 - **上一已发布基线（v2.6，待 v2.7 替代）**：
   - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.6-rainroji-lofi-1080p>
   - **Google Drive**：<https://drive.google.com/file/d/1D-cOfHm4f93lEVud4uJ2auEOhPaiqJA3/view?usp=drivesdk>
