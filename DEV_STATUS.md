@@ -1,5 +1,18 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 32：v2.9 / Gate 2.9 四处灯具候审
+
+依据[第 32 轮反馈](https://github.com/yiggeror/all-test-for-new-modle/commit/d1121354f47482ae92694a0d2f887c80ac82a68c)，春景街灯、院灯及夏、冬主路灯补齐了实心灯罩和支撑。三处街灯通过抱箍、挑臂与斜撑连回原电线杆，春景院灯的弯管压板固定在砖面。
+
+- [春景原速](previews/gate_2_9/spring_loop.mp4) · [夏景原速](previews/gate_2_9/summer_loop.mp4) · [冬景原速](previews/gate_2_9/winter_loop.mp4)。三段均为 1920×1080、30 fps、330 帧、11 秒。
+- [四处同帧 8× 对照](previews/gate_2_9/lamp_supports_comparison.png)取自 v2.8 / v2.9 无损正本，各灯罩、挑臂、墙座或杆身在原生像素下相接。
+- [16 份无损分卷](previews/gate_2_9/lossless_parts/MANIFEST.json)包括春 1、夏 8、秋 1、冬 6；每季正本为两次相同的 330 帧相位。秋景逐字节沿用 v2.8。冬暖窗读书及翻页区域逐帧不变，既有灯光节拍和地面光池保留。
+- [三季完整活跃源码](previews/gate_2_9/source/lamps_v29.zip)附每季独立重建入口。
+
+本次提交仅供 Gate 2.9 场景验收；成片装配留待该阶段放行，届时沿用已发布版原音轨和时间线。
+
+---
+
 ## Round 30：v2.8 / Gate 3.8 四季完整合片候审
 
 按[第 30 轮放行](https://github.com/yiggeror/all-test-for-new-modle/commit/ba035943bd6057ad107b8decf6eb1c416a81b624)从批准的 16 份 Gate 2.8 无损分卷重建。只换冬夜暖窗里贴桌翻页；春、夏、秋及冬景窗外保持原有画面。
