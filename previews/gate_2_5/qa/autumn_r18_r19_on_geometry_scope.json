@@ -1,0 +1,16 @@
+{
+  "original_R18_native_sha256": "93b56c0c2b10dd8bba63fb93af913d659fefea42ce658dbd3a4739a1d28f94e6",
+  "R19_native_sha256": "9faf29e14fe94add7b475c60851dfc830a87b5402563ebec233000a2e98a9c0c",
+  "changed_rgb_union_bbox_inclusive_xy": [
+    35,
+    123,
+    62,
+    163
+  ],
+  "per_frame_rgb_changes_min_max_px": [
+    278,
+    298
+  ],
+  "rgb_changes_outside_reader_composite_work_tile": 72,
+  "canopy_zone_y0_104_changes": 0
+}

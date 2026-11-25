@@ -20,16 +20,16 @@
   "base_unchanged": true,
   "lens_static": true,
   "cat_y_world": 0,
-  "cat_route_length_m": 6.06224598935687,
+  "cat_route_length_m": 5.686497549825356,
   "cat_stopped_phase_inclusive": [
     105,
-    146
+    128
   ],
   "cat_real_331_trace_count": 331,
   "phase330_raw_recomputed_exact": true,
   "fixed_cloth_same_module_and_ray_seed_as_v24": true,
   "palette_source": "approved Gate 2.3 60-color RGB lock, preserved in Gate 2.4",
   "near_tree_foliage_pixels": 11122,
-  "tree_wires_never_tapped": true,
-  "visible_crown_pixels_with_protected_nonleaf_samples_still_in_denominator": 641
+  "visible_crown_pixels_with_protected_nonleaf_samples_still_in_denominator": 641,
+  "tree_wires_never_tapped": true
 }

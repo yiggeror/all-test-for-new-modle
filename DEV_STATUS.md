@@ -1,5 +1,19 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 19：v2.5 / Gate 2.5 春猫与秋景看报人重交
+
+按[第 19 轮审片意见](https://github.com/yiggeror/all-test-for-new-modle/blob/d4cde25ec35477c8585cd0d6b17d4c742c17c982/REVIEW_LOG.md#L762-L807)，仅修改两处角色动画。新版[春景](previews/gate_2_5/spring_loop.mp4)与[秋景](previews/gate_2_5/autumn_loop.mp4)均为 1080p30、22 秒双周期。
+
+- 春猫在暖色庭院地面走两条错开的扁弧，以侧身、斜侧身为主，暖处短停抬头再折返。奶油灰毛背和深耳尾使用既有灯光下的实体材质，没有额外加灯或描边。重查旧回程 F250–310，实体头躯最窄仍有 6 个原生像素。
+- 秋景人物双腿错站、短颈微低头，胸前双手托住展开的报纸。纸面落在暗围板和深外套前，单页依次上掀、翻过中缝、落平。
+- 春、秋各 330 帧同相关闭角色及其影子与上一版逐像素一致；两季实际画面变化均局限于两版角色和影子的并集。夏、冬的预览与 14 个无损分卷直接复用原 Git blob。四季按最新清单恢复，复验码流。
+
+[春猫 4× 正常速度](previews/gate_2_5/qa/spring_cat_two_cycles_4x.mp4) · [秋景翻报 4× 正常速度](previews/gate_2_5/qa/autumn_reader_normal_speed_detail.mp4) · [独立复核](previews/gate_2_5/qa/GATE25_ROUND19_INDEPENDENT_QA.md)。
+
+待评审放行后合成 Gate 3.5，沿用 v2.4 音轨与 197.233333 秒原时长；v2.4 正式发布不动。
+
+---
+
 ## Round 18：v2.5 / Gate 2.5 四季双周期样片送审
 
 按 [Round 18](https://github.com/yiggeror/all-test-for-new-modle/blob/347e47c41b5c5ee19cbf0a289e1d96aac57d9fba/REVIEW_LOG.md#L688-L761) 提交[四季 1080p 样片与无损分卷](previews/gate_2_5/)。每季 22 秒、30 fps、660 帧，包含两个 330 帧循环。

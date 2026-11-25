@@ -1,0 +1,30 @@
+[
+  {
+    "asset": "spring",
+    "frames": 330,
+    "old_new_actor_off_different_pixels": 0,
+    "outside_actor_and_contact_shadow_different_pixels": 0,
+    "changed_pixels_per_frame_range": [
+      57,
+      97
+    ],
+    "actor_new_pixels_per_frame_range": [
+      33,
+      59
+    ]
+  },
+  {
+    "asset": "autumn",
+    "frames": 330,
+    "old_new_actor_off_different_pixels": 0,
+    "outside_actor_and_contact_shadow_different_pixels": 0,
+    "changed_pixels_per_frame_range": [
+      278,
+      298
+    ],
+    "actor_new_pixels_per_frame_range": [
+      208,
+      219
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "fresh_source_zip": true,
+  "static_cache_used": false,
+  "paths_exact_same_toolchain": {
+    "spring_native.npy": {
+      "sha256": "c1e5b2621e023f39bb7483db263998ed99e884d6282a54d919ca6861548d52d3",
+      "bytes": 57024128
+    },
+    "spring_loop.mp4": {
+      "sha256": "3d175471ece80d71fae4003ed385c66e9f86f4018116dbd780dfe14f5533049c",
+      "bytes": 7619920
+    },
+    "mobile/spring_loop.mp4": {
+      "sha256": "326eed3937e1a423bde9926d115a8335db5c4883b56c12a36e0216e03080b98a",
+      "bytes": 7595107
+    },
+    "spring_v25_source.zip": {
+      "sha256": "17a51eafd4cd3338c0777ba4185ae52ba178fdb3790eae40e51ddace018a9a3d",
+      "bytes": 46612
+    },
+    "spring_layer_proof.npz": {
+      "sha256": "606641d797c7f930e96c6322eff698b21923654347a9ad4e4f1f7dfd19eaa562",
+      "bytes": 1959735
+    },
+    "spring_cloth_pose_proof.npz": {
+      "sha256": "c4990c315e8f0e983cb56c84bf9aa6ce383f760bec12747b81d21664c5aed88a",
+      "bytes": 408024
+    },
+    "spring_physical.json": {
+      "sha256": "5b3ea09a54664f37a64ce75a7f415b1920033366bfe42dfcb897c68bd95189eb",
+      "bytes": 816205
+    },
+    "spring_petal_origins.json": {
+      "sha256": "9a0a5377b90c14ea4535edf67c5e43b6d1cb53af03cd65471f4dd3976e197f9f",
+      "bytes": 49712
+    },
+    "spring_control_cat_all330.npz": {
+      "sha256": "e7371b73b8ee3d3dab5757c2d23915cfae91c1cd3b0929fb7c62841bfeaed416",
+      "bytes": 911442
+    },
+    "spring_control_cat_shadow_all330.npz": {
+      "sha256": "b390d8f679355022e10acd7022edfabd70bdcc6dbd8fe6a0eb2b6023a70b466d",
+      "bytes": 922854
+    },
+    "spring_control_leaf_all330.npz": {
+      "sha256": "1fbaab4c8289ab37c6c9e4616a050e9c4dfe5684ca3260811e00b52637f93ee5",
+      "bytes": 631745
+    },
+    "spring_gate25_art_proof.json": {
+      "sha256": "4d4511f365d31b1bd4f24f7a63fb2abae32307a3a8bfb63a19b622421ddd6a6d",
+      "bytes": 41900
+    },
+    "spring_scene_bounds.json": {
+      "sha256": "dd9b3834218f31c22ab9fe841a2ecaa6178f74a7ab2ef24f580da61c66dc75a3",
+      "bytes": 842
+    },
+    "spring_decoded_qa.json": {
+      "sha256": "14ccdf837770f813e05718f767c9c7e826cc8367b683cc199bf36bb76a53eb60",
+      "bytes": 5845
+    },
+    "spring_round19_causal_scope.json": {
+      "sha256": "48ee3402004c5599eccb4e8ebfe9b977370d273cb6d64760201077bd9fb2823f",
+      "bytes": 14803
+    },
+    "lossless_parts/spring/part-00.bin": {
+      "sha256": "3d175471ece80d71fae4003ed385c66e9f86f4018116dbd780dfe14f5533049c",
+      "bytes": 7619920
+    },
+    "spring_cat_two_cycles_4x.mp4": {
+      "sha256": "2631bc612da981b3f7b7dfd917d25804e8cda799a86c489e887e81dbb9f6dfa8",
+      "bytes": 100743
+    }
+  },
+  "python": "3.12.14",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+}

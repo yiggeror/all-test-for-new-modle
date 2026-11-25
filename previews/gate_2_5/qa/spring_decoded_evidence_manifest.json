@@ -1,8 +1,8 @@
 {
   "spring_peak_000_cat_present_initial.png": {
     "frame": 0,
-    "bytes": 100688,
-    "sha256": "5d7a5a672df4cae055dea60c8509678f8395499cf607f8872e2bc470793e1bc7",
+    "bytes": 100694,
+    "sha256": "411e728049eb1de78173b242e2767174d82d481ed3c07045185276abb6b185be",
     "size": [
       1920,
       1080
@@ -10,8 +10,8 @@
   },
   "spring_peak_065_cat_toward_warm_left.png": {
     "frame": 65,
-    "bytes": 101005,
-    "sha256": "d08d39453ab03f2d1dc4e6d99aea3eb0aae8018ab79679486d6d22cbcab42afd",
+    "bytes": 101056,
+    "sha256": "7a5ba9909fae0cb2ca13ce14b0b6e363c6d2d1cc4ad52bc15cb743cdb317e7a9",
     "size": [
       1920,
       1080
@@ -19,8 +19,8 @@
   },
   "spring_peak_120_swallows_and_ground_cat.png": {
     "frame": 120,
-    "bytes": 100780,
-    "sha256": "19359634128b87dcc03b831647ad06d82668674e7bf103eb1ed749fdd684ea3b",
+    "bytes": 100749,
+    "sha256": "29bdeed4f47479c03e7c2aad53495c9d17b25166ca69666b6cfdecf4c087667b",
     "size": [
       1920,
       1080
@@ -28,8 +28,8 @@
   },
   "spring_peak_125_cat_scent_pause.png": {
     "frame": 125,
-    "bytes": 100622,
-    "sha256": "037cd772ae17bd6826084560a5d6df066e82b7e4c66b0139f8967dbd5ee4fc80",
+    "bytes": 100637,
+    "sha256": "fba8237ffafe45ccb1e62050b31c0e947b8d1bee968fe78fd1385f6e6d9930f3",
     "size": [
       1920,
       1080
@@ -37,8 +37,17 @@
   },
   "spring_peak_141_locked_lamp_notch.png": {
     "frame": 141,
-    "bytes": 100667,
-    "sha256": "211526f39b8248b890f40fa34fae2f29a523d0aaf3ad9cadc5cae59c5956e731",
+    "bytes": 100654,
+    "sha256": "7fccefa3ea93a082dc4fa5ecf43871dcf535fb65b3ab3cf21cce5235159047bb",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_150_warm_ground_look_and_turn.png": {
+    "frame": 150,
+    "bytes": 101101,
+    "sha256": "a1b964b25952f79f46de719eea5efcb65503cad0891396c9f9d07f9090c26a61",
     "size": [
       1920,
       1080
@@ -46,8 +55,8 @@
   },
   "spring_peak_175_cat_rounds_turn.png": {
     "frame": 175,
-    "bytes": 100763,
-    "sha256": "c399d98fb75f9b8c0e74fc731772b2e89410912d7c8ee258896e3ba08ed109b2",
+    "bytes": 100830,
+    "sha256": "185870d55e6d11a4a604a0611ba5abdc8ec5fad9d4a04b570f3ec566c8cab390",
     "size": [
       1920,
       1080
@@ -55,8 +64,8 @@
   },
   "spring_peak_225_bilateral_petals_and_return_path.png": {
     "frame": 225,
-    "bytes": 100717,
-    "sha256": "63a7b56fdeea6a361ebd6eb16ae6d217bb72f982e64a63950042c2595203724f",
+    "bytes": 100793,
+    "sha256": "ebdd1996ebfda70a7c53d7d8f8feb446509fe4edbf91e7f476dcff41e9a5b3b1",
     "size": [
       1920,
       1080
@@ -64,8 +73,17 @@
   },
   "spring_peak_265_cat_on_offset_return.png": {
     "frame": 265,
-    "bytes": 100863,
-    "sha256": "85faee795bb8dc37de044295005fea3892da3efaa88d4b1183e59aa9f58b55e3",
+    "bytes": 100868,
+    "sha256": "56b44a9dbbd9d413902c0da9f5a89bd6ba06f72fcbff8400601540fe12e8e2a0",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "spring_peak_315_right_pivot_no_vertical_blob.png": {
+    "frame": 315,
+    "bytes": 100711,
+    "sha256": "499da7f727d66ede692fd0db937005d709757fccd16a346146ce28890a6afdfb",
     "size": [
       1920,
       1080
@@ -73,8 +91,8 @@
   },
   "spring_peak_330_seam_cat_same_frame_again.png": {
     "frame": 330,
-    "bytes": 100688,
-    "sha256": "5d7a5a672df4cae055dea60c8509678f8395499cf607f8872e2bc470793e1bc7",
+    "bytes": 100694,
+    "sha256": "411e728049eb1de78173b242e2767174d82d481ed3c07045185276abb6b185be",
     "size": [
       1920,
       1080
