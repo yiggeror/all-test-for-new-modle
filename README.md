@@ -28,11 +28,12 @@
 
 ## 当前阶段状态
 
-- **当前 Gate**：**`v2.6 / Gate 3.6 — v2.6 最终 1080p 合片与双渠道发布`**（Gate 2.6 返工包 `4496463` 已通过盲看与无损复审 **`PASSED`**，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 24）
-- **当前最新已发布成片（v2.5，逐字节 100% 一致，`141,154,392` 字节）**：
-  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.5-rainroji-lofi-1080p>
-  - **Google Drive**：<https://drive.google.com/file/d/1WIaoLMtNmBffElUx1ahcf0nYBwzyyDn6/view?usp=drivesdk>
-- **v2.6 已定版升级**：① 秋景人物重塑为**倚靠梧桐树干的惬意看书少女**（浅燕麦开衫 + 深色微伞摆过膝半裙 + 并拢斜靠放松双腿，深黑栗色长发随秋风轻摇，单手优雅轻拂翻书）；② 秋景彻底删除假贴图平移 `GroundWind`，升级为**左右广域独立贴地落叶翻滑**，并将树冠风场柔化为**有机多尺度 FBM 湍流微风**；③ 春、夏、冬及 v2.4 尾声冬夜雪风渐强音轨 100% 无损锁定沿用（精确 `3:17.23`）。
+- **状态**：**`COMPLETED / v2.6 FINAL PASSED`**（全片已于 2026-11-24 通过盲看打回精修复审与正式发布成品五段全速实看实听终审，正式双渠道交付见 [`DELIVERY.md`](DELIVERY.md) 与 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 25）
+- **v2.6 正式双渠道链接（逐字节 100% 一致，`141,458,386` 字节，SHA-256 `22e4039a...d58e565`）**：
+  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.6-rainroji-lofi-1080p>
+  - **Google Drive**：<https://drive.google.com/file/d/1D-cOfHm4f93lEVud4uJ2auEOhPaiqJA3/view?usp=drivesdk>
+- **v2.6 终版亮点**：`1920×1080`（`320×180` 6× 最近邻整数放大）· 30 fps · `5,917` 帧 · `3:17.23`（严格不加时）；秋景重塑为**倚靠梧桐树干的惬意看书少女**（浅燕麦开衫 + 深色微伞摆半裙 + 并拢放松双腿，深黑栗色长发随风轻摇、单手轻拂翻书），彻底删除假地面平移 `GroundWind` 改用独立贴地落叶翻滑，树冠升级为多尺度有机 FBM 湍流微风；春、夏、冬及 v2.4 尾声冬夜雪风渐强音轨 100% 无损锁定沿用。
+
 
 
 
