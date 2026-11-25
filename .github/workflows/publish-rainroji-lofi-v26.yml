@@ -1,0 +1,90 @@
+name: Publish Rainroji Lo-Fi V2.6 1080p Release
+
+on:
+  push:
+    branches:
+      - feat/lofi-seasons-v2
+    paths:
+      - .github/workflows/publish-rainroji-lofi-v26.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release-v26:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install FFmpeg and Python dependencies
+        run: |
+          set -euo pipefail
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          ffmpeg -version | head -2
+          python -m pip install -q --only-binary=:all: -r tools/gate3_v26/requirements.txt
+
+      - name: Run deterministic Gate 3.6 reproduction and verification
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s tools/gate3_v26 -v
+          python tools/gate3_v26/reproduce.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          qa = json.loads(Path('dist/gate3_v26_qa/reproduction_qa.json').read_text(encoding='utf-8'))
+          Path('dist/meta.env').write_text(
+              f"FINAL_BYTES={qa['bytes']}\n"
+              f"FINAL_SHA256={qa['sha256']}\n"
+              f"FINAL_LUFS={qa['technical_qa']['lufs_i']}\n"
+              f"FINAL_DBTP={qa['technical_qa']['dbtp']}\n",
+              encoding='utf-8',
+          )
+          print('VERIFIED V2.6:', qa['bytes'], qa['sha256'], qa['technical_qa'])
+          PY
+
+      - name: Upload Rainroji_Lofi_V2.6_1080p.mp4 to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          source dist/meta.env
+          TAG="v2.6-rainroji-lofi-1080p"
+          NOTES_FILE="dist/release_notes.md"
+          cat > "$NOTES_FILE" <<EOF
+          ## Rainroji Lo-Fi 四季像素短片 v2.6（秋景靠树看书少女 × 有机秋风 × 独立落叶 × 冬夜尾声 · 1080p）
+
+          ### 本版核心升级（相对 v2.5）
+          - **秋 · 梧桐黄昏（重点重塑）**：
+            - **倚树看书少女**：替换 v2.5 僵硬岔腿站姿人物，重塑为**背部自然倚靠在报刊亭旁梧桐树干左侧暖光面、双腿并拢微曲放松站立的文艺少女**（浅燕麦针织开衫 + 深色微伞摆过膝半裙 + 短靴，不强雕五官、纯粹氛围剪影）；**深黑栗色中长发随秋风阵风清晰轻摇**，每 11 秒循环内**单手自然轻抬划过小巧暖光书影惬意翻页**，与冬景值班室暖窗读书人形成跨季呼应；
+            - **地面积叶彻底去假**：删除 v2.5 整块人行道贴图平移的 `GroundWind` 假抖动，保证路面底板 100% 稳固静态，改为**左右广域人行道与路牙独立贴地落叶错拍轻掀与短滑**；
+            - **树冠风场柔化升级**：采用**多尺度有机 FBM 湍流微风 ±1px 整数叶颤**（打散平行斜纹扫描感，保持整冠高覆盖、粗树干 0 位移、零果冻）；完整保留 88 条双侧飘叶、斑马线卷叶、热茶汽、3 只暮空归鸟与钠灯微压降。
+          - **春、夏、冬**：**100% 逐字节锁定沿用 v2.5**（春整冠风波 + 暖地常驻单猫 + 双侧落花 + 6 只归燕；夏逐帧暖琥珀车灯 + “网吧”4 次硬切同帧联动红水洼；冬“欢度春节”红横幅微褶 + 细枝风颤 + 值班室干净翻页 + 零假灯）。
+          - **音频与尾声（严格不加时，精确 3:17.23 / 5,917 帧）**：无损流拷贝沿用已签收 v2.4 / v2.5 全部 **9,247 个 AAC-LC 包**（完整 Purrple Cat《Green Tea》+ 四季环境音 + 冬窗翻页拟音 + 尾声温润冬夜雪风 +8.0 dB 平滑渐强接棒与最后 2.7 秒同步淡出静音）。
+
+          ### 成片规格
+          - **文件名**：\`Rainroji_Lofi_V2.6_1080p.mp4\`
+          - **文件大小**：${FINAL_BYTES} 字节
+          - **SHA-256**：\`${FINAL_SHA256}\`
+          - **画面**：\`1920×1080\`（\`320×180\` 原生像素画经 6× 最近邻无损整数放大）、30 fps、5,917 帧（3 分 17.23 秒）、H.264 High / CRF 14 / yuv420p / BT.709 / faststart
+          - **音频**：48 kHz 立体声 256 kbps AAC-LC（9,247 包，无损沿用已签收音轨），综合响度 **${FINAL_LUFS} LUFS**，真峰值 **${FINAL_DBTP} dBTP**，零削波
+
+          ### 音乐与致谢（CC BY 4.0）
+          > Music: “Green Tea” by Purrple Cat, from *Bloom* (https://purrplecat.itch.io/bloom), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Used in full with mild EQ/level adjustment, original procedural ambience/foley (with serene winter-night ambience outro swell), and synchronization to the four-season animation. Original ambience and page-turn foley by this project. Visual prototype acknowledgment: [Rainroji](https://github.com/yiggeror/Rainroji/tree/deliver/four-seasons-1080p).
+          EOF
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/Rainroji_Lofi_V2.6_1080p.mp4 --repo "$GITHUB_REPOSITORY" --clobber
+            gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --title "Rainroji Lo-Fi Four Seasons v2.6 (1080p)" --notes-file "$NOTES_FILE" --latest
+          else
+            gh release create "$TAG" dist/Rainroji_Lofi_V2.6_1080p.mp4 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Rainroji Lo-Fi Four Seasons v2.6 (1080p)" --notes-file "$NOTES_FILE" --latest
+          fi
