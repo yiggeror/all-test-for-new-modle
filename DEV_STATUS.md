@@ -1,5 +1,16 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 29：v2.8 / Gate 2.8 冬夜暖窗候审
+
+按[第 29 轮退修](https://github.com/yiggeror/all-test-for-new-modle/commit/11e824fe14dd80aed1053b9a010fdf36e38b8e1a)，只重做冬景值班室暖窗内的伏案读书动作。人物沿桌面带起右侧页角，沿固定书脊翻过，再把手收回桌边。头肩轻微跟随。原速 11 秒，在约 5.2–5.8 秒可见翻页。
+
+- [冬景全幅原速](previews/gate_2_8/winter_loop.mp4) · [暖窗原速放大](previews/gate_2_8/winter_reader_normal_speed_detail.mp4) · [旧版与新版 24 组同相位](previews/gate_2_8/winter_reader_comparison.png)。
+- [无损分卷](previews/gate_2_8/lossless_parts/MANIFEST.json) · [完整冬景源码](previews/gate_2_8/source/winter_v28.zip)。春、夏、秋的十卷沿用 v2.7，冬景窗外与台灯未改。
+
+本次仅送冬景阶段审片。成片仍使用原音轨与原时长，待该阶段通过再合片。
+
+---
+
 ## Round 27：v2.7 / Gate 3.7 四季完整合片候审
 
 依据[第 27 轮放行](https://github.com/yiggeror/all-test-for-new-modle/commit/151ce2503554dd299837236b6b6dd188e2912527)，用已批准的 16 份 Gate 2.7 无损分卷还原画面。新版秋景保留了倚树读书人的自然站姿、飘发和翻页；春、夏、冬及秋景非人物层不变。
