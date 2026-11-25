@@ -1,5 +1,16 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 26：v2.7 / Gate 2.7 秋景人物候审
+
+本轮只重做秋景倚树读书的人物。站姿由屈膝前顶改为一侧肩背轻倚、承重腿顺直，头颈与肩背对齐，外套和半裙恢复各自轮廓。长发随同一阵秋风扬起、回落；手和书移到身前，从抬页到落回书边保持连贯，约第 5 秒可见。
+
+- [秋景 1080p 原速循环](previews/gate_2_7/autumn_loop.mp4) · [人物原速放大](previews/gate_2_7/autumn_girl_normal_speed_detail.mp4)（保留树干、双脚及脚下地面）
+- [四季原生无损分卷](previews/gate_2_7/lossless_parts/MANIFEST.json) · [秋景复现源码](previews/gate_2_7/source/autumn_v27.zip)
+
+v2.6 正式版仍可下载。v2.7 本次提交为秋景阶段审片；其余三季与成片音轨沿用 v2.6。
+
+---
+
 ## Round 24：v2.6 / Gate 3.6 完整四季合片候审
 
 依据[第 24 轮放行](https://github.com/yiggeror/all-test-for-new-modle/commit/2b1f97a62d61b2375029e8ed32419890f6ade03f)，只从 (4496463) 批准的 16 份 Gate 2.6 无损分卷复原画面，保留 48、96、144 秒三处线性光 2 秒叠化、1.5 秒片头淡入与 3.8 秒片尾淡出。成片始末及春夏冬没有新增改动。

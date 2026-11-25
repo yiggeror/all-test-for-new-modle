@@ -1,0 +1,110 @@
+{
+  "spring": {
+    "output": "spring_loop.mp4",
+    "bytes": 7619920,
+    "sha256": "3d175471ece80d71fae4003ed385c66e9f86f4018116dbd780dfe14f5533049c",
+    "parts": [
+      {
+        "path": "lossless_parts/spring/part-00.bin",
+        "bytes": 7619920,
+        "sha256": "3d175471ece80d71fae4003ed385c66e9f86f4018116dbd780dfe14f5533049c"
+      }
+    ]
+  },
+  "summer": {
+    "output": "summer_loop.mp4",
+    "bytes": 60593471,
+    "sha256": "a26523e1ec77ccc303769997d4b965de0fdfc08fe300efe2e60550f86d12916c",
+    "parts": [
+      {
+        "path": "lossless_parts/summer/part-00.bin",
+        "bytes": 8000000,
+        "sha256": "f3c5b5388c806f97f5cc1af41833585f9998368f1b21bd283f6787f059dd6306"
+      },
+      {
+        "path": "lossless_parts/summer/part-01.bin",
+        "bytes": 8000000,
+        "sha256": "0e1157ae3d8139f1b8032776f1b7869078635d8a323d0d11fe21735f8cc198a6"
+      },
+      {
+        "path": "lossless_parts/summer/part-02.bin",
+        "bytes": 8000000,
+        "sha256": "458361f3f019dc904e87888a53d214ba3d1d224ecd0fa88f5bb9c2046871f7d6"
+      },
+      {
+        "path": "lossless_parts/summer/part-03.bin",
+        "bytes": 8000000,
+        "sha256": "8ebeedca5949962e1bd689fa76c4520be8725e7083b3d7ed1bcd11ead9257840"
+      },
+      {
+        "path": "lossless_parts/summer/part-04.bin",
+        "bytes": 8000000,
+        "sha256": "22669632951172d0e0433c7eb1d4c25d4e07d20570603834e7062f8df9d7e3be"
+      },
+      {
+        "path": "lossless_parts/summer/part-05.bin",
+        "bytes": 8000000,
+        "sha256": "4ef64446e20baf3fc97246eaa29833f8dce153ae86cf8606adf072171eb78d73"
+      },
+      {
+        "path": "lossless_parts/summer/part-06.bin",
+        "bytes": 8000000,
+        "sha256": "ac386a5ad01ce3379101d585b3f0b7995b1e4fa6969c946ddc0c62c32e895d07"
+      },
+      {
+        "path": "lossless_parts/summer/part-07.bin",
+        "bytes": 4593471,
+        "sha256": "86ac8ba469473480fc22655eed51ed0223e0bc032c2fbe0f2a51d56307db7d37"
+      }
+    ]
+  },
+  "autumn": {
+    "output": "autumn_loop.mp4",
+    "bytes": 5142551,
+    "sha256": "ee01e5b4e4f56f7134667bfe3825e91361f571624cf190762ff54f6caebf7ab0",
+    "parts": [
+      {
+        "path": "lossless_parts/autumn/part-00.bin",
+        "bytes": 5142551,
+        "sha256": "ee01e5b4e4f56f7134667bfe3825e91361f571624cf190762ff54f6caebf7ab0"
+      }
+    ]
+  },
+  "winter": {
+    "output": "winter_loop.mp4",
+    "bytes": 46027709,
+    "sha256": "7979b70a88bd1df98763724c4c129e901ade660e154bcf4eb9c8f4ce70f61ba2",
+    "parts": [
+      {
+        "path": "lossless_parts/winter/part-00.bin",
+        "bytes": 8000000,
+        "sha256": "e149a5a887ac206f34d375ab2b481e698de49318cee4544cc9526175a9bfce5f"
+      },
+      {
+        "path": "lossless_parts/winter/part-01.bin",
+        "bytes": 8000000,
+        "sha256": "6ef47ce096b48ba0416c262edb7ded49f3300d111ce7dd49d6d81d2828e81a1d"
+      },
+      {
+        "path": "lossless_parts/winter/part-02.bin",
+        "bytes": 8000000,
+        "sha256": "7f3754be0ad255c05b6d55ba739873cc0b26571620d644eabd9a28195227024b"
+      },
+      {
+        "path": "lossless_parts/winter/part-03.bin",
+        "bytes": 8000000,
+        "sha256": "5f32b22bd932dacabbb0c3346168f7f2aa96084e6891457dd216c893f8370d7a"
+      },
+      {
+        "path": "lossless_parts/winter/part-04.bin",
+        "bytes": 8000000,
+        "sha256": "37260f1ade52d05662b47b3461556fa930a00bf606a6a13a40e3eeac0ab4453a"
+      },
+      {
+        "path": "lossless_parts/winter/part-05.bin",
+        "bytes": 6027709,
+        "sha256": "889db21c263a7bdde65a08b34ff595a9de55b6755f10f30e9abfb7d332a47bc7"
+      }
+    ]
+  }
+}
