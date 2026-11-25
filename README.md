@@ -28,7 +28,7 @@
 
 ## 当前阶段状态
 
-- **状态**：**`IN_PROGRESS / v2.9 (Gate 2.9 CHANGES_REQUESTED)`**（2026-11-25 Round 32 用户与验收官核查确认春、夏、冬四处显眼路灯/院灯因 `r=0.03` 亚像素消失或缺少支架呈浮空状，已正式下达 **Round 32 精修令**，要求编码 AI 在 `previews/gate_2_9/` 补全清晰连续的老式物理灯臂、斜撑与灯罩；秋景（v2.7）、冬夜暖窗翻书（v2.8）及所有已签收动态与 9,247 包音频轨 100% 锁定零回归，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 32）
+- **状态**：**`IN_PROGRESS / v2.9 (Gate 2.9 PASSED -> Gate 3.9 合片中)`**（2026-11-25 Round 33 盲看连续实审与无损 8× 复核全项通过：春/夏/冬四处显眼路灯与院灯均补齐清晰连续的老式挑臂、斜撑、抱箍与搪瓷灯罩，秋景（v2.7）、冬夜暖窗翻书（v2.8）及所有已签收动态 0 回归；已正式放行进入 **Gate 3.9** 1080p 完整合片与双渠道发布，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 33）
 - **上一已发布基线（v2.8，待 v2.9 替代）**：
   - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.8-rainroji-lofi-1080p>
   - **Google Drive**：<https://drive.google.com/file/d/1UVVet6giggXUzx_LOafk83aiTNf_mS3Y/view?usp=drivesdk>
