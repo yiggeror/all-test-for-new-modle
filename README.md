@@ -28,11 +28,12 @@
 
 ## 当前阶段状态
 
-- **当前 Gate**：**`v2.5 / Gate 3.5 — v2.5 最终 1080p 合片与双渠道发布`**（Gate 2.5 返工包 `6ef7236` 已通过盲看与无损复审 **`PASSED`**，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 20）
-- **当前最新已发布成片（v2.4，逐字节 100% 一致，`132,852,726` 字节）**：
-  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.4-rainroji-lofi-1080p>
-  - **Google Drive**：<https://drive.google.com/file/d/1b5rSQKERX4LZ1RH_VFj7ELRzqb5C5lCW/view?usp=drivesdk>
-- **v2.5 已定版亮点**：① 春/秋整冠连续 FBM 风场相位波 ±1px 整数像素叶颤（71.1% / 74.0% 覆盖、零果冻）；② 春猫全程 330 帧留在暖橘受光院落带内舒展扁弧往返（零钻暗影隐身、零竖黑块、零刷新刷怪）；③ 秋景报刊亭前 1:1 真实 3D 站立低头看报路人（胸前双肘自然托报、清晰可读的翻页动作、真实接地投影），配合 88 条双侧空中落叶与路牙地面积叶随风轻动；④ 夏、冬与 v2.4 尾声冬夜雪风渐强音轨 100% 无损沿用（精确 `3:17.23`）。
+- **状态**：**`COMPLETED / v2.5 FINAL PASSED`**（全片已于 2026-11-24 通过盲看打回精修复审与正式发布成品五段全速实看实听终审，正式双渠道交付见 [`DELIVERY.md`](DELIVERY.md) 与 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 21）
+- **v2.5 正式双渠道链接（逐字节 100% 一致，`141,154,392` 字节，SHA-256 `90b96d6e...52407fd`）**：
+  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.5-rainroji-lofi-1080p>
+  - **Google Drive**：<https://drive.google.com/file/d/1WIaoLMtNmBffElUx1ahcf0nYBwzyyDn6/view?usp=drivesdk>
+- **v2.5 终版亮点**：`1920×1080`（`320×180` 6× 最近邻整数放大）· 30 fps · `5,917` 帧 · `3:17.23`（严格不加时）；春/秋整冠连续 FBM 风场相位波 ±1px 整数像素叶颤（71.1% / 74.0% 覆盖、零果冻）；春猫全程 330 帧留在暖橘受光地面带内自然往返（零刷怪、零钻暗影）；秋景左侧报刊亭前 1:1 真实 3D 站立低头看报路人（胸前翻报、真实接地投影）+ 88 条双侧飘叶 + 路牙地面积叶微动；夏、冬与 v2.4 尾声冬夜雪风渐强音轨 100% 无损锁定沿用。
+
 
 
 
