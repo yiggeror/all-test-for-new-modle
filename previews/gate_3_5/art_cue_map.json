@@ -1,0 +1,101 @@
+{
+  "input_picture_scope": "Full resolution final-mux decoded H.264 pixels without overlays or proxies.",
+  "picture_loop_origins": {
+    "spring": 0,
+    "summer": 1410,
+    "autumn": 2850,
+    "winter": 4290
+  },
+  "spring": {
+    "cat_warm_courtyard": [
+      120,
+      150,
+      265,
+      315,
+      330
+    ],
+    "lamp_drop_local_half_open": [
+      138,
+      144
+    ]
+  },
+  "summer": {
+    "neon_4_windows_film_half_open": [
+      [
+        1602,
+        1607
+      ],
+      [
+        1614,
+        1619
+      ],
+      [
+        1626,
+        1630
+      ],
+      [
+        1639,
+        1644
+      ]
+    ],
+    "check": [
+      1534,
+      1563,
+      1604
+    ]
+  },
+  "autumn": {
+    "reader_turn_local": [
+      145,
+      185
+    ],
+    "reader_turn_film": [
+      2995,
+      3035
+    ],
+    "curb_air_anchors": [
+      3022,
+      3055
+    ],
+    "reader_pose_and_paper_samples": [
+      2945,
+      2995,
+      3005,
+      3035
+    ]
+  },
+  "winter": {
+    "check": [
+      4440,
+      4455,
+      4495
+    ],
+    "lamp_drop_film_half_open": [
+      4493,
+      4499
+    ]
+  },
+  "dissolves": [
+    [
+      1410,
+      1440,
+      1470
+    ],
+    [
+      2850,
+      2880,
+      2910
+    ],
+    [
+      4290,
+      4320,
+      4350
+    ]
+  ],
+  "ends": {
+    "head_last_frame": 45,
+    "tail_first": 5802,
+    "last_black": 5916,
+    "duration_seconds_exact": "5917/30"
+  }
+}

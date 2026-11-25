@@ -1,0 +1,11 @@
+{
+  "audio_decoded_for_QA_only": true,
+  "after_priming_then_exact_presented_duration": {
+    "channels": 2,
+    "sample_rate": 48000,
+    "samples_across_video_duration": 9467200,
+    "bytes_f32le": 75737600,
+    "sha256": "19de343d4bad6b25cab3d33a90ad58b30c975b8e7bfce460e2689e60aac21c2f"
+  },
+  "official_v24_vs_candidate_v25_sample_for_sample": true
+}

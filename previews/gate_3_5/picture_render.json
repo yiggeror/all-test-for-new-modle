@@ -1,0 +1,61 @@
+{
+  "filename": "picture_only.mp4",
+  "bytes": 134652593,
+  "sha256": "2082b69a57fd40cee9e5f7da555f3ceabfdd1c36a9ab22a6fb211fe97e3cfe5b",
+  "count_written": 5917,
+  "assembled_native_stream_sha256": "ec41d7f865316a6a205e4471749dc7ee35a43952f18d72ab7235a5465f02315e",
+  "scored_rgb_domains": {
+    "spring": {
+      "frames_inclusive": [
+        0,
+        1410
+      ],
+      "rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3"
+    },
+    "blend_spring_summer": {
+      "frames_inclusive": [
+        1411,
+        1469
+      ],
+      "rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e"
+    },
+    "summer": {
+      "frames_inclusive": [
+        1470,
+        2850
+      ],
+      "rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86"
+    },
+    "blend_summer_autumn": {
+      "frames_inclusive": [
+        2851,
+        2909
+      ],
+      "rgb_sha256": "85dc46539a072db813ca18554e8a43057bbc007f95d9634e1406c1ce9bd56795"
+    },
+    "autumn": {
+      "frames_inclusive": [
+        2910,
+        4290
+      ],
+      "rgb_sha256": "b60757f0670218e089021a8b31aae59f34e69007cce734549ac7b599c42f0b56"
+    },
+    "blend_autumn_winter": {
+      "frames_inclusive": [
+        4291,
+        4349
+      ],
+      "rgb_sha256": "1b086596f88b1fbb9ffdebb5726a55e8a68c96ac8ec086c6df909afaacec1069"
+    },
+    "winter": {
+      "frames_inclusive": [
+        4350,
+        5916
+      ],
+      "rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02"
+    }
+  },
+  "preencode_adjacent_equal_count": 0,
+  "preencode_adjacent_equal_indices": [],
+  "elapsed_s": 178.798
+}

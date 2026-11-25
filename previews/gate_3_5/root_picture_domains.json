@@ -1,0 +1,68 @@
+{
+  "rgb_sha256": "ec41d7f865316a6a205e4471749dc7ee35a43952f18d72ab7235a5465f02315e",
+  "domains": {
+    "spring": {
+      "frames_inclusive": [
+        0,
+        1410
+      ],
+      "rgb_sha256": "b5574c668fbf5c5cc5b7d5c03d3a57b18c971bbabcce19b12f7d53133212ccb3",
+      "prior_rgb_sha256": "cd95e87a5cd276dd352b211d677429f3ef63ac69bec2bc9d1a2e3a2278ba613c",
+      "frames_with_legitimate_actor_change": 1410
+    },
+    "blend_spring_summer": {
+      "frames_inclusive": [
+        1411,
+        1469
+      ],
+      "rgb_sha256": "27aada9699a5473b9f6002f84785b39d8b7a0afcf610ce4ed648c6dd4d6da83e",
+      "prior_rgb_sha256": "e0fb5c24db0283eca60a63f65ccb77bf82929f898880e3de1377bc5bf2753cd8",
+      "frames_with_legitimate_actor_change": 59
+    },
+    "summer": {
+      "frames_inclusive": [
+        1470,
+        2850
+      ],
+      "rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86",
+      "prior_rgb_sha256": "9af72fdb2eb0212f0c31b74c42d3ad7ef69c873b6fd29af56916ec9190631a86",
+      "frames_with_legitimate_actor_change": 0
+    },
+    "blend_summer_autumn": {
+      "frames_inclusive": [
+        2851,
+        2909
+      ],
+      "rgb_sha256": "85dc46539a072db813ca18554e8a43057bbc007f95d9634e1406c1ce9bd56795",
+      "prior_rgb_sha256": "151682f2cd70c76c26899fa745e9f1f7cd33569d810639e78751ebbf1fa2744c",
+      "frames_with_legitimate_actor_change": 59
+    },
+    "autumn": {
+      "frames_inclusive": [
+        2910,
+        4290
+      ],
+      "rgb_sha256": "b60757f0670218e089021a8b31aae59f34e69007cce734549ac7b599c42f0b56",
+      "prior_rgb_sha256": "62001e4a6ee4d38f592c2439faa635b4dc73444b66d0902d6b5f51b5edf08686",
+      "frames_with_legitimate_actor_change": 1381
+    },
+    "blend_autumn_winter": {
+      "frames_inclusive": [
+        4291,
+        4349
+      ],
+      "rgb_sha256": "1b086596f88b1fbb9ffdebb5726a55e8a68c96ac8ec086c6df909afaacec1069",
+      "prior_rgb_sha256": "772f489d85a101e3eb46f03e5b0863cfc1ac021ccc78901f33d6b185a2dee415",
+      "frames_with_legitimate_actor_change": 59
+    },
+    "winter": {
+      "frames_inclusive": [
+        4350,
+        5916
+      ],
+      "rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02",
+      "prior_rgb_sha256": "89f37696b3e5649d8fa868524fd03a2fb2c12b03c8cd8d806b784ffc4bbe9f02",
+      "frames_with_legitimate_actor_change": 0
+    }
+  }
+}

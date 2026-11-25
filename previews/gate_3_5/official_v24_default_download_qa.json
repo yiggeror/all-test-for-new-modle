@@ -1,0 +1,39 @@
+{
+  "default_release_acquired_verified": {
+    "url": "https://github.com/yiggeror/all-test-for-new-modle/releases/download/v2.4-rainroji-lofi-1080p/Rainroji_Lofi_V2.4_1080p.mp4",
+    "bytes": 132852726,
+    "mp4_sha256": "a9870ce471487b76b68c93eb779a075182e5d1b28b3e18d145aae99f480d0687",
+    "used_verified_local_cache": false
+  },
+  "aac": {
+    "packet_count": 9247,
+    "packet_payload_sequence_sha256": "cada2969b15e00c13dfb564868318180a333d34e17819ddaf338ac1a604f5220",
+    "adts_sha256": "507c422e4f6d5f476a3b3c0ee594adb5a4bbea336bf3a2d7d5d951d50f7ef0ab",
+    "audio_timing_bytes_identity_sha256": "d7d76c40dbcd12425a82aaaed197e50e918c0e4c3be3f254e2a8604d7bd4bfdf",
+    "aac_audiospecificconfig_sha256": "SHA256:b3108813350006ef07740046fab14af9c374938867d16db02fe1a8baa5e72f10",
+    "presented_samples_at_48000": 9467200,
+    "first_pts_dts_duration_size": [
+      -1024,
+      -1024,
+      1024,
+      521
+    ],
+    "last_pts_dts_duration_size": [
+      9466880,
+      9466880,
+      320,
+      6
+    ],
+    "skip_samples": 1024,
+    "discard_padding": 0,
+    "stream": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "duration_ts": 9467200
+    }
+  }
+}

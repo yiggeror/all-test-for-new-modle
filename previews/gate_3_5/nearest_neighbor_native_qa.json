@@ -1,0 +1,16 @@
+{
+  "sample_frames": [
+    0,
+    15,
+    45,
+    1440,
+    2880,
+    4320,
+    3450,
+    4454,
+    4800,
+    5802,
+    5916
+  ],
+  "channel_differences_against_explicit_repeat": 0
+}

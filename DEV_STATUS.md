@@ -1,5 +1,18 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 20：v2.5 / Gate 3.5 1080p 成片候审
+
+[Round 20 已通过四季样片](https://github.com/yiggeror/all-test-for-new-modle/blob/de0190b398d70b2cf39d82db9fe5a674fff45137/REVIEW_LOG.md#L807-L845)。从批准提交 `6ef7236d` 的清单恢复四季全部 17 个无损分卷（春 1、夏 8、秋 2、冬 6），没有读取网页预览或旧成片画面。
+
+- 重建产物 `dist/Rainroji_Lofi_V2.5_1080p.mp4`：141,154,406 字节，SHA-256 `26bfaf99c36da141858249c2f07b520f61fa2a3b11eb1281972a79bf426d0cef`。1920×1080、30 fps、5,917 帧，197.233333 秒；H.264 High / CRF 14 / BT.709 限幅矩阵 / faststart。
+- 保留 48、96、144 秒三处 2 秒线性光 smoothstep 叠化，片头淡入 1.5 秒、片尾淡出 3.8 秒。夏、冬纯景段的编码前 RGB，与 v2.4 分别逐像素相同。
+- 直接复制已发布 v2.4 的 AAC 音轨。全 9,247 个包的内容与时序、48 kHz 立体声 9,467,200 个呈现样本均与官方成品完全一致；实测 −16.05 LUFS-I、−4.74 dBTP。
+- [复现入口](tools/gate3_v25/) · [实际解码静帧](previews/gate_3_5/) · [独立复核](previews/gate_3_5/GATE35_INDEPENDENT_QA.md)。
+
+本次提交用于云端重建和终审；GitHub Release 与 Google Drive 由评审发布。此前正式发布保持原样。
+
+---
+
 ## Round 19：v2.5 / Gate 2.5 春猫与秋景看报人重交
 
 按[第 19 轮审片意见](https://github.com/yiggeror/all-test-for-new-modle/blob/d4cde25ec35477c8585cd0d6b17d4c742c17c982/REVIEW_LOG.md#L762-L807)，仅修改两处角色动画。新版[春景](previews/gate_2_5/spring_loop.mp4)与[秋景](previews/gate_2_5/autumn_loop.mp4)均为 1080p30、22 秒双周期。
