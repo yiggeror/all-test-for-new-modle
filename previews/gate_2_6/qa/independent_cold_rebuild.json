@@ -1,0 +1,7407 @@
+{
+  "native_candidate_NPY_SHA": "a9f562b03365593aadd61ad761838cac3b2fcbd679e014aaaa58024df0ed16c1",
+  "independently_cold_recomputed_full_scene_true_frame_rows": [
+    [
+      0,
+      0
+    ],
+    [
+      11,
+      0
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      33,
+      0
+    ],
+    [
+      44,
+      0
+    ],
+    [
+      55,
+      0
+    ],
+    [
+      66,
+      0
+    ],
+    [
+      77,
+      0
+    ],
+    [
+      88,
+      0
+    ],
+    [
+      99,
+      0
+    ],
+    [
+      110,
+      0
+    ],
+    [
+      120,
+      0
+    ],
+    [
+      121,
+      0
+    ],
+    [
+      132,
+      0
+    ],
+    [
+      135,
+      0
+    ],
+    [
+      143,
+      0
+    ],
+    [
+      154,
+      0
+    ],
+    [
+      155,
+      0
+    ],
+    [
+      165,
+      0
+    ],
+    [
+      176,
+      0
+    ],
+    [
+      180,
+      0
+    ],
+    [
+      187,
+      0
+    ],
+    [
+      198,
+      0
+    ],
+    [
+      199,
+      0
+    ],
+    [
+      209,
+      0
+    ],
+    [
+      220,
+      0
+    ],
+    [
+      231,
+      0
+    ],
+    [
+      242,
+      0
+    ],
+    [
+      253,
+      0
+    ],
+    [
+      264,
+      0
+    ],
+    [
+      268,
+      0
+    ],
+    [
+      275,
+      0
+    ],
+    [
+      280,
+      0
+    ],
+    [
+      285,
+      0
+    ],
+    [
+      286,
+      0
+    ],
+    [
+      293,
+      0
+    ],
+    [
+      297,
+      0
+    ],
+    [
+      308,
+      0
+    ],
+    [
+      319,
+      0
+    ],
+    [
+      329,
+      0
+    ],
+    [
+      330,
+      0
+    ]
+  ],
+  "actual_recomputed_F330_equals_zero": true,
+  "every_check_false_control_pavement_points_never_move": true,
+  "ground_only_probe_phases": [
+    0,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    220,
+    230,
+    265,
+    270,
+    275,
+    280,
+    285,
+    290,
+    295,
+    300,
+    315,
+    325
+  ],
+  "registered_actual_leaf_object_count": 22,
+  "solo_distinct_3d_leaves_visible_in_most_relevant_probed_phases": 22,
+  "true_rest_leaf_visibility_count_in_probed_phases": 18,
+  "true_ground_leaf_samephase_visibility_each_observation": {
+    "G01": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            9,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            7,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            4,
+            167
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            1,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            8,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            9,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            10,
+            166
+          ]
+        ]
+      }
+    ],
+    "G02": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            27,
+            161
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            27,
+            161
+          ],
+          [
+            27,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            27,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      }
+    ],
+    "G03": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            27,
+            152
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            27,
+            153
+          ]
+        ]
+      }
+    ],
+    "G04": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            31,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            31,
+            168
+          ],
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            31,
+            169
+          ]
+        ]
+      }
+    ],
+    "G05": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            38,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            40,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            42,
+            155
+          ],
+          [
+            42,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            41,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            40,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            37,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            156
+          ]
+        ]
+      }
+    ],
+    "G06": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            40,
+            173
+          ],
+          [
+            40,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            38,
+            172
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            37,
+            173
+          ],
+          [
+            37,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            36,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            37,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            37,
+            173
+          ],
+          [
+            37,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            39,
+            173
+          ],
+          [
+            39,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            40,
+            173
+          ],
+          [
+            40,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            41,
+            173
+          ],
+          [
+            41,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            42,
+            174
+          ]
+        ]
+      }
+    ],
+    "G07": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            76,
+            150
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            78,
+            149
+          ],
+          [
+            78,
+            150
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            79,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            80,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            80,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            80,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            78,
+            149
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            77,
+            150
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            76,
+            150
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      }
+    ],
+    "G08": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            81,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            81,
+            154
+          ]
+        ]
+      }
+    ],
+    "G09": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            77,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            74,
+            160
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            74,
+            160
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            76,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            77,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            78,
+            159
+          ]
+        ]
+      }
+    ],
+    "G10": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            90,
+            148
+          ]
+        ]
+      }
+    ],
+    "G11": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            73,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            71,
+            161
+          ],
+          [
+            72,
+            161
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            71,
+            161
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            70,
+            161
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            69,
+            161
+          ],
+          [
+            69,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            69,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            69,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            69,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            70,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            71,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            72,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            72,
+            162
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            72,
+            163
+          ]
+        ]
+      }
+    ],
+    "G12": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            144
+          ]
+        ]
+      }
+    ],
+    "G13": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            223,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            223,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            222,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            221,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            220,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            219,
+            140
+          ]
+        ]
+      }
+    ],
+    "G14": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            235,
+            155
+          ],
+          [
+            235,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            235,
+            155
+          ],
+          [
+            235,
+            156
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            235,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            235,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      }
+    ],
+    "G15": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            233,
+            150
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            234,
+            150
+          ],
+          [
+            234,
+            151
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            235,
+            150
+          ],
+          [
+            235,
+            151
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            237,
+            150
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            238,
+            150
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            235,
+            151
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            234,
+            151
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            233,
+            151
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      }
+    ],
+    "G16": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            246,
+            165
+          ],
+          [
+            246,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            248,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            246,
+            166
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            244,
+            165
+          ]
+        ]
+      }
+    ],
+    "G17": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 4,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            253,
+            152
+          ],
+          [
+            254,
+            152
+          ],
+          [
+            255,
+            152
+          ],
+          [
+            255,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            255,
+            152
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            256,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            256,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            256,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            256,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            255,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            254,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            253,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            252,
+            153
+          ]
+        ]
+      }
+    ],
+    "G18": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            260,
+            160
+          ],
+          [
+            260,
+            161
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": []
+      }
+    ],
+    "G19": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            278,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 3,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            278,
+            154
+          ],
+          [
+            279,
+            154
+          ],
+          [
+            279,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            280,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            281,
+            154
+          ],
+          [
+            281,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            282,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            281,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            279,
+            155
+          ],
+          [
+            280,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            279,
+            155
+          ],
+          [
+            280,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            278,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            277,
+            155
+          ]
+        ]
+      }
+    ],
+    "G20": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            287,
+            169
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 2,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            286,
+            169
+          ],
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            287,
+            170
+          ]
+        ]
+      }
+    ],
+    "G21": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            298,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            298,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            297,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 3,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            295,
+            153
+          ],
+          [
+            296,
+            153
+          ],
+          [
+            295,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            291,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            289,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            288,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            289,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            291,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            293,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            295,
+            153
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            297,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            298,
+            154
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            298,
+            154
+          ]
+        ]
+      }
+    ],
+    "G22": [
+      {
+        "physical_frame": 0,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 110,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            307,
+            167
+          ]
+        ]
+      },
+      {
+        "physical_frame": 115,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            307,
+            167
+          ]
+        ]
+      },
+      {
+        "physical_frame": 120,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": [
+          [
+            307,
+            167
+          ]
+        ]
+      },
+      {
+        "physical_frame": 125,
+        "rgb_scope_count": 0,
+        "sitting_on_sidewalk_true_y": false,
+        "true_ground_difference_xy": []
+      },
+      {
+        "physical_frame": 130,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 135,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 140,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 145,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 150,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 155,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 160,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 165,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 170,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 175,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 180,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 185,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 190,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 195,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 200,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 220,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 230,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 265,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 270,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 275,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 280,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 285,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 290,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 295,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 300,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 315,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      },
+      {
+        "physical_frame": 325,
+        "rgb_scope_count": 1,
+        "sitting_on_sidewalk_true_y": true,
+        "true_ground_difference_xy": [
+          [
+            307,
+            168
+          ]
+        ]
+      }
+    ]
+  },
+  "direct_v6_common_cold_all330_old_untargeted_equal": true,
+  "native_ground_effect_per_frame_min_max": [
+    [
+      16.0,
+      8.0,
+      7.0
+    ],
+    [
+      17.0,
+      9.0,
+      8.0
+    ],
+    [
+      23.0,
+      12.0,
+      13.0
+    ]
+  ]
+}

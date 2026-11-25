@@ -1,5 +1,18 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 22–22c：v2.6 / Gate 2.6 秋景三项精修候审
+
+对照[第 22 轮及 22c 补充](https://github.com/yiggeror/all-test-for-new-modle/blob/c005ce6e02e2a5be1927128216d3f3b120a71a57/REVIEW_LOG.md#L856-L930)，提交新版[秋景完整双循环](previews/gate_2_6/autumn_loop.mp4)（1080p30、660 帧，原生 320×180、6× 整数复制）。
+
+- 将报刊亭前的岔腿读者改为靠着真实梧桐树皮的少女。双脚落地、腿窄收拢，保留既有暖光；一只手轻掀并带页越过书脊，发梢随同一阵风摇摆。[无标原速](previews/gate_2_6/autumn_girl_normal_speed_1080p.mp4) · [人物 4× 原速](previews/gate_2_6/autumn_girl_normal_speed_detail.mp4)。
+- 删除人行道积叶的整块贴图偏移，改用 22 片世界坐标叶；22 片均取得原生逐叶可见证据，其中 18 片在 66 个状态中至少可见 34 个，12 条位移轨迹为 4.21–9.52 像素，原斑马线卷叶保留。[两侧人行道 4× 原速](previews/gate_2_6/autumn_ground_both_sides_4x_1x.mp4)。
+- 替换秋冠平行斜波。全 330 帧真片同相位对照：整体每帧 10.00%–14.07%，并集 82.25%（物理叶冠 23,703 像素）；受保护树干、硬边零改动。分别关闭旧/新三处变更后，与已发布 v2.5 原始秋景共同底板逐像素相同。灯、茶汽、飞鸟、空中 88 片叶和斑马线原效果保留。[完整实测](previews/gate_2_6/)。
+- 春、夏、冬 15 个分卷直接引用已发布 v2.5 的原 blob；秋景新 QP0 正本 SHA-256 `6af4c7f8d82fe9867e0e62ca1aa7ec8eabd27f4dea4976e845cdf7809534d652`。四季完整 [无损分卷清单](previews/gate_2_6/lossless_parts/MANIFEST.json)。
+
+本次仅送审 Gate 2.6 秋景。待评审放行再合成 Gate 3.6，保持 v2.5 完整音轨与原时长。
+
+---
+
 ## Round 20：v2.5 / Gate 3.5 1080p 成片候审
 
 [Round 20 已通过四季样片](https://github.com/yiggeror/all-test-for-new-modle/blob/de0190b398d70b2cf39d82db9fe5a674fff45137/REVIEW_LOG.md#L807-L845)。从批准提交 `6ef7236d` 的清单恢复四季全部 17 个无损分卷（春 1、夏 8、秋 2、冬 6），没有读取网页预览或旧成片画面。

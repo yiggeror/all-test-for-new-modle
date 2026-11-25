@@ -1,0 +1,19 @@
+{
+  "frames": 330,
+  "scope_disabled_old": [
+    "reader",
+    "reader_shadow",
+    "crown",
+    "bed",
+    "pavement"
+  ],
+  "scope_disabled_new": [
+    "reader",
+    "reader_shadow",
+    "crown",
+    "pavement"
+  ],
+  "native_rgb_sha256": "de935c2a35442b7fa665ddee0c2cffaa157d91c6593d370476c6695d58754ed3",
+  "out_of_scope_differing_pixels": 0,
+  "legacy_dapple_series_unchanged": true
+}

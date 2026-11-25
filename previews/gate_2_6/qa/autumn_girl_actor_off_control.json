@@ -1,0 +1,9 @@
+{
+  "old_control_npy_sha256": null,
+  "old_source_release_zip_sha256": "d9ce041832ef9fbc90b5776fb0e246b3de0f3b46c08f7e6ba00b9f1eb83cbfe7",
+  "scope": "reader + reader_shadow disabled in production entry",
+  "new_raw_rgb_sha256": "91427700173391fc9d45047bcfb97eca30aa111f01215ec1499162ab9a565bf4",
+  "frames_verified": 330,
+  "native_differing_pixels_by_frame": [],
+  "round22c_separate_common_control": true
+}

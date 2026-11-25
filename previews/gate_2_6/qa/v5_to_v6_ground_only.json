@@ -1,0 +1,14 @@
+{
+  "motion_delta_is_ground_only": true,
+  "bounds": [
+    1,
+    139,
+    307,
+    174
+  ],
+  "changed_total": 5425,
+  "frame_changed_range": [
+    13,
+    19
+  ]
+}
