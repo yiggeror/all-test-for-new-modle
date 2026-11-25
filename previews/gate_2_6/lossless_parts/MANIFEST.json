@@ -60,13 +60,13 @@
   },
   "autumn": {
     "output": "autumn_loop.mp4",
-    "bytes": 5130297,
-    "sha256": "6af4c7f8d82fe9867e0e62ca1aa7ec8eabd27f4dea4976e845cdf7809534d652",
+    "bytes": 5134953,
+    "sha256": "edd14a487041d22c54a6cbde5c5b77cda19631558070e02664f5ccfd55db2625",
     "parts": [
       {
         "path": "lossless_parts/autumn/part-00.bin",
-        "bytes": 5130297,
-        "sha256": "6af4c7f8d82fe9867e0e62ca1aa7ec8eabd27f4dea4976e845cdf7809534d652"
+        "bytes": 5134953,
+        "sha256": "edd14a487041d22c54a6cbde5c5b77cda19631558070e02664f5ccfd55db2625"
       }
     ]
   },

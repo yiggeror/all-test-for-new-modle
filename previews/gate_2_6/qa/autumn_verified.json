@@ -5,21 +5,21 @@
   "first_second_cycle_identical_pairs": 330,
   "all_three_planes_in_every_frame_uniform_native_blocks": true,
   "source_exact_native_rgb_pairs": 330,
-  "rgb_seam_mae": 0.542396,
+  "rgb_seam_mae": 0.542494,
   "near_seam_maes": [
-    0.484016,
+    0.483958,
     0.035029,
     0.020556,
     0.030712,
     0.023779,
-    0.542396,
+    0.542494,
     0.024456,
     0.02908,
     0.031684,
     0.021209,
-    0.551476,
+    0.551464,
     0.01974
   ],
-  "native_npy_sha256": "a9f562b03365593aadd61ad761838cac3b2fcbd679e014aaaa58024df0ed16c1",
-  "loop_qp0_mp4_sha256": "6af4c7f8d82fe9867e0e62ca1aa7ec8eabd27f4dea4976e845cdf7809534d652"
+  "native_npy_sha256": "eba9bcffb727c0c240b82feb29a09dd25b26845f75dac6c0b248dfd6e7276ac5",
+  "loop_qp0_mp4_sha256": "edd14a487041d22c54a6cbde5c5b77cda19631558070e02664f5ccfd55db2625"
 }

@@ -1,5 +1,17 @@
 # 四季像素短片 v2 · 制作进度
 
+## Round 23：v2.6 / Gate 2.6 秋景少女画面精修重交
+
+按[第 23 轮](https://github.com/yiggeror/all-test-for-new-modle/blob/eee3d38cd1ae9b3ed27a9b51c77288d228de47ce/REVIEW_LOG.md#L923-L967)，保留 v6 秋景的风、地面积叶、88 片浮叶以及少女靠树支点和收腿骨架。源码包仅 `reader25.py` 内容更新。
+
+- 以原灯光衬浅燕麦外套、深色微伞摆裙与黑栗长发；暖窗前是发束、袖和页尖的轮廓，没有增加灯或脸部亮色。沿同一阵风做发束离身与回稳。
+- 书本保持原尺度。翻手挑起并带过书脊，纸页角先从袖口与暗柜之间抬起，跨过后落回原位置。 [秋景双循环](previews/gate_2_6/autumn_loop.mp4) · [4× 原速](previews/gate_2_6/autumn_girl_normal_speed_detail.mp4)。
+- 关闭新旧人物与实影后，330 个同相位原生画面逐像素相同；春夏冬 15 个原始无损分卷保持原 blob。其余锁定内容未改。
+
+本次仅重送 Gate 2.6。通过后才合成 Gate 3.6；完整配乐与时长沿用 v2.5。
+
+---
+
 ## Round 22–22c：v2.6 / Gate 2.6 秋景三项精修候审
 
 对照[第 22 轮及 22c 补充](https://github.com/yiggeror/all-test-for-new-modle/blob/c005ce6e02e2a5be1927128216d3f3b120a71a57/REVIEW_LOG.md#L856-L930)，提交新版[秋景完整双循环](previews/gate_2_6/autumn_loop.mp4)（1080p30、660 帧，原生 320×180、6× 整数复制）。

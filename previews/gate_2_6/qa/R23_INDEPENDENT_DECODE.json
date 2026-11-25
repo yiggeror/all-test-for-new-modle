@@ -1,0 +1,118 @@
+{
+  "candidate_qp0_sha256": "edd14a487041d22c54a6cbde5c5b77cda19631558070e02664f5ccfd55db2625",
+  "native_npy_sha256": "eba9bcffb727c0c240b82feb29a09dd25b26845f75dac6c0b248dfd6e7276ac5",
+  "codec_metadata": {
+    "stream": {
+      "index": 0,
+      "codec_name": "h264",
+      "profile": "High 4:4:4 Predictive",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "chroma_location": "left",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "duration_ts": 337920,
+      "nb_frames": "660",
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc61.19.101 libx264"
+      }
+    },
+    "pts_first_last": [
+      0,
+      337408
+    ],
+    "per_frame_pts_step": 512,
+    "exact_pts_frame_count": 660,
+    "keyframe_indices": [
+      0,
+      330
+    ],
+    "top_level_mp4_boxes": [
+      {
+        "fourcc": "ftyp",
+        "start": 0,
+        "size": 32
+      },
+      {
+        "fourcc": "moov",
+        "start": 32,
+        "size": 3496
+      },
+      {
+        "fourcc": "free",
+        "start": 3528,
+        "size": 8
+      },
+      {
+        "fourcc": "mdat",
+        "start": 3536,
+        "size": 5131417
+      }
+    ]
+  },
+  "x264_encoder_options": "x264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:0:0 analyse=0x3:0x133 me=umh subme=9 psy=0 mixed_ref=1 me_range=24 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=0 chroma_qp_offset=0 threads=2 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=2 keyint=330 keyint_min=166 scenecut=0 intra_refresh=0 rc=cqp mbtree=0 qp=0",
+  "decoded_frames": 660,
+  "strict_decode_no_errors": true,
+  "actual_pair_count": 330,
+  "actual_pair_mismatch_frames": [],
+  "all_660_valid_uniform_native_y_6x6_and_uv_3x3": true,
+  "bad_grid_frames_and_counts": [],
+  "exact_decoded_vs_on_source_native_equivalent_yuv_first_330": true,
+  "source_mismatch_frame_indices": [],
+  "decoded_yuv_native_pixel_stream_sha256_both_cycles": "71e15dd3a1fbcbb7de91c9cc5d908127693ab1ae7440af5ea57eac1f93d8209d",
+  "unique_decoded_pose_frames_first_cycle": 330,
+  "first_last_not_duplicated": true,
+  "decoded_native_yuv_mean_abs_at_incoming_f321_338_659_660": {
+    "321": 0.011689814814814814,
+    "322": 0.01728587962962963,
+    "323": 0.013998842592592592,
+    "324": 0.01390625,
+    "325": 0.2509837962962963,
+    "326": 0.01935763888888889,
+    "327": 0.011278935185185185,
+    "328": 0.016840277777777777,
+    "329": 0.013454861111111112,
+    "330": 0.2814814814814815,
+    "331": 0.01392361111111111,
+    "332": 0.016261574074074074,
+    "333": 0.017760416666666667,
+    "334": 0.011689814814814814,
+    "335": 0.28988425925925926,
+    "336": 0.011290509259259259,
+    "337": 0.013865740740740741,
+    "338": 0.011111111111111112,
+    "659": 0.013454861111111112,
+    "660": 0.2814814814814815
+  },
+  "pass": true
+}

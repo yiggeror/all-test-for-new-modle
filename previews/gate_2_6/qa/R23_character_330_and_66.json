@@ -1,0 +1,4182 @@
+{
+  "locked_v6_actor_and_shadow_off_330_raw_sha256": "91427700173391fc9d45047bcfb97eca30aa111f01215ec1499162ab9a565bf4",
+  "actor_and_shadow_off_equal_v6": true,
+  "frozen_nonactor_diff_frames": 0,
+  "first_last_modulo_exact": true,
+  "native_actual_frames_checked": 330,
+  "native_actor_and_its_effect_bbox_330": [
+    42,
+    129,
+    59,
+    163
+  ],
+  "actor_periodic_5_frame_holds": 66,
+  "real_hair_peak_frame": 145,
+  "hair_peak_x": -3.662494426650909,
+  "hair_peak_m": -0.2250738801591723,
+  "hair_peak_same_phase_luma_gte9_native_px": 7,
+  "projected_palm_peak_frame": 155,
+  "projected_palm_apogee_px": 3.298645507674974,
+  "raster_hand_centroid_peak_frame": 170,
+  "raster_hand_centroid_displacement_px": 3.4527093439875434,
+  "phases": [
+    {
+      "frame": 0,
+      "gs": 0.1224578587645701,
+      "local_pressure": -0.2413356751203537,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.10265451087111188,
+      "leftmost_hair_delta_m": 0.006342353405601742,
+      "hair_tip_rgb_gate_changed_px": 2,
+      "hair_tip_clean_ref_changed_px": 2,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "gs": 0.1252632948054678,
+      "local_pressure": -0.030923843383789062,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.00830795752842306,
+      "leftmost_hair_delta_m": 0.0005132873957487405,
+      "hair_tip_rgb_gate_changed_px": 0,
+      "hair_tip_clean_ref_changed_px": 0,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 10,
+      "gs": 0.13118663813073878,
+      "local_pressure": 0.16758191585540771,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -0.5898168956255248,
+      "leftmost_hair_delta_m": -0.036264429648215746,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 7,
+      "hair_tip_rgb_gate_luma_gte9_px": 4,
+      "hair_tip_removed_real_rgb_px": 15,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "gs": 0.14212330981365,
+      "local_pressure": 0.3314894735813141,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.1782245147403003,
+      "leftmost_hair_delta_m": -0.0724359005411559,
+      "hair_tip_rgb_gate_changed_px": 9,
+      "hair_tip_clean_ref_changed_px": 9,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 16,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 20,
+      "gs": 0.16027608299589474,
+      "local_pressure": 0.4527633786201477,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.635275652427346,
+      "leftmost_hair_delta_m": -0.10052808152233972,
+      "hair_tip_rgb_gate_changed_px": 9,
+      "hair_tip_clean_ref_changed_px": 10,
+      "hair_tip_rgb_gate_luma_gte9_px": 7,
+      "hair_tip_removed_real_rgb_px": 17,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "gs": 0.1873839101417754,
+      "local_pressure": 0.5350179672241211,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.9781536153047554,
+      "leftmost_hair_delta_m": -0.12160022954409744,
+      "hair_tip_rgb_gate_changed_px": 10,
+      "hair_tip_clean_ref_changed_px": 11,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "gs": 0.22358049318468726,
+      "local_pressure": 0.5871499180793762,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.2379520045877754,
+      "leftmost_hair_delta_m": -0.1375651568100995,
+      "hair_tip_rgb_gate_changed_px": 11,
+      "hair_tip_clean_ref_changed_px": 12,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 35,
+      "gs": 0.26629590617989496,
+      "local_pressure": 0.6178829073905945,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.4383253385337156,
+      "leftmost_hair_delta_m": -0.1498775033970432,
+      "hair_tip_rgb_gate_changed_px": 12,
+      "hair_tip_clean_ref_changed_px": 13,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 19,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 40,
+      "gs": 0.30988439312237376,
+      "local_pressure": 0.632627010345459,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.583452807331419,
+      "leftmost_hair_delta_m": -0.15879469952168623,
+      "hair_tip_rgb_gate_changed_px": 13,
+      "hair_tip_clean_ref_changed_px": 13,
+      "hair_tip_rgb_gate_luma_gte9_px": 4,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 45,
+      "gs": 0.3465639332156915,
+      "local_pressure": 0.6319032907485962,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.6535586799099065,
+      "leftmost_hair_delta_m": -0.16310213976695298,
+      "hair_tip_rgb_gate_changed_px": 12,
+      "hair_tip_clean_ref_changed_px": 13,
+      "hair_tip_rgb_gate_luma_gte9_px": 4,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 50,
+      "gs": 0.3686679320429107,
+      "local_pressure": 0.6108062863349915,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.607491014445209,
+      "leftmost_hair_delta_m": -0.16027166347578703,
+      "hair_tip_rgb_gate_changed_px": 13,
+      "hair_tip_clean_ref_changed_px": 13,
+      "hair_tip_rgb_gate_luma_gte9_px": 4,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 55,
+      "gs": 0.37139771373315855,
+      "local_pressure": 0.5602571964263916,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.3964445857345353,
+      "leftmost_hair_delta_m": -0.14730411582801306,
+      "hair_tip_rgb_gate_changed_px": 12,
+      "hair_tip_clean_ref_changed_px": 13,
+      "hair_tip_rgb_gate_luma_gte9_px": 4,
+      "hair_tip_removed_real_rgb_px": 19,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 60,
+      "gs": 0.3547823679340544,
+      "local_pressure": 0.4709312319755554,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.9895868561364338,
+      "leftmost_hair_delta_m": -0.12230284194096619,
+      "hair_tip_rgb_gate_changed_px": 11,
+      "hair_tip_clean_ref_changed_px": 12,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 65,
+      "gs": 0.3238330231917408,
+      "local_pressure": 0.33898529410362244,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.3989648160912296,
+      "leftmost_hair_delta_m": -0.08600395216419798,
+      "hair_tip_rgb_gate_changed_px": 9,
+      "hair_tip_clean_ref_changed_px": 9,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 16,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 70,
+      "gs": 0.28682117013367026,
+      "local_pressure": 0.17058685421943665,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -0.6840345732843858,
+      "leftmost_hair_delta_m": -0.04205674305311469,
+      "hair_tip_rgb_gate_changed_px": 7,
+      "hair_tip_clean_ref_changed_px": 7,
+      "hair_tip_rgb_gate_luma_gte9_px": 5,
+      "hair_tip_removed_real_rgb_px": 15,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 75,
+      "gs": 0.252597104430645,
+      "local_pressure": -0.017938777804374695,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.005371585204407836,
+      "leftmost_hair_delta_m": 0.0003318704714452281,
+      "hair_tip_rgb_gate_changed_px": 0,
+      "hair_tip_clean_ref_changed_px": 0,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 80,
+      "gs": 0.22824139255276316,
+      "local_pressure": -0.20506712794303894,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.0955509639477512,
+      "leftmost_hair_delta_m": 0.005903465312566247,
+      "hair_tip_rgb_gate_changed_px": 3,
+      "hair_tip_clean_ref_changed_px": 3,
+      "hair_tip_rgb_gate_luma_gte9_px": 1,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 85,
+      "gs": 0.21793574321000647,
+      "local_pressure": -0.37134498357772827,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.17155773815841968,
+      "leftmost_hair_delta_m": 0.010599543051465155,
+      "hair_tip_rgb_gate_changed_px": 4,
+      "hair_tip_clean_ref_changed_px": 4,
+      "hair_tip_rgb_gate_luma_gte9_px": 1,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 90,
+      "gs": 0.22313644363218293,
+      "local_pressure": -0.5044199228286743,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.23404145722677328,
+      "leftmost_hair_delta_m": 0.014460178148158143,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 95,
+      "gs": 0.2435022181468087,
+      "local_pressure": -0.5989869832992554,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.28259740434705805,
+      "leftmost_hair_delta_m": 0.01746031768752676,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 7,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 13,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 100,
+      "gs": 0.27787850003122544,
+      "local_pressure": -0.6524717211723328,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.31643553160328963,
+      "leftmost_hair_delta_m": 0.01955110879069899,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 105,
+      "gs": 0.3248893087104537,
+      "local_pressure": -0.6597455143928528,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.33186261409216655,
+      "leftmost_hair_delta_m": 0.02050432472655217,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 3,
+      "hair_tip_removed_real_rgb_px": 13,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 110,
+      "gs": 0.3830510023382346,
+      "local_pressure": -0.6105543971061707,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.3207443422618894,
+      "leftmost_hair_delta_m": 0.019817343201815163,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 115,
+      "gs": 0.45056914218839894,
+      "local_pressure": -0.4926895201206207,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.27159162677987325,
+      "leftmost_hair_delta_m": 0.016780296927731086,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 120,
+      "gs": 0.5250487315925978,
+      "local_pressure": -0.3018241822719574,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.1750062576849487,
+      "leftmost_hair_delta_m": 0.010812612300891367,
+      "hair_tip_rgb_gate_changed_px": 4,
+      "hair_tip_clean_ref_changed_px": 4,
+      "hair_tip_rgb_gate_luma_gte9_px": 1,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 125,
+      "gs": 0.6032983893113567,
+      "local_pressure": -0.05378471687436104,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.020664947592123895,
+      "leftmost_hair_delta_m": 0.0012767369725130706,
+      "hair_tip_rgb_gate_changed_px": 0,
+      "hair_tip_clean_ref_changed_px": 0,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 130,
+      "gs": 0.6813230825753497,
+      "local_pressure": 0.21074442565441132,
+      "actor_height_m": 1.618369698524475,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.259901319278569,
+        -0.012260925926568689
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.1070352455989507,
+      "leftmost_hair_delta_m": -0.06805962873653737,
+      "hair_tip_rgb_gate_changed_px": 8,
+      "hair_tip_clean_ref_changed_px": 8,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 15,
+      "scene_turning_hand_rays": 18,
+      "true_raster_hand_centroid_xy": [
+        47.357142857142854,
+        144.64285714285714
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110540386706607,
+        0.0007250301131501149
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.33928525349769,
+        144.61682456870955
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 0.0,
+      "world_hand_arm": [
+        [
+          -6.568702267677542,
+          1.359,
+          5.5175517952037865
+        ],
+        [
+          -6.642742485919916,
+          1.1399446374004343,
+          5.595454261140331
+        ],
+        [
+          -6.8874661865583455,
+          1.119877057188478,
+          5.6302623431080185
+        ],
+        [
+          -6.898086318071402,
+          1.146877057188478,
+          5.561281951512687
+        ]
+      ]
+    },
+    {
+      "frame": 135,
+      "gs": 0.7545260996462658,
+      "local_pressure": 0.4374457001686096,
+      "actor_height_m": 1.6178377866744995,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.260778384903432,
+        -0.009588978504609713
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.3992470148520226,
+      "leftmost_hair_delta_m": -0.147474588135176,
+      "hair_tip_rgb_gate_changed_px": 13,
+      "hair_tip_clean_ref_changed_px": 14,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 17,
+      "true_raster_hand_centroid_xy": [
+        47.42857142857143,
+        144.21428571428572
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110833494767633,
+        0.0007748086605179776
+      ],
+      "physical_turn_fingertip_mesh_gap_m": 0.0005167804192751646,
+      "geometry_palm_native_xy": [
+        47.392469671894126,
+        144.27147043015762
+      ],
+      "true_visible_page_rays": 11,
+      "turning_angle": 0.03257203263241897,
+      "world_hand_arm": [
+        [
+          -6.569097728382683,
+          1.359,
+          5.5176118853917515
+        ],
+        [
+          -6.638855532395166,
+          1.1374875489543117,
+          5.592458948200439
+        ],
+        [
+          -6.8836237816733,
+          1.1415896842317195,
+          5.632153741706422
+        ],
+        [
+          -6.894239871741446,
+          1.1683975943413942,
+          5.562054069861165
+        ]
+      ]
+    },
+    {
+      "frame": 140,
+      "gs": 0.8180899178670634,
+      "local_pressure": 0.581544816493988,
+      "actor_height_m": 1.617122769355774,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2672792917293876,
+        -0.002032764380516028
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -3.3065341707479448,
+      "leftmost_hair_delta_m": -0.20321365712316197,
+      "hair_tip_rgb_gate_changed_px": 14,
+      "hair_tip_clean_ref_changed_px": 15,
+      "hair_tip_rgb_gate_luma_gte9_px": 7,
+      "hair_tip_removed_real_rgb_px": 19,
+      "scene_turning_hand_rays": 16,
+      "true_raster_hand_centroid_xy": [
+        47.42307692307692,
+        143.65384615384616
+      ],
+      "visible_contrasting_hand_px": 3,
+      "hand_contact_m": [
+        0.0008111171848196961,
+        0.0006933609914097326
+      ],
+      "physical_turn_fingertip_mesh_gap_m": 0.0003471500240266323,
+      "geometry_palm_native_xy": [
+        47.4120062252173,
+        143.70212349842993
+      ],
+      "true_visible_page_rays": 59,
+      "turning_angle": 0.1790008808180758,
+      "world_hand_arm": [
+        [
+          -6.56966267224717,
+          1.359,
+          5.517697728517415
+        ],
+        [
+          -6.640658132964002,
+          1.1368873685962209,
+          5.589542168305709
+        ],
+        [
+          -6.878071858272028,
+          1.179128721410658,
+          5.6474592741361205
+        ],
+        [
+          -6.888667935617858,
+          1.2049854267609186,
+          5.5718170685372845
+        ]
+      ]
+    },
+    {
+      "frame": 145,
+      "gs": 0.8674721722993439,
+      "local_pressure": 0.6269432306289673,
+      "actor_height_m": 1.6156147718429565,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2714322102090279,
+        0.007359928583781539
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -3.662494426650909,
+      "leftmost_hair_delta_m": -0.2250738801591723,
+      "hair_tip_rgb_gate_changed_px": 14,
+      "hair_tip_clean_ref_changed_px": 16,
+      "hair_tip_rgb_gate_luma_gte9_px": 7,
+      "hair_tip_removed_real_rgb_px": 16,
+      "scene_turning_hand_rays": 18,
+      "true_raster_hand_centroid_xy": [
+        47.5,
+        142.8125
+      ],
+      "visible_contrasting_hand_px": 2,
+      "hand_contact_m": [
+        0.0008111350656448829,
+        0.0014058105884589885
+      ],
+      "physical_turn_fingertip_mesh_gap_m": 9.53134149312973e-05,
+      "geometry_palm_native_xy": [
+        47.56210961714192,
+        142.86285101427967
+      ],
+      "true_visible_page_rays": 80,
+      "turning_angle": 0.5633943769388721,
+      "world_hand_arm": [
+        [
+          -6.570905548749041,
+          1.359,
+          5.517886583393875
+        ],
+        [
+          -6.653040406127845,
+          1.1396634330941322,
+          5.58630687001496
+        ],
+        [
+          -6.857301888084276,
+          1.2369290426681252,
+          5.687897461031855
+        ],
+        [
+          -6.867845794335429,
+          1.2603060557118186,
+          5.597806443889966
+        ]
+      ]
+    },
+    {
+      "frame": 150,
+      "gs": 0.8989323085412684,
+      "local_pressure": 0.5878725051879883,
+      "actor_height_m": 1.6137909889221191,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2755853534409454,
+        0.016752965346711335
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -3.492521641573468,
+      "leftmost_hair_delta_m": -0.21462943545164048,
+      "hair_tip_rgb_gate_changed_px": 13,
+      "hair_tip_clean_ref_changed_px": 15,
+      "hair_tip_rgb_gate_luma_gte9_px": 9,
+      "hair_tip_removed_real_rgb_px": 17,
+      "scene_turning_hand_rays": 18,
+      "true_raster_hand_centroid_xy": [
+        48.5,
+        141.875
+      ],
+      "visible_contrasting_hand_px": 2,
+      "hand_contact_m": [
+        0.0008111289693743563,
+        0.0007663235512521786
+      ],
+      "physical_turn_fingertip_mesh_gap_m": 1.1128373444080353e-05,
+      "geometry_palm_native_xy": [
+        48.49169662830189,
+        141.9636446703148
+      ],
+      "true_visible_page_rays": 62,
+      "turning_angle": 1.289410155998166,
+      "world_hand_arm": [
+        [
+          -6.572148425250911,
+          1.359,
+          5.518075438270336
+        ],
+        [
+          -6.655559932541554,
+          1.1397802000442299,
+          5.585315305602561
+        ],
+        [
+          -6.790215367744183,
+          1.297349833031566,
+          5.7214906503997245
+        ],
+        [
+          -6.800694299542949,
+          1.317638610133264,
+          5.613404925201434
+        ]
+      ]
+    },
+    {
+      "frame": 155,
+      "gs": 0.9099971730226233,
+      "local_pressure": 0.49460694193840027,
+      "actor_height_m": 1.6105159521102905,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2838406004083254,
+        0.030180263722883183
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.955519522586499,
+      "leftmost_hair_delta_m": -0.18163858901749386,
+      "hair_tip_rgb_gate_changed_px": 13,
+      "hair_tip_clean_ref_changed_px": 14,
+      "hair_tip_rgb_gate_luma_gte9_px": 8,
+      "hair_tip_removed_real_rgb_px": 17,
+      "scene_turning_hand_rays": 18,
+      "true_raster_hand_centroid_xy": [
+        49.5,
+        142.125
+      ],
+      "visible_contrasting_hand_px": 2,
+      "hand_contact_m": [
+        0.0008108986049532169,
+        1.552881921898161e-05
+      ],
+      "physical_turn_fingertip_mesh_gap_m": 1.5288591384887695e-05,
+      "geometry_palm_native_xy": [
+        49.499248344585865,
+        142.20671261114134
+      ],
+      "true_visible_page_rays": 45,
+      "turning_angle": 2.163320851418893,
+      "world_hand_arm": [
+        [
+          -6.573605980421287,
+          1.359,
+          5.518296913534549
+        ],
+        [
+          -6.607217026704111,
+          1.1184897897944954,
+          5.541985230373823
+        ],
+        [
+          -6.73933847963339,
+          1.2765565083596593,
+          5.680053453212742
+        ],
+        [
+          -6.749837577585014,
+          1.2978037827750006,
+          5.577552754435947
+        ]
+      ]
+    },
+    {
+      "frame": 160,
+      "gs": 0.8997824022538595,
+      "local_pressure": 0.3759739398956299,
+      "actor_height_m": 1.6059694290161133,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2982494567751246,
+        0.049659321038006965
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.2343527980949887,
+      "leftmost_hair_delta_m": -0.1373281870214056,
+      "hair_tip_rgb_gate_changed_px": 13,
+      "hair_tip_clean_ref_changed_px": 13,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 15,
+      "scene_turning_hand_rays": 17,
+      "true_raster_hand_centroid_xy": [
+        49.96153846153846,
+        142.57692307692307
+      ],
+      "visible_contrasting_hand_px": 3,
+      "hand_contact_m": [
+        0.0008111410173913952,
+        0.0006803612383307282
+      ],
+      "physical_turn_fingertip_mesh_gap_m": 4.4436659663915634e-05,
+      "geometry_palm_native_xy": [
+        49.9433047389083,
+        142.75904238448464
+      ],
+      "true_visible_page_rays": 47,
+      "turning_angle": 2.7242279479373743,
+      "world_hand_arm": [
+        [
+          -6.575385553594421,
+          1.359,
+          5.51856731938039
+        ],
+        [
+          -6.553196314610118,
+          1.1171142921388588,
+          5.495438506055617
+        ],
+        [
+          -6.726079094099764,
+          1.2350642402993282,
+          5.628492458589456
+        ],
+        [
+          -6.736642162558925,
+          1.2593520331544863,
+          5.543708424825391
+        ]
+      ]
+    },
+    {
+      "frame": 165,
+      "gs": 0.8691116124903574,
+      "local_pressure": 0.24945499002933502,
+      "actor_height_m": 1.6058313846588135,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.279533088401621,
+        0.03325309544268862
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.45817939184559,
+      "leftmost_hair_delta_m": -0.08963405154640469,
+      "hair_tip_rgb_gate_changed_px": 10,
+      "hair_tip_clean_ref_changed_px": 11,
+      "hair_tip_rgb_gate_luma_gte9_px": 4,
+      "hair_tip_removed_real_rgb_px": 14,
+      "scene_turning_hand_rays": 17,
+      "true_raster_hand_centroid_xy": [
+        50.19230769230769,
+        142.8846153846154
+      ],
+      "visible_contrasting_hand_px": 4,
+      "hand_contact_m": [
+        0.0008109068971346228,
+        0.0008748453549650139
+      ],
+      "physical_turn_fingertip_mesh_gap_m": 7.741060107946396e-05,
+      "geometry_palm_native_xy": [
+        50.14453962726526,
+        142.99418221693983
+      ],
+      "true_visible_page_rays": 49,
+      "turning_angle": 3.038536983917553,
+      "world_hand_arm": [
+        [
+          -6.5747923625367095,
+          1.359,
+          5.518477184098443
+        ],
+        [
+          -6.529899062890291,
+          1.1243116813987033,
+          5.469060741906061
+        ],
+        [
+          -6.722730879408457,
+          1.2157701596532842,
+          5.59537478425156
+        ],
+        [
+          -6.733337488694552,
+          1.2421274481600448,
+          5.522649404934253
+        ]
+      ]
+    },
+    {
+      "frame": 170,
+      "gs": 0.8204134451061811,
+      "local_pressure": 0.12080562114715576,
+      "actor_height_m": 1.6078977584838867,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2715434073031204,
+        0.02141864128887505
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -0.6875364047114516,
+      "leftmost_hair_delta_m": -0.04226839803673332,
+      "hair_tip_rgb_gate_changed_px": 8,
+      "hair_tip_clean_ref_changed_px": 10,
+      "hair_tip_rgb_gate_luma_gte9_px": 3,
+      "hair_tip_removed_real_rgb_px": 14,
+      "scene_turning_hand_rays": 18,
+      "true_raster_hand_centroid_xy": [
+        50.357142857142854,
+        143.0
+      ],
+      "visible_contrasting_hand_px": 3,
+      "hand_contact_m": [
+        0.0008108986049532169,
+        0.001086957054888777
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        50.19322781476377,
+        143.07687381368936
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.1340455038913735,
+      "world_hand_arm": [
+        [
+          -6.573605980421287,
+          1.359,
+          5.518296913534549
+        ],
+        [
+          -6.526988875259546,
+          1.1277768378434312,
+          5.45585738447918
+        ],
+        [
+          -6.7226456819141935,
+          1.209116408342899,
+          5.584722772697537
+        ],
+        [
+          -6.733264942868715,
+          1.2360750306927244,
+          5.515501279467182
+        ]
+      ]
+    },
+    {
+      "frame": 175,
+      "gs": 0.7574200186155851,
+      "local_pressure": -0.010700102895498276,
+      "actor_height_m": 1.6104685068130493,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2617014430234974,
+        0.007975603873660475
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.004510104281848726,
+      "leftmost_hair_delta_m": 0.0002786277728770159,
+      "hair_tip_rgb_gate_changed_px": 0,
+      "hair_tip_clean_ref_changed_px": 0,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 17,
+      "true_raster_hand_centroid_xy": [
+        49.5,
+        143.21428571428572
+      ],
+      "visible_contrasting_hand_px": 2,
+      "hand_contact_m": [
+        0.0008109736692058353,
+        0.006957664899436856
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        49.633014289208006,
+        143.19865243966274
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.572363768559257,
+          1.359,
+          5.518108159650001
+        ],
+        [
+          -6.553847257577756,
+          1.1193667405599228,
+          5.47604820492824
+        ],
+        [
+          -6.754620574000773,
+          1.2030115419398013,
+          5.5952019821013685
+        ],
+        [
+          -6.76524070551383,
+          1.2300115419398012,
+          5.526221590506037
+        ]
+      ]
+    },
+    {
+      "frame": 180,
+      "gs": 0.6847298833869517,
+      "local_pressure": -0.14580358564853668,
+      "actor_height_m": 1.6132469177246094,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2491052146834605,
+        -0.007863148680883114
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.0934795377904365,
+      "leftmost_hair_delta_m": 0.005775233139858393,
+      "hair_tip_rgb_gate_changed_px": 3,
+      "hair_tip_clean_ref_changed_px": 4,
+      "hair_tip_rgb_gate_luma_gte9_px": 1,
+      "hair_tip_removed_real_rgb_px": 11,
+      "scene_turning_hand_rays": 17,
+      "true_raster_hand_centroid_xy": [
+        48.5,
+        143.85714285714286
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008111124070526686,
+        0.008113214049315733
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        48.38790990364586,
+        143.872465583536
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.571037812077315,
+          1.359,
+          5.517906680784472
+        ],
+        [
+          -6.605370796164093,
+          1.1174767501003549,
+          5.513031646260419
+        ],
+        [
+          -6.826501270049361,
+          1.1639606729723453,
+          5.615230268725241
+        ],
+        [
+          -6.837121401562419,
+          1.1909606729723452,
+          5.546249877129909
+        ]
+      ]
+    },
+    {
+      "frame": 185,
+      "gs": 0.6073250894729704,
+      "local_pressure": -0.2804845869541168,
+      "actor_height_m": 1.6160261631011963,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2365257558394234,
+        -0.023689744102711074
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.17149144918784032,
+      "leftmost_hair_delta_m": 0.010595217462419981,
+      "hair_tip_rgb_gate_changed_px": 4,
+      "hair_tip_clean_ref_changed_px": 4,
+      "hair_tip_rgb_gate_luma_gte9_px": 3,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 19,
+      "true_raster_hand_centroid_xy": [
+        47.36666666666667,
+        144.63333333333333
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008111641276996326,
+        1.4003292269038244e-05
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.35280775267918,
+        144.6345981223956
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.569711855595372,
+          1.359,
+          5.517705201918943
+        ],
+        [
+          -6.6538909671797875,
+          1.131681844315706,
+          5.545567959663819
+        ],
+        [
+          -6.88663494215136,
+          1.1187697692890326,
+          5.630229169393764
+        ],
+        [
+          -6.897255073664417,
+          1.1457697692890327,
+          5.561248777798432
+        ]
+      ]
+    },
+    {
+      "frame": 190,
+      "gs": 0.5301382340369182,
+      "local_pressure": -0.4046255946159363,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.223946953355906,
+        -0.03951566284337105
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.23540150427403006,
+      "leftmost_hair_delta_m": 0.014544211158436404,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 17,
+      "true_raster_hand_centroid_xy": [
+        47.357142857142854,
+        144.64285714285714
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6503207934425514,
+          1.1337423938868665,
+          5.563129198168268
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 195,
+      "gs": 0.4577466898601764,
+      "local_pressure": -0.5046945214271545,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2553650996088663,
+        -0.017130559780412113
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.27959888058397553,
+      "leftmost_hair_delta_m": 0.01727504583252859,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 17,
+      "true_raster_hand_centroid_xy": [
+        47.357142857142854,
+        144.64285714285714
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.646475102985522,
+          1.1363029526091146,
+          5.579504540160972
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 200,
+      "gs": 0.39422646262966854,
+      "local_pressure": -0.5690860152244568,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.30140068525417263,
+      "leftmost_hair_delta_m": 0.01862213271942892,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 205,
+      "gs": 0.34313239653883365,
+      "local_pressure": -0.5930382609367371,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.3024601793207182,
+      "leftmost_hair_delta_m": 0.018687596813679264,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 210,
+      "gs": 0.30750103396395734,
+      "local_pressure": -0.5802380442619324,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.287999781917172,
+      "leftmost_hair_delta_m": 0.017794118530250813,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 215,
+      "gs": 0.28972815692593945,
+      "local_pressure": -0.5403246283531189,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.2645051384107191,
+      "leftmost_hair_delta_m": 0.01634244087764536,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 220,
+      "gs": 0.29119442256259687,
+      "local_pressure": -0.48386093974113464,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.23713764545025384,
+      "leftmost_hair_delta_m": 0.014651481885941564,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 225,
+      "gs": 0.31162652356611653,
+      "local_pressure": -0.41748329997062683,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.20788015595746145,
+      "leftmost_hair_delta_m": 0.012843760581579211,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 230,
+      "gs": 0.3483707515892679,
+      "local_pressure": -0.34143197536468506,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.17482599914762176,
+      "leftmost_hair_delta_m": 0.010801474892637053,
+      "hair_tip_rgb_gate_changed_px": 4,
+      "hair_tip_clean_ref_changed_px": 4,
+      "hair_tip_rgb_gate_luma_gte9_px": 1,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 235,
+      "gs": 0.3959395081219085,
+      "local_pressure": -0.25013548135757446,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.13264507070175569,
+      "leftmost_hair_delta_m": 0.008195311098323721,
+      "hair_tip_rgb_gate_changed_px": 3,
+      "hair_tip_clean_ref_changed_px": 3,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 240,
+      "gs": 0.4462450670089736,
+      "local_pressure": -0.13536886870861053,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.07439871536067955,
+      "leftmost_hair_delta_m": 0.004596592661324728,
+      "hair_tip_rgb_gate_changed_px": 2,
+      "hair_tip_clean_ref_changed_px": 2,
+      "hair_tip_rgb_gate_luma_gte9_px": 1,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 245,
+      "gs": 0.48976268631626446,
+      "local_pressure": 0.008610351011157036,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -0.025217118338325406,
+      "leftmost_hair_delta_m": -0.0015505843795331486,
+      "hair_tip_rgb_gate_changed_px": 2,
+      "hair_tip_clean_ref_changed_px": 2,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 250,
+      "gs": 0.5174850207320926,
+      "local_pressure": 0.17856939136981964,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -0.8458158372896563,
+      "leftmost_hair_delta_m": -0.05200235295031419,
+      "hair_tip_rgb_gate_changed_px": 9,
+      "hair_tip_clean_ref_changed_px": 10,
+      "hair_tip_rgb_gate_luma_gte9_px": 5,
+      "hair_tip_removed_real_rgb_px": 16,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 255,
+      "gs": 0.5231063964892502,
+      "local_pressure": 0.3565669357776642,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.695450538398262,
+      "leftmost_hair_delta_m": -0.10422638618889657,
+      "hair_tip_rgb_gate_changed_px": 9,
+      "hair_tip_clean_ref_changed_px": 10,
+      "hair_tip_rgb_gate_luma_gte9_px": 7,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 260,
+      "gs": 0.5046494682661864,
+      "local_pressure": 0.5095598697662354,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.3935373946259375,
+      "leftmost_hair_delta_m": -0.14712548057060815,
+      "hair_tip_rgb_gate_changed_px": 12,
+      "hair_tip_clean_ref_changed_px": 13,
+      "hair_tip_rgb_gate_luma_gte9_px": 4,
+      "hair_tip_removed_real_rgb_px": 19,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 265,
+      "gs": 0.4648852988461581,
+      "local_pressure": 0.5985410213470459,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.736650981239066,
+      "leftmost_hair_delta_m": -0.16820737551880427,
+      "hair_tip_rgb_gate_changed_px": 13,
+      "hair_tip_clean_ref_changed_px": 14,
+      "hair_tip_rgb_gate_luma_gte9_px": 5,
+      "hair_tip_removed_real_rgb_px": 19,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 270,
+      "gs": 0.41036792025229074,
+      "local_pressure": 0.595195472240448,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.6190611225676506,
+      "leftmost_hair_delta_m": -0.16098255437107323,
+      "hair_tip_rgb_gate_changed_px": 12,
+      "hair_tip_clean_ref_changed_px": 12,
+      "hair_tip_rgb_gate_luma_gte9_px": 4,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 275,
+      "gs": 0.3494716861899348,
+      "local_pressure": 0.4961472153663635,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -2.0878477336637005,
+      "leftmost_hair_delta_m": -0.12834121642034724,
+      "hair_tip_rgb_gate_changed_px": 9,
+      "hair_tip_clean_ref_changed_px": 10,
+      "hair_tip_rgb_gate_luma_gte9_px": 7,
+      "hair_tip_removed_real_rgb_px": 18,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 280,
+      "gs": 0.29018874115998716,
+      "local_pressure": 0.32429105043411255,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -1.3039313649337672,
+      "leftmost_hair_delta_m": -0.0801627225954844,
+      "hair_tip_rgb_gate_changed_px": 8,
+      "hair_tip_clean_ref_changed_px": 8,
+      "hair_tip_rgb_gate_luma_gte9_px": 6,
+      "hair_tip_removed_real_rgb_px": 16,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 285,
+      "gs": 0.2384422361425779,
+      "local_pressure": 0.11631063371896744,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": -0.28264353964667777,
+      "leftmost_hair_delta_m": -0.017378906938490424,
+      "hair_tip_rgb_gate_changed_px": 4,
+      "hair_tip_clean_ref_changed_px": 4,
+      "hair_tip_rgb_gate_luma_gte9_px": 1,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 290,
+      "gs": 0.19734460018606395,
+      "local_pressure": -0.09368211776018143,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.026800810735089442,
+      "leftmost_hair_delta_m": 0.0016558288811285848,
+      "hair_tip_rgb_gate_changed_px": 1,
+      "hair_tip_clean_ref_changed_px": 1,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 295,
+      "gs": 0.1673901956625497,
+      "local_pressure": -0.2833423912525177,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.1254070571605581,
+      "leftmost_hair_delta_m": 0.00774811110819229,
+      "hair_tip_rgb_gate_changed_px": 4,
+      "hair_tip_clean_ref_changed_px": 4,
+      "hair_tip_rgb_gate_luma_gte9_px": 0,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 300,
+      "gs": 0.14724554258320574,
+      "local_pressure": -0.44105294346809387,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.1917985786895784,
+      "leftmost_hair_delta_m": 0.011850140993924896,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 305,
+      "gs": 0.13470305867230928,
+      "local_pressure": -0.5591439604759216,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.2404596344981016,
+      "leftmost_hair_delta_m": 0.014856737341970572,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 310,
+      "gs": 0.1274672340312583,
+      "local_pressure": -0.6277790665626526,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.26823210157139954,
+      "leftmost_hair_delta_m": 0.016572720315283007,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 315,
+      "gs": 0.12363271706588892,
+      "local_pressure": -0.6340992450714111,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.26999952876787603,
+      "leftmost_hair_delta_m": 0.016681925170410672,
+      "hair_tip_rgb_gate_changed_px": 6,
+      "hair_tip_clean_ref_changed_px": 6,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 320,
+      "gs": 0.1218816859230556,
+      "local_pressure": -0.5679360628128052,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.2414466875000656,
+      "leftmost_hair_delta_m": 0.014917724341146688,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    },
+    {
+      "frame": 325,
+      "gs": 0.1215176412800941,
+      "local_pressure": -0.4308369755744934,
+      "actor_height_m": 1.6187994480133057,
+      "bark_closest_m": 0.0018000602722167969,
+      "boots_ground_m": [
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08
+      ],
+      "exact_same_feet_as_v6": true,
+      "exact_same_bark_contact_as_v6": true,
+      "head_shift_native_xy": [
+        -1.2616486468346437,
+        -0.01265359760964202
+      ],
+      "visible_y_delta_coat_from_v6": 39.38019999999999,
+      "leftmost_hair_delta_px": 0.18310314749010814,
+      "leftmost_hair_delta_m": 0.011312885293364161,
+      "hair_tip_rgb_gate_changed_px": 5,
+      "hair_tip_clean_ref_changed_px": 5,
+      "hair_tip_rgb_gate_luma_gte9_px": 2,
+      "hair_tip_removed_real_rgb_px": 12,
+      "scene_turning_hand_rays": 15,
+      "true_raster_hand_centroid_xy": [
+        47.333333333333336,
+        144.66666666666666
+      ],
+      "visible_contrasting_hand_px": 0,
+      "hand_contact_m": [
+        0.0008110770968617134,
+        0.0007249634862659627
+      ],
+      "physical_turn_fingertip_mesh_gap_m": null,
+      "geometry_palm_native_xy": [
+        47.32475688284733,
+        144.68716601085086
+      ],
+      "true_visible_page_rays": 0,
+      "turning_angle": 3.141592653589793,
+      "world_hand_arm": [
+        [
+          -6.56838589911343,
+          1.359,
+          5.517503723053415
+        ],
+        [
+          -6.6439988755567745,
+          1.1406148669022889,
+          5.59577639667118
+        ],
+        [
+          -6.888249100020356,
+          1.115572525938478,
+          5.630686409683818
+        ],
+        [
+          -6.898869231533412,
+          1.142572525938478,
+          5.561706018088485
+        ]
+      ]
+    }
+  ]
+}
