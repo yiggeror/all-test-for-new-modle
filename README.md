@@ -28,11 +28,10 @@
 
 ## 当前阶段状态
 
-- **状态**：**`COMPLETED / v2.6 FINAL PASSED`**（全片已于 2026-11-24 通过盲看打回精修复审与正式发布成品五段全速实看实听终审，正式双渠道交付见 [`DELIVERY.md`](DELIVERY.md) 与 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 25）
-- **v2.6 正式双渠道链接（逐字节 100% 一致，`141,458,386` 字节，SHA-256 `22e4039a...d58e565`）**：
+- **状态**：**`IN_PROGRESS / v2.7 (Gate 2.7 CHANGES_REQUESTED)`**（2026-11-24 Round 26 复审指出 v2.6 秋景靠树人物在连续实看下比例臃肿、驼背且双腿屈膝呈“靠墙静蹲”怪姿，已正式下达 **Round 26 返工令**，要求编码 AI 在 `previews/gate_2_7/` 彻底重建修长优雅的靠树看书少女；春、夏、冬与秋景有机树风/独立地面积叶/88 条飘叶及 v2.4 尾声渐强音轨 100% 锁定沿用，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 26）
+- **上一已发布基线（v2.6，待 v2.7 替代）**：
   - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.6-rainroji-lofi-1080p>
   - **Google Drive**：<https://drive.google.com/file/d/1D-cOfHm4f93lEVud4uJ2auEOhPaiqJA3/view?usp=drivesdk>
-- **v2.6 终版亮点**：`1920×1080`（`320×180` 6× 最近邻整数放大）· 30 fps · `5,917` 帧 · `3:17.23`（严格不加时）；秋景重塑为**倚靠梧桐树干的惬意看书少女**（浅燕麦开衫 + 深色微伞摆半裙 + 并拢放松双腿，深黑栗色长发随风轻摇、单手轻拂翻书），彻底删除假地面平移 `GroundWind` 改用独立贴地落叶翻滑，树冠升级为多尺度有机 FBM 湍流微风；春、夏、冬及 v2.4 尾声冬夜雪风渐强音轨 100% 无损锁定沿用。
 
 
 
