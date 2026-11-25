@@ -28,7 +28,7 @@
 
 ## 当前阶段状态
 
-- **状态**：**`IN_PROGRESS / v2.8 (Gate 2.8 CHANGES_REQUESTED)`**（2026-11-25 Round 29 用户与验收官核查指出冬夜值班室暖窗翻书呈“水平直臂举悬空小白旗”般刻意失真，已正式下达 **Round 29 返工令**，要求编码 AI 在 `previews/gate_2_8/` 彻底重塑贴桌低弧度自然翻书与柔和头肩微动；春、夏、秋（v2.7）以及冬景窗外其余全层与 v2.4–v2.7 音频轨 100% 锁定不动，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 29）
+- **状态**：**`IN_PROGRESS / v2.8 (Gate 2.8 PASSED -> Gate 3.8 合片中)`**（2026-11-25 Round 30 盲看连续实审与 24 帧独立核验全项通过：冬夜值班室暖窗彻底告别“悬空小白旗”与机械直臂，改为贴桌低弧自然翻页与头肩柔和微动，春/夏/秋（v2.7）与冬景窗外全层 0 回归；已正式放行进入 **Gate 3.8** 1080p 完整合片与双渠道发布，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 30）
 - **上一已发布基线（v2.7，待 v2.8 替代）**：
   - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.7-rainroji-lofi-1080p>
   - **Google Drive**：<https://drive.google.com/file/d/1f9WOEhDfcBVXH3xt1DtUFh8N8RVGPqBu/view?usp=drivesdk>
