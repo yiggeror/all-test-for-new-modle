@@ -1346,6 +1346,31 @@
    - 直接无损流拷贝（`-c:a copy`）沿用已正式发布的 `v2.8-rainroji-lofi-1080p`（与 v2.4–v2.7 全部 9,247 个 AAC-LC 包逐字节完全相同）中的全部 **9,247 个 AAC-LC 包**（完整 Purrple Cat《Green Tea》+ 四季确定性环境音 + 冬窗翻页拟音 + 尾声冬夜雪风 +8.0 dB 渐强收尾，实测 −16.0 LUFS-I / −4.7 dBFS True Peak）；
 3. `python tools/gate3_v29/reproduce.py` 产出 **`dist/Rainroji_Lofi_V2.9_1080p.mp4`**；将 `tools/gate3_v29/`、`previews/gate_3_9/` 与更新后的 `DEV_STATUS.md` 提交并推送后，我将立即触发 GitHub Actions 云端干净构建并发布 **`v2.9-rainroji-lofi-1080p`**，下载正式成品全段实看实听终审并逐字节同步至 Google Drive！
 
+---
+
+## Round 34 — v2.9 / Gate 3.9 最终成片五段全速实看实听与四处灯具原片 8× 终审签收及双渠道发布（`2026-11-25`）
+
+- **评审对象**：GitHub Actions `Publish Rainroji Lo-Fi V2.9 1080p Release`（Run `#45632196726`，基于 `4fe4021` / `f212f93`）正式发布的 **`Rainroji_Lofi_V2.9_1080p.mp4`**
+- **终审结论**：**`FINAL PASSED`（正式签收定版！春/夏/冬四处显眼主光源老式金属挑臂、斜撑、抱箍与搪瓷灯罩全部补齐且 1× 与 8× 实看自然连续，叠加已锁定的秋景 v2.7 倚树看书少女、冬夜 v2.8 暖窗贴桌自然翻书、四季全部动态及尾声冬夜雪风渐强音轨，全片通过正式成品终审并完成 GitHub Release + Google Drive 双渠道逐字节同步！）**
+
+### 一、正式已发布成品独立核验
+1. **逐字节一致性与容器/响度复测**：
+   - 下载 GitHub Release 实际资产实测：`141,477,520` 字节（134.92 MiB），SHA-256 `f9bc6f8760b9ca25bac3d2bbbcd1cfed8912b118be49363dec9ac4e80dbd9afe`，MD5 `9ad43c788aa8ac0492bd02089a69a79a`；
+   - `ffprobe -count_frames -count_packets`：`1920×1080`、30/1 fps、精确 `5,917` 帧、`197.233333` 秒（严格不加时）、H.264 High / yuv420p / BT.709 / `faststart`（`moov` 位于字节 36，视频 5.47 Mb/s，容器 5.74 Mb/s）；音频无损沿用 v2.4–v2.8 全 9,247 个 48 kHz 立体声 AAC-LC 包（257.8 kb/s）；
+   - `ebur128` 实测：**−16.0 LUFS-I**、**−4.7 dBFS True Peak**（零削波）、LRA **13.4 LU**。
+2. **五段全速音画切片 + 原片四处灯具 8× 直抽核验全项通过**：
+   - **春（`0:00`–`0:15`）**：1.5s 淡入，主路灯双抱箍 + 弧形挑臂 + 下斜撑 + 搪瓷灯罩与右侧院灯砖墙弯管壁灯架清晰稳固，暖地常驻单猫、整冠落花风波、6 只归燕与晾衣布完好；
+   - **夏（`0:46`–`1:02`）**：48s 叠化丝滑，左上主路灯电线杆、双抱箍、斜弯挑臂与深色扁帽灯罩清晰连续，暖琥珀车灯、“网吧”红霓虹水洼同帧联动、雨丝与棚下蹲猫完好；
+   - **秋（`1:34`–`1:50`）**：96s 叠化丝滑，100% 逐字节锁定的 v2.7 修长倚树少女、三段迎风长发、身前流畅翻书、有机 FBM 树冠风、静态路面独立贴地落叶与 88 条双侧飘叶完好；
+   - **冬（`2:22`–`2:38`）**：144s 叠化丝滑，左侧主路灯老式挑臂 + 下斜撑 + 双抱箍 + 深色搪瓷灯罩彻底根治浮空光球，叠加 v2.8 暖窗贴桌低弧自然翻书、红横幅微褶、细枝风颤与雪夜氛围完好；
+   - **尾声（`3:00`–`3:17.23`）**：完整《Green Tea》自然静默后，温润低通冬夜雪风平滑抬升接棒，窗内最后一次静谧翻页在老式路灯暖雪夜中随尾帧淡黑同步淡出至干净静音，精确收束于 `3:17.23`。
+
+### 二、双渠道正式交付登记
+- **GitHub Release（Latest）**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.9-rainroji-lofi-1080p>
+- **Google Drive（逐字节同源上传并核验 `size == 141477520`）**：<https://drive.google.com/file/d/1Q3Fo0iPCv7TX2ZOEQtlQYj2yAP6wIgMr/view?usp=drivesdk>
+- 详见 [`DELIVERY.md`](DELIVERY.md) 与 [`CREDITS.md`](CREDITS.md)。
+
+
 
 
 

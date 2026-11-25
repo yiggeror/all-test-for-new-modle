@@ -28,10 +28,11 @@
 
 ## 当前阶段状态
 
-- **状态**：**`IN_PROGRESS / v2.9 (Gate 2.9 PASSED -> Gate 3.9 合片中)`**（2026-11-25 Round 33 盲看连续实审与无损 8× 复核全项通过：春/夏/冬四处显眼路灯与院灯均补齐清晰连续的老式挑臂、斜撑、抱箍与搪瓷灯罩，秋景（v2.7）、冬夜暖窗翻书（v2.8）及所有已签收动态 0 回归；已正式放行进入 **Gate 3.9** 1080p 完整合片与双渠道发布，详见 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 33）
-- **上一已发布基线（v2.8，待 v2.9 替代）**：
-  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.8-rainroji-lofi-1080p>
-  - **Google Drive**：<https://drive.google.com/file/d/1UVVet6giggXUzx_LOafk83aiTNf_mS3Y/view?usp=drivesdk>
+- **状态**：**`COMPLETED / v2.9 FINAL PASSED`**（全片已于 2026-11-25 完成春/夏/冬四处主光源物理支撑补全的无损 8× 复核与正式发布成品五段全速实看实听终审，正式双渠道交付见 [`DELIVERY.md`](DELIVERY.md) 与 [`REVIEW_LOG.md`](REVIEW_LOG.md) Round 34）
+- **v2.9 正式双渠道链接（逐字节 100% 一致，`141,477,520` 字节，SHA-256 `f9bc6f87...0dbd9afe`）**：
+  - **GitHub Release**：<https://github.com/yiggeror/all-test-for-new-modle/releases/tag/v2.9-rainroji-lofi-1080p>
+  - **Google Drive**：<https://drive.google.com/file/d/1Q3Fo0iPCv7TX2ZOEQtlQYj2yAP6wIgMr/view?usp=drivesdk>
+- **v2.9 终版亮点**：`1920×1080`（`320×180` 6× 最近邻整数放大）· 30 fps · `5,917` 帧 · `3:17.23`（严格不加时）；春（街灯 + 院灯）、夏（雨夜街灯）、冬（雪夜街灯）四处主光源全面补齐在 `320×180` 下 100% 连续可读的老式挑臂、斜撑、抱箍与搪瓷灯罩，并无损保留锁定版秋景 v2.7 倚树少女 + 有机秋风 + 独立落叶、冬夜 v2.8 暖窗贴桌自然翻书、春暖地单猫、夏红霓虹水洼及 v2.4 尾声冬夜雪风渐强音轨。
 
 
 
