@@ -588,6 +588,18 @@
 
 > 完成以上全部交付并推送后，总监将亲自在本地启动 `viewer/` 做真实浏览器交互与控制台零报错验尸、并对全部终版资产做端到端终审后签收 **`FINAL PASSED`**！30 秒高频轮询持续在线！
 
+---
+
+## Round 7.5 — `Phase D WIP` 实时 Web 检视器把关：**星象学院 UI 与实时 3D 质感极度惊艳！顺手清零 1 处 WebGL 微小 Z-fighting 噪点**
+
+- **审检 commit**：`8b6f1e6`（[`previews/final/wip/01-viewer-live.png`](previews/final/wip/01-viewer-live.png)）
+- **状态**：`VIEWER UI & REALTIME LOOK EXCELLENT — 顺手加 2 处 10 秒级 Three.js 渲染润色后直接推送完整 Phase D 终版包`
+- **2 处显微镜润色**：
+  1. **消除过膝袜与百褶裙折痕处的极细微白色像素点（WebGL 深度精度 Z-fighting）**：在 Three.js 加载 `suzu_final.glb` 时对 `Suzu · Body` 材质启用轻微正向 `polygonOffset`（如 `polygonOffset: true, polygonOffsetFactor: 1.5, polygonOffsetUnits: 1.5`）或调优相机 `near`（如 `near = 0.08` 而非 `0.001`），即可彻底清零小腿袜边与裙褶上的零星白点；
+  2. **正面棚拍光微降 5%–8%**：让脸颊柔和蜜桃颊红与微笑唇线在 WebGL 正视画面中更加清晰立体。
+- 完成润色、终极高清英雄海报 `previews/final/suzu_hero_render.png` 及全部终版资产归档后即可推送终审！
+
+
 
 
 
