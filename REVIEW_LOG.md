@@ -297,6 +297,34 @@
 
 > **总监寄语**：这次路线升级是为了把作品从“代码拼凑实验品”直接拉升到**真正让人一眼心动的一线二游 3D 美少女水准**。不要急躁、不要跳步，先把 **`Phase A` 的素体身材 + 星野铃绝美脸蛋（灰模 + 2K 试妆 NPR + 4 表情）** 做出来推送审查！总监继续保持 30 秒高频轮询实时把关。
 
+---
+
+## Round 3.5 — `V2 Phase A` 基底选型批复：**批准第 1 候选（Pixiv VRM1 Constraint Twist Sample）！立即推进 Phase A 正式定制**
+
+- **审检 commit**：`ab32560`（[`previews/v2_phaseA/wip/01-licensed-bases.png`](previews/v2_phaseA/wip/01-licensed-bases.png)）
+- **状态**：`BASE APPROVED — 锁定 #1 Pixiv VRM1 Constraint Twist Sample，全速推进 Phase A 正式交付`
+
+### 选型裁定理由（盲审实图立判）
+- **#1 `Pixiv VRM1 Constraint Twist Sample` 完胜**：
+  1. 正视清纯鹅蛋瓜子脸、3/4 温润苹果肌软弧与 **90° 萌系侧颜曲线**（额头→微翘小点鼻→柔唇→秀气下巴→平缓下颌底线）全面碾压旧版纯代码脸，且比 #3（VRoid 老代 Beta 拓扑）精致整整一代，也没有 #2 额头画死的棕色发际线阴影；
+  2. 原生自带 **57 个专业表情目标**与 **VRM 1.0 Twist 防扭曲骨骼约束**，为 Phase C 手臂/手腕连续动作零拧麻花和丝滑表情切换打下顶级地基；
+  3. 原文件明确许可修改与再分发（请将原仓链接与作者许可全文规范记入 `CREDITS.md`）。
+
+### Phase A 正式提交的星野铃专属定制精修要求（绝不直接套皮原基底！）
+1. **面部针对星野铃 [`references/03_face_expressions_props.jpg`](references/03_face_expressions_props.jpg) 的 4 项精确微调**（在保持全部 57 个原生 Shape Keys 完好无损的前提下精调）：
+   - **收小贴合耳朵**：将原基底略大的耳朵缩小约 **15%–20%** 并自然向后贴合侧颅；
+   - **放大柔化眼眶与翼状上睫毛**：眼眶纵向略微拉圆饱满约 **+8%–12%**，重绘/重塑清晰柔美的深紫棕眼尾微翘小羽翼上睫毛、细腻双眼皮折线与细长温柔眉；
+   - **2K 星野铃专属宝石星芒瞳孔与清透妆容**：精确还原 `03_face_expressions_props.jpg` 右下角微距瞳孔——上深邃绀紫 `#331D68` → 下暖琥珀金 `#CFA37E`~`#FFF8B7` + 亮金四角星芒与双白高光点，大虹膜几乎撑满眼眶纵向不露上下白边；配上通透皮肤 `#FDECDA` 与温柔蜜桃颊红、微微笑弧小唇；
+   - **面部自定义平滑球面法线 + `Standard` 清透赛璐璐 NPR 着色**：确保正/3-4/90°侧/仰俯视角下脸颊与鼻底 0 脏黑塑料影，且面罩与后脑勺/颈部接缝 0 裂缝、0 色差。
+2. **完整美少女裸素体身材校准（`1.600 m`、5.7–6.0 头身、自然优雅 A-Pose 35°–40°）**：
+   - 如该 VRM1 原文件带有初始测试衣物，请剥离旧测试衣保留干净少女解剖素体（锁骨、斜方肌、少女胸腰臀 S 曲线、柔美大腿根、精致膝盖、小腿肚、纤细脚踝与五指），对齐 [`references/02_turnaround_4view.jpg`](references/02_turnaround_4view.jpg) 黄金比例。
+3. **Phase A 正式验收交付物清单**（推送后总监立即本地 Blender 独立验尸）：
+   - `previews/v2_phaseA/body_4view_clay.png`（完整裸素体+头 4 视角纯灰模 + 1.60m 标尺）
+   - `previews/v2_phaseA/face_clay_vs_npr.png`（星野铃定制新脸 4 视角双轨对照：上排纯灰模查形体与 90° 侧颜、下排 2K 星野铃宝石瞳孔+清透 NPR 赛璐璐试妆图）
+   - `previews/v2_phaseA/expressions_quickcheck.png`（原生 Shape Keys 实拍 4 表情：温柔微笑 / 元气张口笑 / 治愈眯眼笑 / 可爱惊讶“o”嘴）
+   - `assets/suzu_v2_phaseA.glb`（及 `.blend`）+ `CREDITS.md`
+
+
 
 
 
