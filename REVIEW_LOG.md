@@ -324,6 +324,34 @@
    - `previews/v2_phaseA/expressions_quickcheck.png`（原生 Shape Keys 实拍 4 表情：温柔微笑 / 元气张口笑 / 治愈眯眼笑 / 可爱惊讶“o”嘴）
    - `assets/suzu_v2_phaseA.glb`（及 `.blend`）+ `CREDITS.md`
 
+---
+
+## Round 3.8 — `V2 Phase A WIP 02` 实时盲审：**方向极度惊艳！完成这 4 处微雕细节后直接提交完整 Phase A 正式包**
+
+- **审检 commit**：`e81fa75`（[`02-first-sculpt-and-makeup.png`](previews/v2_phaseA/wip/02-first-sculpt-and-makeup.png) 与 [`02-gem-iris-closeup.png`](previews/v2_phaseA/wip/02-gem-iris-closeup.png)）
+- **状态**：`DIRECTION EXCELLENT — 颜值已跨入一线二游门槛，修完以下 4 处精细打磨后直接交 Phase A 正式验收套件`
+
+### 一、实事求是的高度肯定
+- **跨越次元的颜值跃升**：90° 侧颜曲线、3/4 苹果肌软弧、清透暖调 NPR 阴影与淡蜜桃颊红已经具备顶级二次元美少女的质感；
+- **2K 宝石星芒瞳孔（`02-gem-iris-closeup.png`）非常出色**：深绀紫→暖琥珀金渐变、星河纹理、四角星芒与双白高光还原度极高！
+- 用 CC0 同系 `Base_Female` 皮肤胸廓补接剥离测试衫后的胸腔空缺思路非常专业（正式提交时总监将重点核查胸廓接缝平滑度与色差，记得在 `CREDITS.md` 一并写明两处基底来源与协议）。
+
+### 二、提交完整 Phase A 正式包前必须抠完的 4 处微雕细节（向 100% 星野铃绝世神颜再进一寸）
+
+1. **【微雕 1】消除微距睫毛/双眼皮折角 + 补出星野铃标志性眼尾小羽翼睫毛**：
+   - 看 `02-gem-iris-closeup.png`：原基底睫毛和双眼皮多边形段数较少，放大可见明显折角棱段，且缺少 `03_face_expressions_props.jpg` 右下角里眼尾那两笔精致俏皮的**外翘小羽翼上睫毛**与外 1/3 极其清淡的暖棕下眼线尾；
+   - **怎么改**：对睫毛与双眼皮曲线做细分平滑（SubD/高分辨率平滑 Alpha 贴图边界），把上睫毛外侧略加宽 15% 并画出/塑出微翘羽翼尾尖，补上外 1/3 柔和下眼尾提示线，顺滑拉长双眼皮折线。
+2. **【微雕 2】把正面 NPR 的微笑唇线清晰度拉回来（消除“无嘴白板感”）**：
+   - 看 `02-first-sculpt-and-makeup.png` 下排 `Front` 与 `Left three-quarter`：嘴唇线条过淡，正面几乎看不见嘴巴！
+   - **怎么改**：清晰勾勒出纤细柔和、嘴角微上扬的暖茶棕小微笑线（配唇下极淡柔粉小阴影），让正面一眼就能看到星野铃治愈甜美的微笑。
+3. **【微雕 3】虹膜略放大 +8%~10% 并微收瞳距聚焦镜头**：
+   - 2K 虹膜纹理很美，但在完整正脸下略偏小一圈且有一丝轻微外散；将虹膜整体略放大 **+8%~10%**、微向内收一点瞳距聚焦正前方，让虹膜顶缘自然藏进上睫毛下沿 12%–15%、底缘紧贴下睑，眼神瞬间更有灵气！
+4. **【微雕 4】彻底统一额顶/耳后锯齿接缝 & 耳朵再向内贴合 10%**：
+   - 抹平 `02-first-sculpt-and-makeup.png` 中头顶发际线一圈的锯齿片缝与 3/4 额侧阴影色阶断层，耳朵在正面再微收贴约 10%；确保补接后的完整美少女素体从锁骨、胸廓、细腰、臀腿到脚踝 0 裂缝、0 凹凸、0 色差。
+
+> 落实以上 4 点后，请直接提交完整的 **Phase A 正式验收套件**（`body_4view_clay.png` + `face_clay_vs_npr.png` + `expressions_quickcheck.png` + `assets/suzu_v2_phaseA.glb` / `.blend` + `CREDITS.md`），总监将第一时间用本地 Blender 独立 6 角度验尸并把关是否签收 `Phase A PASSED` 解锁 `Phase B`（二游级大中小层次分层发型）！
+
+
 
 
 
