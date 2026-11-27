@@ -1,9 +1,9 @@
-# V2 · Phase A · 基底选型预览
+# V2 · Phase A · 新脸第一次合成
 
-[三款授权明确的候选脸部实图（正面 / 3⁄4 / 90°）](previews/v2_phaseA/wip/01-licensed-bases.png)
+[四角度灰模与试妆对照](previews/v2_phaseA/wip/02-first-sculpt-and-makeup.png) · [宝石虹膜实拍](previews/v2_phaseA/wip/02-gem-iris-closeup.png)
 
-首推展板第一行的 **Pixiv VRM1 Constraint Twist Sample**。原文件明确许可修改与再分发，有 57 个表情目标，连基准形状共 58 个键。本图只显示原生脸部面片和贴图，未加发型，未改变任何候选的脸型，便于对照选型。
+本轮是 Pixiv VRM1 基底获批后的第一次合成实拍。两排使用同一模型、同一相机位置，已经画入紫金渐变、星芒和双白高光，耳朵与眼眶也有实体变化。额侧至耳后的原生片缝仍清楚可见，正精修接缝、轮廓和四表情。先看形体与试妆方向，完整 Phase A 验收包随后提交。
 
-- [Pixiv 原文件](https://github.com/pixiv/three-vrm/blob/dev/packages/three-vrm/examples/models/VRM1_Constraint_Twist_Sample.vrm) · [原作者许可说明](https://github.com/vrm-c/vrm-specification/tree/master/samples/VRM1_Constraint_Twist_Sample)。第二行的 AvatarSample_A 有 [Pixiv 样模条款](https://vroid.pixiv.help/hc/en-us/articles/4402394424089)，第三行为 [Pixiv CC0 样模系列](https://vroid.pixiv.help/hc/en-us/articles/4402614652569)的 Base_Female。
-- 当前只做 Phase A：素体比例、星野铃定制脸、2K 试妆和四种表情；首轮实图对照用于基底选择。
-- [Round 3 评审记录与标准](REVIEW_LOG.md)
+原样模剥离试衣后，胸廓有原始导出空缺；采用 CC0 同系 Base_Female 的实际皮肤胸廓补接，不保留测试衫，也不替换已经确认的 Twist 基底脸和骨架。
+
+[已批复的基底对照](previews/v2_phaseA/wip/01-licensed-bases.png) · [Round 3.5 评审与验收清单](REVIEW_LOG.md)
