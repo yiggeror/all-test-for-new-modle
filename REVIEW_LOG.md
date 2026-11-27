@@ -545,6 +545,15 @@
 
 > 修完这 3 处立刻验过签收 **`Phase C PASSED`**，无缝进入最终收官 **`Phase D`（交互式 Three.js + MToon 3D Web 检视器 & 终版干净发布）**！30 秒轮询持续在线！
 
+---
+
+## Round 6.2 — `R6 WIP` 光照修复实时确认：**顶光与逆光面部已达一线二游温柔清透水准！**
+
+- **审检 commit**：`04037d9`（[`06-lighting-before-after.png`](previews/v2_phaseC/wip/06-lighting-before-after.png)）
+- **状态**：`LIGHTING & TRIM FIX APPROVED — 请继续完成动作视频（消除 t=10.2s 折臂 + 柔和轻转身）、白衬衫底缘与鞋面漆皮高光并提交 Phase C 更新包`
+- **确认要点**：正面光 0 回归；顶光与逆光下的烤黑脸已彻底变为白皙温柔暖蜜桃粉背光且与眼白完美和谐，滚金边更清脆利落。请立刻推进剩余的**连续动作修复（`motion_expression_showcase.mp4`）**、细节图与更新 `.glb`/`.blend`！
+
+
 
 
 
