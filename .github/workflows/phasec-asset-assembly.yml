@@ -1,0 +1,26 @@
+name: Assemble Phase C exact assets
+on:
+  push:
+    branches:
+      - feat/anime-girl-3d
+    paths:
+      - tools/v2_phaseC/transfer/manifest.json
+permissions:
+  contents: write
+jobs:
+  assemble:
+    if: github.repository == 'yiggeror/all-test-for-new-modle'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+      - name: Verify raw bytes and finalize the reviewed package
+        run: |
+          python3 tools/v2_phaseC/assemble_transfer.py --finish
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/suzu_v2_phaseC.blend assets/suzu_v2_phaseC.glb DEV_STATUS.md tools/v2_phaseC/transfer
+          git commit -m 'review(phase-c): deliver the baked Suzu model and authentic 1080p clips'
+          git push origin HEAD:refs/heads/feat/anime-girl-3d

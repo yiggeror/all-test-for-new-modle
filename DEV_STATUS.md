@@ -1,7 +1,7 @@
-# V2 · Phase C · 第一轮四视角试衣
+# V2 · Phase C · 制服与动作预览
 
-[完整上身的正面、斜侧、正侧、背面实图](previews/v2_phaseC/wip/01-outfit-fit-npr.png)
+真实视角与动态成片：[八视角转身图](previews/v2_phaseC/turnaround_8view_npr.png) · [网格与灰模](previews/v2_phaseC/turnaround_4view_clay_and_wire.png) · [光照试验](previews/v2_phaseC/lighting_stress_test.png) · [服装特写](previews/v2_phaseC/details_npr.png) · [12 秒转盘](previews/v2_phaseC/turntable_npr_1080p.mp4) · [11.4 秒连续动作](previews/v2_phaseC/motion_expression_showcase.mp4)。
 
-基于已签收的星野铃素体重新裁剪，复核短西装的袖形和前襟、双层金边裙、右腿星形袜环与圆头鞋的整体比例。本轮上衣、下装及领结胸针均是真实合装。正在复查裙腰前侧、鞋弓和袖口的局部间隙，并按评审反馈精修轮廓，随后验证动态绑定。
+两份原始 3D 二进制正在校验组装。若需立即在本地查看，从此次提交的仓库根目录运行 `python3 tools/v2_phaseC/assemble_transfer.py`，将以核验过的原始字节写出 `assets/suzu_v2_phaseC.blend` 和 `assets/suzu_v2_phaseC.glb`。
 
-本轮先交静态试穿，正式动作视频未开始渲染。[Round 5 验收标准](REVIEW_LOG.md)。
+等待总监独立验收。
