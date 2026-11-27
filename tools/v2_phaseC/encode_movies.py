@@ -3,7 +3,10 @@ from pathlib import Path
 from PIL import Image
 import json,subprocess,sys
 r=Path(sys.argv[1]);out=Path(sys.argv[2]);out.mkdir(parents=True,exist_ok=True)
+only=set(sys.argv[3:])
+assert only <= {'orbit','motion'}
 for stem,n,dest in [('orbit',360,'turntable_npr_1080p.mp4'),('motion',342,'motion_expression_showcase.mp4')]:
+ if only and stem not in only:continue
  files=[r/(f'{stem}_{i:04d}.png') for i in range(1,n+1)]
  assert all(x.is_file() for x in files)
  prox=Image.open(files[0]).convert('RGB');w,h=prox.size

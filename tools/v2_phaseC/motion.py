@@ -1,7 +1,15 @@
-"""Author Suzu's one continuous Phase C performance using the native body and face."""
+"""Author Suzu's R6 continuous performance on the locked native rig."""
 from pathlib import Path
 import argparse,bpy,sys,json,math
 from mathutils import Vector,Quaternion
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from return_track import ArmReturnTrack,ArmLiftTrack,hemi,sway
+try:
+    from turn_support import prepare_turn, reset_turn, apply_turn, key_turn, upper_yaw_gain, START as TURN_START
+except ImportError as e:
+    if e.name != "turn_support": raise
+    prepare_turn=reset_turn=apply_turn=key_turn=upper_yaw_gain=None
+    TURN_START=8.87
 P='J_Bip_'
 FPS=30; FRAMES=342
 
@@ -65,6 +73,10 @@ class Performance:
         pairs=[self.p[P+'R_'+n].bone.head_local for n in ('UpperArm','LowerArm','Hand')]
         self.len1=(pairs[1]-pairs[0]).length;self.len2=(pairs[2]-pairs[1]).length
         self.waves=[]
+        self.return_track=ArmReturnTrack()
+        self.lift_track=ArmLiftTrack()
+        if prepare_turn: prepare_turn(self)
+        self._turn_was_active=False
     def rot(self,n,x=0.,y=0.,z=0.):
         pb=self.p[n];q=self.rest[n]
         pb.rotation_mode='QUATERNION';pb.rotation_quaternion=q.inverted() @ rigid_axis(x,y,z) @ q
@@ -111,7 +123,25 @@ class Performance:
         rotation_matrix(ha,tilt@nod@roll@q)
         bpy.context.view_layer.update()
         self.waves.append((t,tuple(ha.head),(ha.head-wr).length))
+    def smooth_return(self,t,neutral):
+        names=tuple(P+"R_"+n for n in ("UpperArm","LowerArm","Hand"))
+        chest=self.p[P+"C_UpperChest"]; d=chest.matrix.to_quaternion() @ chest.bone.matrix_local.to_quaternion().inverted()
+        qs=self.return_track.at(t);enter=sway(8.88,9.18,t);settle=sway(10.49,10.79,t)
+        for n,q,qN in zip(names,qs,neutral):
+            pb=self.p[n];a=pb.matrix.to_quaternion();dst=(d@q).normalized();
+            dst=dst.slerp(hemi(dst,qN),settle)
+            rotation_matrix(pb,a.slerp(hemi(a,dst),enter))
+            bpy.context.view_layer.update()
+    def smooth_lift(self,t):
+        names=tuple(P+"R_"+n for n in ("UpperArm","LowerArm","Hand"))
+        chest=self.p[P+"C_UpperChest"];d=chest.matrix.to_quaternion()@chest.bone.matrix_local.to_quaternion().inverted()
+        origin=[self.p[n].matrix.to_quaternion() for n in names]
+        amount=sway(6.65,6.81,t)*(1.-sway(7.40,7.66,t))
+        for n,a,b in zip(names,origin,self.lift_track.at(t)):
+            pb=self.p[n];q=d@b;rotation_matrix(pb,a.slerp(hemi(a,q),amount))
+            bpy.context.view_layer.update()
     def apply(self,t):
+        if reset_turn and self._turn_was_active and t<=TURN_START:reset_turn(self,False)
         for n in self.controls:
             p=self.p[n];p.rotation_mode='QUATERNION'
             p.rotation_quaternion=(1.,0.,0.,0.);p.location=(0.,0.,0.);p.scale=(1.,1.,1.)
@@ -121,6 +151,10 @@ class Performance:
         gaze=sample(t,[(0.,2.),(1.1,2.),(2.54,-14.),(3.36,-5.),(4.8,-1.),(6.32,3.),(7.5,-3.5),(9.0,-9.),(11.3,-2.)])
         chin=sample(t,[(0.,-1.8),(1.12,-.4),(2.54,-1.2),(3.94,1.6),(5.21,2.4),(6.38,-5.3),(8.62,1.5),(11.38,-1.1)])
         tilt=sample(t,[(0.,.4),(1.25,-.15),(2.53,-3.6),(3.83,2.8),(5.12,4.9),(6.56,-1.7),(7.67,2.7),(10.5,-2.1),(11.4,-.3)])
+        self._turn_was_active=apply_turn is not None and t>TURN_START
+        if self._turn_was_active:
+            self.turn_state=apply_turn(self,t)
+            turn*=upper_yaw_gain(t)
         self.rot(P+'C_Spine',.42*breath,.44*lean,turn*.34)
         self.rot(P+'C_Chest',.55*breath,.47*lean,turn*.41)
         self.rot(P+'C_UpperChest',.65*breath,.59*lean,turn*.25)
@@ -133,9 +167,14 @@ class Performance:
         self.rot(P+'L_LowerArm',0.,.52*breath,1.8*ease)
         self.rot(P+'R_UpperArm',.54*breath,-12.6-.58*lean,.31*breath)
         bpy.context.view_layer.update()
-        if ease>1e-4:self.nearby_wrist(t,ease)
+        qbase=[self.p[P+"R_"+n].matrix.to_quaternion() for n in ("UpperArm","LowerArm","Hand")]
+        active_lift=6.65<t<7.66
+        if ease>1e-4 and 7.40<t<9.18:self.nearby_wrist(t,ease)
+        if active_lift:self.smooth_lift(t)
+        if 8.88<t<10.79:self.smooth_return(t,qbase)
         self.face_time(t);bpy.context.view_layer.update()
     def key(self,k):
+        if key_turn:key_turn(self,k)
         for name in self.controls:
             pb=self.p[name]
             pb.keyframe_insert(data_path='rotation_quaternion',frame=k,group=name)
@@ -143,9 +182,10 @@ class Performance:
         for name in self.face_ids:self.shapes[name].keyframe_insert(data_path='value',frame=k,group='Suzu · native face')
 
 def program():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('out',type=Path);p.add_argument('--stride',type=int,default=2);p.add_argument('--stats',type=Path);p.add_argument('--hair-module',type=Path);p.add_argument('--lower-module',type=Path)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('out',type=Path);p.add_argument('--stride',type=int,default=1);p.add_argument('--stats',type=Path);p.add_argument('--hair-module',type=Path);p.add_argument('--lower-module',type=Path)
     a=p.parse_args(sys.argv[sys.argv.index('--')+1:])
     scene=bpy.context.scene;rig=scene.objects['Suzu · Humanoid'];face=scene.objects['Suzu · Face']
+    scene.frame_set(1)
     run=Performance(rig,face)
     scene.frame_start=1;scene.frame_end=FRAMES;scene.render.fps=FPS
     frames=sorted(set(range(1,FRAMES+1,a.stride))|{FRAMES})

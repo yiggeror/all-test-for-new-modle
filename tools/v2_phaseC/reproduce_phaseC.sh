@@ -21,7 +21,8 @@ JEWELRY_OUT="$w" JEWELRY_TAG=_R55 "${B[@]}" "$w/top_tryon.blend" --python "$d/to
 "${B[@]}" "$w/hair_static.blend" --python "$d/assemble_c.py" -- "$w/assembled.blend" --top "$w/top_module.blend" \
     --lower "$w/lower_module.blend" --jewelry "$w/fitted_jewelry_R55.blend" --jewelry-col SUZU_TOP_JEWELRY \
     --body-patch "$w/clavicle_finish.json" --strict-weights
-"${B[@]}" "$w/assembled.blend" --python "$d/toon_uniform.py" -- "$q/painted.blend"
+"${B[@]}" "$w/assembled.blend" --python "$d/toon_uniform.py" -- "$w/phase-c-pre-refinement.blend"
+"${B[@]}" "$w/phase-c-pre-refinement.blend" --python "$d/assemble_round6.py" -- "$q/painted.blend"
 "${B[@]}" "$q/painted.blend" --python "$d/motion.py" -- "$q/animated.blend" --stride 1 \
     --hair-module "$d/hair" --lower-module "$d/lower" --stats "$q/motion_stats.json"
 "${B[@]}" "$q/animated.blend" --python "$d/export_c.py" -- "$q/assets"
@@ -31,8 +32,6 @@ mv "$q/assets/suzu_v2_phaseC_compact.glb" "$q/assets/suzu_v2_phaseC.glb"
 touch "$q/ASSETS_OK"
 if [ "${3:-}" = "--assets-only" ]; then exit 0; fi
 "${B[@]}" "$q/painted.blend" --python "$d/studio_c.py" -- "$q/raw" stills --samples 27
-"${B[@]}" "$q/painted.blend" --python "$d/studio_c.py" -- "$q/raw" clay-wire --samples 26
-g++ -std=c++17 -O3 "$d/edge_depth.cpp" -o "$q/edge_depth"
-python3 "$d/composite_wire.py" "$q/edge_depth" "$q/raw"
-python3 "$d/compose_c.py" "$q/raw" "$q/previews/v2_phaseC"
-bash "$d/render_movies.sh" "$q"
+python3 "$d/compose_c.py" "$q/raw" "$q/previews/v2_phaseC" --round6
+bash "$d/render_motion_r6.sh" "$q/animated.blend" "$q/round6-motion"
+cp "$q/round6-motion/previews/motion_expression_showcase.mp4" "$q/previews/v2_phaseC/"

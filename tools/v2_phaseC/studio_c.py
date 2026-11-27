@@ -4,7 +4,7 @@ from pathlib import Path
 from mathutils import Vector
 import bpy
 ap=argparse.ArgumentParser(description=__doc__)
-ap.add_argument('out',type=Path);ap.add_argument('mode',choices=['wip','stills','motion','orbit','probe','clay-wire'])
+ap.add_argument('out',type=Path);ap.add_argument('mode',choices=['wip','stills','motion','orbit','probe','clay-wire','r6light'])
 ap.add_argument('--start',type=int,default=1);ap.add_argument('--end',type=int)
 ap.add_argument('--engine',choices=['cycles','eevee'],default='cycles')
 ap.add_argument('--samples',type=int,default=28);ap.add_argument('--scale',type=int,default=100);ap.add_argument('--movie-border',type=int,default=0)
@@ -22,7 +22,7 @@ if a.engine=='cycles':
     sc.cycles.samples=a.samples;sc.cycles.use_denoising=False
     sc.cycles.max_bounces=5;sc.cycles.diffuse_bounces=1;sc.cycles.transparent_max_bounces=16
     if a.mode in ('orbit','motion'):
-        sc.cycles.use_adaptive_sampling=True;sc.cycles.adaptive_threshold=.052;sc.cycles.adaptive_min_samples=min(4,a.samples)
+        sc.cycles.use_adaptive_sampling=True;sc.cycles.adaptive_threshold=.052;sc.cycles.adaptive_min_samples=min(8 if a.samples>=12 else 4,a.samples)
         sc.cycles.max_bounces=3;sc.cycles.diffuse_bounces=1;sc.cycles.glossy_bounces=1
         sc.cycles.transparent_max_bounces=10
         sc.render.use_persistent_data=True
@@ -43,6 +43,9 @@ fill=lamp('Gentle reflection fill',(1.08,-1.95,1.27),58,3.15,(.90,.94,1))
 rim=lamp('Ice-silver rim',(.65,1.82,2.72),127,2.66,(.91,.94,1))
 def shade_direction(pos):
     v=(Vector(pos)-Vector((0,0,1.355))).normalized()
+    rig_key=bpy.data.node_groups.get('Suzu R6 • key direction')
+    if rig_key:
+        for i,c in enumerate(v):rig_key.nodes['World key'].inputs[i].default_value=c
     for m in bpy.data.materials:
         if not m.node_tree:continue
         for t in m.node_tree.nodes:
@@ -81,6 +84,12 @@ if a.mode in ('wip','stills'):
                     ('hem',18,(.0,0,.746),.55),('garter',-22,(-.091,-.018,.686),.26),
                     ('shoes',-28,(0,-.032,.063),.34)]:
             frame(name,az,0,tar,span,720,580)
+elif a.mode=='r6light':
+    neutral()
+    for nm,p in [('front',(0,-3.15,1.71)),('top',(.08,-.24,4.24)),('rim',(0,2.58,2.54))]:
+        key.location=p;aim(key,(0,0,1.03));shade_direction(p)
+        frame('light_'+nm+'__face',29,0,(.010,.016,1.437),.56,580,650)
+        frame('light_'+nm+'__body',0)
 elif a.mode=='clay-wire':
     neutral()
     sys.path.insert(0,str(Path(__file__).resolve().parent))
