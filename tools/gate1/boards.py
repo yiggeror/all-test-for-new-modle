@@ -41,7 +41,7 @@ if len(sys.argv)>3 and sys.argv[3]=='wip':
     sys.exit()
 compose('Suzu Hoshino / Character Turnaround','08 VIEWS  •  Full-body proportions and silhouette',[(f'clay_{i*45:03d}',l) for i,l in enumerate(labels)],4,'turnaround_8view_clay.png',True)
 compose('Suzu Hoshino / Topology','04 VIEWS  •  Mesh-flow overlay',[(f'wire_{i*45:03d}',labels[i]) for i in (0,1,2,4)],2,'turnaround_4view_wireframe.png',True)
-compose('Suzu Hoshino / Face Study','05 VIEWS  •  Objective orthographic close-ups',[(f'face_{a:03d}',label)for a,label in [(0,'Front'),(35,'Left 3/4'),(90,'Left profile'),(270,'Right profile'),(180,'Back')]],3,'face_5view_clay.png')
+compose('Suzu Hoshino / Face Study','05 VIEWS  •  Objective orthographic close-ups',[(f'face_{a:03d}',label)for a,label in [(0,'Front'),(35,'Left 3/4'),(325,'Right 3/4'),(90,'Left profile'),(270,'Right profile')]],3,'face_5view_clay.png')
 compose('Suzu Hoshino / Detail Atlas','06 STUDIES  •  Real geometry, untextured',list(zip(['hands','chest','hairpin','skirt','garter','shoes'],['Five fingers','Bow and orrery brooch','Crescent and blue star','Double skirt layers','Right garter','Mary Jane shoes'])),3,'details_clay.png')
 
 compose('Suzu Hoshino / Oblique Inspection','HIGH / LOW ANGLES  •  Hair overlaps, anchor points and contact',list(zip(['audit_crown','audit_pin','audit_back','audit_shoes'],['High 3/4 crown','Low 3/4 clip and eye','Back shoulder clearance','Shoe contact plane'])),2,'inspection_4view_clay.png')

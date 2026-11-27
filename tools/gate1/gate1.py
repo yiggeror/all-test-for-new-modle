@@ -94,14 +94,15 @@ if mode in ('wip','test','stills'):
     size=600 if mode=='stills' else 500
     for ang in range(0,360,45) if mode=='stills' else (0,90,270):
         render('clay_%03d'%ang,ang,(0,0,.826),1.76,round(size*.64),size)
+if mode in ('wip','test','stills','facecheck'):
     sh.color_type='MATERIAL'
     sh.show_shadows=False
-    for ang in (0,35,90,270,180) if mode=='stills' else (0,90,270):
-        center=(.028,0,1.447) if ang in (0,35) else (0,.005,1.447)
-        extent=.455
-        if ang==180: center=(0,.09,1.31); extent=.76
-        facepx=max(size,760) if mode=='stills' else size
-        render('face_%03d'%ang,ang,center,extent,facepx,facepx)
+    angles={'stills':(0,35,325,90,270),'facecheck':(325,)}.get(mode,(0,90,270))
+    for ang in angles:
+        centers={0:(.028,0,1.447),35:(.028,0,1.447),325:(0,0,1.447)}
+        center=centers.get(ang,(0,.005,1.447))
+        facepx=760 if mode in ('stills','facecheck') else size
+        render('face_%03d'%ang,ang,center,.455,facepx,facepx)
 if mode in ('stills','wiretest'):
     sh.color_type='MATERIAL'
     sh.show_shadows=False
