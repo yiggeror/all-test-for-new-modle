@@ -553,6 +553,42 @@
 - **状态**：`LIGHTING & TRIM FIX APPROVED — 请继续完成动作视频（消除 t=10.2s 折臂 + 柔和轻转身）、白衬衫底缘与鞋面漆皮高光并提交 Phase C 更新包`
 - **确认要点**：正面光 0 回归；顶光与逆光下的烤黑脸已彻底变为白皙温柔暖蜜桃粉背光且与眼白完美和谐，滚金边更清脆利落。请立刻推进剩余的**连续动作修复（`motion_expression_showcase.mp4`）**、细节图与更新 `.glb`/`.blend`！
 
+---
+
+## Round 7 — `V2 Phase C` 复审终验：**`PHASE C PASSED & LOCKED`！正式解锁终局 `Phase D`（Gate 3 交互式 3D Web 检视器与终版交付）**
+
+- **审检 commit**：`d8e3002` / `8bdc854`（已全量复审更新后的 `lighting_stress_test.png`、`details_npr.png`、`turnaround_8view_npr.png`，对更新版 `motion_expression_showcase.mp4` 抽取 24 帧连续条带 + `t=8.2s / 9.7s / 10.2s` 1080p 原帧逐像素核查，并用 `trimesh` 独立核验 `assets/suzu_v2_phaseC.glb` 200 个干净几何体与精确 `Y=[0.0000, 1.6835]` 包围盒）
+- **状态**：**`V2 PHASE C — PASSED & LOCKED（全角色造型、着色、绑骨与动画正式锁定！） → PHASE D (GATE 3) OPEN`**
+
+### 一、签收评价（三处手术 100% 精准清零，0 回归！）
+1. **连续动作丝滑自然**：`motion_expression_showcase.mp4` 全程 342 帧 0 折臂、0 穿模、0 塌陷，`t=8.2s → 9.7s → 10.2s` 右手沿身侧优雅垂回，17° 柔和转身自然带出长发、侧马尾与百褶裙惯性随动；
+2. **顶光与逆光面部完美清透**：5 方向打光测试面部全部保持温柔白皙暖蜜桃光影，彻底消除烤黑反差；
+3. **细节与质感达到手办级**：1080p 运动原帧中白衬衫底缘 100% 干净齐平收进高腰封、古鎏金滚边锐利不闪、圆头玛丽珍鞋漆皮高光与鞋底分界精致优雅，其余已通过部分 0 回归。
+
+---
+
+### 二、终局 `Phase D`（Gate 3）收官交付指令
+
+**锁定铁律**：严禁修改已签收锁定的星野铃 3D 角色网格、材质、骨骼或动画品质！Phase D 聚焦于**交互式 3D 体验包装、终版英雄海报与干净工程收官**：
+
+1. **交互式 3D Web 检视器（`viewer/index.html` 及配套模块化资源，基于 Three.js 真实加载 `assets/suzu_final.glb`）**：
+   - **真实 3D 渲染与清透二次元观感**：直接加载实时渲染 `assets/suzu_final.glb`，配置正确 `SRGBColorSpace` 与清透无压灰 ToneMapping + 柔和棚拍三点光/边缘轮廓光，确保浏览器实时画面与 Blender NPR 预览同样白皙通透好看（绝不发暗、发灰或塑料反光）；
+   - **必备交互控件（星象学院深色磨砂简洁侧栏，不遮挡角色）**：
+     - 自由 360° 轨道旋转 / 缩放 / 平移 + 一键镜头视角（全身 / 半身 / 脸部特写 / 背面）；
+     - 检视模式切换：**二次元着色（Shaded）/ 哑光灰模（Clay）/ 线框叠加（Wireframe）**；
+     - 实时光照预设切换：**正面棚拍 / 左 45° / 右 45° / 柔和逆光**；
+     - **实时动画播放/暂停与进度条拖动**（播放内嵌的 11.4s 连续呼吸/表情/挥手/转身动画）+ **实时表情一键切换**（自然微笑 / 元气张口笑 / 治愈眯眼笑 / 可爱惊讶，直接驱动 GLB 真实 Morph Targets！）。
+   - **必须做真实浏览器端到端自检**：启动本地服务并用无头浏览器（Chromium/Playwright）实测 0 console error、0 WebGL error，并截取实机运行对比图 `previews/final/viewer_web_live.png`（展示着色正视、线框/灰模、以及实时表情切换界面）。
+2. **终版规范化资产与终极封面英雄海报（`assets/suzu_final.*` & `previews/final/`）**：
+   - 将锁定的 Phase C 资产零回归固化为 `assets/suzu_final.blend` 与 `assets/suzu_final.glb`（如同时能导出标准 `.vrm` 亦可附 `assets/suzu_final.vrm` 作为加分项）；
+   - 渲染 1 张 **终极高清英雄展示海报 `previews/final/suzu_hero_render.png`**（参考 [`references/01_hero_concept.jpg`](references/01_hero_concept.jpg) 的轻盈优雅站姿、柔和浅灰白棚拍背景与清透赛璐璐高光，作为项目最终封面代表作！）；
+   - 如 Phase C 的 360° 转盘视频尚未合入 Round 6 的干净白衬衫/漆皮鞋，请同步顺手产出终版 `previews/final/turntable_final_1080p.mp4` 并与 `previews/final/motion_final_1080p.mp4` 归档至 `previews/final/`。
+3. **工程整洁与复现文档**：
+   - 更新顶层一键复现说明（在 `DEV_STATUS.md` 写明从 Phase A → B → C → D 的完整复现入口及本地打开 `viewer/` 的命令）与完整 [`CREDITS.md`](CREDITS.md)（补充 Three.js 等前端库许可）。
+
+> 完成以上全部交付并推送后，总监将亲自在本地启动 `viewer/` 做真实浏览器交互与控制台零报错验尸、并对全部终版资产做端到端终审后签收 **`FINAL PASSED`**！30 秒高频轮询持续在线！
+
+
 
 
 
