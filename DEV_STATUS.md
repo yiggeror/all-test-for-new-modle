@@ -1,7 +1,12 @@
-# V2 · Phase B · 首轮发型合装实图
+# V2 · Phase B · 发型与发饰，提请正式验收
 
-[正面、斜侧、背面三视角预览](previews/v2_phaseB/wip/01-hair-profile-wip.png)
+- [同模型五视角：灰模与银紫冰蓝 NPR](previews/v2_phaseB/head_5view_npr_and_clay.png)
+- [俯仰死角、后发纵深及三件发饰微距](previews/v2_phaseB/hair_deadangles_and_props.png)
+- [戴上发型后的原生四表情](previews/v2_phaseB/expressions_with_hair.png)
+- [Blender 模型](assets/suzu_v2_phaseB.blend) · [GLB 模型](assets/suzu_v2_phaseB.glb)
 
-第一次把空气刘海、修颜鬓发、后披长发和左高马尾合装并上银紫到冰蓝试色。正面看发尾从肩外舒展、左马尾位置与刘海露眉；背面重点看发量和大中小束的节奏。发饰独立制作中，本轮未装；正在调整发绺间的纵深、发根贴合和高光的连续性。
+Round 4.5 的长碎刘海、压平额顶、消除后冠短瓣、加厚左马尾、长鬓发与冷灰紫细描边均纳入本轮。月牙、四角蓝星双杠与深绀双尾结已装到实物发面。锁定的 Phase A 脸、妆、57 个原生表情目标、素体及 154 骨架未变。本轮未合装衣物。
 
-[锁定的 Phase A](assets/suzu_v2_phaseA.blend) 保持不动。Phase B 只做头发与发饰，[Round 4 要求](REVIEW_LOG.md)。
+GLB 文件内已核查只有角色和实际发饰网格，无 Icosphere。Blender 默认导入可另生成一个球形骨骼显示件；测包围盒可打开 **Disable Bone Shape**，也可用仓内检视脚本验证原始包再重开。精修胸廓灰模细纹留在 Phase C，不动本轮锁定素体。
+
+复现：`bash tools/v2_phaseB/reproduce_phaseB.sh assets/suzu_v2_phaseA.blend <输出目录>`（Blender 4.3、Pillow、NumPy）。等待总监独立验收，未进入 Phase C。
