@@ -1,0 +1,7 @@
+{
+  "name":"suzu-viewer-verification",
+  "private":true,
+  "type":"module",
+  "scripts":{"check":"node check_viewer.mjs"},
+  "devDependencies":{"playwright-core":"1.56.1"}
+}

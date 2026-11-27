@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#101421">
+ <meta name="description" content="星野铃 · 星象学院 3D 角色检视器">
+ <title>星野铃 · 星象学院</title>
+ <link rel="icon" href="./mark.svg" type="image/svg+xml">
+ <link rel="stylesheet" href="./style.css">
+ <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/addons/"}}</script>
+ <script type="module" src="./app.js"></script>
+</head>
+<body>
+<header class="mast">
+ <div class="brand"><img width="34" height="34" src="./mark.svg" alt=""><div><b>星象学院</b><span>ASTRAL ACADEMY</span></div></div>
+ <div class="registry">角色检视档案 <span>01 / SUZU HOSHINO</span></div>
+</header>
+<main class="shell">
+ <section class="intro"><div><p>角色档案 · 01</p><h1>星野铃<span> SUZU HOSHINO</span></h1></div><div class="ready" role="status"><i></i><span id="status">正在加载模型</span></div></section>
+ <div class="workspace">
+  <section class="stage" aria-label="实时 3D 画布">
+   <div class="stage-bar"><span><i class="locator"></i> 实时 3D 检视</span><span id="view-label">全身 / 二次元着色</span></div>
+   <div class="viewport" id="viewport">
+    <canvas id="scene" aria-label="星野铃模型。拖动旋转，滚轮或双指缩放，右键拖动平移。"></canvas>
+    <div id="loading" class="loading"><img src="./mark.svg" width="42" height="42" alt=""><span id="load-detail">正在读取星野铃</span><button type="button" id="retry" hidden>重新加载</button></div>
+   </div>
+   <div class="stage-foot"><span>拖动旋转 · 滚轮／双指缩放</span><span>右键拖动／双指移动平移</span></div>
+  </section>
+  <aside class="controls" aria-label="检视控件">
+   <section aria-labelledby="cam-title"><h2 id="cam-title">镜头 <small>CAMERA</small></h2>
+    <div class="choices dual"><button type="button" data-view="full" aria-pressed="true">全身</button><button type="button" data-view="half">半身</button><button type="button" data-view="face">脸部特写</button><button type="button" data-view="back">背面</button></div>
+   </section>
+   <section aria-labelledby="mode-title"><h2 id="mode-title">显示 <small>RENDER</small></h2>
+    <div class="choices triple"><button type="button" data-mode="shaded" aria-pressed="true">着色</button><button type="button" data-mode="clay">灰模</button><button type="button" data-mode="wire">线框</button></div>
+   </section>
+   <section aria-labelledby="light-title"><h2 id="light-title">灯光 <small>LIGHT</small></h2>
+    <div class="choices dual"><button type="button" data-light="front" aria-pressed="true">正面棚拍</button><button type="button" data-light="left">左 45°</button><button type="button" data-light="right">右 45°</button><button type="button" data-light="back">柔和逆光</button></div>
+   </section>
+   <section aria-labelledby="expr-title"><h2 id="expr-title">表情 <small>EXPRESSION</small><button class="text-btn" data-expression="neutral" type="button" title="恢复角色原表情">清除</button></h2>
+    <div class="choices dual"><button type="button" data-expression="smile">自然微笑</button><button type="button" data-expression="laugh">元气张口笑</button><button type="button" data-expression="closed">治愈眯眼笑</button><button type="button" data-expression="surprise">可爱惊讶</button></div>
+   </section>
+   <section class="play" aria-labelledby="ani-title"><h2 id="ani-title">连续动作 <small>PERFORMANCE</small></h2>
+    <div class="play-controls">
+     <button type="button" id="play" aria-label="播放" class="play-button"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path id="play-icon" d="M8 5v14l11-7Z" fill="currentColor"/></svg></button>
+     <div class="range"><label class="visually-hidden" for="timeline">动作进度</label><input id="timeline" type="range" min="0" max="11.4" step="0.01" value="0"><div class="timestamps"><output id="now">0.00</output><span> <output id="duration">11.40</output> s</span></div></div>
+    </div>
+   </section>
+  </aside>
+ </div>
+ <footer class="footer"><span>SUZU HOSHINO <b>·</b> REALTIME MODEL ARCHIVE</span><a href="../assets/suzu_final.glb" download>下载 GLB 模型 <span aria-hidden="true">↓</span></a></footer>
+</main>
+<script>
+ if (location.protocol === 'file:') {
+   document.querySelector('#load-detail').textContent = '请双击 start-viewer.cmd，或运行 python3 viewer/start.py 后打开网页。';
+   document.querySelector('#status').textContent = '请从本地启动器打开';
+   document.querySelector('.ready').dataset.state = 'err';
+ }
+</script>
+</body></html>

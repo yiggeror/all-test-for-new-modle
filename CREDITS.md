@@ -32,3 +32,8 @@
 
 **Base_Female，VRoid Project / pixiv Inc.**：原样例以 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) 发布。参阅 [Pixiv 官方样模许可分类](https://vroid.pixiv.help/hc/en-us/articles/4402614652569) 与 [样模存档](https://opengameart.org/content/vroid-studio-cc0-models)。只取原始皮肤胸廓，转接至本项目的 Pixiv Twist 素体；不使用供体脸、测试衣物或供体骨架。
 供体原文件 SHA-256：`1995f174f6c8f2211f3c56c9e5fe4f9daf27ee5e648f129479582a259238149b`。
+
+## Phase D 网页检视器依赖
+
+- [Three.js r180](https://github.com/mrdoob/three.js/tree/r180)（0.180.0，MIT）：核心、WebGL Renderer、OrbitControls、GLTFLoader 与 BufferGeometryUtils。原作者与许可保留在 [`viewer/vendor/three/LICENSE`](viewer/vendor/three/LICENSE)。运行所需脚本全部随仓库提供，不访问 CDN。
+- [Playwright](https://playwright.dev/)（1.56.1，Apache-2.0）仅用于开发验收，不作为检视器的运行依赖。
