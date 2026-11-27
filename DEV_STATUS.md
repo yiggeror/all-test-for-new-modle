@@ -1,9 +1,9 @@
-# Gate 1 · 全身灰模 · 提请验收
+# V2 · Phase A · 基底选型预览
 
-[八视角全身](previews/gate1/turnaround_8view_clay.png) · [四视角线框](previews/gate1/turnaround_4view_wireframe.png) · [五视角头部](previews/gate1/face_5view_clay.png) · [细节特写](previews/gate1/details_clay.png) · [俯仰角检查](previews/gate1/inspection_4view_clay.png) · [1080p 360° 转盘](previews/gate1/turntable_clay.mp4)
+[三款授权明确的候选脸部实图（正面 / 3⁄4 / 90°）](previews/v2_phaseA/wip/01-licensed-bases.png)
 
-[可编辑 Blender 资产](assets/suzu_gate1.blend) · [同模 GLB](assets/suzu_gate1.glb)
+首推展板第一行的 **Pixiv VRM1 Constraint Twist Sample**。原文件明确许可修改与再分发，有 57 个表情目标，连基准形状共 58 个键。本图只显示原生脸部面片和贴图，未加发型，未改变任何候选的脸型，便于对照选型。
 
-- 这版落实 Round 2 / 2.5，重点请看后脑至发梢、仰视下发饰、后发与肩背间隙、正侧袖褶与鞋长。手保持锁定形状，只随 A-Pose 整体转动。全部画面从同一份三模块快照渲染。
-- Blender 4.3.2。完整复现入口 `bash tools/gate1/reproduce.sh`（需 Blender、Python/Pillow、C++17 和 FFmpeg）。
-- Gate 1 待总监独立验收，未开始 Gate 2。
+- [Pixiv 原文件](https://github.com/pixiv/three-vrm/blob/dev/packages/three-vrm/examples/models/VRM1_Constraint_Twist_Sample.vrm) · [原作者许可说明](https://github.com/vrm-c/vrm-specification/tree/master/samples/VRM1_Constraint_Twist_Sample)。第二行的 AvatarSample_A 有 [Pixiv 样模条款](https://vroid.pixiv.help/hc/en-us/articles/4402394424089)，第三行为 [Pixiv CC0 样模系列](https://vroid.pixiv.help/hc/en-us/articles/4402614652569)的 Base_Female。
+- 当前只做 Phase A：素体比例、星野铃定制脸、2K 试妆和四种表情；首轮实图对照用于基底选择。
+- [Round 3 评审记录与标准](REVIEW_LOG.md)
