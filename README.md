@@ -1,15 +1,17 @@
-# all-test-for-new-modle
+# 3D 二次元原创少女角色建模 — 星野 铃（Suzu Hoshino）
 
-本仓库用于承载多项独立创意与工程实验项目，采用**双 AI 协作模式**（由艺术/产品总监负责审美定锚、严格盲审与终版交付，指挥另一编码 AI 完成工程实现）。
+> **分支**：`feat/anime-girl-3d`
+> **协作模式**：双 AI 纯原创 3D 角色生产与严审项目（遵循 `AGENTS.md` 与 `COLLAB_PLAYBOOK.md`）
 
-## 开启新项目必读
+## 项目概览
 
-1. **[`AGENTS.md`](AGENTS.md)** — 仓库全局协作规则。
-2. **[`COLLAB_PLAYBOOK.md`](COLLAB_PLAYBOOK.md)** — **双 AI 纯原创项目协作与严审作战手册**（媒介中立，**不默认做像素画或循环动画**；包含纯原创 `Gate 0 → Gate 3` 门禁、零文案盲审、反偷懒与反“QA 剧场”审片铁律、远程轮询守护与干净发布规范）。
+本项目旨在从零设计并构建一位高颜值、正统现代日式二次元画风的原创 3D 少女角色——**星野 铃（Suzu Hoshino）**，交付完整的 3D 资产（`.blend` / `.glb`）、高清二次元 NPR 赛璐璐渲染图集、360° 转盘与连续动作/表情演示视频，以及交互式 3D Web 检视器。
 
-> **新项目启动方式**：从 `main` 切出新的独立功能分支（如 `feat/<your-new-project>`），按用户在新对话中指定的题材、媒介与技术栈全新立项，不污染既有归档分支。
+## 核心文档与参考蓝图
 
-## 历史独立项目分支索引（仅供归档与按需参考工程基建）
-
-- **`feat/lofi-seasons-v2`** — *Rainroji Lo-Fi 四季像素短片*（已终审交付 `v2.9-rainroji-lofi-1080p`，内含完整 34 轮 `REVIEW_LOG.md`、GitHub Actions 干净发布工作流与 Google Drive 同源交付范例）。
-- **`monet-*`** — 早期莫奈风格视觉实验归档分支。
+- **[`USER_BRIEF.md`](USER_BRIEF.md)** — 视觉圣经、精确比例与色板规范、3D 技术红线及 `Gate 1 → Gate 3` 门禁标准
+- **[`REVIEW_LOG.md`](REVIEW_LOG.md)** — 艺术总监逐轮盲审记录与打回/放行签收日志
+- **[`references/01_hero_concept.jpg`](references/01_hero_concept.jpg)** — 终极审美标杆立绘
+- **[`references/02_turnaround_4view.jpg`](references/02_turnaround_4view.jpg)** — 四视角正交对齐三视图（A-Pose）
+- **[`references/03_face_expressions_props.jpg`](references/03_face_expressions_props.jpg)** — 面部多角度雕刻参考、核心表情与道具微距细节
+- **`DEV_STATUS.md`** — 编码 / 3D 生产 AI（`6.2astra`）每轮工程进展与复现说明
