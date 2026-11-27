@@ -351,6 +351,50 @@
 
 > 落实以上 4 点后，请直接提交完整的 **Phase A 正式验收套件**（`body_4view_clay.png` + `face_clay_vs_npr.png` + `expressions_quickcheck.png` + `assets/suzu_v2_phaseA.glb` / `.blend` + `CREDITS.md`），总监将第一时间用本地 Blender 独立 6 角度验尸并把关是否签收 `Phase A PASSED` 解锁 `Phase B`（二游级大中小层次分层发型）！
 
+---
+
+## Round 4 — `V2 Phase A` 正式终审：**`PHASE A PASSED & LOCKED`！正式解锁 `Phase B`（一线二游级发型与发饰精雕）**
+
+- **审检 commit**：`27826c7`（已逐张零文案盲审 `body_4view_clay.png` / `face_clay_vs_npr.png` / `expressions_quickcheck.png`，并已用本地 Blender 4.0.2 独立导入 [`assets/suzu_v2_phaseA.glb`](assets/suzu_v2_phaseA.glb) 核验 154 根骨骼、58 个完整原生表情 Shape Keys、`Suzu · Body` 10,144 面、`Suzu · Face` 7,056 面及 [`CREDITS.md`](CREDITS.md) 版权合规信息）
+- **状态**：**`V2 PHASE A — PASSED & LOCKED（锁定不动基座） → PHASE B OPEN`**
+
+### 一、签收评价（真正跨入一线二游女主水准！）
+1. **星野铃脸蛋与 2K 妆容极度惊艳**：额顶与耳后锯齿片缝 100% 抹平光洁如瓷；眼尾微翘羽翼上睫毛、放大的紫金星芒宝石瞳孔、清晰温柔的微笑唇弧、淡蜜桃颊红与 90° 萌系侧颜曲线高度还原母本，自定义面部法线清透无脏影。
+2. **4 种原生表情实拍丝滑甜美**：尤其是 **Eyes-closed smile（治愈眯眼笑）** 的羽翼睫毛联动与 **Open laugh / Surprised** 的干净口腔表现，0 穿模 0 撕裂。
+3. **1.600 m / 5.80 头身少女裸素体优雅精准**：A-Pose 37° 自然舒展、锁骨腰臀腿 S 曲线流畅修长、双脚平实着地。
+4. **锁定铁律 + 2 处顺手工程微修**：
+   - **锁定不动区**：Phase A 的**人脸网格、2K 面部与宝石瞳孔妆容、58 个表情 Shape Keys 与 1.600 m 素体比例正式锁定**，后续任何迭代严禁退化！
+   - **顺手清理项**：独立 GLB 验尸发现导出文件里残留了一个未清理的 VRoid 骨骼占位球 `Icosphere`（V=42, F=80，把 GLB 世界包围盒撑大到 `H=2.6m`），请从 Phase B 起导出 GLB 时务必剔除 `Icosphere`；另在 Phase C 穿衣前顺手再平滑一下锁骨下方补接胸廓极微弱的灰模三角细纹。
+
+---
+
+### 二、`Phase B` 硬核任务指令：一线二游级大中小层次分层发型 + 发饰精修
+
+头发决定二次元角色 50% 的一眼辨识度与“高级感”，**严禁退回旧版的“并排均匀硬面条”或“头顶塑料蛋壳”！** 请严格对标 [`references/01_hero_concept.jpg`](references/01_hero_concept.jpg)、[`references/02_turnaround_4view.jpg`](references/02_turnaround_4view.jpg) 与 [`references/03_face_expressions_props.jpg`](references/03_face_expressions_props.jpg) 按以下工艺推进：
+
+1. **造型结构遵循一线二游“大 / 中 / 小（Big / Medium / Small）”三层发束节奏**：
+   - **大轮廓（蓬松显脸小）**：发顶与两侧太阳穴外廓必须**饱满圆润蓬松、自然宽于脸颊外缘**（对照 `03_face_expressions_props.jpg` 正视图太阳穴宽度），从发旋顺滑包裹脑颅，**0 水平断层、0 光面蛋壳**；
+   - **前空气刘海（轻盈透气不遮眉眼）**：5–7 束宽薄弧片主刘海 + 4–6 缕纤细空气副发丝，留出清晰优雅的倒 V 空气隙透出柔和眉形，发梢轻薄锐利收尖、距眉眼留安全毫米间隙（0 穿眼/0 穿眉）；
+   - **两侧修颜鬓发**：左右各 2–3 层薄弧发束顺脸颊外缘温柔内抱，下巴下方轻盈收尖外翘；
+   - **后披长发（告别并排面条与厚斗篷）**：拆为**暗冷紫阴影内底帘 + 中层 7–9 束错落交叠长发片 + 外层 5–7 束灵动外扬带自然 S 弧微卷的长发丝**；**正面视角下，双肩外侧要能看到丰盈飘逸、错落分叉微卷的冰蓝发尾**（对照 `01_hero_concept.jpg` 前视图剪影！）；
+   - **角色左侧高扎侧马尾 + 头顶呆毛**：左侧马尾根部紧贴脑颅左上方（0 悬空），向上优雅微拱后分 3–4 缕大小错落波浪 S 弧垂落散开；头顶小呆毛立体水滴截面、正/侧视皆圆润灵动。
+2. **二游级发丝 UV、渐变色与天使光环高光（必须同步上清透 NPR 渲染验收）**：
+   - 统一发根到发梢的顺直 UV，绘制细腻柔顺纵丝发理，严格还原色板：**银白薰衣草 `#E4DEE8` → 中下段柔和渐变冰雾浅蓝 `#C0CFEC`，通透冷紫阴影 `#A9A9C5`**；
+   - 必须做出二次元招牌的**柔和双段天使光环高光（Angel Ring Highlight）**与细腻发束层次明暗，外描边用克制清淡的冷灰紫细线（严禁粗黑描边把浅银发画脏！）。
+3. **三件发饰按 `03_face_expressions_props.jpg` 右下角微距精雕（0 浮空、0 穿模）**：
+   - **鎏金新月**（`#C5A37D` 金属高光，饱满优雅环抱左侧马尾根部）；
+   - **蓝宝石四角星双杠发卡**（切面蓝宝石 `#505A97` + 鎏金包边与双平行金杠，**严丝合缝贴紧左前侧刘海表层，低仰角 0 浮空**）；
+   - **深绀蓝丝带蝴蝶结**（`#2F354F`，饱满立体结扣 + 飘逸自然微弯双长尾丝带）。
+
+### 三、`Phase B` 必交验收物（放入 `previews/v2_phaseB/` 与 `assets/`）
+1. `previews/v2_phaseB/head_5view_npr_and_clay.png`：完整发型+发饰 5 视角（Front / Left 3-4 / Left 90° / Right 90° / Back）**灰模 + 清透 NPR 双轨对照图**；
+2. `previews/v2_phaseB/hair_deadangles_and_props.png`：高俯角发旋发顶、低仰角发卡贴合度、背面长发纵深与肩背安全间隙、以及新月/蓝星/蝴蝶结微距特写；
+3. `previews/v2_phaseB/expressions_with_hair.png`：戴上全套发型后的 **4 表情 NPR 实拍**（验证空气刘海透眉层次与 0 穿模）；
+4. `assets/suzu_v2_phaseB.blend` 与 `assets/suzu_v2_phaseB.glb`（已剔除 `Icosphere`，保留 154 根骨骼与 58 表情目标，总监将本地 Blender 独立验尸！）。
+
+> **节奏提示**：Phase B 专注把“绝美脸蛋 + 一线二游级银紫冰蓝发型与发饰”做到一眼惊艳锁死，先不要急着合装衣服；欢迎中途先推一张正/3-4/背试发 WIP 快照让总监实时把关，30 秒轮询持续在线！
+
+
 
 
 
