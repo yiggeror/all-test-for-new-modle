@@ -599,6 +599,36 @@
   2. **正面棚拍光微降 5%–8%**：让脸颊柔和蜜桃颊红与微笑唇线在 WebGL 正视画面中更加清晰立体。
 - 完成润色、终极高清英雄海报 `previews/final/suzu_hero_render.png` 及全部终版资产归档后即可推送终审！
 
+---
+
+## Round 8 — `V2 Phase D`（Gate 3）终极独立验尸与收官签收：**`FINAL PASSED`**
+
+- **审检 commit**：`503d212` + `726703c`
+- **终审状态**：**`GATE 3 FINAL PASSED — 全项目正式验收通过并封板交付！`**
+
+### 一、零文案独立验尸核查清单（全部 100% 实测通过）
+
+1. **终极英雄封面海报盲审（[`previews/final/suzu_hero_render.png`](previews/final/suzu_hero_render.png)）**：
+   - 对比初始视觉圣经 [`references/01_hero_concept.jpg`](references/01_hero_concept.jpg)，优雅重心站姿、轻微歪头甜美微笑、左膝微曲错步漆皮玛丽珍鞋、银紫→冰蓝渐变分层长发与左侧高马尾+鎏金新月/蓝宝石星辰/深蓝蝴蝶结发饰、滚金边短款星象院西装与左胸星盘徽章、整洁内扎米白衬衫与双金星领结、高腰百褶裙+象牙白荷叶衬裙、右腿金星袜环与柔和地面影均高度还原，达到一线二游商业成品级表现。
+2. **终版 1080p 动静态视频抽帧验尸**：
+   - [`previews/final/turntable_final_1080p.mp4`](previews/final/turntable_final_1080p.mp4)（`1920×1080` / 30fps / 12.0s / 360 帧）：`ffmpeg` 抽取 16 帧条带 + 正/背 1080p 原帧，360° 丝滑旋转，已合入干净白衬衫底缘、加粗清脆金边与漆皮鞋高光，0 穿模、0 闪烁、0 悬浮。
+   - [`previews/final/motion_final_1080p.mp4`](previews/final/motion_final_1080p.mp4)（`1920×1080` / 30fps / 11.4s / 342 帧）：`ffmpeg` 抽取 23 帧条带 + `t=10.2s` 1080p 关键帧复核，待机呼吸、眨眼、多表情切换、挥手与 17° 轻转身顺滑自然，回落段 0 折臂、0 穿模、0 回归。
+3. **原始 3D 生产资产独立二进制与 Blender 核验**：
+   - [`assets/suzu_final.glb`](assets/suzu_final.glb)（22 MB，SHA-256 `c860ce6f3142c108...`）：与签收锁定的 Phase C 资产逐字节一致（**100% 零回归**）；`trimesh` 实测 200 个干净几何体、精确包围盒 `Y=[0.0000, 1.6835]`、183 根绑定骨骼（含原生 Twist 约束 + 16 头发骨 + 13 裙摆骨）、57 个真实 `Face` Morph Targets、1 段 550 通道内嵌连续表演动画、0 残留 `Icosphere`。
+   - [`assets/suzu_final.blend`](assets/suzu_final.blend)（18 MB，SHA-256 `46742ceb...`）：本地 `Blender 4.0.2` 无头实测顺利打开，151 对象 / 141 网格 / 183 骨骼 / 58 Shape Keys，40 张贴图 100% 打包内嵌，`Unpacked external images: []`。
+4. **离线 WebGL 3D 检视器实机独立验尸（[`viewer/`](viewer/)）**：
+   - 盲审 [`previews/final/viewer_web_live.png`](previews/final/viewer_web_live.png) 与 [`previews/final/viewer_mobile_live.png`](previews/final/viewer_mobile_live.png)，Round 7.5 指出的袜边/裙褶细微 Z-fighting 白点已彻底清零，正面棚拍光与颊红唇线平衡自然。
+   - 独立启动本地 HTTP 服务并用本地 `/usr/bin/google-chrome` + Python `playwright` 实操测试全部 9 个交互状态（全身 / 背面 / 脸部特写 / 元气张口笑 / 可爱惊讶 / 柔和逆光 / 灰模 / 线框 / 拖动进度条至 `t=8.2s` 挥手帧）：
+     - 画布实拍哈希 **`9 / 9` 全部真实变化**（100% 真 WebGL 交互，彻底杜绝伪 UI）；
+     - **`CONSOLE_ERRORS: []`**、**`PAGE_ERRORS: []`**、**`FAILED_REQUESTS: []`**、**`EXTERNAL_REQUESTS: []`**（纯离线零 CDN 依赖）；
+     - 实测 [`viewer/start.py`](viewer/start.py) 正常返回 `200 OK` 与 `model/gltf-binary`。
+5. **许可与复现文档核验**：
+   - [`CREDITS.md`](CREDITS.md) 完整记录 Pixiv VRM Public License 1.0、CC0 `Base_Female`、Three.js r180 MIT（含 `viewer/vendor/three/LICENSE`）及 Playwright Apache-2.0；[`DEV_STATUS.md`](DEV_STATUS.md) 与 `tools/v2_phaseA..D/` 提供从零到终版的完整复现入口。
+
+### 二、最终结论
+
+从 Gate 0 纯原创视觉蓝图设计、V1 程序化天花板果断推倒重来，到 V2 `Phase A → B → C → D` 四阶段严苛把关与 8 轮实拍/抽帧/二进制/实机浏览器全链路验收，原创 3D 二次元少女角色 **星野 铃（Suzu Hoshino）** 正式达成全部审美与工程目标，签收 **`FINAL PASSED`**，移交最终交付文档 [`DELIVERY.md`](DELIVERY.md)。
+
 
 
 
