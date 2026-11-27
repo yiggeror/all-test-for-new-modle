@@ -1,7 +1,7 @@
-# Gate 1 · WIP 02
+# Gate 1 · WIP 03 · Round 1 返工
 
-[头部正面 / 3-4 / 90°](previews/gate1/wip/02-head-clay.png) · [眼周 / 嘴周真实线框](previews/gate1/wip/02-face-wire.png) · [手背 / 掌面](previews/gate1/wip/02-hand-clay.png)
+先看 [五角度棚拍灰模](previews/gate1/wip/03-head-clay.png) 与 [三角度去发线框](previews/gate1/wip/03-face-wire.png)。
 
-- Blender 4.3.2。头脸由定形剖面与眼眶、唇缝局部拓扑接成；眼周、嘴周环线并入脸网格，眼球和睫毛分件。发束用截面与路径收尖。以上是实际几何渲染。暂不需补绘参考图。
-- 这批先请审正侧颜、五官环线、发束与五指。全身穿着正在核对肩袖、袜环与各向剪影；腰封、宽褶与内衬起伏已并在合装检查里。
-- 仍处于 Gate 1 过程预览，未送完整八视角和转盘包。
+- [原生头部 Blender 文件](assets/suzu_wip_head.blend) 可旋转并检视眼周、嘴周四边环线；Num1、Num3 可查看打包的正面与左侧对齐参考。[同一头部 GLB](assets/suzu_wip_head.glb) 供独立旋转，GLB 导出线框显示为三角面。
+- 根据 Round 1 重塑了眼眶、虹膜、上睫毛、鼻唇和侧颜；换用连续内帽与宽薄发片，重新做马尾根、发饰、丝带和后发层次。请对照同一母本盲审。为便于看真实几何，未上色或美化。
+- [手部修订](previews/gate1/wip/03-hand-clay.png)：清理腕部纵纹，五指更纤长。旧头不再用于全身合装。WIP 03 只请求头部方向和手部复审，未进入 Gate 2。
